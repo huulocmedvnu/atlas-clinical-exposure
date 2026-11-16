@@ -1,0 +1,75 @@
+Abiraterone acetate
+Afatinib
+Allantoin
+Allopurinol
+Altretamine
+Anastrozole
+Arbutin
+Belinostat
+Bendamustine
+Bexarotene
+Bicalutamide
+Bortezomib
+Busulfan
+Cabozantinib (S-malate)
+Celecoxib
+Clofarabine
+Cobimetinib
+Cytarabine
+Cytarabine (hydrochloride)
+Dabrafenib
+Decitabine
+Docetaxel
+Docetaxel (Trihydrate)
+Doxorubicin (hydrochloride)
+Epirubicin (hydrochloride)
+Erlotinib
+Everolimus
+Finasteride
+Flutamide
+Folic acid
+Fulvestrant
+Fumaric acid
+Gallic acid
+Gefitinib
+Gemcitabine
+Goserelin (acetate)
+Hydroxyurea
+Idarubicin (hydrochloride)
+Imiquimod (hydrochloride)
+Imiquimod (maleate)
+Irinotecan
+Irinotecan (hydrochloride)
+Ixazomib
+Ixazomib citrate
+Lactate (calcium)
+Lenalidomide (hemihydrate)
+Medroxyprogesterone acetate
+Megestrol
+Methotrexate
+Mitoxantrone (dihydrochloride)
+Osimertinib (mesylate)
+Oxaliplatin
+Paclitaxel
+Panobinostat
+Pemetrexed
+Ponatinib
+Regorafenib
+Rucaparib (phosphate)
+Sildenafil
+Sodium Salicylate
+Sonidegib
+Sunitinib
+Talc
+Temsirolimus
+Topotecan (hydrochloride)
+Trametinib
+Trametinib (DMSO_TF solvate)
+Vandetanib
+Vemurafenib
+Vinblastine (sulfate)
+Vismodegib
+olaparib
+palbociclib
+venetoclax
+vincristine

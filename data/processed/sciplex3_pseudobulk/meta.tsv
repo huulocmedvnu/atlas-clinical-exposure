@@ -1,0 +1,745 @@
+cell_line	drug	dose_nM	replicate	plate	well	n_cells	n_cells_downsampled
+A549	Altretamine	10	rep1	plate14	plate8_A10	132	132
+A549	Altretamine	10	rep2	plate38	plate8_A4	133	133
+A549	Altretamine	100	rep1	plate14	plate8_A4	121	121
+A549	Altretamine	100	rep2	plate37	plate7_A10	195	195
+A549	Altretamine	1000	rep1	plate13	plate7_A10	103	103
+A549	Altretamine	1000	rep2	plate37	plate7_A4	195	195
+A549	Altretamine	10000	rep1	plate13	plate7_A4	111	111
+A549	Altretamine	10000	rep2	plate38	plate8_A10	132	132
+A549	Aminoglutethimide 	10	rep1	plate14	plate8_B10	125	125
+A549	Aminoglutethimide 	10	rep2	plate38	plate8_B4	130	130
+A549	Aminoglutethimide 	100	rep1	plate14	plate8_B4	107	107
+A549	Aminoglutethimide 	100	rep2	plate37	plate7_B10	101	101
+A549	Aminoglutethimide 	1000	rep1	plate13	plate7_B10	125	125
+A549	Aminoglutethimide 	1000	rep2	plate37	plate7_B4	137	137
+A549	Aminoglutethimide 	10000	rep1	plate13	plate7_B4	112	112
+A549	Aminoglutethimide 	10000	rep2	plate38	plate8_B10	113	113
+A549	Belinostat (PXD101)	10	rep1	plate10	plate4_A8	67	67
+A549	Belinostat (PXD101)	10	rep2	plate34	plate4_A2	123	123
+A549	Belinostat (PXD101)	100	rep1	plate10	plate4_A2	94	94
+A549	Belinostat (PXD101)	100	rep2	plate33	plate3_A8	145	145
+A549	Belinostat (PXD101)	1000	rep1	plate9	plate3_A8	67	67
+A549	Belinostat (PXD101)	1000	rep2	plate33	plate3_A2	142	142
+A549	Belinostat (PXD101)	10000	rep1	plate9	plate3_A2	38	38
+A549	Belinostat (PXD101)	10000	rep2	plate34	plate4_A8	68	68
+A549	Bosutinib (SKI-606)	10	rep1	plate14	plate8_E9	114	114
+A549	Bosutinib (SKI-606)	10	rep2	plate38	plate8_E3	125	125
+A549	Bosutinib (SKI-606)	100	rep1	plate14	plate8_E3	118	118
+A549	Bosutinib (SKI-606)	100	rep2	plate37	plate7_E9	137	137
+A549	Bosutinib (SKI-606)	1000	rep1	plate13	plate7_E9	92	92
+A549	Bosutinib (SKI-606)	1000	rep2	plate37	plate7_E3	137	137
+A549	Bosutinib (SKI-606)	10000	rep1	plate13	plate7_E3	99	99
+A549	Bosutinib (SKI-606)	10000	rep2	plate38	plate8_E9	132	125
+A549	Busulfan 	10	rep1	plate14	plate8_H10	113	113
+A549	Busulfan 	10	rep2	plate38	plate8_H4	150	150
+A549	Busulfan 	100	rep1	plate14	plate8_H4	115	115
+A549	Busulfan 	100	rep2	plate37	plate7_H10	108	108
+A549	Busulfan 	1000	rep1	plate13	plate7_H10	96	96
+A549	Busulfan 	1000	rep2	plate37	plate7_H4	139	139
+A549	Busulfan 	10000	rep1	plate13	plate7_H4	96	96
+A549	Busulfan 	10000	rep2	plate38	plate8_H10	134	134
+A549	Capecitabine 	10	rep1	plate14	plate8_H11	100	100
+A549	Capecitabine 	10	rep2	plate38	plate8_H5	134	134
+A549	Capecitabine 	100	rep1	plate14	plate8_H5	130	130
+A549	Capecitabine 	100	rep2	plate37	plate7_H11	135	135
+A549	Capecitabine 	1000	rep1	plate13	plate7_H11	103	103
+A549	Capecitabine 	1000	rep2	plate37	plate7_H5	144	144
+A549	Capecitabine 	10000	rep1	plate13	plate7_H5	115	100
+A549	Capecitabine 	10000	rep2	plate38	plate8_H11	112	112
+A549	Celecoxib	10	rep1	plate14	plate8_C8	127	127
+A549	Celecoxib	10	rep2	plate38	plate8_C2	122	122
+A549	Celecoxib	100	rep1	plate14	plate8_C2	71	71
+A549	Celecoxib	100	rep2	plate37	plate7_C8	107	107
+A549	Celecoxib	1000	rep1	plate13	plate7_C8	98	98
+A549	Celecoxib	1000	rep2	plate37	plate7_C2	99	99
+A549	Celecoxib	10000	rep1	plate13	plate7_C2	100	100
+A549	Celecoxib	10000	rep2	plate38	plate8_C8	138	122
+A549	Crizotinib (PF-02341066)	10	rep1	plate16	plate10_E12	108	108
+A549	Crizotinib (PF-02341066)	10	rep2	plate40	plate10_E6	123	123
+A549	Crizotinib (PF-02341066)	100	rep1	plate16	plate10_E6	110	110
+A549	Crizotinib (PF-02341066)	100	rep2	plate39	plate9_E12	122	122
+A549	Crizotinib (PF-02341066)	1000	rep1	plate15	plate9_E12	104	104
+A549	Crizotinib (PF-02341066)	1000	rep2	plate39	plate9_E6	133	133
+A549	Crizotinib (PF-02341066)	10000	rep1	plate15	plate9_E6	59	59
+A549	Crizotinib (PF-02341066)	10000	rep2	plate40	plate10_E12	59	59
+A549	Dasatinib	10	rep1	plate16	plate10_B10	114	114
+A549	Dasatinib	10	rep2	plate40	plate10_B4	134	134
+A549	Dasatinib	100	rep1	plate16	plate10_B4	80	80
+A549	Dasatinib	100	rep2	plate39	plate9_B10	129	129
+A549	Dasatinib	1000	rep1	plate15	plate9_B10	64	64
+A549	Dasatinib	1000	rep2	plate39	plate9_B4	101	101
+A549	Dasatinib	10000	rep1	plate15	plate9_B4	71	71
+A549	Dasatinib	10000	rep2	plate40	plate10_B10	98	98
+A549	Decitabine	10	rep1	plate10	plate4_F10	64	64
+A549	Decitabine	10	rep2	plate34	plate4_F4	127	127
+A549	Decitabine	100	rep1	plate10	plate4_F4	46	46
+A549	Decitabine	100	rep2	plate33	plate3_F10	111	111
+A549	Decitabine	1000	rep1	plate9	plate3_G10	65	65
+A549	Decitabine	1000	rep2	plate33	plate3_F4	136	136
+A549	Decitabine	10000	rep1	plate9	plate3_G4	80	64
+A549	Decitabine	10000	rep2	plate34	plate4_F10	121	121
+A549	Fluorouracil (5-Fluoracil, 5-FU)	10	rep1	plate16	plate10_H10	92	92
+A549	Fluorouracil (5-Fluoracil, 5-FU)	10	rep2	plate40	plate10_H4	130	130
+A549	Fluorouracil (5-Fluoracil, 5-FU)	100	rep1	plate16	plate10_H4	102	102
+A549	Fluorouracil (5-Fluoracil, 5-FU)	100	rep2	plate39	plate9_H10	123	123
+A549	Fluorouracil (5-Fluoracil, 5-FU)	1000	rep1	plate15	plate9_H10	97	97
+A549	Fluorouracil (5-Fluoracil, 5-FU)	1000	rep2	plate39	plate9_H4	122	122
+A549	Fluorouracil (5-Fluoracil, 5-FU)	10000	rep1	plate15	plate9_H4	76	76
+A549	Fluorouracil (5-Fluoracil, 5-FU)	10000	rep2	plate40	plate10_H10	99	99
+A549	Fulvestrant	10	rep1	plate16	plate10_B12	105	105
+A549	Fulvestrant	10	rep2	plate40	plate10_B6	123	123
+A549	Fulvestrant	100	rep1	plate16	plate10_B6	131	131
+A549	Fulvestrant	100	rep2	plate39	plate9_B12	116	116
+A549	Fulvestrant	1000	rep1	plate15	plate9_B12	112	112
+A549	Fulvestrant	1000	rep2	plate39	plate9_B6	93	93
+A549	Fulvestrant	10000	rep1	plate15	plate9_B6	112	105
+A549	Fulvestrant	10000	rep2	plate40	plate10_B12	165	123
+A549	Lapatinib (GW-572016) Ditosylate	10	rep1	plate14	plate8_A11	114	114
+A549	Lapatinib (GW-572016) Ditosylate	10	rep2	plate38	plate8_A5	166	166
+A549	Lapatinib (GW-572016) Ditosylate	100	rep1	plate14	plate8_A5	119	119
+A549	Lapatinib (GW-572016) Ditosylate	100	rep2	plate37	plate7_A11	151	151
+A549	Lapatinib (GW-572016) Ditosylate	1000	rep1	plate13	plate7_A11	84	84
+A549	Lapatinib (GW-572016) Ditosylate	1000	rep2	plate37	plate7_A5	155	155
+A549	Lapatinib (GW-572016) Ditosylate	10000	rep1	plate13	plate7_A5	58	58
+A549	Lapatinib (GW-572016) Ditosylate	10000	rep2	plate38	plate8_A11	76	76
+A549	Lenalidomide (CC-5013)	10	rep1	plate14	plate8_C11	119	119
+A549	Lenalidomide (CC-5013)	10	rep2	plate38	plate8_C5	124	124
+A549	Lenalidomide (CC-5013)	100	rep1	plate14	plate8_C5	133	133
+A549	Lenalidomide (CC-5013)	100	rep2	plate37	plate7_C11	117	117
+A549	Lenalidomide (CC-5013)	1000	rep1	plate13	plate7_C11	105	105
+A549	Lenalidomide (CC-5013)	1000	rep2	plate37	plate7_C5	124	124
+A549	Lenalidomide (CC-5013)	10000	rep1	plate13	plate7_C5	74	74
+A549	Lenalidomide (CC-5013)	10000	rep2	plate38	plate8_C11	101	101
+A549	Mercaptopurine (6-MP)	10	rep1	plate14	plate8_A12	101	101
+A549	Mercaptopurine (6-MP)	10	rep2	plate38	plate8_A6	159	159
+A549	Mercaptopurine (6-MP)	100	rep1	plate14	plate8_A6	122	122
+A549	Mercaptopurine (6-MP)	100	rep2	plate37	plate7_A12	197	197
+A549	Mercaptopurine (6-MP)	1000	rep1	plate13	plate7_A12	104	104
+A549	Mercaptopurine (6-MP)	1000	rep2	plate37	plate7_A6	166	166
+A549	Mercaptopurine (6-MP)	10000	rep1	plate13	plate7_A6	65	65
+A549	Mercaptopurine (6-MP)	10000	rep2	plate38	plate8_A12	94	94
+A549	Nilotinib (AMN-107)	10	rep1	plate14	plate8_G11	118	118
+A549	Nilotinib (AMN-107)	10	rep2	plate38	plate8_G5	112	112
+A549	Nilotinib (AMN-107)	100	rep1	plate14	plate8_G5	105	105
+A549	Nilotinib (AMN-107)	100	rep2	plate37	plate7_G11	116	116
+A549	Nilotinib (AMN-107)	1000	rep1	plate13	plate7_G11	114	114
+A549	Nilotinib (AMN-107)	1000	rep2	plate37	plate7_G5	136	136
+A549	Nilotinib (AMN-107)	10000	rep1	plate13	plate7_G5	112	112
+A549	Nilotinib (AMN-107)	10000	rep2	plate38	plate8_G11	102	102
+A549	Panobinostat (LBH589)	10	rep1	plate10	plate4_C7	83	83
+A549	Panobinostat (LBH589)	10	rep2	plate34	plate4_C1	142	142
+A549	Panobinostat (LBH589)	100	rep1	plate10	plate4_C1	53	53
+A549	Panobinostat (LBH589)	100	rep2	plate33	plate3_C7	77	77
+A549	Panobinostat (LBH589)	1000	rep1	plate9	plate3_C7	39	39
+A549	Panobinostat (LBH589)	1000	rep2	plate33	plate3_C1	74	74
+A549	Panobinostat (LBH589)	10000	rep1	plate9	plate3_C1	49	49
+A549	Panobinostat (LBH589)	10000	rep2	plate34	plate4_C7	90	90
+A549	Regorafenib (BAY 73-4506)	10	rep1	plate16	plate10_D9	120	120
+A549	Regorafenib (BAY 73-4506)	10	rep2	plate40	plate10_D3	145	145
+A549	Regorafenib (BAY 73-4506)	100	rep1	plate16	plate10_D3	121	121
+A549	Regorafenib (BAY 73-4506)	100	rep2	plate39	plate9_D9	147	147
+A549	Regorafenib (BAY 73-4506)	1000	rep1	plate15	plate9_D9	125	125
+A549	Regorafenib (BAY 73-4506)	1000	rep2	plate39	plate9_D3	111	111
+A549	Regorafenib (BAY 73-4506)	10000	rep1	plate15	plate9_D3	88	88
+A549	Regorafenib (BAY 73-4506)	10000	rep2	plate40	plate10_D9	42	42
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	10	rep1	plate10	plate4_F8	37	37
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	10	rep2	plate34	plate4_F2	145	145
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	100	rep1	plate10	plate4_F2	57	57
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	100	rep2	plate33	plate3_F8	105	105
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	1000	rep1	plate9	plate3_G8	45	45
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	1000	rep2	plate33	plate3_F2	133	133
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	10000	rep1	plate9	plate3_G2	25	25
+A549	Rucaparib (AG-014699,PF-01367338) phosphate	10000	rep2	plate34	plate4_F8	88	88
+A549	Ruxolitinib (INCB018424)	10	rep1	plate10	plate4_C11	73	73
+A549	Ruxolitinib (INCB018424)	10	rep2	plate34	plate4_C5	148	148
+A549	Ruxolitinib (INCB018424)	100	rep1	plate10	plate4_C5	28	28
+A549	Ruxolitinib (INCB018424)	100	rep2	plate33	plate3_C11	139	139
+A549	Ruxolitinib (INCB018424)	1000	rep1	plate9	plate3_C11	94	94
+A549	Ruxolitinib (INCB018424)	1000	rep2	plate33	plate3_C5	162	162
+A549	Ruxolitinib (INCB018424)	10000	rep1	plate9	plate3_C5	62	62
+A549	Ruxolitinib (INCB018424)	10000	rep2	plate34	plate4_C11	150	148
+A549	Sorafenib Tosylate	10	rep1	plate16	plate10_A7	119	119
+A549	Sorafenib Tosylate	10	rep2	plate40	plate10_A1	158	158
+A549	Sorafenib Tosylate	100	rep1	plate16	plate10_A1	106	106
+A549	Sorafenib Tosylate	100	rep2	plate39	plate9_A7	126	126
+A549	Sorafenib Tosylate	1000	rep1	plate15	plate9_A7	111	111
+A549	Sorafenib Tosylate	1000	rep2	plate39	plate9_A1	111	111
+A549	Sorafenib Tosylate	10000	rep1	plate15	plate9_A1	49	49
+A549	Sorafenib Tosylate	10000	rep2	plate40	plate10_A7	77	77
+A549	Temsirolimus (CCI-779, NSC 683864)	10	rep1	plate16	plate10_C7	85	85
+A549	Temsirolimus (CCI-779, NSC 683864)	10	rep2	plate40	plate10_C1	103	103
+A549	Temsirolimus (CCI-779, NSC 683864)	100	rep1	plate16	plate10_C1	74	74
+A549	Temsirolimus (CCI-779, NSC 683864)	100	rep2	plate39	plate9_C7	57	57
+A549	Temsirolimus (CCI-779, NSC 683864)	1000	rep1	plate15	plate9_C7	117	117
+A549	Temsirolimus (CCI-779, NSC 683864)	1000	rep2	plate39	plate9_C1	88	88
+A549	Temsirolimus (CCI-779, NSC 683864)	10000	rep1	plate15	plate9_C1	83	83
+A549	Temsirolimus (CCI-779, NSC 683864)	10000	rep2	plate40	plate10_C7	95	95
+A549	Thalidomide	10	rep1	plate16	plate10_F12	113	113
+A549	Thalidomide	10	rep2	plate40	plate10_F6	176	176
+A549	Thalidomide	100	rep1	plate16	plate10_F6	116	116
+A549	Thalidomide	100	rep2	plate39	plate9_F12	110	110
+A549	Thalidomide	1000	rep1	plate15	plate9_F12	65	65
+A549	Thalidomide	1000	rep2	plate39	plate9_F6	128	128
+A549	Thalidomide	10000	rep1	plate15	plate9_F6	61	61
+A549	Thalidomide	10000	rep2	plate40	plate10_F12	155	155
+A549	Thiotepa	10	rep1	plate14	plate8_F12	117	117
+A549	Thiotepa	10	rep2	plate38	plate8_F6	154	154
+A549	Thiotepa	100	rep1	plate14	plate8_F6	116	116
+A549	Thiotepa	100	rep2	plate37	plate7_F12	125	125
+A549	Thiotepa	1000	rep1	plate13	plate7_F12	73	73
+A549	Thiotepa	1000	rep2	plate37	plate7_F6	126	126
+A549	Thiotepa	10000	rep1	plate13	plate7_F6	78	78
+A549	Thiotepa	10000	rep2	plate38	plate8_F12	106	106
+A549	Toremifene Citrate	10	rep1	plate14	plate8_H12	83	83
+A549	Toremifene Citrate	10	rep2	plate38	plate8_H6	147	147
+A549	Toremifene Citrate	100	rep1	plate14	plate8_H6	123	123
+A549	Toremifene Citrate	100	rep2	plate37	plate7_H12	104	104
+A549	Toremifene Citrate	1000	rep1	plate13	plate7_H12	75	75
+A549	Toremifene Citrate	1000	rep2	plate37	plate7_H6	138	138
+A549	Toremifene Citrate	10000	rep1	plate13	plate7_H6	65	65
+A549	Toremifene Citrate	10000	rep2	plate38	plate8_H12	8	8
+A549	Trametinib (GSK1120212)	10	rep1	plate16	plate10_E10	67	67
+A549	Trametinib (GSK1120212)	10	rep2	plate40	plate10_E4	100	100
+A549	Trametinib (GSK1120212)	100	rep1	plate16	plate10_E4	83	83
+A549	Trametinib (GSK1120212)	100	rep2	plate39	plate9_E10	93	93
+A549	Trametinib (GSK1120212)	1000	rep1	plate15	plate9_E10	63	63
+A549	Trametinib (GSK1120212)	1000	rep2	plate39	plate9_E4	147	147
+A549	Trametinib (GSK1120212)	10000	rep1	plate15	plate9_E4	59	59
+A549	Trametinib (GSK1120212)	10000	rep2	plate40	plate10_E10	112	100
+A549	Vandetanib (ZD6474)	10	rep1	plate16	plate10_G7	100	100
+A549	Vandetanib (ZD6474)	10	rep2	plate40	plate10_G1	154	154
+A549	Vandetanib (ZD6474)	100	rep1	plate16	plate10_G1	91	91
+A549	Vandetanib (ZD6474)	100	rep2	plate39	plate9_G7	139	139
+A549	Vandetanib (ZD6474)	1000	rep1	plate15	plate9_G7	135	135
+A549	Vandetanib (ZD6474)	1000	rep2	plate39	plate9_G1	115	115
+A549	Vandetanib (ZD6474)	10000	rep1	plate15	plate9_G1	99	99
+A549	Vandetanib (ZD6474)	10000	rep2	plate40	plate10_G7	89	89
+A549	control	0	rep1	plate10	plate4_C12	93	93
+A549	control	0	rep1	plate10	plate4_C6	63	63
+A549	control	0	rep1	plate11	plate5_G11	105	105
+A549	control	0	rep1	plate11	plate5_G5	97	97
+A549	control	0	rep1	plate12	plate6_G11	85	85
+A549	control	0	rep1	plate12	plate6_G5	102	102
+A549	control	0	rep1	plate13	plate7_D12	104	104
+A549	control	0	rep1	plate13	plate7_D6	115	115
+A549	control	0	rep1	plate14	plate8_D12	105	105
+A549	control	0	rep1	plate14	plate8_D6	91	91
+A549	control	0	rep1	plate15	plate9_D10	110	110
+A549	control	0	rep1	plate15	plate9_D4	113	113
+A549	control	0	rep1	plate16	plate10_D10	104	104
+A549	control	0	rep1	plate16	plate10_D4	117	117
+A549	control	0	rep1	plate9	plate3_C12	94	94
+A549	control	0	rep1	plate9	plate3_C6	52	52
+A549	control	0	rep2	plate33	plate3_C12	158	158
+A549	control	0	rep2	plate33	plate3_C6	166	166
+A549	control	0	rep2	plate34	plate4_C12	160	160
+A549	control	0	rep2	plate34	plate4_C6	131	131
+A549	control	0	rep2	plate35	plate5_G11	136	136
+A549	control	0	rep2	plate35	plate5_G5	145	145
+A549	control	0	rep2	plate36	plate6_G11	151	151
+A549	control	0	rep2	plate36	plate6_G5	149	149
+A549	control	0	rep2	plate37	plate7_D12	123	123
+A549	control	0	rep2	plate37	plate7_D6	156	156
+A549	control	0	rep2	plate38	plate8_D12	123	123
+A549	control	0	rep2	plate38	plate8_D6	122	122
+A549	control	0	rep2	plate39	plate9_D10	131	131
+A549	control	0	rep2	plate39	plate9_D4	136	136
+A549	control	0	rep2	plate40	plate10_D10	96	96
+A549	control	0	rep2	plate40	plate10_D4	140	140
+K562	Altretamine	10	rep1	plate6	plate8_A10	138	138
+K562	Altretamine	10	rep2	plate30	plate8_A4	141	141
+K562	Altretamine	100	rep1	plate6	plate8_A4	156	156
+K562	Altretamine	100	rep2	plate29	plate7_A10	124	124
+K562	Altretamine	1000	rep1	plate5	plate7_A10	145	145
+K562	Altretamine	1000	rep2	plate29	plate7_A4	123	123
+K562	Altretamine	10000	rep1	plate5	plate7_A4	139	138
+K562	Altretamine	10000	rep2	plate30	plate8_A10	99	99
+K562	Aminoglutethimide 	10	rep1	plate6	plate8_B10	149	149
+K562	Aminoglutethimide 	10	rep2	plate30	plate8_B4	145	145
+K562	Aminoglutethimide 	100	rep1	plate6	plate8_B4	133	133
+K562	Aminoglutethimide 	100	rep2	plate29	plate7_B10	132	132
+K562	Aminoglutethimide 	1000	rep1	plate5	plate7_B10	165	165
+K562	Aminoglutethimide 	1000	rep2	plate29	plate7_B4	117	117
+K562	Aminoglutethimide 	10000	rep1	plate5	plate7_B4	164	149
+K562	Aminoglutethimide 	10000	rep2	plate30	plate8_B10	119	119
+K562	Belinostat (PXD101)	10	rep1	plate2	plate4_A8	144	144
+K562	Belinostat (PXD101)	10	rep2	plate26	plate4_A2	112	112
+K562	Belinostat (PXD101)	100	rep1	plate2	plate4_A2	143	143
+K562	Belinostat (PXD101)	100	rep2	plate25	plate3_A8	98	98
+K562	Belinostat (PXD101)	1000	rep1	plate1	plate3_A8	119	119
+K562	Belinostat (PXD101)	1000	rep2	plate25	plate3_A2	103	103
+K562	Belinostat (PXD101)	10000	rep1	plate1	plate3_A2	50	50
+K562	Belinostat (PXD101)	10000	rep2	plate26	plate4_A8	39	39
+K562	Bosutinib (SKI-606)	10	rep1	plate6	plate8_E9	141	141
+K562	Bosutinib (SKI-606)	10	rep2	plate30	plate8_E3	76	76
+K562	Bosutinib (SKI-606)	100	rep1	plate6	plate8_E3	91	91
+K562	Bosutinib (SKI-606)	100	rep2	plate29	plate7_E9	75	75
+K562	Bosutinib (SKI-606)	1000	rep1	plate5	plate7_E9	67	67
+K562	Bosutinib (SKI-606)	1000	rep2	plate29	plate7_E3	40	40
+K562	Bosutinib (SKI-606)	10000	rep1	plate5	plate7_E3	35	35
+K562	Bosutinib (SKI-606)	10000	rep2	plate30	plate8_E9	28	28
+K562	Busulfan 	10	rep1	plate6	plate8_H10	159	159
+K562	Busulfan 	10	rep2	plate30	plate8_H4	126	126
+K562	Busulfan 	100	rep1	plate6	plate8_H4	196	196
+K562	Busulfan 	100	rep2	plate29	plate7_H10	111	111
+K562	Busulfan 	1000	rep1	plate5	plate7_H10	185	185
+K562	Busulfan 	1000	rep2	plate29	plate7_H4	137	137
+K562	Busulfan 	10000	rep1	plate5	plate7_H4	154	154
+K562	Busulfan 	10000	rep2	plate30	plate8_H10	128	126
+K562	Capecitabine 	10	rep1	plate6	plate8_H11	132	132
+K562	Capecitabine 	10	rep2	plate30	plate8_H5	133	133
+K562	Capecitabine 	100	rep1	plate6	plate8_H5	160	160
+K562	Capecitabine 	100	rep2	plate29	plate7_H11	123	123
+K562	Capecitabine 	1000	rep1	plate5	plate7_H11	158	158
+K562	Capecitabine 	1000	rep2	plate29	plate7_H5	133	133
+K562	Capecitabine 	10000	rep1	plate5	plate7_H5	191	132
+K562	Capecitabine 	10000	rep2	plate30	plate8_H11	127	127
+K562	Celecoxib	10	rep1	plate6	plate8_C8	118	118
+K562	Celecoxib	10	rep2	plate30	plate8_C2	112	112
+K562	Celecoxib	100	rep1	plate6	plate8_C2	132	132
+K562	Celecoxib	100	rep2	plate29	plate7_C8	110	110
+K562	Celecoxib	1000	rep1	plate5	plate7_C8	147	147
+K562	Celecoxib	1000	rep2	plate29	plate7_C2	108	108
+K562	Celecoxib	10000	rep1	plate5	plate7_C2	161	118
+K562	Celecoxib	10000	rep2	plate30	plate8_C8	99	99
+K562	Crizotinib (PF-02341066)	10	rep1	plate8	plate10_E12	144	144
+K562	Crizotinib (PF-02341066)	10	rep2	plate32	plate10_E6	125	125
+K562	Crizotinib (PF-02341066)	100	rep1	plate8	plate10_E6	130	130
+K562	Crizotinib (PF-02341066)	100	rep2	plate31	plate9_E12	99	99
+K562	Crizotinib (PF-02341066)	1000	rep1	plate7	plate9_E12	76	76
+K562	Crizotinib (PF-02341066)	1000	rep2	plate31	plate9_E6	72	72
+K562	Crizotinib (PF-02341066)	10000	rep1	plate7	plate9_E6	69	69
+K562	Crizotinib (PF-02341066)	10000	rep2	plate32	plate10_E12	45	45
+K562	Dasatinib	10	rep1	plate8	plate10_B10	66	66
+K562	Dasatinib	10	rep2	plate32	plate10_B4	61	61
+K562	Dasatinib	100	rep1	plate8	plate10_B4	70	70
+K562	Dasatinib	100	rep2	plate31	plate9_B10	64	64
+K562	Dasatinib	1000	rep1	plate7	plate9_B10	63	63
+K562	Dasatinib	1000	rep2	plate31	plate9_B4	52	52
+K562	Dasatinib	10000	rep1	plate7	plate9_B4	81	66
+K562	Dasatinib	10000	rep2	plate32	plate10_B10	53	53
+K562	Decitabine	10	rep1	plate2	plate4_F10	144	144
+K562	Decitabine	10	rep2	plate26	plate4_F4	102	102
+K562	Decitabine	100	rep1	plate2	plate4_F4	123	123
+K562	Decitabine	100	rep2	plate25	plate3_F10	101	101
+K562	Decitabine	1000	rep1	plate1	plate3_F10	115	115
+K562	Decitabine	1000	rep2	plate25	plate3_F4	88	88
+K562	Decitabine	10000	rep1	plate1	plate3_F4	123	123
+K562	Decitabine	10000	rep2	plate26	plate4_F10	92	92
+K562	Fluorouracil (5-Fluoracil, 5-FU)	10	rep1	plate8	plate10_H10	158	158
+K562	Fluorouracil (5-Fluoracil, 5-FU)	10	rep2	plate32	plate10_H4	126	126
+K562	Fluorouracil (5-Fluoracil, 5-FU)	100	rep1	plate8	plate10_H4	141	141
+K562	Fluorouracil (5-Fluoracil, 5-FU)	100	rep2	plate31	plate9_H10	101	101
+K562	Fluorouracil (5-Fluoracil, 5-FU)	1000	rep1	plate7	plate9_H10	135	135
+K562	Fluorouracil (5-Fluoracil, 5-FU)	1000	rep2	plate31	plate9_H4	106	106
+K562	Fluorouracil (5-Fluoracil, 5-FU)	10000	rep1	plate7	plate9_H4	148	148
+K562	Fluorouracil (5-Fluoracil, 5-FU)	10000	rep2	plate32	plate10_H10	133	126
+K562	Fulvestrant	10	rep1	plate8	plate10_B12	135	135
+K562	Fulvestrant	10	rep2	plate32	plate10_B6	114	114
+K562	Fulvestrant	100	rep1	plate8	plate10_B6	144	144
+K562	Fulvestrant	100	rep2	plate31	plate9_B12	110	110
+K562	Fulvestrant	1000	rep1	plate7	plate9_B12	117	117
+K562	Fulvestrant	1000	rep2	plate31	plate9_B6	109	109
+K562	Fulvestrant	10000	rep1	plate7	plate9_B6	139	135
+K562	Fulvestrant	10000	rep2	plate32	plate10_B12	117	114
+K562	Lapatinib (GW-572016) Ditosylate	10	rep1	plate6	plate8_A11	162	162
+K562	Lapatinib (GW-572016) Ditosylate	10	rep2	plate30	plate8_A5	124	124
+K562	Lapatinib (GW-572016) Ditosylate	100	rep1	plate6	plate8_A5	163	163
+K562	Lapatinib (GW-572016) Ditosylate	100	rep2	plate29	plate7_A11	110	110
+K562	Lapatinib (GW-572016) Ditosylate	1000	rep1	plate5	plate7_A11	127	127
+K562	Lapatinib (GW-572016) Ditosylate	1000	rep2	plate29	plate7_A5	80	80
+K562	Lapatinib (GW-572016) Ditosylate	10000	rep1	plate5	plate7_A5	79	79
+K562	Lapatinib (GW-572016) Ditosylate	10000	rep2	plate30	plate8_A11	124	124
+K562	Lenalidomide (CC-5013)	10	rep1	plate6	plate8_C11	132	132
+K562	Lenalidomide (CC-5013)	10	rep2	plate30	plate8_C5	114	114
+K562	Lenalidomide (CC-5013)	100	rep1	plate6	plate8_C5	139	139
+K562	Lenalidomide (CC-5013)	100	rep2	plate29	plate7_C11	98	98
+K562	Lenalidomide (CC-5013)	1000	rep1	plate5	plate7_C11	152	152
+K562	Lenalidomide (CC-5013)	1000	rep2	plate29	plate7_C5	100	100
+K562	Lenalidomide (CC-5013)	10000	rep1	plate5	plate7_C5	153	132
+K562	Lenalidomide (CC-5013)	10000	rep2	plate30	plate8_C11	123	114
+K562	Mercaptopurine (6-MP)	10	rep1	plate6	plate8_A12	130	130
+K562	Mercaptopurine (6-MP)	10	rep2	plate30	plate8_A6	123	123
+K562	Mercaptopurine (6-MP)	100	rep1	plate6	plate8_A6	145	145
+K562	Mercaptopurine (6-MP)	100	rep2	plate29	plate7_A12	130	130
+K562	Mercaptopurine (6-MP)	1000	rep1	plate5	plate7_A12	113	113
+K562	Mercaptopurine (6-MP)	1000	rep2	plate29	plate7_A6	90	90
+K562	Mercaptopurine (6-MP)	10000	rep1	plate5	plate7_A6	92	92
+K562	Mercaptopurine (6-MP)	10000	rep2	plate30	plate8_A12	87	87
+K562	Nilotinib (AMN-107)	10	rep1	plate6	plate8_G11	148	148
+K562	Nilotinib (AMN-107)	10	rep2	plate30	plate8_G5	114	114
+K562	Nilotinib (AMN-107)	100	rep1	plate6	plate8_G5	111	111
+K562	Nilotinib (AMN-107)	100	rep2	plate29	plate7_G11	71	71
+K562	Nilotinib (AMN-107)	1000	rep1	plate5	plate7_G11	82	82
+K562	Nilotinib (AMN-107)	1000	rep2	plate29	plate7_G5	54	54
+K562	Nilotinib (AMN-107)	10000	rep1	plate5	plate7_G5	95	95
+K562	Nilotinib (AMN-107)	10000	rep2	plate30	plate8_G11	74	74
+K562	Panobinostat (LBH589)	10	rep1	plate2	plate4_C7	101	101
+K562	Panobinostat (LBH589)	10	rep2	plate26	plate4_C1	73	73
+K562	Panobinostat (LBH589)	100	rep1	plate2	plate4_C1	73	73
+K562	Panobinostat (LBH589)	100	rep2	plate25	plate3_C7	33	33
+K562	Panobinostat (LBH589)	1000	rep1	plate1	plate3_C7	46	46
+K562	Panobinostat (LBH589)	1000	rep2	plate25	plate3_C1	40	40
+K562	Panobinostat (LBH589)	10000	rep1	plate1	plate3_C1	40	40
+K562	Panobinostat (LBH589)	10000	rep2	plate26	plate4_C7	43	43
+K562	Regorafenib (BAY 73-4506)	10	rep1	plate8	plate10_D9	95	95
+K562	Regorafenib (BAY 73-4506)	10	rep2	plate32	plate10_D3	111	111
+K562	Regorafenib (BAY 73-4506)	100	rep1	plate8	plate10_D3	117	117
+K562	Regorafenib (BAY 73-4506)	100	rep2	plate31	plate9_D9	113	113
+K562	Regorafenib (BAY 73-4506)	1000	rep1	plate7	plate9_D9	142	142
+K562	Regorafenib (BAY 73-4506)	1000	rep2	plate31	plate9_D3	113	113
+K562	Regorafenib (BAY 73-4506)	10000	rep1	plate7	plate9_D3	70	70
+K562	Regorafenib (BAY 73-4506)	10000	rep2	plate32	plate10_D9	43	43
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	10	rep1	plate2	plate4_F8	179	179
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	10	rep2	plate26	plate4_F2	123	123
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	100	rep1	plate2	plate4_F2	121	121
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	100	rep2	plate25	plate3_F8	105	105
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	1000	rep1	plate1	plate3_F8	105	105
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	1000	rep2	plate25	plate3_F2	120	120
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	10000	rep1	plate1	plate3_F2	130	130
+K562	Rucaparib (AG-014699,PF-01367338) phosphate	10000	rep2	plate26	plate4_F8	95	95
+K562	Ruxolitinib (INCB018424)	10	rep1	plate2	plate4_C11	136	136
+K562	Ruxolitinib (INCB018424)	10	rep2	plate26	plate4_C5	97	97
+K562	Ruxolitinib (INCB018424)	100	rep1	plate2	plate4_C5	138	138
+K562	Ruxolitinib (INCB018424)	100	rep2	plate25	plate3_C11	93	93
+K562	Ruxolitinib (INCB018424)	1000	rep1	plate1	plate3_C11	95	95
+K562	Ruxolitinib (INCB018424)	1000	rep2	plate25	plate3_C5	110	110
+K562	Ruxolitinib (INCB018424)	10000	rep1	plate1	plate3_C5	141	136
+K562	Ruxolitinib (INCB018424)	10000	rep2	plate26	plate4_C11	123	97
+K562	Sorafenib Tosylate	10	rep1	plate8	plate10_A7	137	137
+K562	Sorafenib Tosylate	10	rep2	plate32	plate10_A1	107	107
+K562	Sorafenib Tosylate	100	rep1	plate8	plate10_A1	134	134
+K562	Sorafenib Tosylate	100	rep2	plate31	plate9_A7	138	138
+K562	Sorafenib Tosylate	1000	rep1	plate7	plate9_A7	148	148
+K562	Sorafenib Tosylate	1000	rep2	plate31	plate9_A1	113	113
+K562	Sorafenib Tosylate	10000	rep1	plate7	plate9_A1	77	77
+K562	Sorafenib Tosylate	10000	rep2	plate32	plate10_A7	42	42
+K562	Temsirolimus (CCI-779, NSC 683864)	10	rep1	plate8	plate10_C7	103	103
+K562	Temsirolimus (CCI-779, NSC 683864)	10	rep2	plate32	plate10_C1	97	97
+K562	Temsirolimus (CCI-779, NSC 683864)	100	rep1	plate8	plate10_C1	107	107
+K562	Temsirolimus (CCI-779, NSC 683864)	100	rep2	plate31	plate9_C7	110	110
+K562	Temsirolimus (CCI-779, NSC 683864)	1000	rep1	plate7	plate9_C7	117	117
+K562	Temsirolimus (CCI-779, NSC 683864)	1000	rep2	plate31	plate9_C1	110	110
+K562	Temsirolimus (CCI-779, NSC 683864)	10000	rep1	plate7	plate9_C1	89	89
+K562	Temsirolimus (CCI-779, NSC 683864)	10000	rep2	plate32	plate10_C7	69	69
+K562	Thalidomide	10	rep1	plate8	plate10_F12	140	140
+K562	Thalidomide	10	rep2	plate32	plate10_F6	104	104
+K562	Thalidomide	100	rep1	plate8	plate10_F6	144	144
+K562	Thalidomide	100	rep2	plate31	plate9_F12	100	100
+K562	Thalidomide	1000	rep1	plate7	plate9_F12	139	139
+K562	Thalidomide	1000	rep2	plate31	plate9_F6	108	108
+K562	Thalidomide	10000	rep1	plate7	plate9_F6	141	140
+K562	Thalidomide	10000	rep2	plate32	plate10_F12	110	104
+K562	Thiotepa	10	rep1	plate6	plate8_F12	139	139
+K562	Thiotepa	10	rep2	plate30	plate8_F6	111	111
+K562	Thiotepa	100	rep1	plate6	plate8_F6	172	172
+K562	Thiotepa	100	rep2	plate29	plate7_F12	113	113
+K562	Thiotepa	1000	rep1	plate5	plate7_F12	140	140
+K562	Thiotepa	1000	rep2	plate29	plate7_F6	138	138
+K562	Thiotepa	10000	rep1	plate5	plate7_F6	175	139
+K562	Thiotepa	10000	rep2	plate30	plate8_F12	127	111
+K562	Toremifene Citrate	10	rep1	plate6	plate8_H12	130	130
+K562	Toremifene Citrate	10	rep2	plate30	plate8_H6	129	129
+K562	Toremifene Citrate	100	rep1	plate6	plate8_H6	172	172
+K562	Toremifene Citrate	100	rep2	plate29	plate7_H12	114	114
+K562	Toremifene Citrate	1000	rep1	plate5	plate7_H12	185	185
+K562	Toremifene Citrate	1000	rep2	plate29	plate7_H6	134	134
+K562	Toremifene Citrate	10000	rep1	plate5	plate7_H6	163	130
+K562	Toremifene Citrate	10000	rep2	plate30	plate8_H12	18	18
+K562	Trametinib (GSK1120212)	10	rep1	plate8	plate10_E10	82	82
+K562	Trametinib (GSK1120212)	10	rep2	plate32	plate10_E4	92	92
+K562	Trametinib (GSK1120212)	100	rep1	plate8	plate10_E4	89	89
+K562	Trametinib (GSK1120212)	100	rep2	plate31	plate9_E10	85	85
+K562	Trametinib (GSK1120212)	1000	rep1	plate7	plate9_E10	99	99
+K562	Trametinib (GSK1120212)	1000	rep2	plate31	plate9_E4	91	91
+K562	Trametinib (GSK1120212)	10000	rep1	plate7	plate9_E4	94	82
+K562	Trametinib (GSK1120212)	10000	rep2	plate32	plate10_E10	102	92
+K562	Vandetanib (ZD6474)	10	rep1	plate8	plate10_G7	127	127
+K562	Vandetanib (ZD6474)	10	rep2	plate32	plate10_G1	98	98
+K562	Vandetanib (ZD6474)	100	rep1	plate8	plate10_G1	124	124
+K562	Vandetanib (ZD6474)	100	rep2	plate31	plate9_G7	124	124
+K562	Vandetanib (ZD6474)	1000	rep1	plate7	plate9_G7	123	123
+K562	Vandetanib (ZD6474)	1000	rep2	plate31	plate9_G1	116	116
+K562	Vandetanib (ZD6474)	10000	rep1	plate7	plate9_G1	65	65
+K562	Vandetanib (ZD6474)	10000	rep2	plate32	plate10_G7	45	45
+K562	control	0	rep1	plate1	plate3_C12	147	147
+K562	control	0	rep1	plate1	plate3_C6	130	130
+K562	control	0	rep1	plate2	plate4_C12	154	154
+K562	control	0	rep1	plate2	plate4_C6	110	110
+K562	control	0	rep1	plate3	plate5_G11	100	100
+K562	control	0	rep1	plate3	plate5_G5	128	128
+K562	control	0	rep1	plate4	plate6_G11	141	141
+K562	control	0	rep1	plate4	plate6_G5	129	129
+K562	control	0	rep1	plate5	plate7_D12	153	153
+K562	control	0	rep1	plate5	plate7_D6	146	146
+K562	control	0	rep1	plate6	plate8_D12	108	108
+K562	control	0	rep1	plate6	plate8_D6	140	140
+K562	control	0	rep1	plate7	plate9_D10	149	149
+K562	control	0	rep1	plate7	plate9_D4	135	135
+K562	control	0	rep1	plate8	plate10_D10	87	87
+K562	control	0	rep1	plate8	plate10_D4	110	110
+K562	control	0	rep2	plate25	plate3_C12	144	144
+K562	control	0	rep2	plate25	plate3_C6	108	108
+K562	control	0	rep2	plate26	plate4_C12	123	123
+K562	control	0	rep2	plate26	plate4_C6	109	109
+K562	control	0	rep2	plate27	plate5_G11	125	125
+K562	control	0	rep2	plate27	plate5_G5	110	110
+K562	control	0	rep2	plate28	plate6_G11	118	118
+K562	control	0	rep2	plate28	plate6_G5	106	106
+K562	control	0	rep2	plate29	plate7_D12	116	116
+K562	control	0	rep2	plate29	plate7_D6	123	123
+K562	control	0	rep2	plate30	plate8_D12	127	127
+K562	control	0	rep2	plate30	plate8_D6	111	111
+K562	control	0	rep2	plate31	plate9_D10	112	112
+K562	control	0	rep2	plate31	plate9_D4	122	122
+K562	control	0	rep2	plate32	plate10_D10	89	89
+K562	control	0	rep2	plate32	plate10_D4	125	125
+MCF7	Altretamine	10	rep1	plate22	plate8_A10	189	189
+MCF7	Altretamine	10	rep2	plate46	plate8_A4	281	281
+MCF7	Altretamine	100	rep1	plate22	plate8_A4	193	193
+MCF7	Altretamine	100	rep2	plate45	plate7_A10	311	311
+MCF7	Altretamine	1000	rep1	plate21	plate7_A10	157	157
+MCF7	Altretamine	1000	rep2	plate45	plate7_A4	273	273
+MCF7	Altretamine	10000	rep1	plate21	plate7_A4	188	188
+MCF7	Altretamine	10000	rep2	plate46	plate8_A10	191	191
+MCF7	Aminoglutethimide 	10	rep1	plate22	plate8_B10	202	202
+MCF7	Aminoglutethimide 	10	rep2	plate46	plate8_B4	285	285
+MCF7	Aminoglutethimide 	100	rep1	plate22	plate8_B4	196	196
+MCF7	Aminoglutethimide 	100	rep2	plate45	plate7_B10	162	162
+MCF7	Aminoglutethimide 	1000	rep1	plate21	plate7_B10	161	161
+MCF7	Aminoglutethimide 	1000	rep2	plate45	plate7_B4	143	143
+MCF7	Aminoglutethimide 	10000	rep1	plate21	plate7_B4	226	202
+MCF7	Aminoglutethimide 	10000	rep2	plate46	plate8_B10	311	285
+MCF7	Belinostat (PXD101)	10	rep1	plate18	plate4_A8	173	173
+MCF7	Belinostat (PXD101)	10	rep2	plate42	plate4_A2	313	313
+MCF7	Belinostat (PXD101)	100	rep1	plate18	plate4_A2	189	189
+MCF7	Belinostat (PXD101)	100	rep2	plate41	plate3_A8	262	262
+MCF7	Belinostat (PXD101)	1000	rep1	plate17	plate3_A8	238	238
+MCF7	Belinostat (PXD101)	1000	rep2	plate41	plate3_A2	205	205
+MCF7	Belinostat (PXD101)	10000	rep1	plate17	plate3_A2	263	173
+MCF7	Belinostat (PXD101)	10000	rep2	plate42	plate4_A8	247	247
+MCF7	Bosutinib (SKI-606)	10	rep1	plate22	plate8_E9	157	157
+MCF7	Bosutinib (SKI-606)	10	rep2	plate46	plate8_E3	219	219
+MCF7	Bosutinib (SKI-606)	100	rep1	plate22	plate8_E3	182	182
+MCF7	Bosutinib (SKI-606)	100	rep2	plate45	plate7_E9	161	161
+MCF7	Bosutinib (SKI-606)	1000	rep1	plate21	plate7_E9	135	135
+MCF7	Bosutinib (SKI-606)	1000	rep2	plate45	plate7_E3	178	178
+MCF7	Bosutinib (SKI-606)	10000	rep1	plate21	plate7_E3	106	106
+MCF7	Bosutinib (SKI-606)	10000	rep2	plate46	plate8_E9	111	111
+MCF7	Busulfan 	10	rep1	plate22	plate8_H10	173	173
+MCF7	Busulfan 	10	rep2	plate46	plate8_H4	314	314
+MCF7	Busulfan 	100	rep1	plate22	plate8_H4	244	244
+MCF7	Busulfan 	100	rep2	plate45	plate7_H10	227	227
+MCF7	Busulfan 	1000	rep1	plate21	plate7_H10	222	222
+MCF7	Busulfan 	1000	rep2	plate45	plate7_H4	283	283
+MCF7	Busulfan 	10000	rep1	plate21	plate7_H4	226	173
+MCF7	Busulfan 	10000	rep2	plate46	plate8_H10	267	267
+MCF7	Capecitabine 	10	rep1	plate22	plate8_H11	172	172
+MCF7	Capecitabine 	10	rep2	plate46	plate8_H5	295	295
+MCF7	Capecitabine 	100	rep1	plate22	plate8_H5	240	240
+MCF7	Capecitabine 	100	rep2	plate45	plate7_H11	233	233
+MCF7	Capecitabine 	1000	rep1	plate21	plate7_H11	207	207
+MCF7	Capecitabine 	1000	rep2	plate45	plate7_H5	259	259
+MCF7	Capecitabine 	10000	rep1	plate21	plate7_H5	225	172
+MCF7	Capecitabine 	10000	rep2	plate46	plate8_H11	305	295
+MCF7	Celecoxib	10	rep1	plate22	plate8_C8	209	209
+MCF7	Celecoxib	10	rep2	plate46	plate8_C2	254	254
+MCF7	Celecoxib	100	rep1	plate22	plate8_C2	170	170
+MCF7	Celecoxib	100	rep2	plate45	plate7_C8	196	196
+MCF7	Celecoxib	1000	rep1	plate21	plate7_C8	136	136
+MCF7	Celecoxib	1000	rep2	plate45	plate7_C2	112	112
+MCF7	Celecoxib	10000	rep1	plate21	plate7_C2	156	156
+MCF7	Celecoxib	10000	rep2	plate46	plate8_C8	325	254
+MCF7	Crizotinib (PF-02341066)	10	rep1	plate24	plate10_E12	223	223
+MCF7	Crizotinib (PF-02341066)	10	rep2	plate48	plate10_E6	278	278
+MCF7	Crizotinib (PF-02341066)	100	rep1	plate24	plate10_E6	211	211
+MCF7	Crizotinib (PF-02341066)	100	rep2	plate47	plate9_E12	240	240
+MCF7	Crizotinib (PF-02341066)	1000	rep1	plate23	plate9_E12	114	114
+MCF7	Crizotinib (PF-02341066)	1000	rep2	plate47	plate9_E6	293	293
+MCF7	Crizotinib (PF-02341066)	10000	rep1	plate23	plate9_E6	139	139
+MCF7	Crizotinib (PF-02341066)	10000	rep2	plate48	plate10_E12	171	171
+MCF7	Dasatinib	10	rep1	plate24	plate10_B10	184	184
+MCF7	Dasatinib	10	rep2	plate48	plate10_B4	266	266
+MCF7	Dasatinib	100	rep1	plate24	plate10_B4	212	212
+MCF7	Dasatinib	100	rep2	plate47	plate9_B10	306	306
+MCF7	Dasatinib	1000	rep1	plate23	plate9_B10	146	146
+MCF7	Dasatinib	1000	rep2	plate47	plate9_B4	248	248
+MCF7	Dasatinib	10000	rep1	plate23	plate9_B4	2	2
+MCF7	Dasatinib	10000	rep2	plate48	plate10_B10	262	262
+MCF7	Decitabine	10	rep1	plate18	plate4_F10	190	190
+MCF7	Decitabine	10	rep2	plate42	plate4_F4	249	249
+MCF7	Decitabine	100	rep1	plate18	plate4_F4	233	233
+MCF7	Decitabine	100	rep2	plate41	plate3_F10	105	105
+MCF7	Decitabine	1000	rep1	plate17	plate3_F10	193	193
+MCF7	Decitabine	1000	rep2	plate41	plate3_F4	165	165
+MCF7	Decitabine	10000	rep1	plate17	plate3_F4	241	190
+MCF7	Decitabine	10000	rep2	plate42	plate4_F10	213	213
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	10	rep1	plate24	plate10_H10	226	226
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	10	rep2	plate48	plate10_H4	323	323
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	100	rep1	plate24	plate10_H4	236	236
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	100	rep2	plate47	plate9_H10	321	321
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	1000	rep1	plate23	plate9_H10	156	156
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	1000	rep2	plate47	plate9_H4	269	269
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	10000	rep1	plate23	plate9_H4	123	123
+MCF7	Fluorouracil (5-Fluoracil, 5-FU)	10000	rep2	plate48	plate10_H10	252	252
+MCF7	Fulvestrant	10	rep1	plate24	plate10_B12	242	242
+MCF7	Fulvestrant	10	rep2	plate48	plate10_B6	314	314
+MCF7	Fulvestrant	100	rep1	plate24	plate10_B6	203	203
+MCF7	Fulvestrant	100	rep2	plate47	plate9_B12	300	300
+MCF7	Fulvestrant	1000	rep1	plate23	plate9_B12	177	177
+MCF7	Fulvestrant	1000	rep2	plate47	plate9_B6	287	287
+MCF7	Fulvestrant	10000	rep1	plate23	plate9_B6	174	174
+MCF7	Fulvestrant	10000	rep2	plate48	plate10_B12	249	249
+MCF7	Lapatinib (GW-572016) Ditosylate	10	rep1	plate22	plate8_A11	221	221
+MCF7	Lapatinib (GW-572016) Ditosylate	10	rep2	plate46	plate8_A5	253	253
+MCF7	Lapatinib (GW-572016) Ditosylate	100	rep1	plate22	plate8_A5	199	199
+MCF7	Lapatinib (GW-572016) Ditosylate	100	rep2	plate45	plate7_A11	227	227
+MCF7	Lapatinib (GW-572016) Ditosylate	1000	rep1	plate21	plate7_A11	124	124
+MCF7	Lapatinib (GW-572016) Ditosylate	1000	rep2	plate45	plate7_A5	238	238
+MCF7	Lapatinib (GW-572016) Ditosylate	10000	rep1	plate21	plate7_A5	123	123
+MCF7	Lapatinib (GW-572016) Ditosylate	10000	rep2	plate46	plate8_A11	83	83
+MCF7	Lenalidomide (CC-5013)	10	rep1	plate22	plate8_C11	183	183
+MCF7	Lenalidomide (CC-5013)	10	rep2	plate46	plate8_C5	283	283
+MCF7	Lenalidomide (CC-5013)	100	rep1	plate22	plate8_C5	181	181
+MCF7	Lenalidomide (CC-5013)	100	rep2	plate45	plate7_C11	138	138
+MCF7	Lenalidomide (CC-5013)	1000	rep1	plate21	plate7_C11	166	166
+MCF7	Lenalidomide (CC-5013)	1000	rep2	plate45	plate7_C5	153	153
+MCF7	Lenalidomide (CC-5013)	10000	rep1	plate21	plate7_C5	191	183
+MCF7	Lenalidomide (CC-5013)	10000	rep2	plate46	plate8_C11	256	256
+MCF7	Mercaptopurine (6-MP)	10	rep1	plate22	plate8_A12	167	167
+MCF7	Mercaptopurine (6-MP)	10	rep2	plate46	plate8_A6	220	220
+MCF7	Mercaptopurine (6-MP)	100	rep1	plate22	plate8_A6	194	194
+MCF7	Mercaptopurine (6-MP)	100	rep2	plate45	plate7_A12	409	409
+MCF7	Mercaptopurine (6-MP)	1000	rep1	plate21	plate7_A12	126	126
+MCF7	Mercaptopurine (6-MP)	1000	rep2	plate45	plate7_A6	233	233
+MCF7	Mercaptopurine (6-MP)	10000	rep1	plate21	plate7_A6	86	86
+MCF7	Mercaptopurine (6-MP)	10000	rep2	plate46	plate8_A12	95	95
+MCF7	Nilotinib (AMN-107)	10	rep1	plate22	plate8_G11	170	170
+MCF7	Nilotinib (AMN-107)	10	rep2	plate46	plate8_G5	311	311
+MCF7	Nilotinib (AMN-107)	100	rep1	plate22	plate8_G5	190	190
+MCF7	Nilotinib (AMN-107)	100	rep2	plate45	plate7_G11	262	262
+MCF7	Nilotinib (AMN-107)	1000	rep1	plate21	plate7_G11	157	157
+MCF7	Nilotinib (AMN-107)	1000	rep2	plate45	plate7_G5	267	267
+MCF7	Nilotinib (AMN-107)	10000	rep1	plate21	plate7_G5	196	170
+MCF7	Nilotinib (AMN-107)	10000	rep2	plate46	plate8_G11	248	248
+MCF7	Panobinostat (LBH589)	10	rep1	plate18	plate4_C7	196	196
+MCF7	Panobinostat (LBH589)	10	rep2	plate42	plate4_C1	178	178
+MCF7	Panobinostat (LBH589)	100	rep1	plate18	plate4_C1	188	188
+MCF7	Panobinostat (LBH589)	100	rep2	plate41	plate3_C7	226	226
+MCF7	Panobinostat (LBH589)	1000	rep1	plate17	plate3_C7	266	266
+MCF7	Panobinostat (LBH589)	1000	rep2	plate41	plate3_C1	264	264
+MCF7	Panobinostat (LBH589)	10000	rep1	plate17	plate3_C1	264	196
+MCF7	Panobinostat (LBH589)	10000	rep2	plate42	plate4_C7	297	178
+MCF7	Regorafenib (BAY 73-4506)	10	rep1	plate24	plate10_D9	206	206
+MCF7	Regorafenib (BAY 73-4506)	10	rep2	plate48	plate10_D3	285	285
+MCF7	Regorafenib (BAY 73-4506)	100	rep1	plate24	plate10_D3	199	199
+MCF7	Regorafenib (BAY 73-4506)	100	rep2	plate47	plate9_D9	346	346
+MCF7	Regorafenib (BAY 73-4506)	1000	rep1	plate23	plate9_D9	120	120
+MCF7	Regorafenib (BAY 73-4506)	1000	rep2	plate47	plate9_D3	311	311
+MCF7	Regorafenib (BAY 73-4506)	10000	rep1	plate23	plate9_D3	101	101
+MCF7	Regorafenib (BAY 73-4506)	10000	rep2	plate48	plate10_D9	113	113
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	10	rep1	plate18	plate4_F8	203	203
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	10	rep2	plate42	plate4_F2	277	277
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	100	rep1	plate18	plate4_F2	225	225
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	100	rep2	plate41	plate3_F8	165	165
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	1000	rep1	plate17	plate3_F8	202	202
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	1000	rep2	plate41	plate3_F2	192	192
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	10000	rep1	plate17	plate3_F2	245	203
+MCF7	Rucaparib (AG-014699,PF-01367338) phosphate	10000	rep2	plate42	plate4_F8	201	201
+MCF7	Ruxolitinib (INCB018424)	10	rep1	plate18	plate4_C11	303	303
+MCF7	Ruxolitinib (INCB018424)	10	rep2	plate42	plate4_C5	307	307
+MCF7	Ruxolitinib (INCB018424)	100	rep1	plate18	plate4_C5	205	205
+MCF7	Ruxolitinib (INCB018424)	100	rep2	plate41	plate3_C11	239	239
+MCF7	Ruxolitinib (INCB018424)	1000	rep1	plate17	plate3_C11	211	211
+MCF7	Ruxolitinib (INCB018424)	1000	rep2	plate41	plate3_C5	262	262
+MCF7	Ruxolitinib (INCB018424)	10000	rep1	plate17	plate3_C5	308	303
+MCF7	Ruxolitinib (INCB018424)	10000	rep2	plate42	plate4_C11	321	307
+MCF7	Sorafenib Tosylate	10	rep1	plate24	plate10_A7	254	254
+MCF7	Sorafenib Tosylate	10	rep2	plate48	plate10_A1	270	270
+MCF7	Sorafenib Tosylate	100	rep1	plate24	plate10_A1	210	210
+MCF7	Sorafenib Tosylate	100	rep2	plate47	plate9_A7	329	329
+MCF7	Sorafenib Tosylate	1000	rep1	plate23	plate9_A7	157	157
+MCF7	Sorafenib Tosylate	1000	rep2	plate47	plate9_A1	233	233
+MCF7	Sorafenib Tosylate	10000	rep1	plate23	plate9_A1	101	101
+MCF7	Sorafenib Tosylate	10000	rep2	plate48	plate10_A7	164	164
+MCF7	Temsirolimus (CCI-779, NSC 683864)	10	rep1	plate24	plate10_C7	137	137
+MCF7	Temsirolimus (CCI-779, NSC 683864)	10	rep2	plate48	plate10_C1	236	236
+MCF7	Temsirolimus (CCI-779, NSC 683864)	100	rep1	plate24	plate10_C1	208	208
+MCF7	Temsirolimus (CCI-779, NSC 683864)	100	rep2	plate47	plate9_C7	244	244
+MCF7	Temsirolimus (CCI-779, NSC 683864)	1000	rep1	plate23	plate9_C7	83	83
+MCF7	Temsirolimus (CCI-779, NSC 683864)	1000	rep2	plate47	plate9_C1	240	240
+MCF7	Temsirolimus (CCI-779, NSC 683864)	10000	rep1	plate23	plate9_C1	140	137
+MCF7	Temsirolimus (CCI-779, NSC 683864)	10000	rep2	plate48	plate10_C7	242	236
+MCF7	Thalidomide	10	rep1	plate24	plate10_F12	220	220
+MCF7	Thalidomide	10	rep2	plate48	plate10_F6	261	261
+MCF7	Thalidomide	100	rep1	plate24	plate10_F6	206	206
+MCF7	Thalidomide	100	rep2	plate47	plate9_F12	314	314
+MCF7	Thalidomide	1000	rep1	plate23	plate9_F12	204	204
+MCF7	Thalidomide	1000	rep2	plate47	plate9_F6	305	305
+MCF7	Thalidomide	10000	rep1	plate23	plate9_F6	163	163
+MCF7	Thalidomide	10000	rep2	plate48	plate10_F12	309	261
+MCF7	Thiotepa	10	rep1	plate22	plate8_F12	149	149
+MCF7	Thiotepa	10	rep2	plate46	plate8_F6	299	299
+MCF7	Thiotepa	100	rep1	plate22	plate8_F6	168	168
+MCF7	Thiotepa	100	rep2	plate45	plate7_F12	220	220
+MCF7	Thiotepa	1000	rep1	plate21	plate7_F12	90	90
+MCF7	Thiotepa	1000	rep2	plate45	plate7_F6	234	234
+MCF7	Thiotepa	10000	rep1	plate21	plate7_F6	148	148
+MCF7	Thiotepa	10000	rep2	plate46	plate8_F12	282	282
+MCF7	Toremifene Citrate	10	rep1	plate22	plate8_H12	202	202
+MCF7	Toremifene Citrate	10	rep2	plate46	plate8_H6	337	337
+MCF7	Toremifene Citrate	100	rep1	plate22	plate8_H6	190	190
+MCF7	Toremifene Citrate	100	rep2	plate45	plate7_H12	200	200
+MCF7	Toremifene Citrate	1000	rep1	plate21	plate7_H12	189	189
+MCF7	Toremifene Citrate	1000	rep2	plate45	plate7_H6	225	225
+MCF7	Toremifene Citrate	10000	rep1	plate21	plate7_H6	118	118
+MCF7	Toremifene Citrate	10000	rep2	plate46	plate8_H12	156	156
+MCF7	Trametinib (GSK1120212)	10	rep1	plate24	plate10_E10	195	195
+MCF7	Trametinib (GSK1120212)	10	rep2	plate48	plate10_E4	254	254
+MCF7	Trametinib (GSK1120212)	100	rep1	plate24	plate10_E4	190	190
+MCF7	Trametinib (GSK1120212)	100	rep2	plate47	plate9_E10	297	297
+MCF7	Trametinib (GSK1120212)	1000	rep1	plate23	plate9_E10	191	191
+MCF7	Trametinib (GSK1120212)	1000	rep2	plate47	plate9_E4	292	292
+MCF7	Trametinib (GSK1120212)	10000	rep1	plate23	plate9_E4	163	163
+MCF7	Trametinib (GSK1120212)	10000	rep2	plate48	plate10_E10	241	241
+MCF7	Vandetanib (ZD6474)	10	rep1	plate24	plate10_G7	237	237
+MCF7	Vandetanib (ZD6474)	10	rep2	plate48	plate10_G1	242	242
+MCF7	Vandetanib (ZD6474)	100	rep1	plate24	plate10_G1	233	233
+MCF7	Vandetanib (ZD6474)	100	rep2	plate47	plate9_G7	300	300
+MCF7	Vandetanib (ZD6474)	1000	rep1	plate23	plate9_G7	173	173
+MCF7	Vandetanib (ZD6474)	1000	rep2	plate47	plate9_G1	279	279
+MCF7	Vandetanib (ZD6474)	10000	rep1	plate23	plate9_G1	80	80
+MCF7	Vandetanib (ZD6474)	10000	rep2	plate48	plate10_G7	181	181
+MCF7	control	0	rep1	plate17	plate3_C12	268	268
+MCF7	control	0	rep1	plate17	plate3_C6	283	283
+MCF7	control	0	rep1	plate18	plate4_C12	284	284
+MCF7	control	0	rep1	plate18	plate4_C6	239	239
+MCF7	control	0	rep1	plate19	plate5_G11	163	163
+MCF7	control	0	rep1	plate19	plate5_G5	197	197
+MCF7	control	0	rep1	plate20	plate6_G11	237	237
+MCF7	control	0	rep1	plate20	plate6_G5	233	233
+MCF7	control	0	rep1	plate21	plate7_D12	152	152
+MCF7	control	0	rep1	plate21	plate7_D6	188	188
+MCF7	control	0	rep1	plate22	plate8_D12	174	174
+MCF7	control	0	rep1	plate22	plate8_D6	194	194
+MCF7	control	0	rep1	plate23	plate9_D10	97	97
+MCF7	control	0	rep1	plate23	plate9_D4	188	188
+MCF7	control	0	rep1	plate24	plate10_D10	225	225
+MCF7	control	0	rep1	plate24	plate10_D4	216	216
+MCF7	control	0	rep2	plate41	plate3_C12	276	276
+MCF7	control	0	rep2	plate41	plate3_C6	245	245
+MCF7	control	0	rep2	plate42	plate4_C12	277	277
+MCF7	control	0	rep2	plate42	plate4_C6	287	287
+MCF7	control	0	rep2	plate43	plate5_G11	224	224
+MCF7	control	0	rep2	plate43	plate5_G5	341	341
+MCF7	control	0	rep2	plate44	plate6_G11	347	347
+MCF7	control	0	rep2	plate44	plate6_G5	342	342
+MCF7	control	0	rep2	plate45	plate7_D12	251	251
+MCF7	control	0	rep2	plate45	plate7_D6	185	185
+MCF7	control	0	rep2	plate46	plate8_D12	283	283
+MCF7	control	0	rep2	plate46	plate8_D6	239	239
+MCF7	control	0	rep2	plate47	plate9_D10	316	316
+MCF7	control	0	rep2	plate47	plate9_D4	307	307
+MCF7	control	0	rep2	plate48	plate10_D10	242	242
+MCF7	control	0	rep2	plate48	plate10_D4	286	286

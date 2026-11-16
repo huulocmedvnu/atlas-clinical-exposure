@@ -1,0 +1,5534 @@
+{
+  "data": {
+    "all_median_n_de_by_dose": [
+      164.0,
+      226.0,
+      199.0
+    ],
+    "cell_lines": 50,
+    "compounds": 377,
+    "contrast_rows_by_plate": 65891,
+    "contrasts": 56531,
+    "inert_median_n_de_by_dose": [
+      180.0,
+      175.0,
+      175.0
+    ],
+    "plate_line_floors": 550,
+    "plates": 14,
+    "summary_files": 1026
+  },
+  "exposure_response": {
+    "by_exposure": {
+      "0.1-1x": {
+        "mean_excess": 223.32906250000013,
+        "mean_n_de": 391.09,
+        "median_n_de": 174.0,
+        "n": 1200,
+        "share_above_floor": 0.3333333333333333
+      },
+      "1-10x": {
+        "mean_excess": 222.0238229166666,
+        "mean_n_de": 427.55270833333327,
+        "median_n_de": 197.0,
+        "n": 1600,
+        "share_above_floor": 0.360625
+      },
+      "10-100x": {
+        "mean_excess": 231.62365625000007,
+        "mean_n_de": 405.53041666666667,
+        "median_n_de": 173.5,
+        "n": 1600,
+        "share_above_floor": 0.313125
+      },
+      "<=0.1x": {
+        "mean_excess": 57.71644999999998,
+        "mean_n_de": 208.7468333333333,
+        "median_n_de": 133.5,
+        "n": 1000,
+        "share_above_floor": 0.286
+      },
+      ">100x": {
+        "mean_excess": 522.8435853658544,
+        "mean_n_de": 751.3319512195122,
+        "median_n_de": 301.0,
+        "n": 2050,
+        "share_above_floor": 0.5229268292682927
+      }
+    },
+    "inert_median_n_de": 182.0,
+    "inert_median_n_de_by_dose": [
+      202.0,
+      178.5,
+      175.0
+    ],
+    "inert_share_above_floor": 0.3908333333333333,
+    "reachable": {
+      "mean_excess": 148.05060227272733,
+      "mean_n_de": 308.2067424242424,
+      "median_n_de": 155.0,
+      "n": 2200,
+      "share_above_floor": 0.3118181818181818
+    },
+    "straddling": {
+      "median_share_above_floor_5uM": 0.12,
+      "median_share_above_floor_highest_reachable": 0.18,
+      "n_compounds": 19,
+      "wilcoxon_p_two_sided": 0.550923682773407
+    },
+    "unreachable": {
+      "mean_excess": 342.4124412698407,
+      "mean_n_de": 547.269238095238,
+      "median_n_de": 216.5,
+      "n": 5250,
+      "share_above_floor": 0.4095238095238095
+    }
+  },
+  "mechanism": {
+    "auroc_5_vs_0.05": {
+      "p_5_higher": 0.6455977101209138,
+      "p_5_lower": 0.3544022898790862,
+      "p_two_sided": 0.7088045797581723
+    },
+    "between_5_vs_0.05": {
+      "p_5_higher": 0.030934681324804446,
+      "p_two_sided": 0.06186936264960889
+    },
+    "by_exposure": {
+      "1-10x": {
+        "line_auroc_q1": 0.4113636363636364,
+        "line_auroc_q3": 0.4772727272727273,
+        "line_auroc_vs_half_p": 4.599254075873152e-7,
+        "mean_between": 0.19999397740706476,
+        "mean_within": 0.15959207050706867,
+        "median_line_auroc": 0.43636363636363634,
+        "n_between": 995,
+        "n_lines": 46,
+        "n_within": 226,
+        "pooled_auroc": 0.4357139680704407
+      },
+      "10-100x": {
+        "line_auroc_q1": 0.5396825396825397,
+        "line_auroc_q3": 0.6666666666666666,
+        "line_auroc_vs_half_p": 1.312368192080441e-6,
+        "mean_between": 0.1580511565735698,
+        "mean_within": 0.18764736377736563,
+        "median_line_auroc": 0.6031746031746031,
+        "n_between": 959,
+        "n_lines": 46,
+        "n_within": 136,
+        "pooled_auroc": 0.5966769919646691
+      },
+      "<=1x": {
+        "line_auroc_q1": 0.44988344988344986,
+        "line_auroc_q3": 0.5116550116550116,
+        "line_auroc_vs_half_p": 0.004050675027906667,
+        "mean_between": 0.1950022778043132,
+        "mean_within": 0.1678950664185862,
+        "median_line_auroc": 0.48601398601398604,
+        "n_between": 1489,
+        "n_lines": 46,
+        "n_within": 591,
+        "pooled_auroc": 0.48261986661348477
+      },
+      ">100x": {
+        "line_auroc_q1": 0.5353535353535354,
+        "line_auroc_q3": 0.6161616161616161,
+        "line_auroc_vs_half_p": 1.4966351081316728e-7,
+        "mean_between": 0.18802512752710612,
+        "mean_within": 0.2596545707023966,
+        "median_line_auroc": 0.5707070707070707,
+        "n_between": 1487,
+        "n_lines": 45,
+        "n_within": 271,
+        "pooled_auroc": 0.5729805919444534
+      },
+      ">10x": {
+        "line_auroc_q1": 0.5026299504950495,
+        "line_auroc_q3": 0.547184405940594,
+        "line_auroc_vs_half_p": 0.0000725693612185659,
+        "mean_between": 0.19090360940243797,
+        "mean_within": 0.2179462208627289,
+        "median_line_auroc": 0.5275371287128713,
+        "n_between": 4576,
+        "n_lines": 46,
+        "n_within": 725,
+        "pooled_auroc": 0.5364181938750904
+      },
+      ">10x_vs_<=1x": {
+        "n_lines": 46,
+        "p_above_10x_higher": 3.647990028766667e-6,
+        "p_two_sided": 7.295980057533334e-6
+      }
+    },
+    "classes": {
+      "DNA synthesis/repair inhibitor": 4,
+      "EGFR/ERBB inhibitor": 4,
+      "MEK inhibitor": 2,
+      "MTOR inhibitor": 2,
+      "Microtubule inhibitor": 2,
+      "Multi-TK inhibitor": 2,
+      "RAF inhibitor": 2
+    },
+    "dose_0.05": {
+      "auroc_q1": 0.4626946366782007,
+      "auroc_q3": 0.5032439446366782,
+      "auroc_vs_half_p": 0.0030904467328423018,
+      "median_auroc": 0.4826989619377163,
+      "median_between": 0.18708987457059315,
+      "median_within": 0.179493331219307
+    },
+    "dose_0.5": {
+      "auroc_q1": 0.5203287197231834,
+      "auroc_q3": 0.5727724913494809,
+      "auroc_vs_half_p": 1.289051214986672e-8,
+      "median_auroc": 0.5451989619377162,
+      "median_between": 0.21811457412868365,
+      "median_within": 0.23169794331211754
+    },
+    "dose_5": {
+      "auroc_q1": 0.45025951557093424,
+      "auroc_q3": 0.5005406574394464,
+      "auroc_vs_half_p": 0.003799674547714091,
+      "median_auroc": 0.4833477508650519,
+      "median_between": 0.19687450239270732,
+      "median_within": 0.18594503329956547
+    },
+    "median_genes": 706.0,
+    "n_drugs": 18,
+    "n_lines": 44,
+    "within_5_vs_0.05": {
+      "p_5_higher": 0.011432358486485817,
+      "p_two_sided": 0.022864716972971634
+    }
+  },
+  "overlap": {
+    "fbs_stratum1": {
+      "median_j_high_only": 0.011111111111111112,
+      "median_j_low": 0.02694300518134715,
+      "n_drugs": 29,
+      "n_lines": 48,
+      "n_pairs": 14291,
+      "ratio_of_medians": 0.41239316239316237,
+      "stress": {
+        "ANY_STRESS": {
+          "fisher_p": 1.8865169618794767e-88,
+          "high_only": [
+            20103,
+            642419
+          ],
+          "low": [
+            14854,
+            625521
+          ],
+          "odds_ratio_high_only_vs_shared": 0.6943177745362582,
+          "share_high_only": 0.03129266102029984,
+          "share_low": 0.023746604830213534,
+          "share_shared": 0.04445716676391901,
+          "shared": [
+            4038,
+            90829
+          ]
+        },
+        "HALLMARK_APOPTOSIS": {
+          "fisher_p": 5.083307607611523e-58,
+          "high_only": [
+            6694,
+            642419
+          ],
+          "low": [
+            5173,
+            625521
+          ],
+          "odds_ratio_high_only_vs_shared": 0.6170313432005474,
+          "share_high_only": 0.010419990691433472,
+          "share_low": 0.008269906206186523,
+          "share_shared": 0.0167787821070363,
+          "shared": [
+            1524,
+            90829
+          ]
+        },
+        "HALLMARK_P53_PATHWAY": {
+          "fisher_p": 1.3087390881656966e-44,
+          "high_only": [
+            9248,
+            642419
+          ],
+          "low": [
+            6892,
+            625521
+          ],
+          "odds_ratio_high_only_vs_shared": 0.6891791146115643,
+          "share_high_only": 0.014395589171553145,
+          "share_low": 0.01101801538237725,
+          "share_shared": 0.020753283642889385,
+          "shared": [
+            1885,
+            90829
+          ]
+        },
+        "HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY": {
+          "fisher_p": 2.438721593744074e-18,
+          "high_only": [
+            1729,
+            642419
+          ],
+          "low": [
+            1398,
+            625521
+          ],
+          "odds_ratio_high_only_vs_shared": 0.6010352254923437,
+          "share_high_only": 0.002691389887285401,
+          "share_low": 0.0022349369565530172,
+          "share_shared": 0.00446993801539156,
+          "shared": [
+            406,
+            90829
+          ]
+        },
+        "HALLMARK_UNFOLDED_PROTEIN_RESPONSE": {
+          "fisher_p": 0.008832296042446081,
+          "high_only": [
+            3998,
+            642419
+          ],
+          "low": [
+            2795,
+            625521
+          ],
+          "odds_ratio_high_only_vs_shared": 0.8923170545572902,
+          "share_high_only": 0.0062233526716986886,
+          "share_low": 0.004468275245755138,
+          "share_shared": 0.006969139812174526,
+          "shared": [
+            633,
+            90829
+          ]
+        }
+      },
+      "wilcoxon_p_high_gt_low": 1.0,
+      "wilcoxon_p_low_gt_high": 0.0
+    },
+    "fbs_stratum2": {
+      "median_j_high_only": 0.025675675675675677,
+      "median_j_low": 0.03554868624420402,
+      "n_drugs": 13,
+      "n_lines": 48,
+      "n_pairs": 3341,
+      "ratio_of_medians": 0.7222679200940071,
+      "stress": {
+        "ANY_STRESS": {
+          "fisher_p": 1.0980633430138671e-82,
+          "high_only": [
+            22521,
+            834679
+          ],
+          "low": [
+            8995,
+            340116
+          ],
+          "odds_ratio_high_only_vs_shared": 0.800801979045789,
+          "share_high_only": 0.026981630063773018,
+          "share_low": 0.026446859306824732,
+          "share_shared": 0.03346863186416974,
+          "shared": [
+            12253,
+            366104
+          ]
+        },
+        "HALLMARK_APOPTOSIS": {
+          "fisher_p": 3.823477467905669e-46,
+          "high_only": [
+            7402,
+            834679
+          ],
+          "low": [
+            3163,
+            340116
+          ],
+          "odds_ratio_high_only_vs_shared": 0.7564003689663598,
+          "share_high_only": 0.008868079824699076,
+          "share_low": 0.009299768314339813,
+          "share_shared": 0.011690667132836572,
+          "shared": [
+            4280,
+            366104
+          ]
+        },
+        "HALLMARK_P53_PATHWAY": {
+          "fisher_p": 4.7027639949845996e-91,
+          "high_only": [
+            9634,
+            834679
+          ],
+          "low": [
+            4414,
+            340116
+          ],
+          "odds_ratio_high_only_vs_shared": 0.7104470501445211,
+          "share_high_only": 0.01154216171725897,
+          "share_low": 0.012977925178468522,
+          "share_shared": 0.01617026855756834,
+          "shared": [
+            5920,
+            366104
+          ]
+        },
+        "HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY": {
+          "fisher_p": 0.021011460352697846,
+          "high_only": [
+            2359,
+            834679
+          ],
+          "low": [
+            628,
+            340116
+          ],
+          "odds_ratio_high_only_vs_shared": 1.0928668728967454,
+          "share_high_only": 0.0028262361937942612,
+          "share_low": 0.0018464288654459068,
+          "share_shared": 0.00258669667635426,
+          "shared": [
+            947,
+            366104
+          ]
+        },
+        "HALLMARK_UNFOLDED_PROTEIN_RESPONSE": {
+          "fisher_p": 0.01315627196430189,
+          "high_only": [
+            4748,
+            834679
+          ],
+          "low": [
+            1624,
+            340116
+          ],
+          "odds_ratio_high_only_vs_shared": 0.9377319406157948,
+          "share_high_only": 0.005688414348510026,
+          "share_low": 0.004774841524656293,
+          "share_shared": 0.006063850709088128,
+          "shared": [
+            2220,
+            366104
+          ]
+        }
+      },
+      "wilcoxon_p_high_gt_low": 1.0,
+      "wilcoxon_p_low_gt_high": 6.297560090381634e-82
+    },
+    "unbound_stratum1": {
+      "median_j_high_only": 0.010382868753172356,
+      "median_j_low": 0.02423388817755015,
+      "n_drugs": 24,
+      "n_lines": 48,
+      "n_pairs": 8538,
+      "ratio_of_medians": 0.42844419670100087,
+      "stress": {
+        "ANY_STRESS": {
+          "fisher_p": 2.1116096897565238e-116,
+          "high_only": [
+            18666,
+            621624
+          ],
+          "low": [
+            12755,
+            515890
+          ],
+          "odds_ratio_high_only_vs_shared": 0.6325274869469785,
+          "share_high_only": 0.03002779815451141,
+          "share_low": 0.024724262924266802,
+          "share_shared": 0.04665875840253064,
+          "shared": [
+            3422,
+            73341
+          ]
+        },
+        "HALLMARK_APOPTOSIS": {
+          "fisher_p": 7.134586750142026e-72,
+          "high_only": [
+            6108,
+            621624
+          ],
+          "low": [
+            4361,
+            515890
+          ],
+          "odds_ratio_high_only_vs_shared": 0.5542554652953687,
+          "share_high_only": 0.00982587544882437,
+          "share_low": 0.008453352458857508,
+          "share_shared": 0.01758907023356649,
+          "shared": [
+            1290,
+            73341
+          ]
+        },
+        "HALLMARK_P53_PATHWAY": {
+          "fisher_p": 1.9510048983437428e-54,
+          "high_only": [
+            8747,
+            621624
+          ],
+          "low": [
+            5947,
+            515890
+          ],
+          "odds_ratio_high_only_vs_shared": 0.6387068080776784,
+          "share_high_only": 0.01407120703190353,
+          "share_low": 0.011527651243482137,
+          "share_shared": 0.021856805879385335,
+          "shared": [
+            1603,
+            73341
+          ]
+        },
+        "HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY": {
+          "fisher_p": 8.766199425300073e-31,
+          "high_only": [
+            1545,
+            621624
+          ],
+          "low": [
+            1179,
+            515890
+          ],
+          "odds_ratio_high_only_vs_shared": 0.4874219369444956,
+          "share_high_only": 0.0024854252731554764,
+          "share_low": 0.002285370912403807,
+          "share_shared": 0.005085831935752172,
+          "shared": [
+            373,
+            73341
+          ]
+        },
+        "HALLMARK_UNFOLDED_PROTEIN_RESPONSE": {
+          "fisher_p": 0.000039970500481987645,
+          "high_only": [
+            3721,
+            621624
+          ],
+          "low": [
+            2481,
+            515890
+          ],
+          "odds_ratio_high_only_vs_shared": 0.8226048364349337,
+          "share_high_only": 0.005985933619036588,
+          "share_low": 0.00480916474442226,
+          "share_shared": 0.007267422042241039,
+          "shared": [
+            533,
+            73341
+          ]
+        }
+      },
+      "wilcoxon_p_high_gt_low": 1.0,
+      "wilcoxon_p_low_gt_high": 0.0
+    },
+    "unbound_stratum2": {
+      "median_j_high_only": 0.02154398563734291,
+      "median_j_low": 0.03536585365853658,
+      "n_drugs": 20,
+      "n_lines": 48,
+      "n_pairs": 7943,
+      "ratio_of_medians": 0.6091747662972823,
+      "stress": {
+        "ANY_STRESS": {
+          "fisher_p": 3.5349863282312676e-79,
+          "high_only": [
+            26968,
+            964867
+          ],
+          "low": [
+            11107,
+            426063
+          ],
+          "odds_ratio_high_only_vs_shared": 0.8146423475100183,
+          "share_high_only": 0.027949966161139306,
+          "share_low": 0.026068914691019872,
+          "share_shared": 0.034092679973328766,
+          "shared": [
+            13345,
+            391433
+          ]
+        },
+        "HALLMARK_APOPTOSIS": {
+          "fisher_p": 1.4430107699284066e-46,
+          "high_only": [
+            8976,
+            964867
+          ],
+          "low": [
+            3924,
+            426063
+          ],
+          "odds_ratio_high_only_vs_shared": 0.7688505483369104,
+          "share_high_only": 0.009302836556748236,
+          "share_low": 0.009209905577344196,
+          "share_shared": 0.012065921881905715,
+          "shared": [
+            4723,
+            391433
+          ]
+        },
+        "HALLMARK_P53_PATHWAY": {
+          "fisher_p": 6.19404432282448e-92,
+          "high_only": [
+            11594,
+            964867
+          ],
+          "low": [
+            5417,
+            426063
+          ],
+          "odds_ratio_high_only_vs_shared": 0.7237673216748359,
+          "share_high_only": 0.012016163885799805,
+          "share_low": 0.012714082189723116,
+          "share_shared": 0.016526455357621865,
+          "shared": [
+            6469,
+            391433
+          ]
+        },
+        "HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY": {
+          "fisher_p": 0.0005527570426253834,
+          "high_only": [
+            2781,
+            964867
+          ],
+          "low": [
+            760,
+            426063
+          ],
+          "odds_ratio_high_only_vs_shared": 1.135413101631013,
+          "share_high_only": 0.002882262529447064,
+          "share_low": 0.0017837737611573876,
+          "share_shared": 0.0025393873280995724,
+          "shared": [
+            994,
+            391433
+          ]
+        },
+        "HALLMARK_UNFOLDED_PROTEIN_RESPONSE": {
+          "fisher_p": 0.19260321820724882,
+          "high_only": [
+            5606,
+            964867
+          ],
+          "low": [
+            1996,
+            426063
+          ],
+          "odds_ratio_high_only_vs_shared": 0.9684176609568417,
+          "share_high_only": 0.005810127198878187,
+          "share_low": 0.004684753193776507,
+          "share_shared": 0.005998472280058145,
+          "shared": [
+            2348,
+            391433
+          ]
+        }
+      },
+      "wilcoxon_p_high_gt_low": 1.0,
+      "wilcoxon_p_low_gt_high": 0.0
+    }
+  },
+  "selection": {
+    "de5_all": {
+      "ks_p": 0.005796357856234093,
+      "mann_whitney_p": 0.022930010942910913
+    },
+    "de5_same_classes": {
+      "ks_p": 0.3367665108891613,
+      "mann_whitney_p": 0.281643089145621
+    },
+    "matched": {
+      "median": 224.5,
+      "n": 65,
+      "q1": 154.0,
+      "q3": 626.0
+    },
+    "n_classes": 15,
+    "other_all": {
+      "median": 207.75,
+      "n": 312,
+      "q1": 122.875,
+      "q3": 314.75
+    },
+    "other_same_classes": {
+      "median": 269.375,
+      "n": 58,
+      "q1": 124.125,
+      "q3": 411.5
+    },
+    "slope_all": {
+      "ks_p": 0.744375080264863,
+      "mann_whitney_p": 0.5250456783741988
+    },
+    "slope_same_classes": {
+      "ks_p": 0.7983233428271028,
+      "mann_whitney_p": 0.7669311539589471
+    }
+  },
+  "sweep": [
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.7607977052141135,
+      "de_share_above_ci": [
+        0.653937657843323,
+        0.8475054366483928
+      ],
+      "excess_share_above": 0.8298665123746732,
+      "excess_share_above_ci": [
+        0.5908248637845271,
+        0.9651024682393471
+      ],
+      "mean_n_de_reachable": 1228.6351785714282,
+      "mean_n_de_unreachable": 1574.345419664269,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.13900845688020652,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.8235294117647058,
+      "share_5uM_above_10x": 0.7384615384615385,
+      "share_contrasts_unreachable": 0.7128205128205128,
+      "share_lowest_dose_above": 0.49230769230769234,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.5862445638633959,
+      "de_share_above_ci": [
+        0.4946531557808931,
+        0.6618303143420297
+      ],
+      "excess_share_above": 0.7201221796302751,
+      "excess_share_above_ci": [
+        0.46705673956082316,
+        0.8810141867665153
+      ],
+      "mean_n_de_reachable": 1129.612807017544,
+      "mean_n_de_unreachable": 1414.4248062015506,
+      "n_compounds": 27,
+      "n_floor_compounds": 19,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.13900845688020652,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.8235294117647058,
+      "share_5uM_above_10x": 0.5925925925925926,
+      "share_contrasts_unreachable": 0.5308641975308642,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1645.976527777778,
+      "n_compounds": 32,
+      "n_floor_compounds": 25,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1437.6824074074075,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 6,
+      "n_floor_compounds": 5,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.6947619127737192,
+      "de_share_above_ci": [
+        0.6136210400674262,
+        0.7759589914466302
+      ],
+      "excess_share_above": 0.7000760018989858,
+      "excess_share_above_ci": [
+        0.5591833701289102,
+        0.8207656497714476
+      ],
+      "mean_n_de_reachable": 880.6744961873637,
+      "mean_n_de_unreachable": 1001.4471428571428,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 22,
+      "recovery_share_ratio_le_0.5": 0.8181818181818182,
+      "share_5uM_above_10x": 0.6938775510204082,
+      "share_contrasts_unreachable": 0.6668481219379423,
+      "share_lowest_dose_above": 0.3469387755102041,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.5659824301314353,
+      "de_share_above_ci": [
+        0.4930004305363951,
+        0.6382724114392011
+      ],
+      "excess_share_above": 0.6292284512380815,
+      "excess_share_above_ci": [
+        0.4661145154982666,
+        0.7591720753732852
+      ],
+      "mean_n_de_reachable": 912.2822004965859,
+      "mean_n_de_unreachable": 1087.4048226950356,
+      "n_compounds": 30,
+      "n_floor_compounds": 27,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 22,
+      "recovery_share_ratio_le_0.5": 0.8181818181818182,
+      "share_5uM_above_10x": 0.5666666666666667,
+      "share_contrasts_unreachable": 0.5224544241885283,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 922.2312418300655,
+      "n_compounds": 17,
+      "n_floor_compounds": 11,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 654.3633333333333,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 2,
+      "n_floor_compounds": 2,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.739048456425863,
+      "de_share_above_ci": [
+        0.6653644546747343,
+        0.8061566628810005
+      ],
+      "excess_share_above": 0.8112581288427663,
+      "excess_share_above_ci": [
+        0.6020848511303777,
+        0.9357038253533119
+      ],
+      "mean_n_de_reachable": 1066.3242505081303,
+      "mean_n_de_unreachable": 1337.4507735583684,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.13900845688020652,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 39,
+      "recovery_share_ratio_le_0.5": 0.8205128205128205,
+      "share_5uM_above_10x": 0.7192982456140351,
+      "share_contrasts_unreachable": 0.6930635162007253,
+      "share_lowest_dose_above": 0.4298245614035088,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.576815504193378,
+      "de_share_above_ci": [
+        0.5189235024102818,
+        0.6307943582707135
+      ],
+      "excess_share_above": 0.6811453924932626,
+      "excess_share_above_ci": [
+        0.5308058477366845,
+        0.7944629232623145
+      ],
+      "mean_n_de_reachable": 1014.2901432806323,
+      "mean_n_de_unreachable": 1243.6477037037034,
+      "n_compounds": 57,
+      "n_floor_compounds": 46,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.13900845688020652,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 39,
+      "recovery_share_ratio_le_0.5": 0.8205128205128205,
+      "share_5uM_above_10x": 0.5789473684210527,
+      "share_contrasts_unreachable": 0.5264389330837623,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1394.8812244897958,
+      "n_compounds": 49,
+      "n_floor_compounds": 36,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1241.852638888889,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 7,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.4989185465158557,
+      "de_share_above_ci": [
+        0.3859353108125978,
+        0.6029697820322659
+      ],
+      "excess_share_above": 0.6714803733477115,
+      "excess_share_above_ci": [
+        0.4388663062967795,
+        0.8391758979321751
+      ],
+      "mean_n_de_reachable": 1298.4671921921927,
+      "mean_n_de_unreachable": 1708.4252976190473,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.21100128771403742,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.8076923076923077,
+      "share_5uM_above_10x": 0.4,
+      "share_contrasts_unreachable": 0.4307692307692308,
+      "share_lowest_dose_above": 0.16923076923076924,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.560232043991931,
+      "de_share_above_ci": [
+        0.45046705970138684,
+        0.6509389045695249
+      ],
+      "excess_share_above": 0.8389568571832214,
+      "excess_share_above_ci": [
+        0.7397964619320367,
+        0.9324120677054137
+      ],
+      "mean_n_de_reachable": 1352.4468128654971,
+      "mean_n_de_unreachable": 1925.6140196078425,
+      "n_compounds": 36,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.21100128771403742,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.8076923076923077,
+      "share_5uM_above_10x": 0.4166666666666667,
+      "share_contrasts_unreachable": 0.4722222222222222,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1372.77,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1241.4887037037038,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 18,
+      "n_floor_compounds": 14,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.29047201568043984,
+      "de_share_above_ci": [
+        0.22277882529068727,
+        0.3648663212276489
+      ],
+      "excess_share_above": 0.40774440710024323,
+      "excess_share_above_ci": [
+        0.22582710376615825,
+        0.565115112947719
+      ],
+      "mean_n_de_reachable": 964.0984032320123,
+      "mean_n_de_unreachable": 954.2319379844961,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 20,
+      "recovery_share_ratio_le_0.5": 0.85,
+      "share_5uM_above_10x": 0.20408163265306123,
+      "share_contrasts_unreachable": 0.29259662493195426,
+      "share_lowest_dose_above": 0.02040816326530612,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.4162867536638005,
+      "de_share_above_ci": [
+        0.3536552914284014,
+        0.4835992741474877
+      ],
+      "excess_share_above": 0.5586979498977609,
+      "excess_share_above_ci": [
+        0.38565822115737225,
+        0.6894833368248461
+      ],
+      "mean_n_de_reachable": 1032.7786379657603,
+      "mean_n_de_unreachable": 975.1878333333334,
+      "n_compounds": 31,
+      "n_floor_compounds": 24,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 20,
+      "recovery_share_ratio_le_0.5": 0.85,
+      "share_5uM_above_10x": 0.2903225806451613,
+      "share_contrasts_unreachable": 0.43029259896729777,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 674.82,
+      "n_compounds": 1,
+      "n_floor_compounds": 1,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 892.7786928104576,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 17,
+      "n_floor_compounds": 15,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.4302655434905744,
+      "de_share_above_ci": [
+        0.3508482286766496,
+        0.5129287087653316
+      ],
+      "excess_share_above": 0.633667901595315,
+      "excess_share_above_ci": [
+        0.40850573992413375,
+        0.775449439085855
+      ],
+      "mean_n_de_reachable": 1136.7581332961165,
+      "mean_n_de_unreachable": 1453.0684908136484,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.21100128771403742,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 46,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.3157894736842105,
+      "share_contrasts_unreachable": 0.37138846648730844,
+      "share_lowest_dose_above": 0.10526315789473684,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.5100899970279965,
+      "de_share_above_ci": [
+        0.4339441548845198,
+        0.5806049720659787
+      ],
+      "excess_share_above": 0.7944594804479024,
+      "excess_share_above_ci": [
+        0.6727078054153199,
+        0.875602222451085
+      ],
+      "mean_n_de_reachable": 1198.4851309567118,
+      "mean_n_de_unreachable": 1507.844267399267,
+      "n_compounds": 67,
+      "n_floor_compounds": 50,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.21100128771403742,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 46,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.3582089552238806,
+      "share_contrasts_unreachable": 0.4528264331210191,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1314.6074999999998,
+      "n_compounds": 12,
+      "n_floor_compounds": 10,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1072.11526984127,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 35,
+      "n_floor_compounds": 29,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.6486825000557704,
+      "de_share_above_ci": [
+        0.5329019203331158,
+        0.7507629104812796
+      ],
+      "excess_share_above": 0.7872176597406993,
+      "excess_share_above_ci": [
+        0.5404275403395992,
+        0.9438064115213305
+      ],
+      "mean_n_de_reachable": 1295.5399572649574,
+      "mean_n_de_unreachable": 1594.7475783475784,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.21728421503533948,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.7391304347826086,
+      "share_5uM_above_10x": 0.5846153846153846,
+      "share_contrasts_unreachable": 0.6,
+      "share_lowest_dose_above": 0.3384615384615385,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.49585478743555556,
+      "de_share_above_ci": [
+        0.4085562130308376,
+        0.5740787331255575
+      ],
+      "excess_share_above": 0.675116289396966,
+      "excess_share_above_ci": [
+        0.4494028320514785,
+        0.853313579466343
+      ],
+      "mean_n_de_reachable": 1228.065061728395,
+      "mean_n_de_unreachable": 1278.9213071895426,
+      "n_compounds": 35,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.21728421503533948,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.7391304347826086,
+      "share_5uM_above_10x": 0.45714285714285713,
+      "share_contrasts_unreachable": 0.4857142857142857,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1838.7951515151517,
+      "n_compounds": 22,
+      "n_floor_compounds": 17,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1447.3584722222222,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 6,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.5538124323453271,
+      "de_share_above_ci": [
+        0.4755977569567967,
+        0.6295015198726842
+      ],
+      "excess_share_above": 0.6680822934687919,
+      "excess_share_above_ci": [
+        0.5157384285762477,
+        0.7953624551519092
+      ],
+      "mean_n_de_reachable": 900.9190489803697,
+      "mean_n_de_unreachable": 1015.991515151515,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.8846153846153846,
+      "share_5uM_above_10x": 0.4897959183673469,
+      "share_contrasts_unreachable": 0.5239520958083832,
+      "share_lowest_dose_above": 0.14285714285714285,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.5144005277599397,
+      "de_share_above_ci": [
+        0.446061161131252,
+        0.5844214429808897
+      ],
+      "excess_share_above": 0.6214902221559271,
+      "excess_share_above_ci": [
+        0.457642240175732,
+        0.7510845220228951
+      ],
+      "mean_n_de_reachable": 951.5897856517935,
+      "mean_n_de_unreachable": 1097.3114285714287,
+      "n_compounds": 39,
+      "n_floor_compounds": 31,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.8846153846153846,
+      "share_5uM_above_10x": 0.4358974358974359,
+      "share_contrasts_unreachable": 0.478796169630643,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 799.1384126984127,
+      "n_compounds": 7,
+      "n_floor_compounds": 6,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 557.7092592592593,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 3,
+      "n_floor_compounds": 3,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.6174365252754261,
+      "de_share_above_ci": [
+        0.5336158524333504,
+        0.6945637024663052
+      ],
+      "excess_share_above": 0.7701369303431742,
+      "excess_share_above_ci": [
+        0.5692203686644822,
+        0.9128216593535609
+      ],
+      "mean_n_de_reachable": 1108.951157970623,
+      "mean_n_de_unreachable": 1365.0351202749143,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.21728421503533948,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 49,
+      "recovery_share_ratio_le_0.5": 0.8163265306122449,
+      "share_5uM_above_10x": 0.543859649122807,
+      "share_contrasts_unreachable": 0.5673178149491168,
+      "share_lowest_dose_above": 0.2543859649122807,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.5046812962863997,
+      "de_share_above_ci": [
+        0.4506456649256985,
+        0.560087867686609
+      ],
+      "excess_share_above": 0.6517540888888428,
+      "excess_share_above_ci": [
+        0.505109153566885,
+        0.772995365913602
+      ],
+      "mean_n_de_reachable": 1081.4581303641849,
+      "mean_n_de_unreachable": 1183.8731464174455,
+      "n_compounds": 74,
+      "n_floor_compounds": 57,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.21728421503533948,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 49,
+      "recovery_share_ratio_le_0.5": 0.8163265306122449,
+      "share_5uM_above_10x": 0.44594594594594594,
+      "share_contrasts_unreachable": 0.48206884123265453,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1587.8435249042147,
+      "n_compounds": 29,
+      "n_floor_compounds": 23,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.25",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1204.7268686868688,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.7694907522669663,
+      "de_share_above_ci": [
+        0.6543498441311879,
+        0.8626192903377021
+      ],
+      "excess_share_above": 0.8344162424637007,
+      "excess_share_above_ci": [
+        0.5870793475262529,
+        0.9733741679237784
+      ],
+      "mean_n_de_reachable": 849.1225595238095,
+      "mean_n_de_unreachable": 1141.9804196642685,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.10186915887850467,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.8235294117647058,
+      "share_5uM_above_10x": 0.7384615384615385,
+      "share_contrasts_unreachable": 0.7128205128205128,
+      "share_lowest_dose_above": 0.49230769230769234,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.603037204953035,
+      "de_share_above_ci": [
+        0.5092020379471616,
+        0.6860083664505721
+      ],
+      "excess_share_above": 0.7479046050688987,
+      "excess_share_above_ci": [
+        0.47296562335022163,
+        0.9115969397383443
+      ],
+      "mean_n_de_reachable": 769.6007894736842,
+      "mean_n_de_unreachable": 1033.177519379845,
+      "n_compounds": 27,
+      "n_floor_compounds": 19,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.10186915887850467,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.8235294117647058,
+      "share_5uM_above_10x": 0.5925925925925926,
+      "share_contrasts_unreachable": 0.5308641975308642,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1190.715052083333,
+      "n_compounds": 32,
+      "n_floor_compounds": 25,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1017.0018518518519,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 6,
+      "n_floor_compounds": 5,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.7015911431840494,
+      "de_share_above_ci": [
+        0.6179399430033511,
+        0.7766269580040139
+      ],
+      "excess_share_above": 0.7061648163662853,
+      "excess_share_above_ci": [
+        0.551410926285863,
+        0.8291622682766302
+      ],
+      "mean_n_de_reachable": 534.9502314814814,
+      "mean_n_de_unreachable": 628.3492517006802,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.6938775510204082,
+      "share_contrasts_unreachable": 0.6668481219379423,
+      "share_lowest_dose_above": 0.3469387755102041,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.5753281153635195,
+      "de_share_above_ci": [
+        0.5005465277330432,
+        0.6472401648975601
+      ],
+      "excess_share_above": 0.6302130230918641,
+      "excess_share_above_ci": [
+        0.45570473610468304,
+        0.7620130481459232
+      ],
+      "mean_n_de_reachable": 560.1399751707014,
+      "mean_n_de_unreachable": 693.6255319148938,
+      "n_compounds": 30,
+      "n_floor_compounds": 27,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.5666666666666667,
+      "share_contrasts_unreachable": 0.5224544241885283,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 568.1926797385621,
+      "n_compounds": 17,
+      "n_floor_compounds": 11,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 354.59166666666664,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 2,
+      "n_floor_compounds": 2,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.7492241473958784,
+      "de_share_above_ci": [
+        0.6612361917281019,
+        0.8216896123424745
+      ],
+      "excess_share_above": 0.8197674637717595,
+      "excess_share_above_ci": [
+        0.5873047307754091,
+        0.9485411443283869
+      ],
+      "mean_n_de_reachable": 702.572662601626,
+      "mean_n_de_unreachable": 929.592848101266,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.10186915887850467,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 40,
+      "recovery_share_ratio_le_0.5": 0.825,
+      "share_5uM_above_10x": 0.7192982456140351,
+      "share_contrasts_unreachable": 0.6930635162007253,
+      "share_lowest_dose_above": 0.4298245614035088,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.5909905369075388,
+      "de_share_above_ci": [
+        0.5289128060310659,
+        0.647873812343886
+      ],
+      "excess_share_above": 0.7056179735176317,
+      "excess_share_above_ci": [
+        0.5153777790282318,
+        0.8387836681972858
+      ],
+      "mean_n_de_reachable": 658.4540925559949,
+      "mean_n_de_unreachable": 855.8559259259258,
+      "n_compounds": 57,
+      "n_floor_compounds": 46,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.10186915887850467,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 40,
+      "recovery_share_ratio_le_0.5": 0.825,
+      "share_5uM_above_10x": 0.5789473684210527,
+      "share_contrasts_unreachable": 0.5264389330837623,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 974.7379024943309,
+      "n_compounds": 49,
+      "n_floor_compounds": 36,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 851.3993055555557,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 7,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.5204636827881917,
+      "de_share_above_ci": [
+        0.4031099435852264,
+        0.6331045092467715
+      ],
+      "excess_share_above": 0.6728222188408921,
+      "excess_share_above_ci": [
+        0.4131970410674315,
+        0.841643190188758
+      ],
+      "mean_n_de_reachable": 891.1864564564564,
+      "mean_n_de_unreachable": 1278.1481547619044,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.14150518529556835,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.7692307692307693,
+      "share_5uM_above_10x": 0.4,
+      "share_contrasts_unreachable": 0.4307692307692308,
+      "share_lowest_dose_above": 0.16923076923076924,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.5938960011930539,
+      "de_share_above_ci": [
+        0.46776073654346045,
+        0.6857382521139591
+      ],
+      "excess_share_above": 0.8516173571011809,
+      "excess_share_above_ci": [
+        0.7536720568337291,
+        0.944205529996416
+      ],
+      "mean_n_de_reachable": 906.1947953216376,
+      "mean_n_de_unreachable": 1481.1511437908498,
+      "n_compounds": 36,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.14150518529556835,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.7692307692307693,
+      "share_5uM_above_10x": 0.4166666666666667,
+      "share_contrasts_unreachable": 0.4722222222222222,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 964.4162626262626,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 875.3443209876544,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 18,
+      "n_floor_compounds": 14,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.30950976568634386,
+      "de_share_above_ci": [
+        0.23340091874711047,
+        0.3825645252847764
+      ],
+      "excess_share_above": 0.4297049925771895,
+      "excess_share_above_ci": [
+        0.23311042628572087,
+        0.5919934221322386
+      ],
+      "mean_n_de_reachable": 582.9540849044504,
+      "mean_n_de_unreachable": 631.7554263565892,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 20,
+      "recovery_share_ratio_le_0.5": 0.9,
+      "share_5uM_above_10x": 0.20408163265306123,
+      "share_contrasts_unreachable": 0.29259662493195426,
+      "share_lowest_dose_above": 0.02040816326530612,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.43877893103181,
+      "de_share_above_ci": [
+        0.3809426484264238,
+        0.5055614005715025
+      ],
+      "excess_share_above": 0.5732111236406595,
+      "excess_share_above_ci": [
+        0.40740148288971556,
+        0.7295963628845646
+      ],
+      "mean_n_de_reachable": 632.1007678751259,
+      "mean_n_de_unreachable": 654.3138333333333,
+      "n_compounds": 31,
+      "n_floor_compounds": 24,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 20,
+      "recovery_share_ratio_le_0.5": 0.9,
+      "share_5uM_above_10x": 0.2903225806451613,
+      "share_contrasts_unreachable": 0.43029259896729777,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 330.9766666666667,
+      "n_compounds": 1,
+      "n_floor_compounds": 1,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 531.9186274509804,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 17,
+      "n_floor_compounds": 15,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.45749837648295905,
+      "de_share_above_ci": [
+        0.3622789808316442,
+        0.5406202053767315
+      ],
+      "excess_share_above": 0.6450535572976632,
+      "excess_share_above_ci": [
+        0.4218417179404013,
+        0.7911538127401606
+      ],
+      "mean_n_de_reachable": 742.117618781789,
+      "mean_n_de_unreachable": 1059.2907742782156,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.14150518529556835,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 46,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.3157894736842105,
+      "share_contrasts_unreachable": 0.37138846648730844,
+      "share_lowest_dose_above": 0.10526315789473684,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.5443750381174207,
+      "de_share_above_ci": [
+        0.45321854323857097,
+        0.6225068860902557
+      ],
+      "excess_share_above": 0.8150612110182002,
+      "excess_share_above_ci": [
+        0.6889762708487372,
+        0.900575126673574
+      ],
+      "mean_n_de_reachable": 774.1829756275006,
+      "mean_n_de_unreachable": 1117.706172161172,
+      "n_compounds": 67,
+      "n_floor_compounds": 50,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.14150518529556835,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 46,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.3582089552238806,
+      "share_contrasts_unreachable": 0.4528264331210191,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 911.6296296296296,
+      "n_compounds": 12,
+      "n_floor_compounds": 10,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 708.5375555555556,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 35,
+      "n_floor_compounds": 29,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.6677609745718496,
+      "de_share_above_ci": [
+        0.5503092404213388,
+        0.7798774386980302
+      ],
+      "excess_share_above": 0.7914818666603799,
+      "excess_share_above_ci": [
+        0.5236863708412184,
+        0.9545824649166335
+      ],
+      "mean_n_de_reachable": 878.6705982905984,
+      "mean_n_de_unreachable": 1177.3490170940174,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.1392440415143717,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.5846153846153846,
+      "share_contrasts_unreachable": 0.6,
+      "share_lowest_dose_above": 0.3384615384615385,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.5157128009749412,
+      "de_share_above_ci": [
+        0.41945812349313166,
+        0.6022117478635804
+      ],
+      "excess_share_above": 0.7009517568795485,
+      "excess_share_above_ci": [
+        0.43438040134657696,
+        0.8749982354827109
+      ],
+      "mean_n_de_reachable": 812.3637654320988,
+      "mean_n_de_unreachable": 915.9653594771243,
+      "n_compounds": 35,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.1392440415143717,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.45714285714285713,
+      "share_contrasts_unreachable": 0.4857142857142857,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1379.3272979797978,
+      "n_compounds": 22,
+      "n_floor_compounds": 17,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 1027.860972222222,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 6,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.5677329343787548,
+      "de_share_above_ci": [
+        0.4960533259531108,
+        0.6405345020512486
+      ],
+      "excess_share_above": 0.6880256728661517,
+      "excess_share_above_ci": [
+        0.5422499827425618,
+        0.8114520141487034
+      ],
+      "mean_n_de_reachable": 542.3072708214218,
+      "mean_n_de_unreachable": 647.1373160173162,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 27,
+      "recovery_share_ratio_le_0.5": 0.8888888888888888,
+      "share_5uM_above_10x": 0.4897959183673469,
+      "share_contrasts_unreachable": 0.5239520958083832,
+      "share_lowest_dose_above": 0.14285714285714285,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.5297596607247361,
+      "de_share_above_ci": [
+        0.4653592485743639,
+        0.5953414755772481
+      ],
+      "excess_share_above": 0.6439078935021774,
+      "excess_share_above_ci": [
+        0.47446795087168453,
+        0.7700392911218175
+      ],
+      "mean_n_de_reachable": 577.4210411198601,
+      "mean_n_de_unreachable": 708.1227380952382,
+      "n_compounds": 39,
+      "n_floor_compounds": 31,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 27,
+      "recovery_share_ratio_le_0.5": 0.8888888888888888,
+      "share_5uM_above_10x": 0.4358974358974359,
+      "share_contrasts_unreachable": 0.478796169630643,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 484.5095238095238,
+      "n_compounds": 7,
+      "n_floor_compounds": 6,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 304.47,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 3,
+      "n_floor_compounds": 3,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.637904708917254,
+      "de_share_above_ci": [
+        0.5417228615662637,
+        0.7197513339888135
+      ],
+      "excess_share_above": 0.779665180224074,
+      "excess_share_above_ci": [
+        0.5422177678474334,
+        0.9262799894929635
+      ],
+      "mean_n_de_reachable": 719.6277597548886,
+      "mean_n_de_unreachable": 966.9041666666674,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.1392440415143717,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 50,
+      "recovery_share_ratio_le_0.5": 0.86,
+      "share_5uM_above_10x": 0.543859649122807,
+      "share_contrasts_unreachable": 0.5673178149491168,
+      "share_lowest_dose_above": 0.2543859649122807,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.5220685395173462,
+      "de_share_above_ci": [
+        0.46356711793662764,
+        0.5779461989252158
+      ],
+      "excess_share_above": 0.6792356265226437,
+      "excess_share_above_ci": [
+        0.5072916988559281,
+        0.8115066205798422
+      ],
+      "mean_n_de_reachable": 687.7803583855253,
+      "mean_n_de_unreachable": 807.1879127725855,
+      "n_compounds": 74,
+      "n_floor_compounds": 57,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.1392440415143717,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 50,
+      "recovery_share_ratio_le_0.5": 0.86,
+      "share_5uM_above_10x": 0.44594594594594594,
+      "share_contrasts_unreachable": 0.48206884123265453,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 1163.3368007662827,
+      "n_compounds": 29,
+      "n_floor_compounds": 23,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 830.5725252525251,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.7757392696205391,
+      "de_share_above_ci": [
+        0.6486920048736523,
+        0.878653654387801
+      ],
+      "excess_share_above": 0.8412710257204331,
+      "excess_share_above_ci": [
+        0.5648432196026361,
+        0.9798919256575254
+      ],
+      "mean_n_de_reachable": 563.464642857143,
+      "mean_n_de_unreachable": 785.2400479616307,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 15,
+      "recovery_share_ratio_le_0.5": 0.7333333333333333,
+      "share_5uM_above_10x": 0.7384615384615385,
+      "share_contrasts_unreachable": 0.7128205128205128,
+      "share_lowest_dose_above": 0.49230769230769234,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.6112122314763583,
+      "de_share_above_ci": [
+        0.4907390960759253,
+        0.7105284912019915
+      ],
+      "excess_share_above": 0.7815871571218859,
+      "excess_share_above_ci": [
+        0.47140219210696077,
+        0.9406939444496215
+      ],
+      "mean_n_de_reachable": 507.3377192982456,
+      "mean_n_de_unreachable": 704.8419379844962,
+      "n_compounds": 27,
+      "n_floor_compounds": 19,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 15,
+      "recovery_share_ratio_le_0.5": 0.7333333333333333,
+      "share_5uM_above_10x": 0.5925925925925926,
+      "share_contrasts_unreachable": 0.5308641975308642,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 821.2517013888887,
+      "n_compounds": 32,
+      "n_floor_compounds": 25,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 681.9548148148149,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 6,
+      "n_floor_compounds": 5,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.7092476845200842,
+      "de_share_above_ci": [
+        0.629936044123772,
+        0.7889994788050259
+      ],
+      "excess_share_above": 0.7057617966415289,
+      "excess_share_above_ci": [
+        0.5511075802263529,
+        0.8425699874866045
+      ],
+      "mean_n_de_reachable": 309.68409586056646,
+      "mean_n_de_unreachable": 377.40615646258505,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 24,
+      "recovery_share_ratio_le_0.5": 0.7916666666666666,
+      "share_5uM_above_10x": 0.6938775510204082,
+      "share_contrasts_unreachable": 0.6668481219379423,
+      "share_lowest_dose_above": 0.3469387755102041,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.5835001717873661,
+      "de_share_above_ci": [
+        0.5076658935306709,
+        0.6632352983983356
+      ],
+      "excess_share_above": 0.625192494150417,
+      "excess_share_above_ci": [
+        0.4419145508755725,
+        0.7761498404169326
+      ],
+      "mean_n_de_reachable": 327.04896027312225,
+      "mean_n_de_unreachable": 418.7987234042554,
+      "n_compounds": 30,
+      "n_floor_compounds": 27,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 24,
+      "recovery_share_ratio_le_0.5": 0.7916666666666666,
+      "share_5uM_above_10x": 0.5666666666666667,
+      "share_contrasts_unreachable": 0.5224544241885283,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 339.26006535947715,
+      "n_compounds": 17,
+      "n_floor_compounds": 11,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 185.35166666666666,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 2,
+      "n_floor_compounds": 2,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.7577595280844487,
+      "de_share_above_ci": [
+        0.6563271416936493,
+        0.8355145871707793
+      ],
+      "excess_share_above": 0.829426464501109,
+      "excess_share_above_ci": [
+        0.603223657904196,
+        0.9608347149883056
+      ],
+      "mean_n_de_reachable": 445.08530233739833,
+      "mean_n_de_unreachable": 616.5998734177217,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 39,
+      "recovery_share_ratio_le_0.5": 0.7692307692307693,
+      "share_5uM_above_10x": 0.7192982456140351,
+      "share_contrasts_unreachable": 0.6930635162007253,
+      "share_lowest_dose_above": 0.4298245614035088,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.5999925988691073,
+      "de_share_above_ci": [
+        0.5309655114571644,
+        0.6656541259698452
+      ],
+      "excess_share_above": 0.7361286396988628,
+      "excess_share_above_ci": [
+        0.5155936570809824,
+        0.8721299728218624
+      ],
+      "mean_n_de_reachable": 411.6706604084322,
+      "mean_n_de_unreachable": 555.4638148148147,
+      "n_compounds": 57,
+      "n_floor_compounds": 46,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 39,
+      "recovery_share_ratio_le_0.5": 0.7692307692307693,
+      "share_5uM_above_10x": 0.5789473684210527,
+      "share_contrasts_unreachable": 0.5264389330837623,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 654.0301133786847,
+      "n_compounds": 49,
+      "n_floor_compounds": 36,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 557.8040277777778,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 7,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.5385931382921818,
+      "de_share_above_ci": [
+        0.4050143376939057,
+        0.6496817106735314
+      ],
+      "excess_share_above": 0.6757515476685981,
+      "excess_share_above_ci": [
+        0.403546603751504,
+        0.8543302653255855
+      ],
+      "mean_n_de_reachable": 584.8742942942941,
+      "mean_n_de_unreachable": 902.1588095238093,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.10164470106380362,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 24,
+      "recovery_share_ratio_le_0.5": 0.8333333333333334,
+      "share_5uM_above_10x": 0.4,
+      "share_contrasts_unreachable": 0.4307692307692308,
+      "share_lowest_dose_above": 0.16923076923076924,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.6267827437429442,
+      "de_share_above_ci": [
+        0.47689376758345364,
+        0.7328323059019223
+      ],
+      "excess_share_above": 0.867205451683692,
+      "excess_share_above_ci": [
+        0.7724373349876629,
+        0.9578400876880222
+      ],
+      "mean_n_de_reachable": 575.178187134503,
+      "mean_n_de_unreachable": 1079.5988235294117,
+      "n_compounds": 36,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.10164470106380362,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 24,
+      "recovery_share_ratio_le_0.5": 0.8333333333333334,
+      "share_5uM_above_10x": 0.4166666666666667,
+      "share_contrasts_unreachable": 0.4722222222222222,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 627.9333333333333,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 595.1090740740742,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 18,
+      "n_floor_compounds": 14,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.3284285904312864,
+      "de_share_above_ci": [
+        0.25063088087003943,
+        0.4044859003406829
+      ],
+      "excess_share_above": 0.4398826921894873,
+      "excess_share_above_ci": [
+        0.2510873260865007,
+        0.5989541254454845
+      ],
+      "mean_n_de_reachable": 336.8705591894318,
+      "mean_n_de_unreachable": 398.2993798449612,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 19,
+      "recovery_share_ratio_le_0.5": 0.7894736842105263,
+      "share_5uM_above_10x": 0.20408163265306123,
+      "share_contrasts_unreachable": 0.29259662493195426,
+      "share_lowest_dose_above": 0.02040816326530612,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.4595423664509108,
+      "de_share_above_ci": [
+        0.39043384649611107,
+        0.5301726514911128
+      ],
+      "excess_share_above": 0.5670114586741631,
+      "excess_share_above_ci": [
+        0.3935922689206561,
+        0.7434114281638025
+      ],
+      "mean_n_de_reachable": 370.74465005035245,
+      "mean_n_de_unreachable": 417.3753333333333,
+      "n_compounds": 31,
+      "n_floor_compounds": 24,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 19,
+      "recovery_share_ratio_le_0.5": 0.7894736842105263,
+      "share_5uM_above_10x": 0.2903225806451613,
+      "share_contrasts_unreachable": 0.43029259896729777,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 143.95333333333335,
+      "n_compounds": 1,
+      "n_floor_compounds": 1,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 301.69464052287583,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 17,
+      "n_floor_compounds": 15,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.4817633267471664,
+      "de_share_above_ci": [
+        0.3733585400428391,
+        0.5787399338165848
+      ],
+      "excess_share_above": 0.6551347740551385,
+      "excess_share_above_ci": [
+        0.40707413927753977,
+        0.812470216225711
+      ],
+      "mean_n_de_reachable": 464.9335225158169,
+      "mean_n_de_unreachable": 731.5607349081365,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.10164470106380362,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 43,
+      "recovery_share_ratio_le_0.5": 0.813953488372093,
+      "share_5uM_above_10x": 0.3157894736842105,
+      "share_contrasts_unreachable": 0.37138846648730844,
+      "share_lowest_dose_above": 0.10526315789473684,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.5778532785515761,
+      "de_share_above_ci": [
+        0.46484133835549973,
+        0.664089247117215
+      ],
+      "excess_share_above": 0.8360523858915332,
+      "excess_share_above_ci": [
+        0.6937465284803911,
+        0.9158840131924368
+      ],
+      "mean_n_de_reachable": 476.71692736752755,
+      "mean_n_de_unreachable": 788.511575091575,
+      "n_compounds": 67,
+      "n_floor_compounds": 50,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.10164470106380362,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 43,
+      "recovery_share_ratio_le_0.5": 0.813953488372093,
+      "share_5uM_above_10x": 0.3582089552238806,
+      "share_contrasts_unreachable": 0.4528264331210191,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 587.6016666666667,
+      "n_compounds": 12,
+      "n_floor_compounds": 10,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 452.593492063492,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 35,
+      "n_floor_compounds": 29,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.6820547417390409,
+      "de_share_above_ci": [
+        0.5414983488633534,
+        0.7939932004186105
+      ],
+      "excess_share_above": 0.7955947589578443,
+      "excess_share_above_ci": [
+        0.507278029779797,
+        0.9603440079944081
+      ],
+      "mean_n_de_reachable": 573.5340598290599,
+      "mean_n_de_unreachable": 820.2284615384615,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 21,
+      "recovery_share_ratio_le_0.5": 0.7619047619047619,
+      "share_5uM_above_10x": 0.5846153846153846,
+      "share_contrasts_unreachable": 0.6,
+      "share_lowest_dose_above": 0.3384615384615385,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.5281320168026772,
+      "de_share_above_ci": [
+        0.41926848318422105,
+        0.6266935101202104
+      ],
+      "excess_share_above": 0.7269634220748106,
+      "excess_share_above_ci": [
+        0.4171887471221156,
+        0.9086543650113461
+      ],
+      "mean_n_de_reachable": 519.1246296296297,
+      "mean_n_de_unreachable": 615.2012418300654,
+      "n_compounds": 35,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 21,
+      "recovery_share_ratio_le_0.5": 0.7619047619047619,
+      "share_5uM_above_10x": 0.45714285714285713,
+      "share_contrasts_unreachable": 0.4857142857142857,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 978.6585858585859,
+      "n_compounds": 22,
+      "n_floor_compounds": 17,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 695.9552777777777,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 6,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.5805564950124904,
+      "de_share_above_ci": [
+        0.5016063291691713,
+        0.6584286502167879
+      ],
+      "excess_share_above": 0.6907521629138202,
+      "excess_share_above_ci": [
+        0.5270252143260482,
+        0.8269090612651047
+      ],
+      "mean_n_de_reachable": 312.6517057366114,
+      "mean_n_de_unreachable": 393.17952380952386,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 27,
+      "recovery_share_ratio_le_0.5": 0.8518518518518519,
+      "share_5uM_above_10x": 0.4897959183673469,
+      "share_contrasts_unreachable": 0.5239520958083832,
+      "share_lowest_dose_above": 0.14285714285714285,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.5433822825904558,
+      "de_share_above_ci": [
+        0.4757814305607826,
+        0.6105686071901075
+      ],
+      "excess_share_above": 0.6476197592606272,
+      "excess_share_above_ci": [
+        0.46616781169307075,
+        0.7745808071913723
+      ],
+      "mean_n_de_reachable": 335.0766076115486,
+      "mean_n_de_unreachable": 434.06398809523813,
+      "n_compounds": 39,
+      "n_floor_compounds": 31,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 27,
+      "recovery_share_ratio_le_0.5": 0.8518518518518519,
+      "share_5uM_above_10x": 0.4358974358974359,
+      "share_contrasts_unreachable": 0.478796169630643,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 284.1542857142857,
+      "n_compounds": 7,
+      "n_floor_compounds": 6,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 160.76037037037037,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 3,
+      "n_floor_compounds": 3,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.6546089793955406,
+      "de_share_above_ci": [
+        0.5537747839092448,
+        0.742222378383891
+      ],
+      "excess_share_above": 0.7864307001282188,
+      "excess_share_above_ci": [
+        0.5096341129820879,
+        0.941098661198879
+      ],
+      "mean_n_de_reachable": 450.1809272776426,
+      "mean_n_de_unreachable": 650.7296563573883,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 48,
+      "recovery_share_ratio_le_0.5": 0.8125,
+      "share_5uM_above_10x": 0.543859649122807,
+      "share_contrasts_unreachable": 0.5673178149491168,
+      "share_lowest_dose_above": 0.2543859649122807,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.5346827279229477,
+      "de_share_above_ci": [
+        0.4696040326655792,
+        0.5964052500996386
+      ],
+      "excess_share_above": 0.7013010336816489,
+      "excess_share_above_ci": [
+        0.489218982783617,
+        0.8399870019450942
+      ],
+      "mean_n_de_reachable": 421.5292275574113,
+      "mean_n_de_unreachable": 520.4004361370716,
+      "n_compounds": 74,
+      "n_floor_compounds": 57,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.11420612813370473,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 48,
+      "recovery_share_ratio_le_0.5": 0.8125,
+      "share_5uM_above_10x": 0.44594594594594594,
+      "share_contrasts_unreachable": 0.48206884123265453,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 811.0196168582374,
+      "n_compounds": 29,
+      "n_floor_compounds": 23,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "0.75",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 549.9930303030302,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.7769351345449164,
+      "de_share_above_ci": [
+        0.6419066678880212,
+        0.8822392698400914
+      ],
+      "excess_share_above": 0.8476994920805764,
+      "excess_share_above_ci": [
+        0.5772935662905879,
+        0.985435628735387
+      ],
+      "mean_n_de_reachable": 393.804880952381,
+      "mean_n_de_unreachable": 552.5962230215827,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.06527285613040397,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.9411764705882353,
+      "share_5uM_above_10x": 0.7384615384615385,
+      "share_contrasts_unreachable": 0.7128205128205128,
+      "share_lowest_dose_above": 0.49230769230769234,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.6081508767766307,
+      "de_share_above_ci": [
+        0.47541661848516603,
+        0.7233863201973364
+      ],
+      "excess_share_above": 0.8071285176602203,
+      "excess_share_above_ci": [
+        0.47390678527074787,
+        0.9556667985696016
+      ],
+      "mean_n_de_reachable": 358.32605263157893,
+      "mean_n_de_unreachable": 491.457519379845,
+      "n_compounds": 27,
+      "n_floor_compounds": 19,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.06527285613040397,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.9411764705882353,
+      "share_5uM_above_10x": 0.5925925925925926,
+      "share_contrasts_unreachable": 0.5308641975308642,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 579.9812673611113,
+      "n_compounds": 32,
+      "n_floor_compounds": 25,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 468.7046296296296,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 6,
+      "n_floor_compounds": 5,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.7129287086133793,
+      "de_share_above_ci": [
+        0.6236562779413902,
+        0.795687468723587
+      ],
+      "excess_share_above": 0.6958717631916025,
+      "excess_share_above_ci": [
+        0.5212914768834843,
+        0.8445193743502732
+      ],
+      "mean_n_de_reachable": 194.8877314814815,
+      "mean_n_de_unreachable": 241.79993197278912,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 24,
+      "recovery_share_ratio_le_0.5": 0.7916666666666666,
+      "share_5uM_above_10x": 0.6938775510204082,
+      "share_contrasts_unreachable": 0.6668481219379423,
+      "share_lowest_dose_above": 0.3469387755102041,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.5847427443389401,
+      "de_share_above_ci": [
+        0.49662724298330463,
+        0.668422022838334
+      ],
+      "excess_share_above": 0.6152964543112018,
+      "excess_share_above_ci": [
+        0.40630553732404245,
+        0.7760377939676902
+      ],
+      "mean_n_de_reachable": 207.4344351334575,
+      "mean_n_de_unreachable": 266.98992907801414,
+      "n_compounds": 30,
+      "n_floor_compounds": 27,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 24,
+      "recovery_share_ratio_le_0.5": 0.7916666666666666,
+      "share_5uM_above_10x": 0.5666666666666667,
+      "share_contrasts_unreachable": 0.5224544241885283,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 218.5856209150327,
+      "n_compounds": 17,
+      "n_floor_compounds": 11,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 105.05333333333333,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 2,
+      "n_floor_compounds": 2,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.7608305256238337,
+      "de_share_above_ci": [
+        0.6540703710446734,
+        0.8461502278994399
+      ],
+      "excess_share_above": 0.8368774002746124,
+      "excess_share_above_ci": [
+        0.5841146390539049,
+        0.9692388810334533
+      ],
+      "mean_n_de_reachable": 301.0173081808943,
+      "mean_n_de_unreachable": 424.0813009845287,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.06527285613040397,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 41,
+      "recovery_share_ratio_le_0.5": 0.8536585365853658,
+      "share_5uM_above_10x": 0.7192982456140351,
+      "share_contrasts_unreachable": 0.6930635162007253,
+      "share_lowest_dose_above": 0.4298245614035088,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.5992139333387576,
+      "de_share_above_ci": [
+        0.5126893714923152,
+        0.6759885884837603
+      ],
+      "excess_share_above": 0.7598100647131796,
+      "excess_share_above_ci": [
+        0.5168509818207162,
+        0.8945652583265657
+      ],
+      "mean_n_de_reachable": 278.258069828722,
+      "mean_n_de_unreachable": 374.2355555555556,
+      "n_compounds": 57,
+      "n_floor_compounds": 46,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.06527285613040397,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 41,
+      "recovery_share_ratio_le_0.5": 0.8536585365853658,
+      "share_5uM_above_10x": 0.5789473684210527,
+      "share_contrasts_unreachable": 0.5264389330837623,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 454.5991043083901,
+      "n_compounds": 49,
+      "n_floor_compounds": 36,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 377.7918055555555,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 7,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.5490227150379,
+      "de_share_above_ci": [
+        0.39412879298010584,
+        0.6748083019217889
+      ],
+      "excess_share_above": 0.6794682615857205,
+      "excess_share_above_ci": [
+        0.4022851525475163,
+        0.8662269063873174
+      ],
+      "mean_n_de_reachable": 401.67022522522524,
+      "mean_n_de_unreachable": 646.1732539682542,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.07273411164645877,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 25,
+      "recovery_share_ratio_le_0.5": 0.84,
+      "share_5uM_above_10x": 0.4,
+      "share_contrasts_unreachable": 0.4307692307692308,
+      "share_lowest_dose_above": 0.16923076923076924,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.649762858816255,
+      "de_share_above_ci": [
+        0.49031890910760656,
+        0.7523969285860526
+      ],
+      "excess_share_above": 0.8798633200826742,
+      "excess_share_above_ci": [
+        0.7828239915052885,
+        0.9633539814966727
+      ],
+      "mean_n_de_reachable": 382.94178362573086,
+      "mean_n_de_unreachable": 794.0175816993465,
+      "n_compounds": 36,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.07273411164645877,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 25,
+      "recovery_share_ratio_le_0.5": 0.84,
+      "share_5uM_above_10x": 0.4166666666666667,
+      "share_contrasts_unreachable": 0.4722222222222222,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 417.6865656565657,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 421.43913580246914,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 18,
+      "n_floor_compounds": 14,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.3417633520732083,
+      "de_share_above_ci": [
+        0.25650672210211184,
+        0.42670933708243325
+      ],
+      "excess_share_above": 0.44218521300241287,
+      "excess_share_above_ci": [
+        0.25089900270176435,
+        0.603831845878628
+      ],
+      "mean_n_de_reachable": 210.45145568808513,
+      "mean_n_de_unreachable": 264.1758914728682,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 21,
+      "recovery_share_ratio_le_0.5": 0.8571428571428571,
+      "share_5uM_above_10x": 0.20408163265306123,
+      "share_contrasts_unreachable": 0.29259662493195426,
+      "share_lowest_dose_above": 0.02040816326530612,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.4716599683969671,
+      "de_share_above_ci": [
+        0.39342190511118513,
+        0.5487217322817676
+      ],
+      "excess_share_above": 0.5562349531033486,
+      "excess_share_above_ci": [
+        0.37300692400063234,
+        0.7457338723161044
+      ],
+      "mean_n_de_reachable": 235.89155337361532,
+      "mean_n_de_unreachable": 278.8148333333333,
+      "n_compounds": 31,
+      "n_floor_compounds": 24,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 21,
+      "recovery_share_ratio_le_0.5": 0.8571428571428571,
+      "share_5uM_above_10x": 0.2903225806451613,
+      "share_contrasts_unreachable": 0.43029259896729777,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 68.99,
+      "n_compounds": 1,
+      "n_floor_compounds": 1,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 184.033660130719,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 17,
+      "n_floor_compounds": 15,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.4968743418519119,
+      "de_share_above_ci": [
+        0.3736369687823674,
+        0.5983210580495945
+      ],
+      "excess_share_above": 0.6625550208058016,
+      "excess_share_above_ci": [
+        0.40363300086716725,
+        0.8321449611597683
+      ],
+      "mean_n_de_reachable": 309.1920744944796,
+      "mean_n_de_unreachable": 516.835564304462,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.07273411164645877,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 46,
+      "recovery_share_ratio_le_0.5": 0.8478260869565217,
+      "share_5uM_above_10x": 0.3157894736842105,
+      "share_contrasts_unreachable": 0.37138846648730844,
+      "share_lowest_dose_above": 0.10526315789473684,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.6007758352997792,
+      "de_share_above_ci": [
+        0.47277899506612414,
+        0.6942069975984413
+      ],
+      "excess_share_above": 0.8520234663172942,
+      "excess_share_above_ci": [
+        0.7123566367684198,
+        0.9327145825774743
+      ],
+      "mean_n_de_reachable": 312.1180277676731,
+      "mean_n_de_unreachable": 567.5548351648354,
+      "n_compounds": 67,
+      "n_floor_compounds": 50,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.07273411164645877,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 46,
+      "recovery_share_ratio_le_0.5": 0.8478260869565217,
+      "share_5uM_above_10x": 0.3582089552238806,
+      "share_contrasts_unreachable": 0.4528264331210191,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 388.62851851851855,
+      "n_compounds": 12,
+      "n_floor_compounds": 10,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 306.1279047619048,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 35,
+      "n_floor_compounds": 29,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.6883035000507178,
+      "de_share_above_ci": [
+        0.5330412514307801,
+        0.8078568203784244
+      ],
+      "excess_share_above": 0.7988101790709152,
+      "excess_share_above_ci": [
+        0.5035885900134197,
+        0.968367527801866
+      ],
+      "mean_n_de_reachable": 395.071111111111,
+      "mean_n_de_unreachable": 581.6102706552708,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.08023042469375641,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.5846153846153846,
+      "share_contrasts_unreachable": 0.6,
+      "share_lowest_dose_above": 0.3384615384615385,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.5276860553617161,
+      "de_share_above_ci": [
+        0.41265930530241735,
+        0.6344911798685072
+      ],
+      "excess_share_above": 0.7431223150665301,
+      "excess_share_above_ci": [
+        0.3930767665121952,
+        0.9249535383703925
+      ],
+      "mean_n_de_reachable": 356.20987654320993,
+      "mean_n_de_unreachable": 421.3804575163399,
+      "n_compounds": 35,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.08023042469375641,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.45714285714285713,
+      "share_contrasts_unreachable": 0.4857142857142857,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 705.4242171717174,
+      "n_compounds": 22,
+      "n_floor_compounds": 17,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 482.50888888888886,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 6,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.5874964360674884,
+      "de_share_above_ci": [
+        0.5090066945890019,
+        0.6652357312337585
+      ],
+      "excess_share_above": 0.6806070515130132,
+      "excess_share_above_ci": [
+        0.5028530225896068,
+        0.8209807666320948
+      ],
+      "mean_n_de_reachable": 195.98103678292355,
+      "mean_n_de_unreachable": 253.60082251082252,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 28,
+      "recovery_share_ratio_le_0.5": 0.8571428571428571,
+      "share_5uM_above_10x": 0.4897959183673469,
+      "share_contrasts_unreachable": 0.5239520958083832,
+      "share_lowest_dose_above": 0.14285714285714285,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.5492062959002205,
+      "de_share_above_ci": [
+        0.47362645081848964,
+        0.6212838518483116
+      ],
+      "excess_share_above": 0.6408345099884571,
+      "excess_share_above_ci": [
+        0.45986913572360755,
+        0.7893606385617588
+      ],
+      "mean_n_de_reachable": 211.39096675415576,
+      "mean_n_de_unreachable": 280.3502976190476,
+      "n_compounds": 39,
+      "n_floor_compounds": 31,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 28,
+      "recovery_share_ratio_le_0.5": 0.8571428571428571,
+      "share_5uM_above_10x": 0.4358974358974359,
+      "share_contrasts_unreachable": 0.478796169630643,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 182.26888888888888,
+      "n_compounds": 7,
+      "n_floor_compounds": 6,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 91.60444444444443,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 3,
+      "n_floor_compounds": 3,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.6629395101340029,
+      "de_share_above_ci": [
+        0.5477123138418395,
+        0.7617775726863735
+      ],
+      "excess_share_above": 0.7903848070552466,
+      "excess_share_above_ci": [
+        0.5341664127357227,
+        0.9499163255382517
+      ],
+      "mean_n_de_reachable": 300.9352527710192,
+      "mean_n_de_unreachable": 451.4209536082473,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.08023042469375641,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 51,
+      "recovery_share_ratio_le_0.5": 0.8431372549019608,
+      "share_5uM_above_10x": 0.543859649122807,
+      "share_contrasts_unreachable": 0.5673178149491168,
+      "share_lowest_dose_above": 0.2543859649122807,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.5365615756136383,
+      "de_share_above_ci": [
+        0.4591559812424417,
+        0.6074560211527963
+      ],
+      "excess_share_above": 0.7139862737419683,
+      "excess_share_above_ci": [
+        0.4829680945111506,
+        0.8635940060986738
+      ],
+      "mean_n_de_reachable": 279.416550684296,
+      "mean_n_de_unreachable": 347.57028037383174,
+      "n_compounds": 74,
+      "n_floor_compounds": 57,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.08023042469375641,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 51,
+      "recovery_share_ratio_le_0.5": 0.8431372549019608,
+      "share_5uM_above_10x": 0.44594594594594594,
+      "share_contrasts_unreachable": 0.48206884123265453,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 579.1453448275864,
+      "n_compounds": 29,
+      "n_floor_compounds": 23,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.0",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 375.89858585858593,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.7681287938737485,
+      "de_share_above_ci": [
+        0.5987562758804301,
+        0.8865802789466428
+      ],
+      "excess_share_above": 0.8575607821439091,
+      "excess_share_above_ci": [
+        0.5615943386195252,
+        0.9879013334367656
+      ],
+      "mean_n_de_reachable": 223.2042261904762,
+      "mean_n_de_unreachable": 297.89476019184656,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.06666666666666667,
+      "recovery_median_ratio": 0.01715672874514787,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.8235294117647058,
+      "share_5uM_above_10x": 0.7384615384615385,
+      "share_contrasts_unreachable": 0.7128205128205128,
+      "share_lowest_dose_above": 0.49230769230769234,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.5795742607380754,
+      "de_share_above_ci": [
+        0.3969091149899888,
+        0.7447504523822558
+      ],
+      "excess_share_above": 0.8282381903809751,
+      "excess_share_above_ci": [
+        0.4834586801024027,
+        0.9662274195257878
+      ],
+      "mean_n_de_reachable": 215.4039473684211,
+      "mean_n_de_unreachable": 262.41496124031005,
+      "n_compounds": 27,
+      "n_floor_compounds": 19,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.06666666666666667,
+      "recovery_median_ratio": 0.01715672874514787,
+      "recovery_n_compounds": 17,
+      "recovery_share_ratio_le_0.5": 0.8235294117647058,
+      "share_5uM_above_10x": 0.5925925925925926,
+      "share_contrasts_unreachable": 0.5308641975308642,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 313.78675347222224,
+      "n_compounds": 32,
+      "n_floor_compounds": 25,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 239.6714814814815,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 6,
+      "n_floor_compounds": 5,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.7139744317731745,
+      "de_share_above_ci": [
+        0.6111708363449548,
+        0.8067516262975747
+      ],
+      "excess_share_above": 0.681954072912495,
+      "excess_share_above_ci": [
+        0.5178666174014841,
+        0.8448552873155983
+      ],
+      "mean_n_de_reachable": 93.41796023965142,
+      "mean_n_de_unreachable": 116.4993537414966,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.8076923076923077,
+      "share_5uM_above_10x": 0.6938775510204082,
+      "share_contrasts_unreachable": 0.6668481219379423,
+      "share_lowest_dose_above": 0.3469387755102041,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.5775817143807693,
+      "de_share_above_ci": [
+        0.47332525809628845,
+        0.6792508235520411
+      ],
+      "excess_share_above": 0.6040496620305494,
+      "excess_share_above_ci": [
+        0.4065335549553261,
+        0.7770070390026461
+      ],
+      "mean_n_de_reachable": 100.88206083178152,
+      "mean_n_de_unreachable": 126.0814184397163,
+      "n_compounds": 30,
+      "n_floor_compounds": 27,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 26,
+      "recovery_share_ratio_le_0.5": 0.8076923076923077,
+      "share_5uM_above_10x": 0.5666666666666667,
+      "share_contrasts_unreachable": 0.5224544241885283,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 107.66882352941177,
+      "n_compounds": 17,
+      "n_floor_compounds": 11,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 39.975,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 2,
+      "n_floor_compounds": 2,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.7557397210243105,
+      "de_share_above_ci": [
+        0.6293390106283222,
+        0.8565256841485502
+      ],
+      "excess_share_above": 0.8472787186123908,
+      "excess_share_above_ci": [
+        0.5924128273800067,
+        0.9751997109022903
+      ],
+      "mean_n_de_reachable": 162.663681402439,
+      "mean_n_de_unreachable": 222.88737693389598,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.06666666666666667,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 43,
+      "recovery_share_ratio_le_0.5": 0.813953488372093,
+      "share_5uM_above_10x": 0.7192982456140351,
+      "share_contrasts_unreachable": 0.6930635162007253,
+      "share_lowest_dose_above": 0.4298245614035088,
+      "stratum": "all"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.5788866147590997,
+      "de_share_above_ci": [
+        0.45264992747652627,
+        0.691719455902252
+      ],
+      "excess_share_above": 0.7820743908497622,
+      "excess_share_above_ci": [
+        0.5303156003390128,
+        0.9172438705375212
+      ],
+      "mean_n_de_reachable": 154.63492259552038,
+      "mean_n_de_unreachable": 191.21855555555555,
+      "n_compounds": 57,
+      "n_floor_compounds": 46,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.06666666666666667,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 43,
+      "recovery_share_ratio_le_0.5": 0.813953488372093,
+      "share_5uM_above_10x": 0.5789473684210527,
+      "share_contrasts_unreachable": 0.5264389330837623,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 242.27645124716557,
+      "n_compounds": 49,
+      "n_floor_compounds": 36,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "unbound",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 189.74736111111113,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 7,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.5546984866011823,
+      "de_share_above_ci": [
+        0.36880832363123944,
+        0.6923732279433814
+      ],
+      "excess_share_above": 0.6880872577226103,
+      "excess_share_above_ci": [
+        0.36148167834927125,
+        0.8742731334901248
+      ],
+      "mean_n_de_reachable": 216.2593093093093,
+      "mean_n_de_unreachable": 355.976488095238,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.06539558089807555,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 25,
+      "recovery_share_ratio_le_0.5": 0.8,
+      "share_5uM_above_10x": 0.4,
+      "share_contrasts_unreachable": 0.4307692307692308,
+      "share_lowest_dose_above": 0.16923076923076924,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.6768239410909493,
+      "de_share_above_ci": [
+        0.48633616294072046,
+        0.7877692918677047
+      ],
+      "excess_share_above": 0.895572558403488,
+      "excess_share_above_ci": [
+        0.7975307774185816,
+        0.9704840891166703
+      ],
+      "mean_n_de_reachable": 193.94321637426899,
+      "mean_n_de_unreachable": 453.95813725490206,
+      "n_compounds": 36,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.06539558089807555,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 25,
+      "recovery_share_ratio_le_0.5": 0.8,
+      "share_5uM_above_10x": 0.4166666666666667,
+      "share_contrasts_unreachable": 0.4722222222222222,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 204.55030303030298,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 239.8151851851852,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 18,
+      "n_floor_compounds": 14,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.3617444661515333,
+      "de_share_above_ci": [
+        0.2586801343149854,
+        0.4656908908308898
+      ],
+      "excess_share_above": 0.44466850806221636,
+      "excess_share_above_ci": [
+        0.25802111946551787,
+        0.6147716839831349
+      ],
+      "mean_n_de_reachable": 98.173720661793,
+      "mean_n_de_unreachable": 134.52418604651166,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.20408163265306123,
+      "share_contrasts_unreachable": 0.29259662493195426,
+      "share_lowest_dose_above": 0.02040816326530612,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.4852273427592324,
+      "de_share_above_ci": [
+        0.38775626121458956,
+        0.5903422535536395
+      ],
+      "excess_share_above": 0.5452219686301915,
+      "excess_share_above_ci": [
+        0.3603773396961704,
+        0.7453818667634428
+      ],
+      "mean_n_de_reachable": 114.61033484390734,
+      "mean_n_de_unreachable": 143.03475000000003,
+      "n_compounds": 31,
+      "n_floor_compounds": 24,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.8260869565217391,
+      "share_5uM_above_10x": 0.2903225806451613,
+      "share_contrasts_unreachable": 0.43029259896729777,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 21.05,
+      "n_compounds": 1,
+      "n_floor_compounds": 1,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 81.1054248366013,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 17,
+      "n_floor_compounds": 15,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.5105557560210855,
+      "de_share_above_ci": [
+        0.3675143566654902,
+        0.6290111492538346
+      ],
+      "excess_share_above": 0.6738346869653469,
+      "excess_share_above_ci": [
+        0.3741902046540123,
+        0.8545353166027506
+      ],
+      "mean_n_de_reachable": 159.1501829797792,
+      "mean_n_de_unreachable": 280.9965748031496,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.06539558089807555,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 48,
+      "recovery_share_ratio_le_0.5": 0.8125,
+      "share_5uM_above_10x": 0.3157894736842105,
+      "share_contrasts_unreachable": 0.37138846648730844,
+      "share_lowest_dose_above": 0.10526315789473684,
+      "stratum": "all"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.6277097275959214,
+      "de_share_above_ci": [
+        0.4645664418173139,
+        0.7287101165274108
+      ],
+      "excess_share_above": 0.8706504269016417,
+      "excess_share_above_ci": [
+        0.7089005552174453,
+        0.944679717607567
+      ],
+      "mean_n_de_reachable": 155.73414574996968,
+      "mean_n_de_unreachable": 317.2885164835165,
+      "n_compounds": 67,
+      "n_floor_compounds": 50,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.06539558089807555,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 48,
+      "recovery_share_ratio_le_0.5": 0.8125,
+      "share_5uM_above_10x": 0.3582089552238806,
+      "share_contrasts_unreachable": 0.4528264331210191,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 189.25861111111107,
+      "n_compounds": 12,
+      "n_floor_compounds": 10,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "total",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 162.7275873015873,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 35,
+      "n_floor_compounds": 29,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.6858407959291476,
+      "de_share_above_ci": [
+        0.5104267084857177,
+        0.8224791840507586
+      ],
+      "excess_share_above": 0.8047087175189688,
+      "excess_share_above_ci": [
+        0.4864709754942058,
+        0.9684987268242843
+      ],
+      "mean_n_de_reachable": 217.11948717948715,
+      "mean_n_de_unreachable": 315.9956267806269,
+      "n_compounds": 65,
+      "n_floor_compounds": 49,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.07365591397849462,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.782608695652174,
+      "share_5uM_above_10x": 0.5846153846153846,
+      "share_contrasts_unreachable": 0.6,
+      "share_lowest_dose_above": 0.3384615384615385,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.5028245386131176,
+      "de_share_above_ci": [
+        0.34651270411129914,
+        0.6457534730140189
+      ],
+      "excess_share_above": 0.7517997808456146,
+      "excess_share_above_ci": [
+        0.3495501722301632,
+        0.9384758871177047
+      ],
+      "mean_n_de_reachable": 202.0156172839506,
+      "mean_n_de_unreachable": 216.32928104575163,
+      "n_compounds": 35,
+      "n_floor_compounds": 26,
+      "pk_set": "liston",
+      "recovery_median_gene_share": 0.07365591397849462,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 23,
+      "recovery_share_ratio_le_0.5": 0.782608695652174,
+      "share_5uM_above_10x": 0.45714285714285713,
+      "share_contrasts_unreachable": 0.4857142857142857,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 393.01053030303024,
+      "n_compounds": 22,
+      "n_floor_compounds": 17,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 251.10319444444443,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 8,
+      "n_floor_compounds": 6,
+      "pk_set": "liston",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.5937346004047358,
+      "de_share_above_ci": [
+        0.49923511878573484,
+        0.6923692442211545
+      ],
+      "excess_share_above": 0.6599638740505501,
+      "excess_share_above_ci": [
+        0.5000747566083673,
+        0.7996975797419895
+      ],
+      "mean_n_de_reachable": 92.85963407661521,
+      "mean_n_de_unreachable": 123.30155844155846,
+      "n_compounds": 49,
+      "n_floor_compounds": 40,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 30,
+      "recovery_share_ratio_le_0.5": 0.8333333333333334,
+      "share_5uM_above_10x": 0.4897959183673469,
+      "share_contrasts_unreachable": 0.5239520958083832,
+      "share_lowest_dose_above": 0.14285714285714285,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.5492501519822593,
+      "de_share_above_ci": [
+        0.4542517436274803,
+        0.6385518751473324
+      ],
+      "excess_share_above": 0.6264468013174218,
+      "excess_share_above_ci": [
+        0.4523600257697959,
+        0.7774346957154232
+      ],
+      "mean_n_de_reachable": 101.39818460192474,
+      "mean_n_de_unreachable": 134.49982142857147,
+      "n_compounds": 39,
+      "n_floor_compounds": 31,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 30,
+      "recovery_share_ratio_le_0.5": 0.8333333333333334,
+      "share_5uM_above_10x": 0.4358974358974359,
+      "share_contrasts_unreachable": 0.478796169630643,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 93.4395238095238,
+      "n_compounds": 7,
+      "n_floor_compounds": 6,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 35.02518518518518,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 3,
+      "n_floor_compounds": 3,
+      "pk_set": "label",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.6647693564000975,
+      "de_share_above_ci": [
+        0.5290123196544348,
+        0.7808652714363433
+      ],
+      "excess_share_above": 0.7962336673177792,
+      "excess_share_above_ci": [
+        0.49918236337464916,
+        0.9533704109839182
+      ],
+      "mean_n_de_reachable": 158.3656393619897,
+      "mean_n_de_unreachable": 239.5139604810997,
+      "n_compounds": 114,
+      "n_floor_compounds": 89,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.07365591397849462,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 53,
+      "recovery_share_ratio_le_0.5": 0.8113207547169812,
+      "share_5uM_above_10x": 0.543859649122807,
+      "share_contrasts_unreachable": 0.5673178149491168,
+      "share_lowest_dose_above": 0.2543859649122807,
+      "stratum": "all"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.5206803037042729,
+      "de_share_above_ci": [
+        0.4187857467665939,
+        0.6174172666485834
+      ],
+      "excess_share_above": 0.7206866449056993,
+      "excess_share_above_ci": [
+        0.4422609720234251,
+        0.8818192067649011
+      ],
+      "mean_n_de_reachable": 148.66107051728136,
+      "mean_n_de_unreachable": 173.50264797507788,
+      "n_compounds": 74,
+      "n_floor_compounds": 57,
+      "pk_set": "all",
+      "recovery_median_gene_share": 0.07365591397849462,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 53,
+      "recovery_share_ratio_le_0.5": 0.8113207547169812,
+      "share_5uM_above_10x": 0.44594594594594594,
+      "share_contrasts_unreachable": 0.48206884123265453,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "straddling"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 1.0,
+      "de_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "excess_share_above": 1.0,
+      "excess_share_above_ci": [
+        1.0,
+        1.0
+      ],
+      "mean_n_de_reachable": null,
+      "mean_n_de_unreachable": 320.70028735632184,
+      "n_compounds": 29,
+      "n_floor_compounds": 23,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 1.0,
+      "share_contrasts_unreachable": 1.0,
+      "share_lowest_dose_above": 1.0,
+      "stratum": "always_above"
+    },
+    {
+      "basis": "fbs",
+      "cut": "1.5",
+      "de_share_above": 0.0,
+      "de_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "excess_share_above": 0.0,
+      "excess_share_above_ci": [
+        0.0,
+        0.0
+      ],
+      "mean_n_de_reachable": 192.17282828282825,
+      "mean_n_de_unreachable": null,
+      "n_compounds": 11,
+      "n_floor_compounds": 9,
+      "pk_set": "all",
+      "recovery_median_gene_share": null,
+      "recovery_median_ratio": null,
+      "recovery_n_compounds": 0,
+      "recovery_share_ratio_le_0.5": 0.0,
+      "share_5uM_above_10x": 0.0,
+      "share_contrasts_unreachable": 0.0,
+      "share_lowest_dose_above": 0.0,
+      "stratum": "all_reachable"
+    }
+  ]
+}

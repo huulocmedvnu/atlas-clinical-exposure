@@ -1,0 +1,349 @@
+drug	generic	moa	pk_source	cmax_uM	cmax_unbound_uM	basis	scale	stratum	reach_0.05	reach_0.5	reach_5
+Bortezomib	Bortezomib	Proteasome inhibitor	liston	0.312	0.05304000000000001	unbound	1	1	1	0	0
+Bortezomib	Bortezomib	Proteasome inhibitor	liston	0.312	0.05304000000000001	total	1	1	1	0	0
+Bortezomib	Bortezomib	Proteasome inhibitor	liston	0.312	0.05304000000000001	fbs	0.6719367588932806	1	1	0	0
+Ixazomib	Ixazomib	Proteasome inhibitor	liston	0.118	0.001180000000000001	unbound	1	2	0	0	0
+Ixazomib	Ixazomib	Proteasome inhibitor	liston	0.118	0.001180000000000001	total	1	1	1	0	0
+Ixazomib	Ixazomib	Proteasome inhibitor	liston	0.118	0.001180000000000001	fbs	0.09174311926605512	2	0	0	0
+Ixazomib citrate	Ixazomib	Proteasome inhibitor	liston	0.118	0.001180000000000001	unbound	1	2	0	0	0
+Ixazomib citrate	Ixazomib	Proteasome inhibitor	liston	0.118	0.001180000000000001	total	1	1	1	0	0
+Ixazomib citrate	Ixazomib	Proteasome inhibitor	liston	0.118	0.001180000000000001	fbs	0.09174311926605512	2	0	0	0
+Entecavir (monohydrate)	entecavir	unclear	label	0.029572994806693596	0.025728505481823427	unbound	1	2	0	0	0
+Entecavir (monohydrate)	entecavir	unclear	label	0.029572994806693596	0.025728505481823427	total	1	2	0	0	0
+Entecavir (monohydrate)	entecavir	unclear	label	0.029572994806693596	0.025728505481823427	fbs	0.9852774631936579	2	0	0	0
+Mitoxantrone (dihydrochloride)	Mitoxantrone	DNA synthesis/repair inhibitor	liston	0.715	0.15729999999999997	unbound	1	1	1	0	0
+Mitoxantrone (dihydrochloride)	Mitoxantrone	DNA synthesis/repair inhibitor	liston	0.715	0.15729999999999997	total	1	1	1	1	0
+Mitoxantrone (dihydrochloride)	Mitoxantrone	DNA synthesis/repair inhibitor	liston	0.715	0.15729999999999997	fbs	0.7382550335570469	1	1	0	0
+Pemetrexed	Pemetrexed	DNA synthesis/repair inhibitor	liston	306	58.139999999999986	unbound	1	0	1	1	1
+Pemetrexed	Pemetrexed	DNA synthesis/repair inhibitor	liston	306	58.139999999999986	total	1	0	1	1	1
+Pemetrexed	Pemetrexed	DNA synthesis/repair inhibitor	liston	306	58.139999999999986	fbs	0.7011070110701106	0	1	1	1
+Pexidartinib (hydrochloride)	pexidartinib	Multi-TK inhibitor	label	20.643354634881884	0.20643354634881902	unbound	1	1	1	0	0
+Pexidartinib (hydrochloride)	pexidartinib	Multi-TK inhibitor	label	20.643354634881884	0.20643354634881902	total	1	0	1	1	1
+Pexidartinib (hydrochloride)	pexidartinib	Multi-TK inhibitor	label	20.643354634881884	0.20643354634881902	fbs	0.09174311926605512	1	1	1	0
+Belinostat	Belinostat	HDAC inhibitor	liston	134	8.040000000000006	unbound	1	0	1	1	1
+Belinostat	Belinostat	HDAC inhibitor	liston	134	8.040000000000006	total	1	0	1	1	1
+Belinostat	Belinostat	HDAC inhibitor	liston	134	8.040000000000006	fbs	0.3896103896103898	0	1	1	1
+Gemcitabine	Gemcitabine	DNA synthesis/repair inhibitor	liston	89.3	89.3	unbound	1	0	1	1	1
+Gemcitabine	Gemcitabine	DNA synthesis/repair inhibitor	liston	89.3	89.3	total	1	0	1	1	1
+Gemcitabine	Gemcitabine	DNA synthesis/repair inhibitor	liston	89.3	89.3	fbs	1	0	1	1	1
+Cytarabine	Cytarabine	DNA synthesis/repair inhibitor	liston	54.4	47.327999999999996	unbound	1	0	1	1	1
+Cytarabine	Cytarabine	DNA synthesis/repair inhibitor	liston	54.4	47.327999999999996	total	1	0	1	1	1
+Cytarabine	Cytarabine	DNA synthesis/repair inhibitor	liston	54.4	47.327999999999996	fbs	0.9852774631936579	0	1	1	1
+Cytarabine (hydrochloride)	Cytarabine	DNA synthesis/repair inhibitor	liston	54.4	47.327999999999996	unbound	1	0	1	1	1
+Cytarabine (hydrochloride)	Cytarabine	DNA synthesis/repair inhibitor	liston	54.4	47.327999999999996	total	1	0	1	1	1
+Cytarabine (hydrochloride)	Cytarabine	DNA synthesis/repair inhibitor	liston	54.4	47.327999999999996	fbs	0.9852774631936579	0	1	1	1
+Selinexor	selinexor	unclear	label	1.563275434243176	0.07816377171215887	unbound	1	1	1	0	0
+Selinexor	selinexor	unclear	label	1.563275434243176	0.07816377171215887	total	1	1	1	1	0
+Selinexor	selinexor	unclear	label	1.563275434243176	0.07816377171215887	fbs	0.34482758620689674	1	1	0	0
+Clofarabine	Clofarabine	DNA synthesis/repair inhibitor	liston	0.744	0.39432	unbound	1	1	1	0	0
+Clofarabine	Clofarabine	DNA synthesis/repair inhibitor	liston	0.744	0.39432	total	1	1	1	1	0
+Clofarabine	Clofarabine	DNA synthesis/repair inhibitor	liston	0.744	0.39432	fbs	0.9185441941074522	1	1	0	0
+Allopurinol	Allopurinol	unclear	liston	14.3	14.3	unbound	1	0	1	1	1
+Allopurinol	Allopurinol	unclear	liston	14.3	14.3	total	1	0	1	1	1
+Allopurinol	Allopurinol	unclear	liston	14.3	14.3	fbs	1	0	1	1	1
+Decitabine	Decitabine	DNA methyltransferase inhibitor	liston	0.323	0.31977	unbound	1	1	1	0	0
+Decitabine	Decitabine	DNA methyltransferase inhibitor	liston	0.323	0.31977	total	1	1	1	0	0
+Decitabine	Decitabine	DNA methyltransferase inhibitor	liston	0.323	0.31977	fbs	0.9989909182643795	1	1	0	0
+Lenalidomide (hemihydrate)	Lenalidomide	unclear	liston	1.74	1.218	unbound	1	1	1	1	0
+Lenalidomide (hemihydrate)	Lenalidomide	unclear	liston	1.74	1.218	total	1	1	1	1	0
+Lenalidomide (hemihydrate)	Lenalidomide	unclear	liston	1.74	1.218	fbs	0.958904109589041	1	1	1	0
+Larotrectinib	larotrectinib	Other TK inhibitor	label	1.8392306974138737	0.5517692092241622	unbound	1	1	1	1	0
+Larotrectinib	larotrectinib	Other TK inhibitor	label	1.8392306974138737	0.5517692092241622	total	1	1	1	1	0
+Larotrectinib	larotrectinib	Other TK inhibitor	label	1.8392306974138737	0.5517692092241622	fbs	0.8108108108108107	1	1	1	0
+Larotrectinib sulfate	larotrectinib	Other TK inhibitor	label	1.8392306974138737	0.5517692092241622	unbound	1	1	1	1	0
+Larotrectinib sulfate	larotrectinib	Other TK inhibitor	label	1.8392306974138737	0.5517692092241622	total	1	1	1	1	0
+Larotrectinib sulfate	larotrectinib	Other TK inhibitor	label	1.8392306974138737	0.5517692092241622	fbs	0.8108108108108107	1	1	1	0
+olaparib	Olaparib	DNA synthesis/repair inhibitor	liston	13.1	2.3580000000000005	unbound	1	1	1	1	0
+olaparib	Olaparib	DNA synthesis/repair inhibitor	liston	13.1	2.3580000000000005	total	1	0	1	1	1
+olaparib	Olaparib	DNA synthesis/repair inhibitor	liston	13.1	2.3580000000000005	fbs	0.6870229007633588	1	1	1	0
+Filgotinib	filgotinib	JAK/STAT inhibitor	label	5.052878965922444	2.1727379553466513	unbound	1	1	1	1	0
+Filgotinib	filgotinib	JAK/STAT inhibitor	label	5.052878965922444	2.1727379553466513	total	1	0	1	1	1
+Filgotinib	filgotinib	JAK/STAT inhibitor	label	5.052878965922444	2.1727379553466513	fbs	0.8829568788501028	1	1	1	0
+Oxaliplatin	Oxaliplatin	DNA synthesis/repair inhibitor	liston	4.96	0.4959999999999999	unbound	1	1	1	0	0
+Oxaliplatin	Oxaliplatin	DNA synthesis/repair inhibitor	liston	4.96	0.4959999999999999	total	1	1	1	1	0
+Oxaliplatin	Oxaliplatin	DNA synthesis/repair inhibitor	liston	4.96	0.4959999999999999	fbs	0.5263157894736841	1	1	1	0
+Cobimetinib	Cobimetinib	MEK inhibitor	liston	0.514	0.025700000000000025	unbound	1	2	0	0	0
+Cobimetinib	Cobimetinib	MEK inhibitor	liston	0.514	0.025700000000000025	total	1	1	1	1	0
+Cobimetinib	Cobimetinib	MEK inhibitor	liston	0.514	0.025700000000000025	fbs	0.34482758620689674	1	1	0	0
+Asciminib	asciminib	Other TK inhibitor	label	12.54335260115607	0.3763005780346824	unbound	1	1	1	0	0
+Asciminib	asciminib	Other TK inhibitor	label	12.54335260115607	0.3763005780346824	total	1	0	1	1	1
+Asciminib	asciminib	Other TK inhibitor	label	12.54335260115607	0.3763005780346824	fbs	0.23622047244094502	1	1	1	0
+Lonafarnib	lonafarnib	RAS inhibitor	label	4.218847839699436	0.042188478396994404	unbound	1	2	0	0	0
+Lonafarnib	lonafarnib	RAS inhibitor	label	4.218847839699436	0.042188478396994404	total	1	1	1	1	0
+Lonafarnib	lonafarnib	RAS inhibitor	label	4.218847839699436	0.042188478396994404	fbs	0.09174311926605512	1	1	0	0
+Abiraterone acetate	Abiraterone	unclear	liston	0.647	0.006470000000000006	unbound	1	2	0	0	0
+Abiraterone acetate	Abiraterone	unclear	liston	0.647	0.006470000000000006	total	1	1	1	1	0
+Abiraterone acetate	Abiraterone	unclear	liston	0.647	0.006470000000000006	fbs	0.09174311926605512	1	1	0	0
+Atazanavir (sulfate)	atazanavir	unclear	label	6.273230245424883	0.8782522343594837	unbound	1	1	1	1	0
+Atazanavir (sulfate)	atazanavir	unclear	label	6.273230245424883	0.8782522343594837	total	1	0	1	1	1
+Atazanavir (sulfate)	atazanavir	unclear	label	6.273230245424883	0.8782522343594837	fbs	0.6194690265486725	1	1	1	0
+Dabrafenib	Dabrafenib	RAF inhibitor	liston	4.86	0.024300000000000002	unbound	1	2	0	0	0
+Dabrafenib	Dabrafenib	RAF inhibitor	liston	4.86	0.024300000000000002	total	1	1	1	1	0
+Dabrafenib	Dabrafenib	RAF inhibitor	liston	4.86	0.024300000000000002	fbs	0.0478468899521531	1	1	1	0
+Anastrozole	Anastrozole	unclear	liston	0.035	0.021	unbound	1	2	0	0	0
+Anastrozole	Anastrozole	unclear	liston	0.035	0.021	total	1	2	0	0	0
+Anastrozole	Anastrozole	unclear	liston	0.035	0.021	fbs	0.9375	2	0	0	0
+Flutamide	Flutamide	Androgen receptor antagonist	liston	0.409	0.020450000000000017	unbound	1	2	0	0	0
+Flutamide	Flutamide	Androgen receptor antagonist	liston	0.409	0.020450000000000017	total	1	1	1	0	0
+Flutamide	Flutamide	Androgen receptor antagonist	liston	0.409	0.020450000000000017	fbs	0.34482758620689674	1	1	0	0
+Verapamil	verapamil	unclear	label	0.3607567091948966	0.036075670919489655	unbound	1	2	0	0	0
+Verapamil	verapamil	unclear	label	0.3607567091948966	0.036075670919489655	total	1	1	1	0	0
+Verapamil	verapamil	unclear	label	0.3607567091948966	0.036075670919489655	fbs	0.5263157894736841	1	1	0	0
+Goserelin (acetate)	Goserelin acetate	unclear	liston	0.007	0.00511	unbound	1	2	0	0	0
+Goserelin (acetate)	Goserelin acetate	unclear	liston	0.007	0.00511	total	1	2	0	0	0
+Goserelin (acetate)	Goserelin acetate	unclear	liston	0.007	0.00511	fbs	0.964332892998679	2	0	0	0
+Imiquimod (maleate)	Imiquimod	unclear	liston	0.0056	0.00041999999999999975	unbound	1	2	0	0	0
+Imiquimod (maleate)	Imiquimod	unclear	liston	0.0056	0.00041999999999999975	total	1	2	0	0	0
+Imiquimod (maleate)	Imiquimod	unclear	liston	0.0056	0.00041999999999999975	fbs	0.44776119402985054	2	0	0	0
+Imiquimod (hydrochloride)	Imiquimod	unclear	liston	0.0056	0.00041999999999999975	unbound	1	2	0	0	0
+Imiquimod (hydrochloride)	Imiquimod	unclear	liston	0.0056	0.00041999999999999975	total	1	2	0	0	0
+Imiquimod (hydrochloride)	Imiquimod	unclear	liston	0.0056	0.00041999999999999975	fbs	0.44776119402985054	2	0	0	0
+Belumosudil	belumosudil	unclear	label	5.281767955801105	0.03961325966850803	unbound	1	2	0	0	0
+Belumosudil	belumosudil	unclear	label	5.281767955801105	0.03961325966850803	total	1	0	1	1	1
+Belumosudil	belumosudil	unclear	label	5.281767955801105	0.03961325966850803	fbs	0.07025761124121738	1	1	1	0
+Belumosudil (mesylate)	belumosudil	unclear	label	5.281767955801105	0.03961325966850803	unbound	1	2	0	0	0
+Belumosudil (mesylate)	belumosudil	unclear	label	5.281767955801105	0.03961325966850803	total	1	0	1	1	1
+Belumosudil (mesylate)	belumosudil	unclear	label	5.281767955801105	0.03961325966850803	fbs	0.07025761124121738	1	1	1	0
+Erdafitinib	erdafitinib	Other TK inhibitor	label	3.1328376925833035	0.015664188462916517	unbound	1	2	0	0	0
+Erdafitinib	erdafitinib	Other TK inhibitor	label	3.1328376925833035	0.015664188462916517	total	1	1	1	1	0
+Erdafitinib	erdafitinib	Other TK inhibitor	label	3.1328376925833035	0.015664188462916517	fbs	0.0478468899521531	1	1	0	0
+crizotinib	Crizotinib	Multi-TK inhibitor	label	0.913	0.08217	unbound	1	1	1	0	0
+crizotinib	Crizotinib	Multi-TK inhibitor	label	0.913	0.08217	total	1	1	1	1	0
+crizotinib	Crizotinib	Multi-TK inhibitor	label	0.913	0.08217	fbs	0.4972375690607735	1	1	0	0
+Crizotinib (hydrochloride)	Crizotinib	Multi-TK inhibitor	label	0.913	0.08217	unbound	1	1	1	0	0
+Crizotinib (hydrochloride)	Crizotinib	Multi-TK inhibitor	label	0.913	0.08217	total	1	1	1	1	0
+Crizotinib (hydrochloride)	Crizotinib	Multi-TK inhibitor	label	0.913	0.08217	fbs	0.4972375690607735	1	1	0	0
+Aprepitant	aprepitant	unclear	label	2.993843908463223	0.14969219542316128	unbound	1	1	1	0	0
+Aprepitant	aprepitant	unclear	label	2.993843908463223	0.14969219542316128	total	1	1	1	1	0
+Aprepitant	aprepitant	unclear	label	2.993843908463223	0.14969219542316128	fbs	0.34482758620689674	1	1	0	0
+Naproxen	naproxen	Cyclooxygenase inhibitor	label	423.0000868583341	4.230000868583344	unbound	1	1	1	1	0
+Naproxen	naproxen	Cyclooxygenase inhibitor	label	423.0000868583341	4.230000868583344	total	1	0	1	1	1
+Naproxen	naproxen	Cyclooxygenase inhibitor	label	423.0000868583341	4.230000868583344	fbs	0.0917431192660551	0	1	1	1
+Voriconazole	voriconazole	unclear	label	13.569608657066789	5.699235635968052	unbound	1	0	1	1	1
+Voriconazole	voriconazole	unclear	label	13.569608657066789	5.699235635968052	total	1	0	1	1	1
+Voriconazole	voriconazole	unclear	label	13.569608657066789	5.699235635968052	fbs	0.8786610878661089	0	1	1	1
+Silodosin	silodosin	unclear	label	0.12431886982845611	0.0037295660948536867	unbound	1	2	0	0	0
+Silodosin	silodosin	unclear	label	0.12431886982845611	0.0037295660948536867	total	1	1	1	0	0
+Silodosin	silodosin	unclear	label	0.12431886982845611	0.0037295660948536867	fbs	0.23622047244094502	2	0	0	0
+Darolutamide	darolutamide	Androgen receptor antagonist	label	12.009527391249843	0.960762191299987	unbound	1	1	1	1	0
+Darolutamide	darolutamide	Androgen receptor antagonist	label	12.009527391249843	0.960762191299987	total	1	0	1	1	1
+Darolutamide	darolutamide	Androgen receptor antagonist	label	12.009527391249843	0.960762191299987	fbs	0.46511627906976727	1	1	1	0
+Bicalutamide	Bicalutamide	Androgen receptor antagonist	liston	1.78	0.07120000000000007	unbound	1	1	1	0	0
+Bicalutamide	Bicalutamide	Androgen receptor antagonist	liston	1.78	0.07120000000000007	total	1	1	1	1	0
+Bicalutamide	Bicalutamide	Androgen receptor antagonist	liston	1.78	0.07120000000000007	fbs	0.2941176470588237	1	1	0	0
+venetoclax	Venetoclax	unclear	liston	4.48	0.04480000000000004	unbound	1	2	0	0	0
+venetoclax	Venetoclax	unclear	liston	4.48	0.04480000000000004	total	1	1	1	1	0
+venetoclax	Venetoclax	unclear	liston	4.48	0.04480000000000004	fbs	0.09174311926605512	1	1	0	0
+Ranolazine	ranolazine	unclear	label	6.081302334284511	2.3108948870281143	unbound	1	1	1	1	0
+Ranolazine	ranolazine	unclear	label	6.081302334284511	2.3108948870281143	total	1	0	1	1	1
+Ranolazine	ranolazine	unclear	label	6.081302334284511	2.3108948870281143	fbs	0.8597285067873303	1	1	1	0
+Lopinavir	lopinavir	unclear	label	18.765903307888042	0.3753180661577612	unbound	1	1	1	0	0
+Lopinavir	lopinavir	unclear	label	18.765903307888042	0.3753180661577612	total	1	0	1	1	1
+Lopinavir	lopinavir	unclear	label	18.765903307888042	0.3753180661577612	fbs	0.16949152542372892	1	1	1	0
+Elagolix sodium	elagolix	unclear	label	1.2254591513616213	0.2450918302723242	unbound	1	1	1	0	0
+Elagolix sodium	elagolix	unclear	label	1.2254591513616213	0.2450918302723242	total	1	1	1	1	0
+Elagolix sodium	elagolix	unclear	label	1.2254591513616213	0.2450918302723242	fbs	0.7142857142857142	1	1	0	0
+palbociclib	Palbociclib	CDK inhibitor	liston	0.101	0.015150000000000004	unbound	1	2	0	0	0
+palbociclib	Palbociclib	CDK inhibitor	liston	0.101	0.015150000000000004	total	1	1	1	0	0
+palbociclib	Palbociclib	CDK inhibitor	liston	0.101	0.015150000000000004	fbs	0.6382978723404256	2	0	0	0
+Ponatinib	Ponatinib	Multi-TK inhibitor	liston	0.137	0.0013700000000000014	unbound	1	2	0	0	0
+Ponatinib	Ponatinib	Multi-TK inhibitor	liston	0.137	0.0013700000000000014	total	1	1	1	0	0
+Ponatinib	Ponatinib	Multi-TK inhibitor	liston	0.137	0.0013700000000000014	fbs	0.09174311926605512	2	0	0	0
+Tucatinib	tucatinib	EGFR/ERBB inhibitor	label	1.554565886955798	0.04508241072171818	unbound	1	2	0	0	0
+Tucatinib	tucatinib	EGFR/ERBB inhibitor	label	1.554565886955798	0.04508241072171818	total	1	1	1	1	0
+Tucatinib	tucatinib	EGFR/ERBB inhibitor	label	1.554565886955798	0.04508241072171818	fbs	0.22997620935765278	1	1	0	0
+Panobinostat	Panobinostat	HDAC inhibitor	liston	0.082	0.008199999999999999	unbound	1	2	0	0	0
+Panobinostat	Panobinostat	HDAC inhibitor	liston	0.082	0.008199999999999999	total	1	1	1	0	0
+Panobinostat	Panobinostat	HDAC inhibitor	liston	0.082	0.008199999999999999	fbs	0.5263157894736841	2	0	0	0
+Alpelisib	alpelisib	PI3K/AKT inhibitor	label	5.617214043035108	0.6178935447338617	unbound	1	1	1	1	0
+Alpelisib	alpelisib	PI3K/AKT inhibitor	label	5.617214043035108	0.6178935447338617	total	1	0	1	1	1
+Alpelisib	alpelisib	PI3K/AKT inhibitor	label	5.617214043035108	0.6178935447338617	fbs	0.5527638190954772	1	1	1	0
+Trametinib	Trametinib	MEK inhibitor	liston	0.021	0.0006300000000000006	unbound	1	2	0	0	0
+Trametinib	Trametinib	MEK inhibitor	liston	0.021	0.0006300000000000006	total	1	2	0	0	0
+Trametinib	Trametinib	MEK inhibitor	liston	0.021	0.0006300000000000006	fbs	0.23622047244094502	2	0	0	0
+Nevirapine	nevirapine	unclear	label	7.510326699211415	3.0041306796845664	unbound	1	1	1	1	0
+Nevirapine	nevirapine	unclear	label	7.510326699211415	3.0041306796845664	total	1	0	1	1	1
+Nevirapine	nevirapine	unclear	label	7.510326699211415	3.0041306796845664	fbs	0.8695652173913044	1	1	1	0
+Paclitaxel	Paclitaxel	Microtubule inhibitor	liston	4.27	0.27754999999999974	unbound	1	1	1	0	0
+Paclitaxel	Paclitaxel	Microtubule inhibitor	liston	4.27	0.27754999999999974	total	1	1	1	1	0
+Paclitaxel	Paclitaxel	Microtubule inhibitor	liston	4.27	0.27754999999999974	fbs	0.4100946372239746	1	1	1	0
+Docetaxel	Docetaxel	Microtubule inhibitor	liston	5.47	0.16410000000000013	unbound	1	1	1	0	0
+Docetaxel	Docetaxel	Microtubule inhibitor	liston	5.47	0.16410000000000013	total	1	0	1	1	1
+Docetaxel	Docetaxel	Microtubule inhibitor	liston	5.47	0.16410000000000013	fbs	0.23622047244094502	1	1	1	0
+Docetaxel (Trihydrate)	Docetaxel	Microtubule inhibitor	liston	5.47	0.16410000000000013	unbound	1	1	1	0	0
+Docetaxel (Trihydrate)	Docetaxel	Microtubule inhibitor	liston	5.47	0.16410000000000013	total	1	0	1	1	1
+Docetaxel (Trihydrate)	Docetaxel	Microtubule inhibitor	liston	5.47	0.16410000000000013	fbs	0.23622047244094502	1	1	1	0
+Vortioxetine	vortioxetine	unclear	label	0.11058981233243968	0.002211796246648796	unbound	1	2	0	0	0
+Vortioxetine	vortioxetine	unclear	label	0.11058981233243968	0.002211796246648796	total	1	1	1	0	0
+Vortioxetine	vortioxetine	unclear	label	0.11058981233243968	0.002211796246648796	fbs	0.16949152542372894	2	0	0	0
+Pralsetinib	pralsetinib	Other TK inhibitor	label	4.6288487846929405	0.13886546354078833	unbound	1	1	1	0	0
+Pralsetinib	pralsetinib	Other TK inhibitor	label	4.6288487846929405	0.13886546354078833	total	1	1	1	1	0
+Pralsetinib	pralsetinib	Other TK inhibitor	label	4.6288487846929405	0.13886546354078833	fbs	0.23622047244094502	1	1	1	0
+Tolcapone	tolcapone	unclear	label	21.958717610891522	0.10979358805445762	unbound	1	1	1	0	0
+Tolcapone	tolcapone	unclear	label	21.958717610891522	0.10979358805445762	total	1	0	1	1	1
+Tolcapone	tolcapone	unclear	label	21.958717610891522	0.10979358805445762	fbs	0.0478468899521531	1	1	1	0
+Celecoxib	Celecoxib	Cyclooxygenase inhibitor	liston	4.6	0.13800000000000012	unbound	1	1	1	0	0
+Celecoxib	Celecoxib	Cyclooxygenase inhibitor	liston	4.6	0.13800000000000012	total	1	1	1	1	0
+Celecoxib	Celecoxib	Cyclooxygenase inhibitor	liston	4.6	0.13800000000000012	fbs	0.23622047244094502	1	1	1	0
+Lapatinib ditosylate	lapatinib	EGFR/ERBB inhibitor	label	4.181724315952503	0.04181724315952507	unbound	1	2	0	0	0
+Lapatinib ditosylate	lapatinib	EGFR/ERBB inhibitor	label	4.181724315952503	0.04181724315952507	total	1	1	1	1	0
+Lapatinib ditosylate	lapatinib	EGFR/ERBB inhibitor	label	4.181724315952503	0.04181724315952507	fbs	0.09174311926605512	1	1	0	0
+Bexarotene	Bexarotene	Retinoic receptor agonist	liston	3.39	0.033900000000000034	unbound	1	2	0	0	0
+Bexarotene	Bexarotene	Retinoic receptor agonist	liston	3.39	0.033900000000000034	total	1	1	1	1	0
+Bexarotene	Bexarotene	Retinoic receptor agonist	liston	3.39	0.033900000000000034	fbs	0.09174311926605512	1	1	0	0
+Fedratinib (hydrochloride hydrate)	fedratinib	JAK/STAT inhibitor	label	3.4381551362683433	0.2750524109014673	unbound	1	1	1	0	0
+Fedratinib (hydrochloride hydrate)	fedratinib	JAK/STAT inhibitor	label	3.4381551362683433	0.2750524109014673	total	1	1	1	1	0
+Fedratinib (hydrochloride hydrate)	fedratinib	JAK/STAT inhibitor	label	3.4381551362683433	0.2750524109014673	fbs	0.46511627906976727	1	1	1	0
+Meloxicam	meloxicam	Cyclooxygenase inhibitor	label	6.545247581104155	0.039271485486624236	unbound	1	2	0	0	0
+Meloxicam	meloxicam	Cyclooxygenase inhibitor	label	6.545247581104155	0.039271485486624236	total	1	0	1	1	1
+Meloxicam	meloxicam	Cyclooxygenase inhibitor	label	6.545247581104155	0.039271485486624236	fbs	0.05692599620493263	1	1	1	0
+Drospirenone	drospirenone	unclear	label	0.11186903137789904	0.0044747612551159655	unbound	1	2	0	0	0
+Drospirenone	drospirenone	unclear	label	0.11186903137789904	0.0044747612551159655	total	1	1	1	0	0
+Drospirenone	drospirenone	unclear	label	0.11186903137789904	0.0044747612551159655	fbs	0.2941176470588237	2	0	0	0
+Finasteride	Finasteride	unclear	liston	0.124	0.012399999999999998	unbound	1	2	0	0	0
+Finasteride	Finasteride	unclear	liston	0.124	0.012399999999999998	total	1	1	1	0	0
+Finasteride	Finasteride	unclear	liston	0.124	0.012399999999999998	fbs	0.5263157894736841	2	0	0	0
+Fulvestrant	Fulvestrant	unclear	liston	0.041	0.00041000000000000037	unbound	1	2	0	0	0
+Fulvestrant	Fulvestrant	unclear	liston	0.041	0.00041000000000000037	total	1	2	0	0	0
+Fulvestrant	Fulvestrant	unclear	liston	0.041	0.00041000000000000037	fbs	0.09174311926605512	2	0	0	0
+Doxorubicin (hydrochloride)	Doxorubicin	DNA synthesis/repair inhibitor	liston	6.73	1.6825	unbound	1	1	1	1	0
+Doxorubicin (hydrochloride)	Doxorubicin	DNA synthesis/repair inhibitor	liston	6.73	1.6825	total	1	0	1	1	1
+Doxorubicin (hydrochloride)	Doxorubicin	DNA synthesis/repair inhibitor	liston	6.73	1.6825	fbs	0.7692307692307692	1	1	1	0
+Epirubicin (hydrochloride)	Epirubicin	DNA synthesis/repair inhibitor	liston	16.6	3.818	unbound	1	1	1	1	0
+Epirubicin (hydrochloride)	Epirubicin	DNA synthesis/repair inhibitor	liston	16.6	3.818	total	1	0	1	1	1
+Epirubicin (hydrochloride)	Epirubicin	DNA synthesis/repair inhibitor	liston	16.6	3.818	fbs	0.749185667752443	0	1	1	1
+Idarubicin (hydrochloride)	Idarubicin	DNA synthesis/repair inhibitor	liston	0.123	0.003690000000000003	unbound	1	2	0	0	0
+Idarubicin (hydrochloride)	Idarubicin	DNA synthesis/repair inhibitor	liston	0.123	0.003690000000000003	total	1	1	1	0	0
+Idarubicin (hydrochloride)	Idarubicin	DNA synthesis/repair inhibitor	liston	0.123	0.003690000000000003	fbs	0.23622047244094502	2	0	0	0
+Medroxyprogesterone acetate	Medroxyprogesterone acetate	unclear	liston	0.0026	0.0002599999999999999	unbound	1	2	0	0	0
+Medroxyprogesterone acetate	Medroxyprogesterone acetate	unclear	liston	0.0026	0.0002599999999999999	total	1	2	0	0	0
+Medroxyprogesterone acetate	Medroxyprogesterone acetate	unclear	liston	0.0026	0.0002599999999999999	fbs	0.5263157894736841	2	0	0	0
+Dexamethasone	dexamethasone	Glucocorticoid receptor agonist	label	0.6293474660483603	0.14474991719112287	unbound	1	1	1	0	0
+Dexamethasone	dexamethasone	Glucocorticoid receptor agonist	label	0.6293474660483603	0.14474991719112287	total	1	1	1	1	0
+Dexamethasone	dexamethasone	Glucocorticoid receptor agonist	label	0.6293474660483603	0.14474991719112287	fbs	0.749185667752443	1	1	0	0
+Temsirolimus	Temsirolimus	MTOR inhibitor	liston	0.568	0.07384	unbound	1	1	1	0	0
+Temsirolimus	Temsirolimus	MTOR inhibitor	liston	0.568	0.07384	total	1	1	1	1	0
+Temsirolimus	Temsirolimus	MTOR inhibitor	liston	0.568	0.07384	fbs	0.5990783410138248	1	1	0	0
+Everolimus	Everolimus	MTOR inhibitor	liston	0.064	0.016640000000000002	unbound	1	2	0	0	0
+Everolimus	Everolimus	MTOR inhibitor	liston	0.064	0.016640000000000002	total	1	1	1	0	0
+Everolimus	Everolimus	MTOR inhibitor	liston	0.064	0.016640000000000002	fbs	0.7784431137724551	2	0	0	0
+Tofacitinib	tofacitinib	JAK/STAT inhibitor	label	0.2711267605633803	0.16267605633802817	unbound	1	1	1	0	0
+Tofacitinib	tofacitinib	JAK/STAT inhibitor	label	0.2711267605633803	0.16267605633802817	total	1	1	1	0	0
+Tofacitinib	tofacitinib	JAK/STAT inhibitor	label	0.2711267605633803	0.16267605633802817	fbs	0.9375	1	1	0	0
+Tofacitinib (citrate)	tofacitinib	JAK/STAT inhibitor	label	0.2711267605633803	0.16267605633802817	unbound	1	1	1	0	0
+Tofacitinib (citrate)	tofacitinib	JAK/STAT inhibitor	label	0.2711267605633803	0.16267605633802817	total	1	1	1	0	0
+Tofacitinib (citrate)	tofacitinib	JAK/STAT inhibitor	label	0.2711267605633803	0.16267605633802817	fbs	0.9375	1	1	0	0
+Sonidegib	Sonidegib	Sonic inhibitor	liston	2.12	0.06360000000000006	unbound	1	1	1	0	0
+Sonidegib	Sonidegib	Sonic inhibitor	liston	2.12	0.06360000000000006	total	1	1	1	1	0
+Sonidegib	Sonidegib	Sonic inhibitor	liston	2.12	0.06360000000000006	fbs	0.23622047244094502	1	1	0	0
+Posaconazole	posaconazole	unclear	label	2.9823059360730597	0.05964611872146125	unbound	1	1	1	0	0
+Posaconazole	posaconazole	unclear	label	2.9823059360730597	0.05964611872146125	total	1	1	1	1	0
+Posaconazole	posaconazole	unclear	label	2.9823059360730597	0.05964611872146125	fbs	0.16949152542372892	1	1	0	0
+Pravastatin (sodium)	pravastatin	unclear	label	0.0624263839811543	0.03121319199057715	unbound	1	2	0	0	0
+Pravastatin (sodium)	pravastatin	unclear	label	0.0624263839811543	0.03121319199057715	total	1	1	1	0	0
+Pravastatin (sodium)	pravastatin	unclear	label	0.0624263839811543	0.03121319199057715	fbs	0.9090909090909091	2	0	0	0
+Topotecan (hydrochloride)	Topotecan	DNA synthesis/repair inhibitor	liston	0.015	0.00975	unbound	1	2	0	0	0
+Topotecan (hydrochloride)	Topotecan	DNA synthesis/repair inhibitor	liston	0.015	0.00975	total	1	2	0	0	0
+Topotecan (hydrochloride)	Topotecan	DNA synthesis/repair inhibitor	liston	0.015	0.00975	fbs	0.948905109489051	2	0	0	0
+Vinblastine (sulfate)	Vinblastine	Microtubule inhibitor	liston	0.035	0.0005250000000000005	unbound	1	2	0	0	0
+Vinblastine (sulfate)	Vinblastine	Microtubule inhibitor	liston	0.035	0.0005250000000000005	total	1	2	0	0	0
+Vinblastine (sulfate)	Vinblastine	Microtubule inhibitor	liston	0.035	0.0005250000000000005	fbs	0.13215859030837013	2	0	0	0
+vincristine	Vincristine	Microtubule inhibitor	liston	0.007	0.00175	unbound	1	2	0	0	0
+vincristine	Vincristine	Microtubule inhibitor	liston	0.007	0.00175	total	1	2	0	0	0
+vincristine	Vincristine	Microtubule inhibitor	liston	0.007	0.00175	fbs	0.7692307692307692	2	0	0	0
+Irinotecan	Irinotecan	DNA synthesis/repair inhibitor	liston	5.78	2.9478	unbound	1	1	1	1	0
+Irinotecan	Irinotecan	DNA synthesis/repair inhibitor	liston	5.78	2.9478	total	1	0	1	1	1
+Irinotecan	Irinotecan	DNA synthesis/repair inhibitor	liston	5.78	2.9478	fbs	0.9123434704830052	1	1	1	0
+Irinotecan (hydrochloride)	Irinotecan	DNA synthesis/repair inhibitor	liston	5.78	2.9478	unbound	1	1	1	1	0
+Irinotecan (hydrochloride)	Irinotecan	DNA synthesis/repair inhibitor	liston	5.78	2.9478	total	1	0	1	1	1
+Irinotecan (hydrochloride)	Irinotecan	DNA synthesis/repair inhibitor	liston	5.78	2.9478	fbs	0.9123434704830052	1	1	1	0
+Azithromycin (hydrate)	azithromycin	unclear	label	0.7209612817089452	0.511882510013351	unbound	1	1	1	1	0
+Azithromycin (hydrate)	azithromycin	unclear	label	0.7209612817089452	0.511882510013351	total	1	1	1	1	0
+Azithromycin (hydrate)	azithromycin	unclear	label	0.7209612817089452	0.511882510013351	fbs	0.9607577807848444	1	1	1	0
+Sildenafil	Sildenafil	unclear	liston	0.794	0.03176000000000003	unbound	1	2	0	0	0
+Sildenafil	Sildenafil	unclear	liston	0.794	0.03176000000000003	total	1	1	1	1	0
+Sildenafil	Sildenafil	unclear	liston	0.794	0.03176000000000003	fbs	0.2941176470588237	1	1	0	0
+Vemurafenib	Vemurafenib	RAF inhibitor	liston	127	1.2700000000000011	unbound	1	1	1	1	0
+Vemurafenib	Vemurafenib	RAF inhibitor	liston	127	1.2700000000000011	total	1	0	1	1	1
+Vemurafenib	Vemurafenib	RAF inhibitor	liston	127	1.2700000000000011	fbs	0.09174311926605512	0	1	1	1
+Sunitinib	Sunitinib Malate	Multi-TK inhibitor	liston	0.181	0.009050000000000008	unbound	1	2	0	0	0
+Sunitinib	Sunitinib Malate	Multi-TK inhibitor	liston	0.181	0.009050000000000008	total	1	1	1	0	0
+Sunitinib	Sunitinib Malate	Multi-TK inhibitor	liston	0.181	0.009050000000000008	fbs	0.34482758620689674	2	0	0	0
+Pemigatinib	pemigatinib	Other TK inhibitor	label	0.236	0.02218400000000002	unbound	1	2	0	0	0
+Pemigatinib	pemigatinib	Other TK inhibitor	label	0.236	0.02218400000000002	total	1	1	1	0	0
+Pemigatinib	pemigatinib	Other TK inhibitor	label	0.236	0.02218400000000002	fbs	0.5092091007583968	2	0	0	0
+Infigratinib	infigratinib	Other TK inhibitor	label	0.5040322580645161	0.01612903225806453	unbound	1	2	0	0	0
+Infigratinib	infigratinib	Other TK inhibitor	label	0.5040322580645161	0.01612903225806453	total	1	1	1	1	0
+Infigratinib	infigratinib	Other TK inhibitor	label	0.5040322580645161	0.01612903225806453	fbs	0.2484472049689443	1	1	0	0
+Ribociclib	ribociclib	CDK inhibitor	label	4.188240708779197	1.256472212633759	unbound	1	1	1	1	0
+Ribociclib	ribociclib	CDK inhibitor	label	4.188240708779197	1.256472212633759	total	1	1	1	1	0
+Ribociclib	ribociclib	CDK inhibitor	label	4.188240708779197	1.256472212633759	fbs	0.8108108108108107	1	1	1	0
+Altretamine	Altretamine	DNA synthesis/repair inhibitor	liston	3.76	0.2256000000000002	unbound	1	1	1	0	0
+Altretamine	Altretamine	DNA synthesis/repair inhibitor	liston	3.76	0.2256000000000002	total	1	1	1	1	0
+Altretamine	Altretamine	DNA synthesis/repair inhibitor	liston	3.76	0.2256000000000002	fbs	0.3896103896103898	1	1	1	0
+Afatinib	Afatinib	EGFR/ERBB inhibitor	liston	0.052	0.002600000000000002	unbound	1	2	0	0	0
+Afatinib	Afatinib	EGFR/ERBB inhibitor	liston	0.052	0.002600000000000002	total	1	1	1	0	0
+Afatinib	Afatinib	EGFR/ERBB inhibitor	liston	0.052	0.002600000000000002	fbs	0.34482758620689674	2	0	0	0
+Relugolix	relugolix	unclear	label	0.11224604332697273	0.03423504321472669	unbound	1	2	0	0	0
+Relugolix	relugolix	unclear	label	0.11224604332697273	0.03423504321472669	total	1	1	1	0	0
+Relugolix	relugolix	unclear	label	0.11224604332697273	0.03423504321472669	fbs	0.814419225634179	2	0	0	0
+Methotrexate	Methotrexate	DNA synthesis/repair inhibitor	liston	1.31	0.655	unbound	1	1	1	1	0
+Methotrexate	Methotrexate	DNA synthesis/repair inhibitor	liston	1.31	0.655	total	1	1	1	1	0
+Methotrexate	Methotrexate	DNA synthesis/repair inhibitor	liston	1.31	0.655	fbs	0.9090909090909091	1	1	1	0
+Rosiglitazone	rosiglitazone	unclear	label	1.6730080572963295	0.008365040286481648	unbound	1	2	0	0	0
+Rosiglitazone	rosiglitazone	unclear	label	1.6730080572963295	0.008365040286481648	total	1	1	1	1	0
+Rosiglitazone	rosiglitazone	unclear	label	1.6730080572963295	0.008365040286481648	fbs	0.0478468899521531	1	1	0	0
+Bendamustine	Bendamustine	DNA synthesis/repair inhibitor	liston	16.3	0.8150000000000007	unbound	1	1	1	1	0
+Bendamustine	Bendamustine	DNA synthesis/repair inhibitor	liston	16.3	0.8150000000000007	total	1	0	1	1	1
+Bendamustine	Bendamustine	DNA synthesis/repair inhibitor	liston	16.3	0.8150000000000007	fbs	0.34482758620689674	1	1	1	0
+Vandetanib	Vandetanib	Multi-TK inhibitor	liston	2.16	0.21599999999999997	unbound	1	1	1	0	0
+Vandetanib	Vandetanib	Multi-TK inhibitor	liston	2.16	0.21599999999999997	total	1	1	1	1	0
+Vandetanib	Vandetanib	Multi-TK inhibitor	liston	2.16	0.21599999999999997	fbs	0.5263157894736841	1	1	0	0
+Glasdegib	glasdegib	Sonic inhibitor	label	3.344017094017094	0.3009615384615384	unbound	1	1	1	0	0
+Glasdegib	glasdegib	Sonic inhibitor	label	3.344017094017094	0.3009615384615384	total	1	1	1	1	0
+Glasdegib	glasdegib	Sonic inhibitor	label	3.344017094017094	0.3009615384615384	fbs	0.4972375690607734	1	1	1	0
+Entrectinib	entrectinib	Other TK inhibitor	label	3.13	0.03130000000000003	unbound	1	2	0	0	0
+Entrectinib	entrectinib	Other TK inhibitor	label	3.13	0.03130000000000003	total	1	1	1	1	0
+Entrectinib	entrectinib	Other TK inhibitor	label	3.13	0.03130000000000003	fbs	0.09174311926605512	1	1	0	0
+Apalutamide	apalutamide	Androgen receptor antagonist	label	12.567024128686327	0.5026809651474535	unbound	1	1	1	1	0
+Apalutamide	apalutamide	Androgen receptor antagonist	label	12.567024128686327	0.5026809651474535	total	1	0	1	1	1
+Apalutamide	apalutamide	Androgen receptor antagonist	label	12.567024128686327	0.5026809651474535	fbs	0.2941176470588237	1	1	1	0
+Regorafenib	Regorafenib	Multi-TK inhibitor	liston	8.08	0.04040000000000003	unbound	1	2	0	0	0
+Regorafenib	Regorafenib	Multi-TK inhibitor	liston	8.08	0.04040000000000003	total	1	0	1	1	1
+Regorafenib	Regorafenib	Multi-TK inhibitor	liston	8.08	0.04040000000000003	fbs	0.047846889952153145	1	1	1	0
+Rucaparib (phosphate)	Rucaparib	DNA synthesis/repair inhibitor	liston	6	1.8000000000000003	unbound	1	1	1	1	0
+Rucaparib (phosphate)	Rucaparib	DNA synthesis/repair inhibitor	liston	6	1.8000000000000003	total	1	0	1	1	1
+Rucaparib (phosphate)	Rucaparib	DNA synthesis/repair inhibitor	liston	6	1.8000000000000003	fbs	0.8108108108108107	1	1	1	0
+Dimethyl fumarate	monomethyl fumarate	unclear	label	14.373558800922368	9.199077632590315	unbound	1	0	1	1	1
+Dimethyl fumarate	monomethyl fumarate	unclear	label	14.373558800922368	9.199077632590315	total	1	0	1	1	1
+Dimethyl fumarate	monomethyl fumarate	unclear	label	14.373558800922368	9.199077632590315	fbs	0.9467455621301776	0	1	1	1
+Gefitinib	Gefitinib	EGFR/ERBB inhibitor	liston	0.356	0.03559999999999999	unbound	1	2	0	0	0
+Gefitinib	Gefitinib	EGFR/ERBB inhibitor	liston	0.356	0.03559999999999999	total	1	1	1	0	0
+Gefitinib	Gefitinib	EGFR/ERBB inhibitor	liston	0.356	0.03559999999999999	fbs	0.5263157894736841	1	1	0	0
+Cabozantinib (S-malate)	Cabozantinib	Multi-TK inhibitor	liston	4.61	0.02305	unbound	1	2	0	0	0
+Cabozantinib (S-malate)	Cabozantinib	Multi-TK inhibitor	liston	4.61	0.02305	total	1	1	1	1	0
+Cabozantinib (S-malate)	Cabozantinib	Multi-TK inhibitor	liston	4.61	0.02305	fbs	0.0478468899521531	1	1	0	0
+Fluvoxamine	fluvoxamine	unclear	label	1.7152012062953539	0.3430402412590707	unbound	1	1	1	0	0
+Fluvoxamine	fluvoxamine	unclear	label	1.7152012062953539	0.3430402412590707	total	1	1	1	1	0
+Fluvoxamine	fluvoxamine	unclear	label	1.7152012062953539	0.3430402412590707	fbs	0.7142857142857142	1	1	0	0
+Fluvoxamine (maleate)	fluvoxamine	unclear	label	1.7152012062953539	0.3430402412590707	unbound	1	1	1	0	0
+Fluvoxamine (maleate)	fluvoxamine	unclear	label	1.7152012062953539	0.3430402412590707	total	1	1	1	1	0
+Fluvoxamine (maleate)	fluvoxamine	unclear	label	1.7152012062953539	0.3430402412590707	fbs	0.7142857142857142	1	1	0	0
+Erlotinib	Erlotinib	EGFR/ERBB inhibitor	liston	3.15	0.22049999999999984	unbound	1	1	1	0	0
+Erlotinib	Erlotinib	EGFR/ERBB inhibitor	liston	3.15	0.22049999999999984	total	1	1	1	1	0
+Erlotinib	Erlotinib	EGFR/ERBB inhibitor	liston	3.15	0.22049999999999984	fbs	0.429447852760736	1	1	1	0
+Belzutifan	belzutifan	unclear	label	3.912975426514322	2.1521364845828774	unbound	1	1	1	1	0
+Belzutifan	belzutifan	unclear	label	3.912975426514322	2.1521364845828774	total	1	1	1	1	0
+Belzutifan	belzutifan	unclear	label	3.912975426514322	2.1521364845828774	fbs	0.9243697478991597	1	1	1	0
+Vismodegib	Vismodegib	Sonic inhibitor	liston	33.9	0.3390000000000003	unbound	1	1	1	0	0
+Vismodegib	Vismodegib	Sonic inhibitor	liston	33.9	0.3390000000000003	total	1	0	1	1	1
+Vismodegib	Vismodegib	Sonic inhibitor	liston	33.9	0.3390000000000003	fbs	0.09174311926605512	1	1	1	0
+Busulfan	Busulfan	DNA synthesis/repair inhibitor	liston	4.96	3.3728	unbound	1	1	1	1	0
+Busulfan	Busulfan	DNA synthesis/repair inhibitor	liston	4.96	3.3728	total	1	1	1	1	0
+Busulfan	Busulfan	DNA synthesis/repair inhibitor	liston	4.96	3.3728	fbs	0.9550561797752809	1	1	1	0
+Trametinib (DMSO_TF solvate)	Trametinib	MEK inhibitor	liston	0.021	0.0006300000000000006	unbound	1	2	0	0	0
+Trametinib (DMSO_TF solvate)	Trametinib	MEK inhibitor	liston	0.021	0.0006300000000000006	total	1	2	0	0	0
+Trametinib (DMSO_TF solvate)	Trametinib	MEK inhibitor	liston	0.021	0.0006300000000000006	fbs	0.23622047244094502	2	0	0	0
+Osimertinib (mesylate)	Osimertinib	EGFR/ERBB inhibitor	liston	0.126	0.0012600000000000011	unbound	1	2	0	0	0
+Osimertinib (mesylate)	Osimertinib	EGFR/ERBB inhibitor	liston	0.126	0.0012600000000000011	total	1	1	1	0	0
+Osimertinib (mesylate)	Osimertinib	EGFR/ERBB inhibitor	liston	0.126	0.0012600000000000011	fbs	0.09174311926605512	2	0	0	0

@@ -1,0 +1,9 @@
+compound,cohort,set,top50_0.05uM,top50_5uM_only,gene_sets_0.05uM,gene_sets_0.05uM_rho,gene_sets_5uM,gene_sets_5uM_rho
+Everolimus,GSE119262,primary,25/50,19/50,38/50,0.61,16/50,-0.39
+Afatinib,GSE192464,primary,21/50,23/50,24/50,0.27,32/50,0.15
+Palbociclib,GSE93204,primary,23/50,21/50,33/50,0.37,30/50,0.43
+Anastrozole,GSE153470,primary,26/50,12/50,24/50,-0.03,16/50,-0.44
+Sunitinib,GSE58837,primary,27/50,32/50,21/50,-0.30,23/50,-0.32
+Pooled,,primary,122/250 (48.8%),107/250 (42.8%),140/250 (56.0%),,117/250 (46.8%),
+Anastrozole,GSE93204,secondary,31/50,18/50,32/50,0.27,20/50,-0.29
+Olaparib,GSE341672,secondary,37/50,29/50,28/50,0.27,22/50,0.02

@@ -1,0 +1,5 @@
+row,tahoe,sciplex
+conditions above unbound Cmax (%),71.28205128205128,52.77777777777778
+DE calls from doses above unbound Cmax (%),77.69351345449164,91.12708358930254
+"mechanism AUROC at <=1x, 10-100x, >100x","0.49, 0.60, 0.57",
+"genes agreeing with patients (%), 0.05 uM and 5 uM only","48.0, 48.6",

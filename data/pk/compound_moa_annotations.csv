@@ -1,0 +1,380 @@
+compound,generic_name,mechanism_class,inert_reference,full_profile,mechanism_analysis
+Talc,Talc,unclear,1,0,0
+Bortezomib,Bortezomib,Proteasome inhibitor,0,1,0
+Ixazomib,Ixazomib,Proteasome inhibitor,0,0,0
+Ixazomib citrate,Ixazomib,Proteasome inhibitor,0,0,0
+Lactate (calcium),Lactate (calcium),unclear,1,0,0
+Bisoprolol (hemifumarate),Bisoprolol (hemifumarate),Adrenoceptor agonist,0,0,0
+Fumaric acid,Fumaric acid,unclear,1,0,0
+Hydroxyurea,Hydroxyurea,DNA synthesis/repair inhibitor,0,0,0
+L-Eflornithine (monohydrochloride),L-Eflornithine (monohydrochloride),unclear,0,0,0
+Cysteamine (hydrochloride),Cysteamine (hydrochloride),unclear,0,0,0
+Darinaparsin,Darinaparsin,unclear,0,0,0
+Entecavir (monohydrate),entecavir,unclear,0,0,0
+Allantoin,Allantoin,unclear,1,0,0
+5-Fluorouracil,5-Fluorouracil,DNA synthesis/repair inhibitor,0,0,0
+L-Thyroxine (sodium salt pentahydrate),L-Thyroxine (sodium salt pentahydrate),unclear,0,0,0
+Gallic acid,Gallic acid,Cyclooxygenase inhibitor,1,0,0
+Gallic acid (hydrate),Gallic acid (hydrate),Cyclooxygenase inhibitor,0,0,0
+ERK5-IN-2,ERK5-IN-2,Other MAPK inhibitor,0,0,0
+Vilanterol,Vilanterol,Adrenoceptor agonist,0,0,0
+Niclosamide (olamine),Niclosamide (olamine),unclear,0,0,0
+Norepinephrine (hydrochloride),Norepinephrine (hydrochloride),Adrenoceptor agonist,0,0,0
+Triclosan,Triclosan,unclear,0,0,0
+Mitoxantrone (dihydrochloride),Mitoxantrone,DNA synthesis/repair inhibitor,0,0,0
+Pentamidine (isethionate),Pentamidine (isethionate),unclear,0,0,0
+Folic acid,Folic acid,unclear,1,0,0
+Balsalazide (sodium hydrate),Balsalazide (sodium hydrate),JAK/STAT inhibitor,0,0,0
+Resveratrol,Resveratrol,unclear,0,0,0
+PF-06260933,PF-06260933,Other MAPK inhibitor,0,0,0
+Daidzin,Daidzin,unclear,0,0,0
+Pemetrexed,Pemetrexed,DNA synthesis/repair inhibitor,0,0,0
+Econazole,Econazole,unclear,0,0,0
+XRK3F2,XRK3F2,unclear,0,0,0
+Arbutin,Arbutin,unclear,1,0,0
+Tucidinostat,Tucidinostat,HDAC inhibitor,0,0,0
+Pexidartinib (hydrochloride),pexidartinib,Multi-TK inhibitor,0,0,0
+Sodium Salicylate,Sodium Salicylate,Cyclooxygenase inhibitor,1,0,0
+Salicylic acid,Salicylic acid,Cyclooxygenase inhibitor,0,0,0
+Ataluren,Ataluren,unclear,0,0,0
+4EGI-1,4EGI-1,Protein synthesis inhibitor,0,0,0
+Clotrimazole,Clotrimazole,unclear,0,0,0
+Phenytoin (sodium),Phenytoin (sodium),unclear,0,0,0
+SBI-0640756,SBI-0640756,Protein synthesis inhibitor,0,0,0
+Oxaprozin,Oxaprozin,Cyclooxygenase inhibitor,0,0,0
+Baicalin,Baicalin,unclear,0,0,0
+Belinostat,Belinostat,HDAC inhibitor,0,0,0
+Carbamazepine,Carbamazepine,HDAC inhibitor,0,0,0
+HI-TOPK-032,HI-TOPK-032,unclear,0,0,0
+8-Hydroxyquinoline,8-Hydroxyquinoline,unclear,0,0,0
+Riluzole hydrochloride,Riluzole hydrochloride,unclear,0,0,0
+Minodronic acid,Minodronic acid,unclear,0,0,0
+GSK1059615,GSK1059615,PI3K/AKT inhibitor,0,0,0
+Gemcitabine,Gemcitabine,DNA synthesis/repair inhibitor,0,1,1
+Cytarabine,Cytarabine,DNA synthesis/repair inhibitor,0,0,0
+Cytarabine (hydrochloride),Cytarabine,DNA synthesis/repair inhibitor,0,0,0
+Uridine,Uridine,unclear,0,0,0
+Selinexor,selinexor,unclear,0,0,0
+Furosemide,Furosemide,unclear,0,0,0
+Adenosine,Adenosine,unclear,0,0,0
+5-Azacytidine,5-Azacytidine,DNA methyltransferase inhibitor,0,0,0
+Clofarabine,Clofarabine,DNA synthesis/repair inhibitor,0,0,0
+Adenine,Adenine,unclear,0,0,0
+Allopurinol,Allopurinol,unclear,0,0,0
+Trifluridine,Trifluridine,DNA synthesis/repair inhibitor,0,0,0
+Brivudine,Brivudine,unclear,0,0,0
+Idoxuridine,Idoxuridine,DNA synthesis/repair inhibitor,0,0,0
+Decitabine,Decitabine,DNA methyltransferase inhibitor,0,0,0
+Lenalidomide (hemihydrate),Lenalidomide,unclear,0,1,0
+DT-061,DT-061,unclear,0,0,0
+BAY1125976,BAY1125976,PI3K/AKT inhibitor,0,0,0
+Larotrectinib,larotrectinib,Other TK inhibitor,0,0,0
+Larotrectinib sulfate,larotrectinib,Other TK inhibitor,0,0,0
+olaparib,Olaparib,DNA synthesis/repair inhibitor,0,1,1
+Filgotinib,filgotinib,JAK/STAT inhibitor,0,0,0
+ULK-101,ULK-101,unclear,0,0,0
+Oxaliplatin,Oxaliplatin,DNA synthesis/repair inhibitor,0,0,0
+Cilostazol,Cilostazol,unclear,0,0,0
+LY2090314,LY2090314,GSK3 inhibitor,0,0,0
+Cobimetinib,Cobimetinib,MEK inhibitor,0,1,1
+Asciminib,asciminib,Other TK inhibitor,0,0,0
+Capivasertib,Capivasertib,PI3K/AKT inhibitor,0,0,0
+Penfluridol,Penfluridol,unclear,0,0,0
+Lonafarnib,lonafarnib,RAS inhibitor,0,0,0
+Pimozide,Pimozide,unclear,0,0,0
+Clonidine (hydrochloride),Clonidine (hydrochloride),Adrenoceptor agonist,0,0,0
+Brimonidine,Brimonidine,Adrenoceptor agonist,0,0,0
+AT7519,AT7519,CDK inhibitor,0,0,0
+Hydroxyfasudil,Hydroxyfasudil,unclear,0,0,0
+BI-78D3,BI-78D3,Other MAPK inhibitor,0,0,0
+ETC-206,ETC-206,Protein synthesis inhibitor,0,0,0
+LJI308,LJI308,Other MAPK inhibitor,0,0,0
+Bimiralisib,Bimiralisib,PI3K/AKT inhibitor,0,0,0
+Bentamapimod,Bentamapimod,Other MAPK inhibitor,0,0,0
+Lipoic acid,Lipoic acid,unclear,0,0,0
+Peretinoin,Peretinoin,Retinoic receptor agonist,0,0,0
+IQ 1,IQ 1,unclear,0,0,0
+Acetohexamide,Acetohexamide,unclear,0,0,0
+Pentoxifylline,Pentoxifylline,unclear,0,0,0
+DTP3,DTP3,unclear,0,0,0
+Acetazolamide,Acetazolamide,unclear,0,0,0
+Pasireotide (acetate),Pasireotide (acetate),unclear,0,0,0
+Chlorhexidine (diacetate),Chlorhexidine (diacetate),unclear,0,0,0
+Aspirin,Aspirin,Cyclooxygenase inhibitor,0,0,0
+Abiraterone acetate,Abiraterone,unclear,0,0,0
+Sivelestat (sodium tetrahydrate),Sivelestat (sodium tetrahydrate),unclear,0,0,0
+Atazanavir (sulfate),atazanavir,unclear,0,0,0
+Terfenadine,Terfenadine,unclear,0,0,0
+Bosentan (hydrate),Bosentan (hydrate),unclear,0,0,0
+Dabrafenib,Dabrafenib,RAF inhibitor,0,1,1
+Ralimetinib dimesylate,Ralimetinib dimesylate,Other MAPK inhibitor,0,0,0
+Saquinavir,Saquinavir,unclear,0,0,0
+Pentagastrin,Pentagastrin,unclear,0,0,0
+Anastrozole,Anastrozole,unclear,0,1,0
+Harringtonine,Harringtonine,Protein synthesis inhibitor,0,0,0
+Homoharringtonine,Homoharringtonine,Protein synthesis inhibitor,0,0,0
+Flutamide,Flutamide,Androgen receptor antagonist,0,0,0
+Thymopentin,Thymopentin,unclear,0,0,0
+Aliskiren,Aliskiren,unclear,0,0,0
+Verapamil,verapamil,unclear,0,0,0
+(R)-Verapamil (hydrochloride),(R)-Verapamil (hydrochloride),unclear,0,0,0
+Ritonavir,Ritonavir,unclear,0,0,0
+Goserelin (acetate),Goserelin acetate,unclear,0,0,0
+Bestatin,Bestatin,unclear,0,0,0
+Bestatin (hydrochloride),Bestatin (hydrochloride),unclear,0,0,0
+Imiquimod (maleate),Imiquimod,unclear,0,0,0
+Imiquimod (hydrochloride),Imiquimod,unclear,0,0,0
+Encorafenib,Encorafenib,RAF inhibitor,0,0,0
+AZD1390,AZD1390,unclear,0,0,0
+Sapanisertib,Sapanisertib,MTOR inhibitor,0,0,0
+Torkinib,Torkinib,MTOR inhibitor,0,0,0
+Belumosudil,belumosudil,unclear,0,0,0
+Belumosudil (mesylate),belumosudil,unclear,0,0,0
+Esmolol (hydrochloride),Esmolol (hydrochloride),unclear,0,0,0
+Erdafitinib,erdafitinib,Other TK inhibitor,0,0,0
+Malotilate,Malotilate,unclear,0,0,0
+Fenofibrate,Fenofibrate,unclear,0,0,0
+MK-8353,MK-8353,Other MAPK inhibitor,0,0,0
+crizotinib,Crizotinib,Multi-TK inhibitor,0,0,0
+(S)-Crizotinib,(S)-Crizotinib,unclear,0,0,0
+Crizotinib (hydrochloride),Crizotinib,Multi-TK inhibitor,0,0,0
+Aprepitant,aprepitant,unclear,0,0,0
+Cinacalcet,Cinacalcet,unclear,0,0,0
+Naproxen,naproxen,Cyclooxygenase inhibitor,0,0,0
+Zileuton,Zileuton,unclear,0,0,0
+Voriconazole,voriconazole,unclear,0,0,0
+Carbidopa (monohydrate),Carbidopa (monohydrate),unclear,0,0,0
+Silodosin,silodosin,unclear,0,0,0
+Darolutamide,darolutamide,Androgen receptor antagonist,0,0,0
+Benproperine (phosphate),Benproperine (phosphate),unclear,0,0,0
+Bicalutamide,Bicalutamide,Androgen receptor antagonist,0,0,0
+Captopril,Captopril,unclear,0,0,0
+Tirabrutinib,Tirabrutinib,Other TK inhibitor,0,0,0
+Tirabrutinib (hydrochloride),Tirabrutinib (hydrochloride),Other TK inhibitor,0,0,0
+Mifepristone,Mifepristone,unclear,0,0,0
+Fostamatinib (disodium hexahydrate),Fostamatinib (disodium hexahydrate),Other TK inhibitor,0,0,0
+Temuterkib,Temuterkib,Other MAPK inhibitor,0,0,0
+Tetracycline (hydrochloride),Tetracycline (hydrochloride),unclear,0,0,0
+Glycyrrhizic acid,Glycyrrhizic acid,unclear,0,0,0
+Diammonium Glycyrrhizinate,Diammonium Glycyrrhizinate,unclear,0,0,0
+venetoclax,Venetoclax,unclear,0,0,0
+Delamanid,Delamanid,unclear,0,0,0
+Dexmedetomidine,Dexmedetomidine,Adrenoceptor agonist,0,0,0
+Ranolazine,ranolazine,unclear,0,0,0
+Lopinavir,lopinavir,unclear,0,0,0
+Valdecoxib,Valdecoxib,Cyclooxygenase inhibitor,0,0,0
+Cloxacillin (sodium),Cloxacillin (sodium),unclear,0,0,0
+Elagolix sodium,elagolix,unclear,0,0,0
+palbociclib,Palbociclib,CDK inhibitor,0,1,0
+Retinoic acid,Retinoic acid,Retinoic receptor agonist,0,0,0
+PH-797804,PH-797804,Other MAPK inhibitor,0,0,0
+Ponatinib,Ponatinib,Multi-TK inhibitor,0,0,0
+Radotinib,Radotinib,Other TK inhibitor,0,0,0
+NVP-BHG712,NVP-BHG712,unclear,0,0,0
+Canagliflozin,Canagliflozin,Glucose transporter inhibitor,0,0,0
+MK-3903,MK-3903,unclear,0,0,0
+EX229,EX229,unclear,0,0,0
+Flumatinib (mesylate),Flumatinib (mesylate),Other TK inhibitor,0,0,0
+Tucatinib,tucatinib,EGFR/ERBB inhibitor,0,0,0
+Trimetrexate,Trimetrexate,DNA synthesis/repair inhibitor,0,0,0
+APTO-253,APTO-253,unclear,0,0,0
+Vitamin K4,Vitamin K4,unclear,0,0,0
+Panobinostat,Panobinostat,HDAC inhibitor,0,0,0
+Rimonabant,Rimonabant,unclear,0,0,0
+Rimonabant (Hydrochloride),Rimonabant (Hydrochloride),unclear,0,0,0
+Ligustrazine,Ligustrazine,unclear,0,0,0
+Sulfisoxazole,Sulfisoxazole,unclear,0,0,0
+Alpelisib,alpelisib,PI3K/AKT inhibitor,0,0,0
+Trametinib,Trametinib,MEK inhibitor,0,1,1
+Nevirapine,nevirapine,unclear,0,0,0
+Tomivosertib,Tomivosertib,Protein synthesis inhibitor,0,0,0
+Paclitaxel,Paclitaxel,Microtubule inhibitor,0,1,1
+Docetaxel,Docetaxel,Microtubule inhibitor,0,1,1
+Docetaxel (Trihydrate),Docetaxel,Microtubule inhibitor,0,0,0
+Roxadustat,Roxadustat,unclear,0,0,0
+Thymol,Thymol,unclear,0,0,0
+Gemfibrozil,Gemfibrozil,unclear,0,0,0
+Vortioxetine,vortioxetine,unclear,0,0,0
+OTS514,OTS514,Other MAPK inhibitor,0,0,0
+Pralsetinib,pralsetinib,Other TK inhibitor,0,0,0
+Menadione,Menadione,unclear,0,0,0
+Ciclopirox,Ciclopirox,unclear,0,0,0
+Methylthiouracil,Methylthiouracil,unclear,0,0,0
+Tolcapone,tolcapone,unclear,0,0,0
+Tolmetin,Tolmetin,Cyclooxygenase inhibitor,0,0,0
+Celecoxib,Celecoxib,Cyclooxygenase inhibitor,0,0,0
+S-Adenosyl-L-methionine (disulfate tosylate),S-Adenosyl-L-methionine (disulfate tosylate),unclear,0,0,0
+Lapatinib ditosylate,lapatinib,EGFR/ERBB inhibitor,0,0,0
+LY-2584702 (tosylate salt),LY-2584702 (tosylate salt),MTOR inhibitor,0,0,0
+Edoxaban (tosylate monohydrate),Edoxaban (tosylate monohydrate),unclear,0,0,0
+Lumateperone (tosylate),Lumateperone (tosylate),unclear,0,0,0
+Mozavaptan,Mozavaptan,unclear,0,0,0
+Bexarotene,Bexarotene,Retinoic receptor agonist,0,0,0
+Sulfatinib,Sulfatinib,Multi-TK inhibitor,0,0,0
+Olanzapine,Olanzapine,unclear,0,0,0
+AZD-7648,AZD-7648,DNA synthesis/repair inhibitor,0,0,0
+Megestrol,Megestrol acetate,unclear,0,0,0
+Omeprazole (sodium),Omeprazole (sodium),unclear,0,0,0
+Omeprazole,Omeprazole,unclear,0,0,0
+Fedratinib (hydrochloride hydrate),fedratinib,JAK/STAT inhibitor,0,0,0
+Meloxicam,meloxicam,Cyclooxygenase inhibitor,0,0,0
+Pyridoxine,Pyridoxine,unclear,0,0,0
+Pyridoxine (hydrochloride),Pyridoxine (hydrochloride),unclear,0,0,0
+Ornidazole,Ornidazole,unclear,0,0,0
+Raltitrexed,Raltitrexed,DNA synthesis/repair inhibitor,0,0,0
+BI-3406,BI-3406,RAS inhibitor,0,0,0
+Triamcinolone,Triamcinolone,Glucocorticoid receptor agonist,0,0,0
+Drospirenone,drospirenone,unclear,0,0,0
+Eplerenone,Eplerenone,unclear,0,0,0
+Quinestrol,Quinestrol,unclear,0,0,0
+Estrone sulfate (potassium),Estrone sulfate (potassium),unclear,0,0,0
+Finasteride,Finasteride,unclear,0,0,0
+Fulvestrant,Fulvestrant,unclear,0,1,0
+Monocrotaline,Monocrotaline,unclear,0,0,0
+Ouabain (Octahydrate),Ouabain (Octahydrate),unclear,0,0,0
+Rutin (trihydrate),Rutin (trihydrate),unclear,0,0,0
+Hesperidin,Hesperidin,unclear,0,0,0
+Digitoxin,Digitoxin,unclear,0,0,0
+Doxorubicin (hydrochloride),Doxorubicin,DNA synthesis/repair inhibitor,0,1,1
+Epirubicin (hydrochloride),Epirubicin,DNA synthesis/repair inhibitor,0,0,0
+Idarubicin (hydrochloride),Idarubicin,DNA synthesis/repair inhibitor,0,0,0
+Plicamycin,Plicamycin,unclear,0,0,0
+Rifaximin,Rifaximin,unclear,0,0,0
+Doxycycline (monohydrate),Doxycycline (monohydrate),unclear,0,0,0
+Fusidic acid,Fusidic acid,unclear,0,0,0
+Ipatasertib,Ipatasertib,PI3K/AKT inhibitor,0,0,0
+Medroxyprogesterone acetate,Medroxyprogesterone acetate,unclear,0,0,0
+Methylprednisolone succinate,Methylprednisolone succinate,Glucocorticoid receptor agonist,0,0,0
+Dexamethasone,dexamethasone,Glucocorticoid receptor agonist,0,0,0
+Dihydroartemisinin,Dihydroartemisinin,unclear,0,0,0
+Artesunate,Artesunate,JAK/STAT inhibitor,0,0,0
+Artemether,Artemether,unclear,0,0,0
+Rapamycin,Rapamycin,MTOR inhibitor,0,0,0
+Temsirolimus,Temsirolimus,MTOR inhibitor,0,1,1
+Everolimus,Everolimus,MTOR inhibitor,0,1,1
+Tofacitinib,tofacitinib,JAK/STAT inhibitor,0,0,0
+Tofacitinib (citrate),tofacitinib,JAK/STAT inhibitor,0,0,0
+Sonidegib,Sonidegib,Sonic inhibitor,0,0,0
+AZD-8055,AZD-8055,MTOR inhibitor,0,0,0
+Elimusertib hydrochloride,Elimusertib hydrochloride,unclear,0,0,0
+Clobetasol propionate,Clobetasol propionate,unclear,0,0,0
+Betamethasone dipropionate,Betamethasone dipropionate,Glucocorticoid receptor agonist,0,0,0
+Posaconazole,posaconazole,unclear,0,0,0
+Pravastatin (sodium),pravastatin,unclear,0,0,0
+Ivermectin,Ivermectin,unclear,0,0,0
+Topotecan (hydrochloride),Topotecan,DNA synthesis/repair inhibitor,0,0,0
+Vinblastine (sulfate),Vinblastine,Microtubule inhibitor,0,0,0
+vincristine,Vincristine,Microtubule inhibitor,0,0,0
+Indacaterol (maleate),Indacaterol (maleate),Adrenoceptor agonist,0,0,0
+Pimitespib,Pimitespib,unclear,0,0,0
+Irinotecan,Irinotecan,DNA synthesis/repair inhibitor,0,0,0
+Irinotecan (hydrochloride),Irinotecan,DNA synthesis/repair inhibitor,0,0,0
+Dinaciclib,Dinaciclib,CDK inhibitor,0,0,0
+Pioglitazone,Pioglitazone,unclear,0,0,0
+Volasertib,Volasertib,unclear,0,0,0
+Cyclosporin A,Cyclosporin A,unclear,0,0,0
+Erythromycin,Erythromycin,unclear,0,0,0
+Azithromycin (hydrate),azithromycin,unclear,0,0,0
+Perindopril (erbumine),Perindopril (erbumine),unclear,0,0,0
+Sildenafil,Sildenafil,unclear,0,0,0
+Budesonide,Budesonide,Glucocorticoid receptor agonist,0,0,0
+Hexylresorcinol,Hexylresorcinol,unclear,0,0,0
+Oleic acid,Oleic acid,unclear,0,0,0
+Fingolimod (hydrochloride),Fingolimod (hydrochloride),unclear,0,0,0
+Daptomycin,Daptomycin,unclear,0,0,0
+Orlistat,Orlistat,unclear,0,0,0
+Levobupivacaine (hydrochloride),Levobupivacaine (hydrochloride),unclear,0,0,0
+Proglumide,Proglumide,unclear,0,0,0
+Ropivacaine (hydrochloride monohydrate),Ropivacaine (hydrochloride monohydrate),unclear,0,0,0
+Macitentan,Macitentan,unclear,0,0,0
+Vemurafenib,Vemurafenib,RAF inhibitor,0,1,1
+Lidocaine (hydrochloride),Lidocaine (hydrochloride),unclear,0,0,0
+Sunitinib,Sunitinib Malate,Multi-TK inhibitor,0,1,1
+Procainamide (hydrochloride),Procainamide (hydrochloride),DNA methyltransferase inhibitor,0,0,0
+Lucanthone,Lucanthone,unclear,0,0,0
+RMC-6236,RMC-6236,RAS inhibitor,0,0,0
+Pemigatinib,pemigatinib,Other TK inhibitor,0,0,0
+Infigratinib,infigratinib,Other TK inhibitor,0,0,0
+NG25,NG25,Other MAPK inhibitor,0,0,0
+Abemaciclib,Abemaciclib,CDK inhibitor,0,0,0
+Bimatoprost,Bimatoprost,unclear,0,0,0
+Dorzolamide (hydrochloride),Dorzolamide (hydrochloride),unclear,0,0,0
+Tazarotene,Tazarotene,Retinoic receptor agonist,0,0,0
+Neratinib,Neratinib,EGFR/ERBB inhibitor,0,0,0
+Neratinib (maleate),Neratinib (maleate),EGFR/ERBB inhibitor,0,0,0
+Dapagliflozin,Dapagliflozin,Glucose transporter inhibitor,0,0,0
+"Dapagliflozin ((2S)-1,2-propanediol, hydrate)","Dapagliflozin ((2S)-1,2-propanediol, hydrate)",Glucose transporter inhibitor,0,0,0
+Auranofin,Auranofin,unclear,0,0,0
+TAK-901,TAK-901,unclear,0,0,0
+Loperamide (hydrochloride),Loperamide (hydrochloride),unclear,0,0,0
+Ribociclib,ribociclib,CDK inhibitor,0,0,0
+Altretamine,Altretamine,DNA synthesis/repair inhibitor,0,0,0
+Demeclocycline,Demeclocycline,unclear,0,0,0
+Afatinib,Afatinib,EGFR/ERBB inhibitor,0,1,1
+Relugolix,relugolix,unclear,0,0,0
+Citalopram (hydrobromide),Citalopram (hydrobromide),unclear,0,0,0
+Almonertinib (hydrochloride),Almonertinib (hydrochloride),EGFR/ERBB inhibitor,0,0,0
+Almonertinib (mesylate),Almonertinib (mesylate),EGFR/ERBB inhibitor,0,0,0
+Diphenhydramine,Diphenhydramine,unclear,0,0,0
+ML264,ML264,unclear,0,0,0
+Methotrexate,Methotrexate,DNA synthesis/repair inhibitor,0,1,1
+Ivabradine (hydrochloride),Ivabradine (hydrochloride),unclear,0,0,0
+Rosiglitazone,rosiglitazone,unclear,0,0,0
+Piroxicam,Piroxicam,Cyclooxygenase inhibitor,0,0,0
+c-Kit-IN-1,c-Kit-IN-1,Multi-TK inhibitor,0,0,0
+CP21R7,CP21R7,GSK3 inhibitor,0,0,0
+9-ING-41,9-ING-41,GSK3 inhibitor,0,0,0
+Binimetinib,Binimetinib,MEK inhibitor,0,0,0
+TAK-733,TAK-733,MEK inhibitor,0,0,0
+Bendamustine,Bendamustine,DNA synthesis/repair inhibitor,0,0,0
+Benztropine (mesylate),Benztropine (mesylate),unclear,0,0,0
+Tadalafil,Tadalafil,unclear,0,0,0
+Vandetanib,Vandetanib,Multi-TK inhibitor,0,0,0
+Glasdegib,glasdegib,Sonic inhibitor,0,0,0
+Isocorydine,Isocorydine,unclear,0,0,0
+Berbamine,Berbamine,unclear,0,0,0
+Berbamine (dihydrochloride),Berbamine (dihydrochloride),unclear,0,0,0
+Cepharanthine,Cepharanthine,unclear,0,0,0
+Sinomenine,Sinomenine,unclear,0,0,0
+Adagrasib,Adagrasib,RAS inhibitor,0,0,0
+LB-100,LB-100,unclear,0,0,0
+Entrectinib,entrectinib,Other TK inhibitor,0,0,0
+AZD2858,AZD2858,GSK3 inhibitor,0,0,0
+Capmatinib,Capmatinib,EGFR/ERBB inhibitor,0,0,0
+Apalutamide,apalutamide,Androgen receptor antagonist,0,0,0
+Regorafenib,Regorafenib,Multi-TK inhibitor,0,0,0
+Phenylephrine (hydrochloride),Phenylephrine (hydrochloride),Adrenoceptor agonist,0,0,0
+Rucaparib (phosphate),Rucaparib,DNA synthesis/repair inhibitor,0,0,0
+Clopidogrel,Clopidogrel,unclear,0,0,0
+Dimethyl fumarate,monomethyl fumarate,unclear,0,0,0
+Methyl aminolevulinate (hydrochloride),Methyl aminolevulinate (hydrochloride),unclear,0,0,0
+Mebendazole,Mebendazole,Microtubule inhibitor,0,0,0
+Tranilast,Tranilast,unclear,0,0,0
+Gefitinib,Gefitinib,EGFR/ERBB inhibitor,0,1,1
+Simotinib,Simotinib,EGFR/ERBB inhibitor,0,0,0
+Bergenin,Bergenin,unclear,0,0,0
+Ferulic acid,Ferulic acid,Other TK inhibitor,0,0,0
+Amsacrine,Amsacrine,DNA synthesis/repair inhibitor,0,0,0
+Palmatine (chloride),Palmatine (chloride),unclear,0,0,0
+Berberine (chloride hydrate),Berberine (chloride hydrate),unclear,0,0,0
+Futibatinib,Futibatinib,Other TK inhibitor,0,0,0
+Tubulin inhibitor 6,Tubulin inhibitor 6,Microtubule inhibitor,0,0,0
+Anethole trithione,Anethole trithione,unclear,0,0,0
+Cabozantinib (S-malate),Cabozantinib,Multi-TK inhibitor,0,1,1
+Fluvoxamine,fluvoxamine,unclear,0,0,0
+Fluvoxamine (maleate),fluvoxamine,unclear,0,0,0
+Erlotinib,Erlotinib,EGFR/ERBB inhibitor,0,1,1
+Belzutifan,belzutifan,unclear,0,0,0
+Vismodegib,Vismodegib,Sonic inhibitor,0,0,0
+Nimesulide,Nimesulide,Cyclooxygenase inhibitor,0,0,0
+Nafamostat (mesylate),Nafamostat (mesylate),unclear,0,0,0
+Busulfan,Busulfan,DNA synthesis/repair inhibitor,0,0,0
+18β-Glycyrrhetinic acid,18β-Glycyrrhetinic acid,unclear,0,0,0
+Trametinib (DMSO_TF solvate),Trametinib,MEK inhibitor,0,1,0
+Sacubitril/Valsartan,Sacubitril/Valsartan,unclear,0,0,0
+Pitavastatin (Calcium),Pitavastatin (Calcium),unclear,0,0,0
+Verteporfin,Verteporfin,unclear,0,0,0
+Quinidine (15% dihydroquinidine),Quinidine (15% dihydroquinidine),unclear,0,0,0
+Canagliflozin (hemihydrate),Canagliflozin (hemihydrate),Glucose transporter inhibitor,0,0,0
+Osimertinib (mesylate),Osimertinib,EGFR/ERBB inhibitor,0,1,1
+γ-Oryzanol,γ-Oryzanol,DNA methyltransferase inhibitor,0,0,0

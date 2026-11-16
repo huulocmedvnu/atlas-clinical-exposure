@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or the exposure tier table, please cite it as below."
+title: "The detectable transcriptional response in single-cell chemical perturbation atlases arises above clinical drug exposure: code, analysis plan and exposure tier table"
+type: software
+authors:
+  - family-names: Tran
+    given-names: Thai Huu Loc
+    email: tranthaihuuloc2@gmail.com
+    orcid: "https://orcid.org/0009-0009-1810-010X"
+    affiliation: "Department of Obstetrics and Gynecology, Hong Hung Hospital, Tay Ninh City 80116, Viet Nam"
+repository-code: "https://github.com/huulocmedvnu/atlas-clinical-exposure"
+license: MIT
+version: 1.0.0
+date-released: 2026-11-17
+keywords:
+  - single-cell RNA sequencing
+  - drug perturbation
+  - pharmacokinetics
+  - unbound concentration
+  - Tahoe-100M
+  - sci-Plex

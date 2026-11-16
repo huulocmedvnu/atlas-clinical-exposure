@@ -1,0 +1,13 @@
+quantity,tahoe_100m_compilation,tahoe_100m_labels,sciplex_3
+Cell lines,50,50,3
+Nominal doses (uM),"0.05, 0.5, 5","0.05, 0.5, 5","0.01, 0.1, 1, 10"
+Annotated compounds,65,49,27
+Doses on both sides of unbound Cmax,27,30,21
+All doses above unbound Cmax,32,17,3
+All doses reachable,6,2,3
+Conditions above unbound Cmax,71.3%,66.7%,52.8%
+DE calls from conditions above unbound Cmax (95% CI),77.7% (64.2 to 88.2),71.3% (62.4 to 79.6),91.1% (74.0 to 99.5)
+Conditions above serum-adjusted reference,60.0%,52.4%,44.4%
+DE calls from conditions above serum-adjusted reference (95% CI),68.8% (53.3 to 80.8),58.7% (50.9 to 66.5),71.3% (27.7 to 95.7)
+Conditions above total Cmax,43.1%,29.3%,32.4%
+DE calls from conditions above total Cmax (95% CI),54.9% (39.4 to 67.5),34.2% (25.7 to 42.7),65.9% (21.4 to 86.3)

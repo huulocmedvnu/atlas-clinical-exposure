@@ -1,0 +1,696 @@
+{
+  "cells_per_well": {
+    "0.01": {
+      "median": 137.0,
+      "n": 162,
+      "q1": 114.0,
+      "q3": 193.75
+    },
+    "0.1": {
+      "median": 131.5,
+      "n": 162,
+      "q1": 108.5,
+      "q3": 194.75
+    },
+    "1": {
+      "median": 126.5,
+      "n": 162,
+      "q1": 103.0,
+      "q3": 165.0
+    },
+    "10": {
+      "median": 112.0,
+      "n": 162,
+      "q1": 79.25,
+      "q3": 162.5
+    },
+    "vehicle": {
+      "median": 136.0,
+      "n": 96,
+      "q1": 110.0,
+      "q3": 194.75
+    },
+    "wells_10uM": 162,
+    "wells_10uM_above_10nM": 46
+  },
+  "data": {
+    "cell_lines": 3,
+    "compounds": 27,
+    "contrasts": 324,
+    "genes": 24063,
+    "wells": 744
+  },
+  "downsampling": {
+    "de_share_above_unbound": 0.9104686066872342,
+    "median_retained": 0.9629629629629629,
+    "n_drug_line_pairs": 34,
+    "n_with_de": 13
+  },
+  "magnitude": {
+    "above_100x_vs_reachable": {
+      "auroc": 0.8613353838267334,
+      "mann_whitney_p": 1.1534953047260135e-14,
+      "ratio_of_medians_l2": 1.6390127807305566
+    },
+    "by_dose": {
+      "0.01": {
+        "l2_shrunk": 32.29178298691951,
+        "median_abs_lfc_top500": 0.7575745668580186
+      },
+      "0.1": {
+        "l2_shrunk": 33.467482338483045,
+        "median_abs_lfc_top500": 0.7992898322326274
+      },
+      "1": {
+        "l2_shrunk": 34.91982425364562,
+        "median_abs_lfc_top500": 0.8496637323720881
+      },
+      "10": {
+        "l2_shrunk": 40.36743236402772,
+        "median_abs_lfc_top500": 0.9601373525871038
+      }
+    },
+    "by_exposure": {
+      "0.1-1x": {
+        "l2_q1": 30.3355123199462,
+        "l2_q3": 35.35620382329027,
+        "l2_shrunk": 32.28794654356191,
+        "median_abs_lfc_top500": 0.7507509131447097,
+        "median_n_de": 0.0,
+        "n": 69,
+        "share_n_de_ge_10": 0.13043478260869565
+      },
+      "1-10x": {
+        "l2_q1": 31.011119358076005,
+        "l2_q3": 39.73546573157972,
+        "l2_shrunk": 34.31312290091351,
+        "median_abs_lfc_top500": 0.8222426298704022,
+        "median_n_de": 0.0,
+        "n": 66,
+        "share_n_de_ge_10": 0.22727272727272727
+      },
+      "10-100x": {
+        "l2_q1": 32.720187102179594,
+        "l2_q3": 51.19865924851037,
+        "l2_shrunk": 37.74288021823617,
+        "median_abs_lfc_top500": 0.895040603912387,
+        "median_n_de": 4.0,
+        "n": 54,
+        "share_n_de_ge_10": 0.42592592592592593
+      },
+      "<=0.1x": {
+        "l2_q1": 29.72590587481544,
+        "l2_q3": 34.167456036155684,
+        "l2_shrunk": 31.333485497191433,
+        "median_abs_lfc_top500": 0.7435398622551583,
+        "median_n_de": 0.0,
+        "n": 84,
+        "share_n_de_ge_10": 0.047619047619047616
+      },
+      ">100x": {
+        "l2_q1": 38.06487746585338,
+        "l2_q3": 67.04202683014783,
+        "l2_shrunk": 52.4560536736784,
+        "median_abs_lfc_top500": 1.0199686470229528,
+        "median_n_de": 192.0,
+        "n": 51,
+        "share_n_de_ge_10": 0.7058823529411765
+      }
+    },
+    "straddling": {
+      "highest_reachable_l2": 32.80887604923971,
+      "highest_reachable_median_abs_lfc": 0.7511940940084305,
+      "n_drug_line": 63,
+      "ratio_l2": 1.0509667316770663,
+      "ratio_l2_q1": 0.9780939707030565,
+      "ratio_l2_q3": 1.1563477633619592,
+      "ratio_median_abs_lfc": 1.08868267333237,
+      "wilcoxon_p_two_sided": 0.00211279715126076
+    },
+    "vehicle_split": {
+      "l2_shrunk": 21.576435646531507,
+      "median_abs_lfc_top500": 0.4275594787764085
+    }
+  },
+  "metrics": [
+    {
+      "basis": "unbound",
+      "cut": 0.5,
+      "de_share_above": 0.8941295236148027,
+      "de_share_above_ci": [
+        0.7065798624641026,
+        0.9913447753239085
+      ],
+      "excess_share_above": 0.8945559642467461,
+      "excess_share_above_ci": [
+        0.70984326003069,
+        0.9916340266947578
+      ],
+      "mean_n_de_reachable": 54.150326797385624,
+      "mean_n_de_unreachable": 409.187134502924,
+      "n_all_reachable": 3,
+      "n_always_above": 3,
+      "n_compounds": 27,
+      "n_straddling": 21,
+      "recall_10uM_at_10_100nM": 0.0,
+      "recall_10uM_at_top_reachable": 0.0,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 20,
+      "share_10nM_above_cmax": 0.1111111111111111,
+      "share_10uM_above_10x": 0.6666666666666666,
+      "share_10uM_above_cmax": 0.8888888888888888,
+      "share_1uM_above_10x": 0.4444444444444444,
+      "share_1uM_above_cmax": 0.6666666666666666,
+      "share_above_floor_reachable": 0.27450980392156865,
+      "share_above_floor_unreachable": 0.695906432748538,
+      "share_contrasts_unreachable": 0.5277777777777778,
+      "vehicle_floor": {
+        "A549": 0.5499999999999989,
+        "K562": 0.5499999999999989,
+        "MCF7": 2.7499999999999947
+      }
+    },
+    {
+      "basis": "total",
+      "cut": 0.5,
+      "de_share_above": 0.6451901451645881,
+      "de_share_above_ci": [
+        0.2851847867280587,
+        0.8458588228812864
+      ],
+      "excess_share_above": 0.6455594502594486,
+      "excess_share_above_ci": [
+        0.2764183624666212,
+        0.8436971177519232
+      ],
+      "mean_n_de_reachable": 126.78538812785388,
+      "mean_n_de_unreachable": 480.85714285714283,
+      "n_all_reachable": 5,
+      "n_always_above": 0,
+      "n_compounds": 27,
+      "n_straddling": 22,
+      "recall_10uM_at_10_100nM": 0.0,
+      "recall_10uM_at_top_reachable": 0.003205128205128205,
+      "recovery_median_ratio": 0.013806706114398435,
+      "recovery_n_compounds": 21,
+      "share_10nM_above_cmax": 0.0,
+      "share_10uM_above_10x": 0.37037037037037035,
+      "share_10uM_above_cmax": 0.8148148148148148,
+      "share_1uM_above_10x": 0.1111111111111111,
+      "share_1uM_above_cmax": 0.37037037037037035,
+      "share_above_floor_reachable": 0.3561643835616438,
+      "share_above_floor_unreachable": 0.7904761904761904,
+      "share_contrasts_unreachable": 0.32407407407407407,
+      "vehicle_floor": {
+        "A549": 0.5499999999999989,
+        "K562": 0.5499999999999989,
+        "MCF7": 2.7499999999999947
+      }
+    },
+    {
+      "basis": "fbs",
+      "cut": 0.5,
+      "de_share_above": 0.712750460028624,
+      "de_share_above_ci": [
+        0.3526841720159428,
+        0.9558757249930405
+      ],
+      "excess_share_above": 0.7128860738245357,
+      "excess_share_above_ci": [
+        0.33723565677982714,
+        0.9532765577841643
+      ],
+      "mean_n_de_reachable": 124.88333333333334,
+      "mean_n_de_unreachable": 387.34027777777777,
+      "n_all_reachable": 4,
+      "n_always_above": 2,
+      "n_compounds": 27,
+      "n_straddling": 21,
+      "recall_10uM_at_10_100nM": 0.0,
+      "recall_10uM_at_top_reachable": 0.0,
+      "recovery_median_ratio": 0.0,
+      "recovery_n_compounds": 20,
+      "share_10nM_above_cmax": 0.07407407407407407,
+      "share_10uM_above_10x": 0.6296296296296297,
+      "share_10uM_above_cmax": 0.8518518518518519,
+      "share_1uM_above_10x": 0.2222222222222222,
+      "share_1uM_above_cmax": 0.6296296296296297,
+      "share_above_floor_reachable": 0.3,
+      "share_above_floor_unreachable": 0.7430555555555556,
+      "share_contrasts_unreachable": 0.4444444444444444,
+      "vehicle_floor": {
+        "A549": 0.5499999999999989,
+        "K562": 0.5499999999999989,
+        "MCF7": 2.7499999999999947
+      }
+    },
+    {
+      "basis": "unbound",
+      "cut": 1.0,
+      "de_share_above": 0.9112708358930254,
+      "de_share_above_ci": [
+        0.740232443071971,
+        0.9945003808615509
+      ],
+      "excess_share_above": 0.9114576660328911,
+      "excess_share_above_ci": [
+        0.7448990339561133,
+        0.9932852857543479
+      ],
+      "mean_n_de_reachable": 28.320261437908496,
+      "mean_n_de_unreachable": 260.2397660818713,
+      "n_all_reachable": 3,
+      "n_always_above": 3,
+      "n_compounds": 27,
+      "n_straddling": 21,
+      "recall_10uM_at_10_100nM": 0.0,
+      "recall_10uM_at_top_reachable": 0.0,
+      "recovery_median_ratio": 0.0059382422802850355,
+      "recovery_n_compounds": 18,
+      "share_10nM_above_cmax": 0.1111111111111111,
+      "share_10uM_above_10x": 0.6666666666666666,
+      "share_10uM_above_cmax": 0.8888888888888888,
+      "share_1uM_above_10x": 0.4444444444444444,
+      "share_1uM_above_cmax": 0.6666666666666666,
+      "share_above_floor_reachable": 0.28104575163398693,
+      "share_above_floor_unreachable": 0.6432748538011696,
+      "share_contrasts_unreachable": 0.5277777777777778,
+      "vehicle_floor": {
+        "A549": 0.5499999999999989,
+        "K562": 0.5499999999999989,
+        "MCF7": 0.0
+      }
+    },
+    {
+      "basis": "total",
+      "cut": 1.0,
+      "de_share_above": 0.6587828152516689,
+      "de_share_above_ci": [
+        0.214007311108848,
+        0.8627188129694909
+      ],
+      "excess_share_above": 0.658935975031646,
+      "excess_share_above_ci": [
+        0.23811852540026676,
+        0.8677853423435694
+      ],
+      "mean_n_de_reachable": 76.08675799086758,
+      "mean_n_de_unreachable": 306.3904761904762,
+      "n_all_reachable": 5,
+      "n_always_above": 0,
+      "n_compounds": 27,
+      "n_straddling": 22,
+      "recall_10uM_at_10_100nM": 0.0,
+      "recall_10uM_at_top_reachable": 0.004901960784313725,
+      "recovery_median_ratio": 0.09263657957244656,
+      "recovery_n_compounds": 19,
+      "share_10nM_above_cmax": 0.0,
+      "share_10uM_above_10x": 0.37037037037037035,
+      "share_10uM_above_cmax": 0.8148148148148148,
+      "share_1uM_above_10x": 0.1111111111111111,
+      "share_1uM_above_cmax": 0.37037037037037035,
+      "share_above_floor_reachable": 0.3561643835616438,
+      "share_above_floor_unreachable": 0.7142857142857143,
+      "share_contrasts_unreachable": 0.32407407407407407,
+      "vehicle_floor": {
+        "A549": 0.5499999999999989,
+        "K562": 0.5499999999999989,
+        "MCF7": 0.0
+      }
+    },
+    {
+      "basis": "fbs",
+      "cut": 1.0,
+      "de_share_above": 0.7128639882049392,
+      "de_share_above_ci": [
+        0.27693488463304267,
+        0.956629533178744
+      ],
+      "excess_share_above": 0.7129059535584517,
+      "excess_share_above_ci": [
+        0.2929584632873614,
+        0.9613714900431778
+      ],
+      "mean_n_de_reachable": 77.9,
+      "mean_n_de_unreachable": 241.75,
+      "n_all_reachable": 4,
+      "n_always_above": 2,
+      "n_compounds": 27,
+      "n_straddling": 21,
+      "recall_10uM_at_10_100nM": 0.0,
+      "recall_10uM_at_top_reachable": 0.0,
+      "recovery_median_ratio": 0.0059382422802850355,
+      "recovery_n_compounds": 18,
+      "share_10nM_above_cmax": 0.07407407407407407,
+      "share_10uM_above_10x": 0.6296296296296297,
+      "share_10uM_above_cmax": 0.8518518518518519,
+      "share_1uM_above_10x": 0.2222222222222222,
+      "share_1uM_above_cmax": 0.6296296296296297,
+      "share_above_floor_reachable": 0.3,
+      "share_above_floor_unreachable": 0.6875,
+      "share_contrasts_unreachable": 0.4444444444444444,
+      "vehicle_floor": {
+        "A549": 0.5499999999999989,
+        "K562": 0.5499999999999989,
+        "MCF7": 0.0
+      }
+    }
+  ],
+  "n_de_by_dose": {
+    "0.01": {
+      "mean": 53.39506172839506,
+      "median": 0.0,
+      "q3": 1.0
+    },
+    "0.1": {
+      "mean": 109.67901234567901,
+      "median": 0.0,
+      "q3": 2.0
+    },
+    "1": {
+      "mean": 157.1851851851852,
+      "median": 1.0,
+      "q3": 9.0
+    },
+    "10": {
+      "mean": 282.6296296296296,
+      "median": 9.0,
+      "q3": 232.0
+    }
+  },
+  "power": {
+    "1-10x": {
+      "control_projection": 0.01530636858149841,
+      "effect_10uM": 1.9157954048954438,
+      "effect_ci": [
+        0.08732055280760993,
+        0.5740840296888545
+      ],
+      "effect_log2": 0.4313058991601206,
+      "effect_p90": 1.3836004235992874,
+      "effect_p90_ci": [
+        0.4480321526094839,
+        1.646882730830859
+      ],
+      "match_z_10uM": {
+        "cells_ci": [
+          null,
+          null
+        ],
+        "cells_per_well_2_wells": null,
+        "wells_150_cells": 59.0,
+        "wells_ci": [
+          40.0,
+          901.0
+        ]
+      },
+      "mde_150_cells_2_wells": 1.2140038811919136,
+      "mde_150_cells_8_wells": 0.6540051158983256,
+      "mde_infinite_cells_2_wells": 0.4070898330886082,
+      "mean": {
+        "ceiling": false,
+        "cells_ci": [
+          1110.7460603973782,
+          null
+        ],
+        "cells_per_well_2_wells": 10160.71352459315,
+        "power_infinite_cells_2_wells": 0.8567402255138971,
+        "wells_150_cells": 26.0,
+        "wells_ci": [
+          11.0,
+          766.0
+        ]
+      },
+      "mean_abs_z_10uM": 5.358112956705551,
+      "median_alpha_star": 0.0043251379827606695,
+      "median_cell_rate": 0.08956290580097406,
+      "n_compounds": 13,
+      "n_gene_instances": 13959,
+      "n_units": 30,
+      "p90": {
+        "ceiling": false,
+        "cells_ci": [
+          72.95318443773496,
+          15094.739941978809
+        ],
+        "cells_per_well_2_wells": 112.06647600188894,
+        "power_infinite_cells_2_wells": 1.0,
+        "wells_150_cells": 2.0,
+        "wells_ci": [
+          2.0,
+          27.0
+        ]
+      },
+      "retained_ci": [
+        0.05655927855660771,
+        0.27416662861508834
+      ],
+      "retained_fraction": 0.22513150311249414,
+      "tau": 0.7430512831142062
+    },
+    "10-100x": {
+      "control_projection": 0.018064993753814807,
+      "effect_10uM": 1.9289779657663484,
+      "effect_ci": [
+        0.28876054456906747,
+        1.5249432647172605
+      ],
+      "effect_log2": 1.1862643086744782,
+      "effect_p90": 2.759139620047489,
+      "effect_p90_ci": [
+        0.8678362695085923,
+        3.206570476942656
+      ],
+      "match_z_10uM": {
+        "cells_ci": [
+          261.25267958629985,
+          null
+        ],
+        "cells_per_well_2_wells": 388.21674760006,
+        "wells_150_cells": 5.0,
+        "wells_ci": [
+          4.0,
+          79.0
+        ]
+      },
+      "mde_150_cells_2_wells": 1.198759523888294,
+      "mde_150_cells_8_wells": 0.6459867492241218,
+      "mde_infinite_cells_2_wells": 0.405269639719429,
+      "mean": {
+        "ceiling": false,
+        "cells_ci": [
+          84.9619511884787,
+          null
+        ],
+        "cells_per_well_2_wells": 153.60967732294233,
+        "power_infinite_cells_2_wells": 0.9999999999999993,
+        "wells_150_cells": 3.0,
+        "wells_ci": [
+          2.0,
+          66.0
+        ]
+      },
+      "mean_abs_z_10uM": 5.422088444503044,
+      "median_alpha_star": 0.01124606823083199,
+      "median_cell_rate": 0.09073219178533107,
+      "n_compounds": 11,
+      "n_gene_instances": 13678,
+      "n_units": 25,
+      "p90": {
+        "ceiling": false,
+        "cells_ci": [
+          18.366538738161218,
+          358.4775913434015
+        ],
+        "cells_per_well_2_wells": 25.575348402989423,
+        "power_infinite_cells_2_wells": 1.0,
+        "wells_150_cells": 1.0,
+        "wells_ci": [
+          1.0,
+          5.0
+        ]
+      },
+      "retained_ci": [
+        0.1860368676753755,
+        0.727171925012111
+      ],
+      "retained_fraction": 0.6149703779551451,
+      "tau": 1.2272747435806888
+    },
+    "<=1x": {
+      "control_projection": 0.007177120576107861,
+      "effect_10uM": 1.9216385120690214,
+      "effect_ci": [
+        0.013520934681661448,
+        0.3074657171054843
+      ],
+      "effect_log2": 0.23873663968275258,
+      "effect_p90": 0.8346388639610224,
+      "effect_p90_ci": [
+        0.021926120002705596,
+        0.9692996121626494
+      ],
+      "match_z_10uM": {
+        "cells_ci": [
+          null,
+          null
+        ],
+        "cells_per_well_2_wells": null,
+        "wells_150_cells": 203.0,
+        "wells_ci": [
+          136.0,
+          42573.0
+        ]
+      },
+      "mde_150_cells_2_wells": 1.2407176011802985,
+      "mde_150_cells_8_wells": 0.6691191874123862,
+      "mde_infinite_cells_2_wells": 0.4086389985037207,
+      "mean": {
+        "ceiling": true,
+        "cells_ci": [
+          null,
+          null
+        ],
+        "cells_per_well_2_wells": null,
+        "power_infinite_cells_2_wells": 0.24236258859576543,
+        "wells_150_cells": 96.0,
+        "wells_ci": [
+          56.0,
+          34806.0
+        ]
+      },
+      "mean_abs_z_10uM": 5.318461046431125,
+      "median_alpha_star": 0.008594241470724432,
+      "median_cell_rate": 0.08342439699253058,
+      "n_compounds": 16,
+      "n_gene_instances": 29734,
+      "n_units": 54,
+      "p90": {
+        "ceiling": false,
+        "cells_ci": [
+          248.70378882624493,
+          null
+        ],
+        "cells_per_well_2_wells": 393.35417081500464,
+        "power_infinite_cells_2_wells": 0.999998349990216,
+        "wells_150_cells": 5.0,
+        "wells_ci": [
+          4.0,
+          13115.0
+        ]
+      },
+      "retained_ci": [
+        0.008485693889098525,
+        0.15075527188714222
+      ],
+      "retained_fraction": 0.1242359778820761,
+      "tau": 0.4649674034630694
+    },
+    ">100x": {
+      "control_projection": 0.0182232934858595,
+      "effect_10uM": 2.022178567130219,
+      "effect_ci": [
+        1.0961885024408948,
+        1.9907456300986992
+      ],
+      "effect_log2": 1.7139558467617735,
+      "effect_p90": 3.3893247064772165,
+      "effect_p90_ci": [
+        1.7744138912901701,
+        3.8458104797922417
+      ],
+      "match_z_10uM": {
+        "cells_ci": [
+          165.5722934185381,
+          403.89613100366165
+        ],
+        "cells_per_well_2_wells": 186.2188514644994,
+        "wells_150_cells": 3.0,
+        "wells_ci": [
+          3.0,
+          5.0
+        ]
+      },
+      "mde_150_cells_2_wells": 1.1876581775973991,
+      "mde_150_cells_8_wells": 0.6381917125182238,
+      "mde_infinite_cells_2_wells": 0.39854794542626165,
+      "mean": {
+        "ceiling": false,
+        "cells_ci": [
+          48.34825880391406,
+          208.01736240731233
+        ],
+        "cells_per_well_2_wells": 67.36085901204902,
+        "power_infinite_cells_2_wells": 1.0,
+        "wells_150_cells": 1.0,
+        "wells_ci": [
+          1.0,
+          3.0
+        ]
+      },
+      "mean_abs_z_10uM": 5.696845127196862,
+      "median_alpha_star": 0.01124606823083199,
+      "median_cell_rate": 0.08641965237454285,
+      "n_compounds": 3,
+      "n_gene_instances": 11173,
+      "n_units": 11,
+      "p90": {
+        "ceiling": false,
+        "cells_ci": [
+          12.60544104437867,
+          73.46417870280843
+        ],
+        "cells_per_well_2_wells": 16.471265021959354,
+        "power_infinite_cells_2_wells": 1.0,
+        "wells_150_cells": 1.0,
+        "wells_ci": [
+          1.0,
+          2.0
+        ]
+      },
+      "retained_ci": [
+        0.6827759136093544,
+        0.8986104350976234
+      ],
+      "retained_fraction": 0.8475788808275914,
+      "tau": 1.307247861825408
+    },
+    "lines": {
+      "A549": {
+        "a0": 0.007173914900646707,
+        "a1": 0.1829230566139638,
+        "counts_per_cell_tested_genes": 1311.9383127972308,
+        "median_cells_per_vehicle_well": 116.0,
+        "median_cells_per_well": 112.0,
+        "median_gene_rate_per_cell": 0.067356223034578,
+        "model_over_fitted_se_median": 1.0433998586237394,
+        "vehicle_wells": 32.0,
+        "well_cv_floor": 0.08469896634934046
+      },
+      "K562": {
+        "a0": 0.00633841156283912,
+        "a1": 0.24652825868962722,
+        "counts_per_cell_tested_genes": 1167.187047175161,
+        "median_cells_per_vehicle_well": 123.0,
+        "median_cells_per_well": 117.0,
+        "median_gene_rate_per_cell": 0.07089542209742156,
+        "model_over_fitted_se_median": 1.0466024324754395,
+        "vehicle_wells": 32.0,
+        "well_cv_floor": 0.07961414172644908
+      },
+      "MCF7": {
+        "a0": 0.005922331394849352,
+        "a1": 0.21640994399859007,
+        "counts_per_cell_tested_genes": 3134.6028156982343,
+        "median_cells_per_vehicle_well": 240.5,
+        "median_cells_per_well": 222.0,
+        "median_gene_rate_per_cell": 0.08112905106631368,
+        "model_over_fitted_se_median": 1.0519129804654914,
+        "vehicle_wells": 32.0,
+        "well_cv_floor": 0.07695668518620948
+      }
+    },
+    "n_compounds": 19,
+    "n_units": 40
+  }
+}

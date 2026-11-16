@@ -1,0 +1,21 @@
+{
+ "title": "The detectable transcriptional response in single-cell chemical perturbation atlases arises above clinical drug exposure: code, analysis plan and exposure tier table",
+ "upload_type": "software",
+ "license": "MIT",
+ "creators": [
+  {
+   "name": "Tran, Thai Huu Loc",
+   "affiliation": "Hong Hung Hospital",
+   "orcid": "0009-0009-1810-010X"
+  }
+ ],
+ "description": "Rust code, analysis plan, curated clinical pharmacokinetic tables, result tables, figure source data and an exposure tier table of 456 compound and dose conditions for the comparison of the doses used in the single-cell perturbation atlases Tahoe-100M and sci-Plex 3 with the plasma concentrations reached in patients.",
+ "keywords": [
+  "single-cell RNA sequencing",
+  "drug perturbation",
+  "pharmacokinetics",
+  "unbound concentration",
+  "Tahoe-100M",
+  "sci-Plex"
+ ]
+}

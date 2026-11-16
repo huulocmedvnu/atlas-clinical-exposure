@@ -1,0 +1,457 @@
+atlas,compound,generic_name,pk_source,nominal_dose_uM,cmax_total_uM,f_unbound_plasma,cmax_unbound_uM,f_unbound_medium_10pct_fbs,dose_to_cmax_unbound_ratio,dose_to_cmax_serum_adj_ratio,exposure_tier,w_pk,in_de_results
+Tahoe-100M,Bortezomib,Bortezomib,Liston_Davis_2017,0.05,0.312000,0.170000,0.053040,0.671937,0.942685,0.633425,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Bortezomib,Bortezomib,Liston_Davis_2017,0.5,0.312000,0.170000,0.053040,0.671937,9.426848,6.334245,Tier_3_Moderate_Supraphysiological_1_to_10x,0.011253,true
+Tahoe-100M,Bortezomib,Bortezomib,Liston_Davis_2017,5,0.312000,0.170000,0.053040,0.671937,94.268477,63.342455,Tier_4_Extreme_Supraphysiological_gt10x,0.000113,true
+Tahoe-100M,Ixazomib,Ixazomib,Liston_Davis_2017,0.05,0.118000,0.010000,0.001180,0.091743,42.372881,3.887420,Tier_4_Extreme_Supraphysiological_gt10x,0.000557,true
+Tahoe-100M,Ixazomib,Ixazomib,Liston_Davis_2017,0.5,0.118000,0.010000,0.001180,0.091743,423.728814,38.874203,Tier_4_Extreme_Supraphysiological_gt10x,0.000006,true
+Tahoe-100M,Ixazomib,Ixazomib,Liston_Davis_2017,5,0.118000,0.010000,0.001180,0.091743,4237.288136,388.742031,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Ixazomib citrate,Ixazomib,Liston_Davis_2017,0.05,0.118000,0.010000,0.001180,0.091743,42.372881,3.887420,Tier_4_Extreme_Supraphysiological_gt10x,0.000557,true
+Tahoe-100M,Ixazomib citrate,Ixazomib,Liston_Davis_2017,0.5,0.118000,0.010000,0.001180,0.091743,423.728814,38.874203,Tier_4_Extreme_Supraphysiological_gt10x,0.000006,true
+Tahoe-100M,Ixazomib citrate,Ixazomib,Liston_Davis_2017,5,0.118000,0.010000,0.001180,0.091743,4237.288136,388.742031,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Entecavir (monohydrate),entecavir,product_label,0.05,0.029573,0.870000,0.025729,0.985277,1.943370,1.914758,Tier_3_Moderate_Supraphysiological_1_to_10x,0.264782,true
+Tahoe-100M,Entecavir (monohydrate),entecavir,product_label,0.5,0.029573,0.870000,0.025729,0.985277,19.433698,19.147584,Tier_4_Extreme_Supraphysiological_gt10x,0.002648,true
+Tahoe-100M,Entecavir (monohydrate),entecavir,product_label,5,0.029573,0.870000,0.025729,0.985277,194.336978,191.475845,Tier_4_Extreme_Supraphysiological_gt10x,0.000026,true
+Tahoe-100M,Mitoxantrone (dihydrochloride),Mitoxantrone,Liston_Davis_2017,0.05,0.715000,0.220000,0.157300,0.738255,0.317864,0.234665,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Mitoxantrone (dihydrochloride),Mitoxantrone,Liston_Davis_2017,0.5,0.715000,0.220000,0.157300,0.738255,3.178640,2.346647,Tier_3_Moderate_Supraphysiological_1_to_10x,0.098973,true
+Tahoe-100M,Mitoxantrone (dihydrochloride),Mitoxantrone,Liston_Davis_2017,5,0.715000,0.220000,0.157300,0.738255,31.786395,23.466466,Tier_4_Extreme_Supraphysiological_gt10x,0.000990,true
+Tahoe-100M,Pemetrexed,Pemetrexed,Liston_Davis_2017,0.05,306.000000,0.190000,58.140000,0.701107,0.000860,0.000603,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Pemetrexed,Pemetrexed,Liston_Davis_2017,0.5,306.000000,0.190000,58.140000,0.701107,0.008600,0.006029,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Pemetrexed,Pemetrexed,Liston_Davis_2017,5,306.000000,0.190000,58.140000,0.701107,0.085999,0.060295,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Pexidartinib (hydrochloride),pexidartinib,product_label,0.05,20.643355,0.010000,0.206434,0.091743,0.242209,0.022221,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Pexidartinib (hydrochloride),pexidartinib,product_label,0.5,20.643355,0.010000,0.206434,0.091743,2.422087,0.222210,Tier_2_Serum_Adjusted_Reachable,0.170459,true
+Tahoe-100M,Pexidartinib (hydrochloride),pexidartinib,product_label,5,20.643355,0.010000,0.206434,0.091743,24.220870,2.222098,Tier_4_Extreme_Supraphysiological_gt10x,0.001705,true
+Tahoe-100M,Belinostat,Belinostat,Liston_Davis_2017,0.05,134.000000,0.060000,8.040000,0.389610,0.006219,0.002423,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Belinostat,Belinostat,Liston_Davis_2017,0.5,134.000000,0.060000,8.040000,0.389610,0.062189,0.024230,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Belinostat,Belinostat,Liston_Davis_2017,5,134.000000,0.060000,8.040000,0.389610,0.621891,0.242295,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Gemcitabine,Gemcitabine,Liston_Davis_2017,0.05,89.300000,1.000000,89.300000,1.000000,0.000560,0.000560,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Gemcitabine,Gemcitabine,Liston_Davis_2017,0.5,89.300000,1.000000,89.300000,1.000000,0.005599,0.005599,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Gemcitabine,Gemcitabine,Liston_Davis_2017,5,89.300000,1.000000,89.300000,1.000000,0.055991,0.055991,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Cytarabine,Cytarabine,Liston_Davis_2017,0.05,54.400000,0.870000,47.328000,0.985277,0.001056,0.001041,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Cytarabine,Cytarabine,Liston_Davis_2017,0.5,54.400000,0.870000,47.328000,0.985277,0.010565,0.010409,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Cytarabine,Cytarabine,Liston_Davis_2017,5,54.400000,0.870000,47.328000,0.985277,0.105646,0.104090,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Cytarabine (hydrochloride),Cytarabine,Liston_Davis_2017,0.05,54.400000,0.870000,47.328000,0.985277,0.001056,0.001041,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Cytarabine (hydrochloride),Cytarabine,Liston_Davis_2017,0.5,54.400000,0.870000,47.328000,0.985277,0.010565,0.010409,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Cytarabine (hydrochloride),Cytarabine,Liston_Davis_2017,5,54.400000,0.870000,47.328000,0.985277,0.105646,0.104090,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Selinexor,selinexor,product_label,0.05,1.563275,0.050000,0.078164,0.344828,0.639683,0.220580,Tier_1_Clinical_Unbound_Reachable,1.000000,false
+Tahoe-100M,Selinexor,selinexor,product_label,0.5,1.563275,0.050000,0.078164,0.344828,6.396825,2.205802,Tier_3_Moderate_Supraphysiological_1_to_10x,0.024438,false
+Tahoe-100M,Selinexor,selinexor,product_label,5,1.563275,0.050000,0.078164,0.344828,63.968254,22.058019,Tier_4_Extreme_Supraphysiological_gt10x,0.000244,false
+Tahoe-100M,Clofarabine,Clofarabine,Liston_Davis_2017,0.05,0.744000,0.530000,0.394320,0.918544,0.126801,0.116472,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Clofarabine,Clofarabine,Liston_Davis_2017,0.5,0.744000,0.530000,0.394320,0.918544,1.268006,1.164719,Tier_3_Moderate_Supraphysiological_1_to_10x,0.621953,true
+Tahoe-100M,Clofarabine,Clofarabine,Liston_Davis_2017,5,0.744000,0.530000,0.394320,0.918544,12.680057,11.647193,Tier_4_Extreme_Supraphysiological_gt10x,0.006220,true
+Tahoe-100M,Allopurinol,Allopurinol,Liston_Davis_2017,0.05,14.300000,1.000000,14.300000,1.000000,0.003497,0.003497,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Allopurinol,Allopurinol,Liston_Davis_2017,0.5,14.300000,1.000000,14.300000,1.000000,0.034965,0.034965,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Allopurinol,Allopurinol,Liston_Davis_2017,5,14.300000,1.000000,14.300000,1.000000,0.349650,0.349650,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Decitabine,Decitabine,Liston_Davis_2017,0.05,0.323000,0.990000,0.319770,0.998991,0.156362,0.156205,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Decitabine,Decitabine,Liston_Davis_2017,0.5,0.323000,0.990000,0.319770,0.998991,1.563624,1.562046,Tier_3_Moderate_Supraphysiological_1_to_10x,0.409011,true
+Tahoe-100M,Decitabine,Decitabine,Liston_Davis_2017,5,0.323000,0.990000,0.319770,0.998991,15.636239,15.620460,Tier_4_Extreme_Supraphysiological_gt10x,0.004090,true
+Tahoe-100M,Lenalidomide (hemihydrate),Lenalidomide,Liston_Davis_2017,0.05,1.740000,0.700000,1.218000,0.958904,0.041051,0.039364,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Lenalidomide (hemihydrate),Lenalidomide,Liston_Davis_2017,0.5,1.740000,0.700000,1.218000,0.958904,0.410509,0.393639,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Lenalidomide (hemihydrate),Lenalidomide,Liston_Davis_2017,5,1.740000,0.700000,1.218000,0.958904,4.105090,3.936388,Tier_3_Moderate_Supraphysiological_1_to_10x,0.059341,true
+Tahoe-100M,Larotrectinib,larotrectinib,product_label,0.05,1.839231,0.300000,0.551769,0.810811,0.090618,0.073474,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Larotrectinib,larotrectinib,product_label,0.5,1.839231,0.300000,0.551769,0.810811,0.906176,0.734737,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Larotrectinib,larotrectinib,product_label,5,1.839231,0.300000,0.551769,0.810811,9.061760,7.347373,Tier_3_Moderate_Supraphysiological_1_to_10x,0.012178,true
+Tahoe-100M,Larotrectinib sulfate,larotrectinib,product_label,0.05,1.839231,0.300000,0.551769,0.810811,0.090618,0.073474,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Larotrectinib sulfate,larotrectinib,product_label,0.5,1.839231,0.300000,0.551769,0.810811,0.906176,0.734737,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Larotrectinib sulfate,larotrectinib,product_label,5,1.839231,0.300000,0.551769,0.810811,9.061760,7.347373,Tier_3_Moderate_Supraphysiological_1_to_10x,0.012178,true
+Tahoe-100M,olaparib,Olaparib,Liston_Davis_2017,0.05,13.100000,0.180000,2.358000,0.687023,0.021204,0.014568,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,olaparib,Olaparib,Liston_Davis_2017,0.5,13.100000,0.180000,2.358000,0.687023,0.212044,0.145679,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,olaparib,Olaparib,Liston_Davis_2017,5,13.100000,0.180000,2.358000,0.687023,2.120441,1.456792,Tier_3_Moderate_Supraphysiological_1_to_10x,0.222407,true
+Tahoe-100M,Filgotinib,filgotinib,product_label,0.05,5.052879,0.430000,2.172738,0.882957,0.023012,0.020319,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Filgotinib,filgotinib,product_label,0.5,5.052879,0.430000,2.172738,0.882957,0.230124,0.203190,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Filgotinib,filgotinib,product_label,5,5.052879,0.430000,2.172738,0.882957,2.301244,2.031899,Tier_3_Moderate_Supraphysiological_1_to_10x,0.188832,true
+Tahoe-100M,Oxaliplatin,Oxaliplatin,Liston_Davis_2017,0.05,4.960000,0.100000,0.496000,0.526316,0.100806,0.053056,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Oxaliplatin,Oxaliplatin,Liston_Davis_2017,0.5,4.960000,0.100000,0.496000,0.526316,1.008065,0.530560,Tier_2_Serum_Adjusted_Reachable,0.984064,true
+Tahoe-100M,Oxaliplatin,Oxaliplatin,Liston_Davis_2017,5,4.960000,0.100000,0.496000,0.526316,10.080645,5.305603,Tier_4_Extreme_Supraphysiological_gt10x,0.009841,true
+Tahoe-100M,Cobimetinib,Cobimetinib,Liston_Davis_2017,0.05,0.514000,0.050000,0.025700,0.344828,1.945525,0.670871,Tier_2_Serum_Adjusted_Reachable,0.264196,true
+Tahoe-100M,Cobimetinib,Cobimetinib,Liston_Davis_2017,0.5,0.514000,0.050000,0.025700,0.344828,19.455253,6.708708,Tier_4_Extreme_Supraphysiological_gt10x,0.002642,true
+Tahoe-100M,Cobimetinib,Cobimetinib,Liston_Davis_2017,5,0.514000,0.050000,0.025700,0.344828,194.552529,67.087079,Tier_4_Extreme_Supraphysiological_gt10x,0.000026,true
+Tahoe-100M,Asciminib,asciminib,product_label,0.05,12.543353,0.030000,0.376301,0.236220,0.132873,0.031387,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Asciminib,asciminib,product_label,0.5,12.543353,0.030000,0.376301,0.236220,1.328725,0.313872,Tier_2_Serum_Adjusted_Reachable,0.566409,true
+Tahoe-100M,Asciminib,asciminib,product_label,5,12.543353,0.030000,0.376301,0.236220,13.287250,3.138721,Tier_4_Extreme_Supraphysiological_gt10x,0.005664,true
+Tahoe-100M,Lonafarnib,lonafarnib,product_label,0.05,4.218848,0.010000,0.042188,0.091743,1.185158,0.108730,Tier_2_Serum_Adjusted_Reachable,0.711947,true
+Tahoe-100M,Lonafarnib,lonafarnib,product_label,0.5,4.218848,0.010000,0.042188,0.091743,11.851577,1.087301,Tier_4_Extreme_Supraphysiological_gt10x,0.007119,true
+Tahoe-100M,Lonafarnib,lonafarnib,product_label,5,4.218848,0.010000,0.042188,0.091743,118.515770,10.873006,Tier_4_Extreme_Supraphysiological_gt10x,0.000071,true
+Tahoe-100M,Abiraterone acetate,Abiraterone,Liston_Davis_2017,0.05,0.647000,0.010000,0.006470,0.091743,7.727975,0.708989,Tier_2_Serum_Adjusted_Reachable,0.016744,true
+Tahoe-100M,Abiraterone acetate,Abiraterone,Liston_Davis_2017,0.5,0.647000,0.010000,0.006470,0.091743,77.279753,7.089886,Tier_4_Extreme_Supraphysiological_gt10x,0.000167,true
+Tahoe-100M,Abiraterone acetate,Abiraterone,Liston_Davis_2017,5,0.647000,0.010000,0.006470,0.091743,772.797527,70.898856,Tier_4_Extreme_Supraphysiological_gt10x,0.000002,true
+Tahoe-100M,Atazanavir (sulfate),atazanavir,product_label,0.05,6.273230,0.140000,0.878252,0.619469,0.056931,0.035267,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Atazanavir (sulfate),atazanavir,product_label,0.5,6.273230,0.140000,0.878252,0.619469,0.569313,0.352671,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Atazanavir (sulfate),atazanavir,product_label,5,6.273230,0.140000,0.878252,0.619469,5.693125,3.526715,Tier_3_Moderate_Supraphysiological_1_to_10x,0.030853,true
+Tahoe-100M,Dabrafenib,Dabrafenib,Liston_Davis_2017,0.05,4.860000,0.005000,0.024300,0.047847,2.057613,0.098450,Tier_2_Serum_Adjusted_Reachable,0.236196,true
+Tahoe-100M,Dabrafenib,Dabrafenib,Liston_Davis_2017,0.5,4.860000,0.005000,0.024300,0.047847,20.576132,0.984504,Tier_2_Serum_Adjusted_Reachable,0.002362,true
+Tahoe-100M,Dabrafenib,Dabrafenib,Liston_Davis_2017,5,4.860000,0.005000,0.024300,0.047847,205.761317,9.845039,Tier_4_Extreme_Supraphysiological_gt10x,0.000024,true
+Tahoe-100M,Anastrozole,Anastrozole,Liston_Davis_2017,0.05,0.035000,0.600000,0.021000,0.937500,2.380952,2.232143,Tier_3_Moderate_Supraphysiological_1_to_10x,0.176400,true
+Tahoe-100M,Anastrozole,Anastrozole,Liston_Davis_2017,0.5,0.035000,0.600000,0.021000,0.937500,23.809524,22.321429,Tier_4_Extreme_Supraphysiological_gt10x,0.001764,true
+Tahoe-100M,Anastrozole,Anastrozole,Liston_Davis_2017,5,0.035000,0.600000,0.021000,0.937500,238.095238,223.214286,Tier_4_Extreme_Supraphysiological_gt10x,0.000018,true
+Tahoe-100M,Flutamide,Flutamide,Liston_Davis_2017,0.05,0.409000,0.050000,0.020450,0.344828,2.444988,0.843099,Tier_2_Serum_Adjusted_Reachable,0.167281,true
+Tahoe-100M,Flutamide,Flutamide,Liston_Davis_2017,0.5,0.409000,0.050000,0.020450,0.344828,24.449878,8.430992,Tier_4_Extreme_Supraphysiological_gt10x,0.001673,true
+Tahoe-100M,Flutamide,Flutamide,Liston_Davis_2017,5,0.409000,0.050000,0.020450,0.344828,244.498778,84.309923,Tier_4_Extreme_Supraphysiological_gt10x,0.000017,true
+Tahoe-100M,Verapamil,verapamil,product_label,0.05,0.360757,0.100000,0.036076,0.526316,1.385976,0.729461,Tier_2_Serum_Adjusted_Reachable,0.520582,true
+Tahoe-100M,Verapamil,verapamil,product_label,0.5,0.360757,0.100000,0.036076,0.526316,13.859756,7.294608,Tier_4_Extreme_Supraphysiological_gt10x,0.005206,true
+Tahoe-100M,Verapamil,verapamil,product_label,5,0.360757,0.100000,0.036076,0.526316,138.597561,72.946085,Tier_4_Extreme_Supraphysiological_gt10x,0.000052,true
+Tahoe-100M,Goserelin (acetate),Goserelin acetate,Liston_Davis_2017,0.05,0.007000,0.730000,0.005110,0.964333,9.784736,9.435743,Tier_3_Moderate_Supraphysiological_1_to_10x,0.010445,true
+Tahoe-100M,Goserelin (acetate),Goserelin acetate,Liston_Davis_2017,0.5,0.007000,0.730000,0.005110,0.964333,97.847358,94.357426,Tier_4_Extreme_Supraphysiological_gt10x,0.000104,true
+Tahoe-100M,Goserelin (acetate),Goserelin acetate,Liston_Davis_2017,5,0.007000,0.730000,0.005110,0.964333,978.473581,943.574259,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Imiquimod (maleate),Imiquimod,Liston_Davis_2017,0.05,0.005600,0.075000,0.000420,0.447761,119.047619,53.304904,Tier_4_Extreme_Supraphysiological_gt10x,0.000071,true
+Tahoe-100M,Imiquimod (maleate),Imiquimod,Liston_Davis_2017,0.5,0.005600,0.075000,0.000420,0.447761,1190.476190,533.049041,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Imiquimod (maleate),Imiquimod,Liston_Davis_2017,5,0.005600,0.075000,0.000420,0.447761,11904.761905,5330.490405,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Imiquimod (hydrochloride),Imiquimod,Liston_Davis_2017,0.05,0.005600,0.075000,0.000420,0.447761,119.047619,53.304904,Tier_4_Extreme_Supraphysiological_gt10x,0.000071,true
+Tahoe-100M,Imiquimod (hydrochloride),Imiquimod,Liston_Davis_2017,0.5,0.005600,0.075000,0.000420,0.447761,1190.476190,533.049041,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Imiquimod (hydrochloride),Imiquimod,Liston_Davis_2017,5,0.005600,0.075000,0.000420,0.447761,11904.761905,5330.490405,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Belumosudil,belumosudil,product_label,0.05,5.281768,0.007500,0.039613,0.070258,1.262204,0.088679,Tier_2_Serum_Adjusted_Reachable,0.627684,true
+Tahoe-100M,Belumosudil,belumosudil,product_label,0.5,5.281768,0.007500,0.039613,0.070258,12.622036,0.886794,Tier_2_Serum_Adjusted_Reachable,0.006277,true
+Tahoe-100M,Belumosudil,belumosudil,product_label,5,5.281768,0.007500,0.039613,0.070258,126.220363,8.867941,Tier_4_Extreme_Supraphysiological_gt10x,0.000063,true
+Tahoe-100M,Belumosudil (mesylate),belumosudil,product_label,0.05,5.281768,0.007500,0.039613,0.070258,1.262204,0.088679,Tier_2_Serum_Adjusted_Reachable,0.627684,true
+Tahoe-100M,Belumosudil (mesylate),belumosudil,product_label,0.5,5.281768,0.007500,0.039613,0.070258,12.622036,0.886794,Tier_2_Serum_Adjusted_Reachable,0.006277,true
+Tahoe-100M,Belumosudil (mesylate),belumosudil,product_label,5,5.281768,0.007500,0.039613,0.070258,126.220363,8.867941,Tier_4_Extreme_Supraphysiological_gt10x,0.000063,true
+Tahoe-100M,Erdafitinib,erdafitinib,product_label,0.05,3.132838,0.005000,0.015664,0.047847,3.191994,0.152727,Tier_2_Serum_Adjusted_Reachable,0.098147,false
+Tahoe-100M,Erdafitinib,erdafitinib,product_label,0.5,3.132838,0.005000,0.015664,0.047847,31.919943,1.527270,Tier_4_Extreme_Supraphysiological_gt10x,0.000981,false
+Tahoe-100M,Erdafitinib,erdafitinib,product_label,5,3.132838,0.005000,0.015664,0.047847,319.199428,15.272700,Tier_4_Extreme_Supraphysiological_gt10x,0.000010,false
+Tahoe-100M,crizotinib,Crizotinib,product_label,0.05,0.913000,0.090000,0.082170,0.497238,0.608495,0.302566,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,crizotinib,Crizotinib,product_label,0.5,0.913000,0.090000,0.082170,0.497238,6.084946,3.025664,Tier_3_Moderate_Supraphysiological_1_to_10x,0.027008,true
+Tahoe-100M,crizotinib,Crizotinib,product_label,5,0.913000,0.090000,0.082170,0.497238,60.849458,30.256637,Tier_4_Extreme_Supraphysiological_gt10x,0.000270,true
+Tahoe-100M,Crizotinib (hydrochloride),Crizotinib,product_label,0.05,0.913000,0.090000,0.082170,0.497238,0.608495,0.302566,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Crizotinib (hydrochloride),Crizotinib,product_label,0.5,0.913000,0.090000,0.082170,0.497238,6.084946,3.025664,Tier_3_Moderate_Supraphysiological_1_to_10x,0.027008,true
+Tahoe-100M,Crizotinib (hydrochloride),Crizotinib,product_label,5,0.913000,0.090000,0.082170,0.497238,60.849458,30.256637,Tier_4_Extreme_Supraphysiological_gt10x,0.000270,true
+Tahoe-100M,Aprepitant,aprepitant,product_label,0.05,2.993844,0.050000,0.149692,0.344828,0.334019,0.115179,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Aprepitant,aprepitant,product_label,0.5,2.993844,0.050000,0.149692,0.344828,3.340187,1.151789,Tier_3_Moderate_Supraphysiological_1_to_10x,0.089631,true
+Tahoe-100M,Aprepitant,aprepitant,product_label,5,2.993844,0.050000,0.149692,0.344828,33.401875,11.517888,Tier_4_Extreme_Supraphysiological_gt10x,0.000896,true
+Tahoe-100M,Naproxen,naproxen,product_label,0.05,423.000087,0.010000,4.230001,0.091743,0.011820,0.001084,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Naproxen,naproxen,product_label,0.5,423.000087,0.010000,4.230001,0.091743,0.118203,0.010844,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Naproxen,naproxen,product_label,5,423.000087,0.010000,4.230001,0.091743,1.182033,0.108443,Tier_2_Serum_Adjusted_Reachable,0.715716,true
+Tahoe-100M,Voriconazole,voriconazole,product_label,0.05,13.569609,0.420000,5.699236,0.878661,0.008773,0.007709,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Voriconazole,voriconazole,product_label,0.5,13.569609,0.420000,5.699236,0.878661,0.087731,0.077086,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Voriconazole,voriconazole,product_label,5,13.569609,0.420000,5.699236,0.878661,0.877311,0.770859,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Silodosin,silodosin,product_label,0.05,0.124319,0.030000,0.003730,0.236220,13.406385,3.166863,Tier_4_Extreme_Supraphysiological_gt10x,0.005564,true
+Tahoe-100M,Silodosin,silodosin,product_label,0.5,0.124319,0.030000,0.003730,0.236220,134.063853,31.668627,Tier_4_Extreme_Supraphysiological_gt10x,0.000056,true
+Tahoe-100M,Silodosin,silodosin,product_label,5,0.124319,0.030000,0.003730,0.236220,1340.638528,316.686266,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Darolutamide,darolutamide,product_label,0.05,12.009527,0.080000,0.960762,0.465116,0.052042,0.024206,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Darolutamide,darolutamide,product_label,0.5,12.009527,0.080000,0.960762,0.465116,0.520420,0.242056,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Darolutamide,darolutamide,product_label,5,12.009527,0.080000,0.960762,0.465116,5.204201,2.420559,Tier_3_Moderate_Supraphysiological_1_to_10x,0.036923,true
+Tahoe-100M,Bicalutamide,Bicalutamide,Liston_Davis_2017,0.05,1.780000,0.040000,0.071200,0.294118,0.702247,0.206543,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Bicalutamide,Bicalutamide,Liston_Davis_2017,0.5,1.780000,0.040000,0.071200,0.294118,7.022472,2.065433,Tier_3_Moderate_Supraphysiological_1_to_10x,0.020278,true
+Tahoe-100M,Bicalutamide,Bicalutamide,Liston_Davis_2017,5,1.780000,0.040000,0.071200,0.294118,70.224719,20.654329,Tier_4_Extreme_Supraphysiological_gt10x,0.000203,true
+Tahoe-100M,venetoclax,Venetoclax,Liston_Davis_2017,0.05,4.480000,0.010000,0.044800,0.091743,1.116071,0.102392,Tier_2_Serum_Adjusted_Reachable,0.802816,true
+Tahoe-100M,venetoclax,Venetoclax,Liston_Davis_2017,0.5,4.480000,0.010000,0.044800,0.091743,11.160714,1.023919,Tier_4_Extreme_Supraphysiological_gt10x,0.008028,true
+Tahoe-100M,venetoclax,Venetoclax,Liston_Davis_2017,5,4.480000,0.010000,0.044800,0.091743,111.607143,10.239187,Tier_4_Extreme_Supraphysiological_gt10x,0.000080,true
+Tahoe-100M,Ranolazine,ranolazine,product_label,0.05,6.081302,0.380000,2.310895,0.859729,0.021637,0.018602,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Ranolazine,ranolazine,product_label,0.5,6.081302,0.380000,2.310895,0.859729,0.216366,0.186016,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Ranolazine,ranolazine,product_label,5,6.081302,0.380000,2.310895,0.859729,2.163664,1.860164,Tier_3_Moderate_Supraphysiological_1_to_10x,0.213609,true
+Tahoe-100M,Lopinavir,lopinavir,product_label,0.05,18.765903,0.020000,0.375318,0.169492,0.133220,0.022580,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Lopinavir,lopinavir,product_label,0.5,18.765903,0.020000,0.375318,0.169492,1.332203,0.225797,Tier_2_Serum_Adjusted_Reachable,0.563455,true
+Tahoe-100M,Lopinavir,lopinavir,product_label,5,18.765903,0.020000,0.375318,0.169492,13.322034,2.257972,Tier_4_Extreme_Supraphysiological_gt10x,0.005635,true
+Tahoe-100M,Elagolix sodium,elagolix,product_label,0.05,1.225459,0.200000,0.245092,0.714286,0.204005,0.145718,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Elagolix sodium,elagolix,product_label,0.5,1.225459,0.200000,0.245092,0.714286,2.040052,1.457180,Tier_3_Moderate_Supraphysiological_1_to_10x,0.240280,true
+Tahoe-100M,Elagolix sodium,elagolix,product_label,5,1.225459,0.200000,0.245092,0.714286,20.400517,14.571798,Tier_4_Extreme_Supraphysiological_gt10x,0.002403,true
+Tahoe-100M,palbociclib,Palbociclib,Liston_Davis_2017,0.05,0.101000,0.150000,0.015150,0.638298,3.300330,2.106594,Tier_3_Moderate_Supraphysiological_1_to_10x,0.091809,true
+Tahoe-100M,palbociclib,Palbociclib,Liston_Davis_2017,0.5,0.101000,0.150000,0.015150,0.638298,33.003300,21.065936,Tier_4_Extreme_Supraphysiological_gt10x,0.000918,true
+Tahoe-100M,palbociclib,Palbociclib,Liston_Davis_2017,5,0.101000,0.150000,0.015150,0.638298,330.033003,210.659364,Tier_4_Extreme_Supraphysiological_gt10x,0.000009,true
+Tahoe-100M,Ponatinib,Ponatinib,Liston_Davis_2017,0.05,0.137000,0.010000,0.001370,0.091743,36.496350,3.348289,Tier_4_Extreme_Supraphysiological_gt10x,0.000751,true
+Tahoe-100M,Ponatinib,Ponatinib,Liston_Davis_2017,0.5,0.137000,0.010000,0.001370,0.091743,364.963504,33.482890,Tier_4_Extreme_Supraphysiological_gt10x,0.000008,true
+Tahoe-100M,Ponatinib,Ponatinib,Liston_Davis_2017,5,0.137000,0.010000,0.001370,0.091743,3649.635036,334.828902,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Tucatinib,tucatinib,product_label,0.05,1.554566,0.029000,0.045082,0.229976,1.109080,0.255062,Tier_2_Serum_Adjusted_Reachable,0.812970,true
+Tahoe-100M,Tucatinib,tucatinib,product_label,0.5,1.554566,0.029000,0.045082,0.229976,11.090800,2.550620,Tier_4_Extreme_Supraphysiological_gt10x,0.008130,true
+Tahoe-100M,Tucatinib,tucatinib,product_label,5,1.554566,0.029000,0.045082,0.229976,110.908000,25.506201,Tier_4_Extreme_Supraphysiological_gt10x,0.000081,true
+Tahoe-100M,Panobinostat,Panobinostat,Liston_Davis_2017,0.05,0.082000,0.100000,0.008200,0.526316,6.097561,3.209243,Tier_3_Moderate_Supraphysiological_1_to_10x,0.026896,true
+Tahoe-100M,Panobinostat,Panobinostat,Liston_Davis_2017,0.5,0.082000,0.100000,0.008200,0.526316,60.975610,32.092426,Tier_4_Extreme_Supraphysiological_gt10x,0.000269,true
+Tahoe-100M,Panobinostat,Panobinostat,Liston_Davis_2017,5,0.082000,0.100000,0.008200,0.526316,609.756098,320.924262,Tier_4_Extreme_Supraphysiological_gt10x,0.000003,true
+Tahoe-100M,Alpelisib,alpelisib,product_label,0.05,5.617214,0.110000,0.617894,0.552764,0.080920,0.044730,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Alpelisib,alpelisib,product_label,0.5,5.617214,0.110000,0.617894,0.552764,0.809201,0.447297,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Alpelisib,alpelisib,product_label,5,5.617214,0.110000,0.617894,0.552764,8.092009,4.472970,Tier_3_Moderate_Supraphysiological_1_to_10x,0.015272,true
+Tahoe-100M,Trametinib,Trametinib,Liston_Davis_2017,0.05,0.021000,0.030000,0.000630,0.236220,79.365079,18.747657,Tier_4_Extreme_Supraphysiological_gt10x,0.000159,true
+Tahoe-100M,Trametinib,Trametinib,Liston_Davis_2017,0.5,0.021000,0.030000,0.000630,0.236220,793.650794,187.476565,Tier_4_Extreme_Supraphysiological_gt10x,0.000002,true
+Tahoe-100M,Trametinib,Trametinib,Liston_Davis_2017,5,0.021000,0.030000,0.000630,0.236220,7936.507937,1874.765654,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Nevirapine,nevirapine,product_label,0.05,7.510327,0.400000,3.004131,0.869565,0.016644,0.014473,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Nevirapine,nevirapine,product_label,0.5,7.510327,0.400000,3.004131,0.869565,0.166437,0.144728,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Nevirapine,nevirapine,product_label,5,7.510327,0.400000,3.004131,0.869565,1.664375,1.447283,Tier_3_Moderate_Supraphysiological_1_to_10x,0.360992,true
+Tahoe-100M,Paclitaxel,Paclitaxel,Liston_Davis_2017,0.05,4.270000,0.065000,0.277550,0.410095,0.180148,0.073878,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Paclitaxel,Paclitaxel,Liston_Davis_2017,0.5,4.270000,0.065000,0.277550,0.410095,1.801477,0.738776,Tier_2_Serum_Adjusted_Reachable,0.308136,true
+Tahoe-100M,Paclitaxel,Paclitaxel,Liston_Davis_2017,5,4.270000,0.065000,0.277550,0.410095,18.014772,7.387761,Tier_4_Extreme_Supraphysiological_gt10x,0.003081,true
+Tahoe-100M,Docetaxel,Docetaxel,Liston_Davis_2017,0.05,5.470000,0.030000,0.164100,0.236220,0.304692,0.071975,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Docetaxel,Docetaxel,Liston_Davis_2017,0.5,5.470000,0.030000,0.164100,0.236220,3.046923,0.719745,Tier_2_Serum_Adjusted_Reachable,0.107715,true
+Tahoe-100M,Docetaxel,Docetaxel,Liston_Davis_2017,5,5.470000,0.030000,0.164100,0.236220,30.469226,7.197455,Tier_4_Extreme_Supraphysiological_gt10x,0.001077,true
+Tahoe-100M,Docetaxel (Trihydrate),Docetaxel,Liston_Davis_2017,0.05,5.470000,0.030000,0.164100,0.236220,0.304692,0.071975,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Docetaxel (Trihydrate),Docetaxel,Liston_Davis_2017,0.5,5.470000,0.030000,0.164100,0.236220,3.046923,0.719745,Tier_2_Serum_Adjusted_Reachable,0.107715,true
+Tahoe-100M,Docetaxel (Trihydrate),Docetaxel,Liston_Davis_2017,5,5.470000,0.030000,0.164100,0.236220,30.469226,7.197455,Tier_4_Extreme_Supraphysiological_gt10x,0.001077,true
+Tahoe-100M,Vortioxetine,vortioxetine,product_label,0.05,0.110590,0.020000,0.002212,0.169492,22.606061,3.831536,Tier_4_Extreme_Supraphysiological_gt10x,0.001957,true
+Tahoe-100M,Vortioxetine,vortioxetine,product_label,0.5,0.110590,0.020000,0.002212,0.169492,226.060606,38.315357,Tier_4_Extreme_Supraphysiological_gt10x,0.000020,true
+Tahoe-100M,Vortioxetine,vortioxetine,product_label,5,0.110590,0.020000,0.002212,0.169492,2260.606061,383.153570,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Pralsetinib,pralsetinib,product_label,0.05,4.628849,0.030000,0.138865,0.236220,0.360061,0.085054,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Pralsetinib,pralsetinib,product_label,0.5,4.628849,0.030000,0.138865,0.236220,3.600607,0.850537,Tier_2_Serum_Adjusted_Reachable,0.077134,true
+Tahoe-100M,Pralsetinib,pralsetinib,product_label,5,4.628849,0.030000,0.138865,0.236220,36.006073,8.505372,Tier_4_Extreme_Supraphysiological_gt10x,0.000771,true
+Tahoe-100M,Tolcapone,tolcapone,product_label,0.05,21.958718,0.005000,0.109794,0.047847,0.455400,0.021789,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Tolcapone,tolcapone,product_label,0.5,21.958718,0.005000,0.109794,0.047847,4.554000,0.217895,Tier_2_Serum_Adjusted_Reachable,0.048219,true
+Tahoe-100M,Tolcapone,tolcapone,product_label,5,21.958718,0.005000,0.109794,0.047847,45.540000,2.178947,Tier_4_Extreme_Supraphysiological_gt10x,0.000482,true
+Tahoe-100M,Celecoxib,Celecoxib,Liston_Davis_2017,0.05,4.600000,0.030000,0.138000,0.236220,0.362319,0.085587,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Celecoxib,Celecoxib,Liston_Davis_2017,0.5,4.600000,0.030000,0.138000,0.236220,3.623188,0.855871,Tier_2_Serum_Adjusted_Reachable,0.076176,true
+Tahoe-100M,Celecoxib,Celecoxib,Liston_Davis_2017,5,4.600000,0.030000,0.138000,0.236220,36.231884,8.558713,Tier_4_Extreme_Supraphysiological_gt10x,0.000762,true
+Tahoe-100M,Lapatinib ditosylate,lapatinib,product_label,0.05,4.181724,0.010000,0.041817,0.091743,1.195679,0.109695,Tier_2_Serum_Adjusted_Reachable,0.699473,true
+Tahoe-100M,Lapatinib ditosylate,lapatinib,product_label,0.5,4.181724,0.010000,0.041817,0.091743,11.956790,1.096953,Tier_4_Extreme_Supraphysiological_gt10x,0.006995,true
+Tahoe-100M,Lapatinib ditosylate,lapatinib,product_label,5,4.181724,0.010000,0.041817,0.091743,119.567901,10.969532,Tier_4_Extreme_Supraphysiological_gt10x,0.000070,true
+Tahoe-100M,Bexarotene,Bexarotene,Liston_Davis_2017,0.05,3.390000,0.010000,0.033900,0.091743,1.474926,0.135314,Tier_2_Serum_Adjusted_Reachable,0.459684,true
+Tahoe-100M,Bexarotene,Bexarotene,Liston_Davis_2017,0.5,3.390000,0.010000,0.033900,0.091743,14.749263,1.353143,Tier_4_Extreme_Supraphysiological_gt10x,0.004597,true
+Tahoe-100M,Bexarotene,Bexarotene,Liston_Davis_2017,5,3.390000,0.010000,0.033900,0.091743,147.492625,13.531434,Tier_4_Extreme_Supraphysiological_gt10x,0.000046,true
+Tahoe-100M,Fedratinib (hydrochloride hydrate),fedratinib,product_label,0.05,3.438155,0.080000,0.275052,0.465116,0.181784,0.084550,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Fedratinib (hydrochloride hydrate),fedratinib,product_label,0.5,3.438155,0.080000,0.275052,0.465116,1.817835,0.845505,Tier_2_Serum_Adjusted_Reachable,0.302615,true
+Tahoe-100M,Fedratinib (hydrochloride hydrate),fedratinib,product_label,5,3.438155,0.080000,0.275052,0.465116,18.178354,8.455048,Tier_4_Extreme_Supraphysiological_gt10x,0.003026,true
+Tahoe-100M,Meloxicam,meloxicam,product_label,0.05,6.545248,0.006000,0.039271,0.056926,1.273188,0.072478,Tier_2_Serum_Adjusted_Reachable,0.616900,true
+Tahoe-100M,Meloxicam,meloxicam,product_label,0.5,6.545248,0.006000,0.039271,0.056926,12.731884,0.724775,Tier_2_Serum_Adjusted_Reachable,0.006169,true
+Tahoe-100M,Meloxicam,meloxicam,product_label,5,6.545248,0.006000,0.039271,0.056926,127.318841,7.247752,Tier_4_Extreme_Supraphysiological_gt10x,0.000062,true
+Tahoe-100M,Drospirenone,drospirenone,product_label,0.05,0.111869,0.040000,0.004475,0.294118,11.173780,3.286406,Tier_4_Extreme_Supraphysiological_gt10x,0.008009,true
+Tahoe-100M,Drospirenone,drospirenone,product_label,0.5,0.111869,0.040000,0.004475,0.294118,111.737805,32.864060,Tier_4_Extreme_Supraphysiological_gt10x,0.000080,true
+Tahoe-100M,Drospirenone,drospirenone,product_label,5,0.111869,0.040000,0.004475,0.294118,1117.378049,328.640603,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Finasteride,Finasteride,Liston_Davis_2017,0.05,0.124000,0.100000,0.012400,0.526316,4.032258,2.122241,Tier_3_Moderate_Supraphysiological_1_to_10x,0.061504,true
+Tahoe-100M,Finasteride,Finasteride,Liston_Davis_2017,0.5,0.124000,0.100000,0.012400,0.526316,40.322581,21.222411,Tier_4_Extreme_Supraphysiological_gt10x,0.000615,true
+Tahoe-100M,Finasteride,Finasteride,Liston_Davis_2017,5,0.124000,0.100000,0.012400,0.526316,403.225806,212.224109,Tier_4_Extreme_Supraphysiological_gt10x,0.000006,true
+Tahoe-100M,Fulvestrant,Fulvestrant,Liston_Davis_2017,0.05,0.041000,0.010000,0.000410,0.091743,121.951220,11.188185,Tier_4_Extreme_Supraphysiological_gt10x,0.000067,true
+Tahoe-100M,Fulvestrant,Fulvestrant,Liston_Davis_2017,0.5,0.041000,0.010000,0.000410,0.091743,1219.512195,111.881853,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Fulvestrant,Fulvestrant,Liston_Davis_2017,5,0.041000,0.010000,0.000410,0.091743,12195.121951,1118.818528,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Doxorubicin (hydrochloride),Doxorubicin,Liston_Davis_2017,0.05,6.730000,0.250000,1.682500,0.769231,0.029718,0.022860,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Doxorubicin (hydrochloride),Doxorubicin,Liston_Davis_2017,0.5,6.730000,0.250000,1.682500,0.769231,0.297177,0.228598,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Doxorubicin (hydrochloride),Doxorubicin,Liston_Davis_2017,5,6.730000,0.250000,1.682500,0.769231,2.971768,2.285976,Tier_3_Moderate_Supraphysiological_1_to_10x,0.113232,true
+Tahoe-100M,Epirubicin (hydrochloride),Epirubicin,Liston_Davis_2017,0.05,16.600000,0.230000,3.818000,0.749186,0.013096,0.009811,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Epirubicin (hydrochloride),Epirubicin,Liston_Davis_2017,0.5,16.600000,0.230000,3.818000,0.749186,0.130959,0.098112,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Epirubicin (hydrochloride),Epirubicin,Liston_Davis_2017,5,16.600000,0.230000,3.818000,0.749186,1.309586,0.981123,Tier_2_Serum_Adjusted_Reachable,0.583085,true
+Tahoe-100M,Idarubicin (hydrochloride),Idarubicin,Liston_Davis_2017,0.05,0.123000,0.030000,0.003690,0.236220,13.550136,3.200819,Tier_4_Extreme_Supraphysiological_gt10x,0.005446,true
+Tahoe-100M,Idarubicin (hydrochloride),Idarubicin,Liston_Davis_2017,0.5,0.123000,0.030000,0.003690,0.236220,135.501355,32.008194,Tier_4_Extreme_Supraphysiological_gt10x,0.000054,true
+Tahoe-100M,Idarubicin (hydrochloride),Idarubicin,Liston_Davis_2017,5,0.123000,0.030000,0.003690,0.236220,1355.013550,320.081941,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Medroxyprogesterone acetate,Medroxyprogesterone acetate,Liston_Davis_2017,0.05,0.002600,0.100000,0.000260,0.526316,192.307692,101.214575,Tier_4_Extreme_Supraphysiological_gt10x,0.000027,true
+Tahoe-100M,Medroxyprogesterone acetate,Medroxyprogesterone acetate,Liston_Davis_2017,0.5,0.002600,0.100000,0.000260,0.526316,1923.076923,1012.145749,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Medroxyprogesterone acetate,Medroxyprogesterone acetate,Liston_Davis_2017,5,0.002600,0.100000,0.000260,0.526316,19230.769231,10121.457490,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Dexamethasone,dexamethasone,product_label,0.05,0.629347,0.230000,0.144750,0.749186,0.345423,0.258786,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Dexamethasone,dexamethasone,product_label,0.5,0.629347,0.230000,0.144750,0.749186,3.454233,2.587862,Tier_3_Moderate_Supraphysiological_1_to_10x,0.083810,true
+Tahoe-100M,Dexamethasone,dexamethasone,product_label,5,0.629347,0.230000,0.144750,0.749186,34.542334,25.878622,Tier_4_Extreme_Supraphysiological_gt10x,0.000838,true
+Tahoe-100M,Temsirolimus,Temsirolimus,Liston_Davis_2017,0.05,0.568000,0.130000,0.073840,0.599078,0.677140,0.405660,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Temsirolimus,Temsirolimus,Liston_Davis_2017,0.5,0.568000,0.130000,0.073840,0.599078,6.771398,4.056598,Tier_3_Moderate_Supraphysiological_1_to_10x,0.021809,true
+Tahoe-100M,Temsirolimus,Temsirolimus,Liston_Davis_2017,5,0.568000,0.130000,0.073840,0.599078,67.713976,40.565977,Tier_4_Extreme_Supraphysiological_gt10x,0.000218,true
+Tahoe-100M,Everolimus,Everolimus,Liston_Davis_2017,0.05,0.064000,0.260000,0.016640,0.778443,3.004808,2.339072,Tier_3_Moderate_Supraphysiological_1_to_10x,0.110756,true
+Tahoe-100M,Everolimus,Everolimus,Liston_Davis_2017,0.5,0.064000,0.260000,0.016640,0.778443,30.048077,23.390719,Tier_4_Extreme_Supraphysiological_gt10x,0.001108,true
+Tahoe-100M,Everolimus,Everolimus,Liston_Davis_2017,5,0.064000,0.260000,0.016640,0.778443,300.480769,233.907186,Tier_4_Extreme_Supraphysiological_gt10x,0.000011,true
+Tahoe-100M,Tofacitinib,tofacitinib,product_label,0.05,0.271127,0.600000,0.162676,0.937500,0.307359,0.288149,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Tofacitinib,tofacitinib,product_label,0.5,0.271127,0.600000,0.162676,0.937500,3.073593,2.881494,Tier_3_Moderate_Supraphysiological_1_to_10x,0.105854,true
+Tahoe-100M,Tofacitinib,tofacitinib,product_label,5,0.271127,0.600000,0.162676,0.937500,30.735931,28.814935,Tier_4_Extreme_Supraphysiological_gt10x,0.001059,true
+Tahoe-100M,Tofacitinib (citrate),tofacitinib,product_label,0.05,0.271127,0.600000,0.162676,0.937500,0.307359,0.288149,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Tofacitinib (citrate),tofacitinib,product_label,0.5,0.271127,0.600000,0.162676,0.937500,3.073593,2.881494,Tier_3_Moderate_Supraphysiological_1_to_10x,0.105854,true
+Tahoe-100M,Tofacitinib (citrate),tofacitinib,product_label,5,0.271127,0.600000,0.162676,0.937500,30.735931,28.814935,Tier_4_Extreme_Supraphysiological_gt10x,0.001059,true
+Tahoe-100M,Sonidegib,Sonidegib,Liston_Davis_2017,0.05,2.120000,0.030000,0.063600,0.236220,0.786164,0.185708,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Sonidegib,Sonidegib,Liston_Davis_2017,0.5,2.120000,0.030000,0.063600,0.236220,7.861635,1.857079,Tier_3_Moderate_Supraphysiological_1_to_10x,0.016180,true
+Tahoe-100M,Sonidegib,Sonidegib,Liston_Davis_2017,5,2.120000,0.030000,0.063600,0.236220,78.616352,18.570792,Tier_4_Extreme_Supraphysiological_gt10x,0.000162,true
+Tahoe-100M,Posaconazole,posaconazole,product_label,0.05,2.982306,0.020000,0.059646,0.169492,0.838278,0.142081,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Posaconazole,posaconazole,product_label,0.5,2.982306,0.020000,0.059646,0.169492,8.382775,1.420809,Tier_3_Moderate_Supraphysiological_1_to_10x,0.014231,true
+Tahoe-100M,Posaconazole,posaconazole,product_label,5,2.982306,0.020000,0.059646,0.169492,83.827751,14.208093,Tier_4_Extreme_Supraphysiological_gt10x,0.000142,true
+Tahoe-100M,Pravastatin (sodium),pravastatin,product_label,0.05,0.062426,0.500000,0.031213,0.909091,1.601887,1.456261,Tier_3_Moderate_Supraphysiological_1_to_10x,0.389705,true
+Tahoe-100M,Pravastatin (sodium),pravastatin,product_label,0.5,0.062426,0.500000,0.031213,0.909091,16.018868,14.562607,Tier_4_Extreme_Supraphysiological_gt10x,0.003897,true
+Tahoe-100M,Pravastatin (sodium),pravastatin,product_label,5,0.062426,0.500000,0.031213,0.909091,160.188679,145.626072,Tier_4_Extreme_Supraphysiological_gt10x,0.000039,true
+Tahoe-100M,Topotecan (hydrochloride),Topotecan,Liston_Davis_2017,0.05,0.015000,0.650000,0.009750,0.948905,5.128205,4.866180,Tier_3_Moderate_Supraphysiological_1_to_10x,0.038025,true
+Tahoe-100M,Topotecan (hydrochloride),Topotecan,Liston_Davis_2017,0.5,0.015000,0.650000,0.009750,0.948905,51.282051,48.661800,Tier_4_Extreme_Supraphysiological_gt10x,0.000380,true
+Tahoe-100M,Topotecan (hydrochloride),Topotecan,Liston_Davis_2017,5,0.015000,0.650000,0.009750,0.948905,512.820513,486.618005,Tier_4_Extreme_Supraphysiological_gt10x,0.000004,true
+Tahoe-100M,Vinblastine (sulfate),Vinblastine,Liston_Davis_2017,0.05,0.035000,0.015000,0.000525,0.132159,95.238095,12.586532,Tier_4_Extreme_Supraphysiological_gt10x,0.000110,true
+Tahoe-100M,Vinblastine (sulfate),Vinblastine,Liston_Davis_2017,0.5,0.035000,0.015000,0.000525,0.132159,952.380952,125.865324,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+Tahoe-100M,Vinblastine (sulfate),Vinblastine,Liston_Davis_2017,5,0.035000,0.015000,0.000525,0.132159,9523.809524,1258.653241,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,vincristine,Vincristine,Liston_Davis_2017,0.05,0.007000,0.250000,0.001750,0.769231,28.571429,21.978022,Tier_4_Extreme_Supraphysiological_gt10x,0.001225,true
+Tahoe-100M,vincristine,Vincristine,Liston_Davis_2017,0.5,0.007000,0.250000,0.001750,0.769231,285.714286,219.780220,Tier_4_Extreme_Supraphysiological_gt10x,0.000012,true
+Tahoe-100M,vincristine,Vincristine,Liston_Davis_2017,5,0.007000,0.250000,0.001750,0.769231,2857.142857,2197.802198,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Irinotecan,Irinotecan,Liston_Davis_2017,0.05,5.780000,0.510000,2.947800,0.912343,0.016962,0.015475,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Irinotecan,Irinotecan,Liston_Davis_2017,0.5,5.780000,0.510000,2.947800,0.912343,0.169618,0.154750,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Irinotecan,Irinotecan,Liston_Davis_2017,5,5.780000,0.510000,2.947800,0.912343,1.696180,1.547499,Tier_3_Moderate_Supraphysiological_1_to_10x,0.347581,true
+Tahoe-100M,Irinotecan (hydrochloride),Irinotecan,Liston_Davis_2017,0.05,5.780000,0.510000,2.947800,0.912343,0.016962,0.015475,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Irinotecan (hydrochloride),Irinotecan,Liston_Davis_2017,0.5,5.780000,0.510000,2.947800,0.912343,0.169618,0.154750,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Irinotecan (hydrochloride),Irinotecan,Liston_Davis_2017,5,5.780000,0.510000,2.947800,0.912343,1.696180,1.547499,Tier_3_Moderate_Supraphysiological_1_to_10x,0.347581,true
+Tahoe-100M,Azithromycin (hydrate),azithromycin,product_label,0.05,0.720961,0.710000,0.511883,0.960758,0.097679,0.093846,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Azithromycin (hydrate),azithromycin,product_label,0.5,0.720961,0.710000,0.511883,0.960758,0.976787,0.938455,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Azithromycin (hydrate),azithromycin,product_label,5,0.720961,0.710000,0.511883,0.960758,9.767866,9.384554,Tier_3_Moderate_Supraphysiological_1_to_10x,0.010481,true
+Tahoe-100M,Sildenafil,Sildenafil,Liston_Davis_2017,0.05,0.794000,0.040000,0.031760,0.294118,1.574307,0.463032,Tier_2_Serum_Adjusted_Reachable,0.403479,true
+Tahoe-100M,Sildenafil,Sildenafil,Liston_Davis_2017,0.5,0.794000,0.040000,0.031760,0.294118,15.743073,4.630316,Tier_4_Extreme_Supraphysiological_gt10x,0.004035,true
+Tahoe-100M,Sildenafil,Sildenafil,Liston_Davis_2017,5,0.794000,0.040000,0.031760,0.294118,157.430730,46.303156,Tier_4_Extreme_Supraphysiological_gt10x,0.000040,true
+Tahoe-100M,Vemurafenib,Vemurafenib,Liston_Davis_2017,0.05,127.000000,0.010000,1.270000,0.091743,0.039370,0.003612,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Vemurafenib,Vemurafenib,Liston_Davis_2017,0.5,127.000000,0.010000,1.270000,0.091743,0.393701,0.036119,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Vemurafenib,Vemurafenib,Liston_Davis_2017,5,127.000000,0.010000,1.270000,0.091743,3.937008,0.361193,Tier_2_Serum_Adjusted_Reachable,0.064516,true
+Tahoe-100M,Sunitinib,Sunitinib Malate,Liston_Davis_2017,0.05,0.181000,0.050000,0.009050,0.344828,5.524862,1.905125,Tier_3_Moderate_Supraphysiological_1_to_10x,0.032761,true
+Tahoe-100M,Sunitinib,Sunitinib Malate,Liston_Davis_2017,0.5,0.181000,0.050000,0.009050,0.344828,55.248619,19.051248,Tier_4_Extreme_Supraphysiological_gt10x,0.000328,true
+Tahoe-100M,Sunitinib,Sunitinib Malate,Liston_Davis_2017,5,0.181000,0.050000,0.009050,0.344828,552.486188,190.512479,Tier_4_Extreme_Supraphysiological_gt10x,0.000003,true
+Tahoe-100M,Pemigatinib,pemigatinib,product_label,0.05,0.236000,0.094000,0.022184,0.509209,2.253877,1.147695,Tier_3_Moderate_Supraphysiological_1_to_10x,0.196852,true
+Tahoe-100M,Pemigatinib,pemigatinib,product_label,0.5,0.236000,0.094000,0.022184,0.509209,22.538767,11.476945,Tier_4_Extreme_Supraphysiological_gt10x,0.001969,true
+Tahoe-100M,Pemigatinib,pemigatinib,product_label,5,0.236000,0.094000,0.022184,0.509209,225.387667,114.769451,Tier_4_Extreme_Supraphysiological_gt10x,0.000020,true
+Tahoe-100M,Infigratinib,infigratinib,product_label,0.05,0.504032,0.032000,0.016129,0.248447,3.100000,0.770186,Tier_2_Serum_Adjusted_Reachable,0.104058,true
+Tahoe-100M,Infigratinib,infigratinib,product_label,0.5,0.504032,0.032000,0.016129,0.248447,31.000000,7.701863,Tier_4_Extreme_Supraphysiological_gt10x,0.001041,true
+Tahoe-100M,Infigratinib,infigratinib,product_label,5,0.504032,0.032000,0.016129,0.248447,310.000000,77.018634,Tier_4_Extreme_Supraphysiological_gt10x,0.000010,true
+Tahoe-100M,Ribociclib,ribociclib,product_label,0.05,4.188241,0.300000,1.256472,0.810811,0.039794,0.032265,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Ribociclib,ribociclib,product_label,0.5,4.188241,0.300000,1.256472,0.810811,0.397940,0.322654,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Ribociclib,ribociclib,product_label,5,4.188241,0.300000,1.256472,0.810811,3.979396,3.226537,Tier_3_Moderate_Supraphysiological_1_to_10x,0.063149,true
+Tahoe-100M,Altretamine,Altretamine,Liston_Davis_2017,0.05,3.760000,0.060000,0.225600,0.389610,0.221631,0.086350,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Altretamine,Altretamine,Liston_Davis_2017,0.5,3.760000,0.060000,0.225600,0.389610,2.216312,0.863498,Tier_2_Serum_Adjusted_Reachable,0.203581,true
+Tahoe-100M,Altretamine,Altretamine,Liston_Davis_2017,5,3.760000,0.060000,0.225600,0.389610,22.163121,8.634982,Tier_4_Extreme_Supraphysiological_gt10x,0.002036,true
+Tahoe-100M,Afatinib,Afatinib,Liston_Davis_2017,0.05,0.052000,0.050000,0.002600,0.344828,19.230769,6.631300,Tier_4_Extreme_Supraphysiological_gt10x,0.002704,true
+Tahoe-100M,Afatinib,Afatinib,Liston_Davis_2017,0.5,0.052000,0.050000,0.002600,0.344828,192.307692,66.312997,Tier_4_Extreme_Supraphysiological_gt10x,0.000027,true
+Tahoe-100M,Afatinib,Afatinib,Liston_Davis_2017,5,0.052000,0.050000,0.002600,0.344828,1923.076923,663.129973,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Relugolix,relugolix,product_label,0.05,0.112246,0.305000,0.034235,0.814419,1.460492,1.189453,Tier_3_Moderate_Supraphysiological_1_to_10x,0.468815,true
+Tahoe-100M,Relugolix,relugolix,product_label,0.5,0.112246,0.305000,0.034235,0.814419,14.604918,11.894526,Tier_4_Extreme_Supraphysiological_gt10x,0.004688,true
+Tahoe-100M,Relugolix,relugolix,product_label,5,0.112246,0.305000,0.034235,0.814419,146.049180,118.945260,Tier_4_Extreme_Supraphysiological_gt10x,0.000047,true
+Tahoe-100M,Methotrexate,Methotrexate,Liston_Davis_2017,0.05,1.310000,0.500000,0.655000,0.909091,0.076336,0.069396,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Methotrexate,Methotrexate,Liston_Davis_2017,0.5,1.310000,0.500000,0.655000,0.909091,0.763359,0.693963,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Methotrexate,Methotrexate,Liston_Davis_2017,5,1.310000,0.500000,0.655000,0.909091,7.633588,6.939625,Tier_3_Moderate_Supraphysiological_1_to_10x,0.017161,true
+Tahoe-100M,Rosiglitazone,rosiglitazone,product_label,0.05,1.673008,0.005000,0.008365,0.047847,5.977258,0.285993,Tier_2_Serum_Adjusted_Reachable,0.027990,true
+Tahoe-100M,Rosiglitazone,rosiglitazone,product_label,0.5,1.673008,0.005000,0.008365,0.047847,59.772575,2.859932,Tier_4_Extreme_Supraphysiological_gt10x,0.000280,true
+Tahoe-100M,Rosiglitazone,rosiglitazone,product_label,5,1.673008,0.005000,0.008365,0.047847,597.725753,28.599318,Tier_4_Extreme_Supraphysiological_gt10x,0.000003,true
+Tahoe-100M,Bendamustine,Bendamustine,Liston_Davis_2017,0.05,16.300000,0.050000,0.815000,0.344828,0.061350,0.021155,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Bendamustine,Bendamustine,Liston_Davis_2017,0.5,16.300000,0.050000,0.815000,0.344828,0.613497,0.211551,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Bendamustine,Bendamustine,Liston_Davis_2017,5,16.300000,0.050000,0.815000,0.344828,6.134969,2.115507,Tier_3_Moderate_Supraphysiological_1_to_10x,0.026569,true
+Tahoe-100M,Vandetanib,Vandetanib,Liston_Davis_2017,0.05,2.160000,0.100000,0.216000,0.526316,0.231481,0.121832,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Vandetanib,Vandetanib,Liston_Davis_2017,0.5,2.160000,0.100000,0.216000,0.526316,2.314815,1.218324,Tier_3_Moderate_Supraphysiological_1_to_10x,0.186624,true
+Tahoe-100M,Vandetanib,Vandetanib,Liston_Davis_2017,5,2.160000,0.100000,0.216000,0.526316,23.148148,12.183236,Tier_4_Extreme_Supraphysiological_gt10x,0.001866,true
+Tahoe-100M,Glasdegib,glasdegib,product_label,0.05,3.344017,0.090000,0.300962,0.497238,0.166134,0.082608,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Glasdegib,glasdegib,product_label,0.5,3.344017,0.090000,0.300962,0.497238,1.661342,0.826082,Tier_2_Serum_Adjusted_Reachable,0.362311,true
+Tahoe-100M,Glasdegib,glasdegib,product_label,5,3.344017,0.090000,0.300962,0.497238,16.613419,8.260816,Tier_4_Extreme_Supraphysiological_gt10x,0.003623,true
+Tahoe-100M,Entrectinib,entrectinib,product_label,0.05,3.130000,0.010000,0.031300,0.091743,1.597444,0.146555,Tier_2_Serum_Adjusted_Reachable,0.391876,true
+Tahoe-100M,Entrectinib,entrectinib,product_label,0.5,3.130000,0.010000,0.031300,0.091743,15.974441,1.465545,Tier_4_Extreme_Supraphysiological_gt10x,0.003919,true
+Tahoe-100M,Entrectinib,entrectinib,product_label,5,3.130000,0.010000,0.031300,0.091743,159.744409,14.655450,Tier_4_Extreme_Supraphysiological_gt10x,0.000039,true
+Tahoe-100M,Apalutamide,apalutamide,product_label,0.05,12.567024,0.040000,0.502681,0.294118,0.099467,0.029255,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Apalutamide,apalutamide,product_label,0.5,12.567024,0.040000,0.502681,0.294118,0.994667,0.292549,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Apalutamide,apalutamide,product_label,5,12.567024,0.040000,0.502681,0.294118,9.946667,2.925490,Tier_3_Moderate_Supraphysiological_1_to_10x,0.010108,true
+Tahoe-100M,Regorafenib,Regorafenib,Liston_Davis_2017,0.05,8.080000,0.005000,0.040400,0.047847,1.237624,0.059216,Tier_2_Serum_Adjusted_Reachable,0.652864,true
+Tahoe-100M,Regorafenib,Regorafenib,Liston_Davis_2017,0.5,8.080000,0.005000,0.040400,0.047847,12.376238,0.592164,Tier_2_Serum_Adjusted_Reachable,0.006529,true
+Tahoe-100M,Regorafenib,Regorafenib,Liston_Davis_2017,5,8.080000,0.005000,0.040400,0.047847,123.762376,5.921645,Tier_4_Extreme_Supraphysiological_gt10x,0.000065,true
+Tahoe-100M,Rucaparib (phosphate),Rucaparib,Liston_Davis_2017,0.05,6.000000,0.300000,1.800000,0.810811,0.027778,0.022523,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Rucaparib (phosphate),Rucaparib,Liston_Davis_2017,0.5,6.000000,0.300000,1.800000,0.810811,0.277778,0.225225,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Rucaparib (phosphate),Rucaparib,Liston_Davis_2017,5,6.000000,0.300000,1.800000,0.810811,2.777778,2.252252,Tier_3_Moderate_Supraphysiological_1_to_10x,0.129600,true
+Tahoe-100M,Dimethyl fumarate,monomethyl fumarate,product_label,0.05,14.373559,0.640000,9.199078,0.946746,0.005435,0.005146,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Dimethyl fumarate,monomethyl fumarate,product_label,0.5,14.373559,0.640000,9.199078,0.946746,0.054353,0.051459,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Dimethyl fumarate,monomethyl fumarate,product_label,5,14.373559,0.640000,9.199078,0.946746,0.543533,0.514587,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Gefitinib,Gefitinib,Liston_Davis_2017,0.05,0.356000,0.100000,0.035600,0.526316,1.404494,0.739208,Tier_2_Serum_Adjusted_Reachable,0.506944,true
+Tahoe-100M,Gefitinib,Gefitinib,Liston_Davis_2017,0.5,0.356000,0.100000,0.035600,0.526316,14.044944,7.392076,Tier_4_Extreme_Supraphysiological_gt10x,0.005069,true
+Tahoe-100M,Gefitinib,Gefitinib,Liston_Davis_2017,5,0.356000,0.100000,0.035600,0.526316,140.449438,73.920757,Tier_4_Extreme_Supraphysiological_gt10x,0.000051,true
+Tahoe-100M,Cabozantinib (S-malate),Cabozantinib,Liston_Davis_2017,0.05,4.610000,0.005000,0.023050,0.047847,2.169197,0.103789,Tier_2_Serum_Adjusted_Reachable,0.212521,true
+Tahoe-100M,Cabozantinib (S-malate),Cabozantinib,Liston_Davis_2017,0.5,4.610000,0.005000,0.023050,0.047847,21.691974,1.037893,Tier_4_Extreme_Supraphysiological_gt10x,0.002125,true
+Tahoe-100M,Cabozantinib (S-malate),Cabozantinib,Liston_Davis_2017,5,4.610000,0.005000,0.023050,0.047847,216.919740,10.378935,Tier_4_Extreme_Supraphysiological_gt10x,0.000021,true
+Tahoe-100M,Fluvoxamine,fluvoxamine,product_label,0.05,1.715201,0.200000,0.343040,0.714286,0.145755,0.104111,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Fluvoxamine,fluvoxamine,product_label,0.5,1.715201,0.200000,0.343040,0.714286,1.457555,1.041111,Tier_3_Moderate_Supraphysiological_1_to_10x,0.470706,true
+Tahoe-100M,Fluvoxamine,fluvoxamine,product_label,5,1.715201,0.200000,0.343040,0.714286,14.575549,10.411107,Tier_4_Extreme_Supraphysiological_gt10x,0.004707,true
+Tahoe-100M,Fluvoxamine (maleate),fluvoxamine,product_label,0.05,1.715201,0.200000,0.343040,0.714286,0.145755,0.104111,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Fluvoxamine (maleate),fluvoxamine,product_label,0.5,1.715201,0.200000,0.343040,0.714286,1.457555,1.041111,Tier_3_Moderate_Supraphysiological_1_to_10x,0.470706,true
+Tahoe-100M,Fluvoxamine (maleate),fluvoxamine,product_label,5,1.715201,0.200000,0.343040,0.714286,14.575549,10.411107,Tier_4_Extreme_Supraphysiological_gt10x,0.004707,true
+Tahoe-100M,Erlotinib,Erlotinib,Liston_Davis_2017,0.05,3.150000,0.070000,0.220500,0.429448,0.226757,0.097380,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Erlotinib,Erlotinib,Liston_Davis_2017,0.5,3.150000,0.070000,0.220500,0.429448,2.267574,0.973805,Tier_2_Serum_Adjusted_Reachable,0.194481,true
+Tahoe-100M,Erlotinib,Erlotinib,Liston_Davis_2017,5,3.150000,0.070000,0.220500,0.429448,22.675737,9.738047,Tier_4_Extreme_Supraphysiological_gt10x,0.001945,true
+Tahoe-100M,Belzutifan,belzutifan,product_label,0.05,3.912975,0.550000,2.152136,0.924370,0.023233,0.021476,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Belzutifan,belzutifan,product_label,0.5,3.912975,0.550000,2.152136,0.924370,0.232327,0.214756,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Belzutifan,belzutifan,product_label,5,3.912975,0.550000,2.152136,0.924370,2.323273,2.147563,Tier_3_Moderate_Supraphysiological_1_to_10x,0.185268,true
+Tahoe-100M,Vismodegib,Vismodegib,Liston_Davis_2017,0.05,33.900000,0.010000,0.339000,0.091743,0.147493,0.013531,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Vismodegib,Vismodegib,Liston_Davis_2017,0.5,33.900000,0.010000,0.339000,0.091743,1.474926,0.135314,Tier_2_Serum_Adjusted_Reachable,0.459684,true
+Tahoe-100M,Vismodegib,Vismodegib,Liston_Davis_2017,5,33.900000,0.010000,0.339000,0.091743,14.749263,1.353143,Tier_4_Extreme_Supraphysiological_gt10x,0.004597,true
+Tahoe-100M,Busulfan,Busulfan,Liston_Davis_2017,0.05,4.960000,0.680000,3.372800,0.955056,0.014824,0.014158,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Busulfan,Busulfan,Liston_Davis_2017,0.5,4.960000,0.680000,3.372800,0.955056,0.148245,0.141582,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+Tahoe-100M,Busulfan,Busulfan,Liston_Davis_2017,5,4.960000,0.680000,3.372800,0.955056,1.482448,1.415821,Tier_3_Moderate_Supraphysiological_1_to_10x,0.455031,true
+Tahoe-100M,Trametinib (DMSO_TF solvate),Trametinib,Liston_Davis_2017,0.05,0.021000,0.030000,0.000630,0.236220,79.365079,18.747657,Tier_4_Extreme_Supraphysiological_gt10x,0.000159,true
+Tahoe-100M,Trametinib (DMSO_TF solvate),Trametinib,Liston_Davis_2017,0.5,0.021000,0.030000,0.000630,0.236220,793.650794,187.476565,Tier_4_Extreme_Supraphysiological_gt10x,0.000002,true
+Tahoe-100M,Trametinib (DMSO_TF solvate),Trametinib,Liston_Davis_2017,5,0.021000,0.030000,0.000630,0.236220,7936.507937,1874.765654,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+Tahoe-100M,Osimertinib (mesylate),Osimertinib,Liston_Davis_2017,0.05,0.126000,0.010000,0.001260,0.091743,39.682540,3.640600,Tier_4_Extreme_Supraphysiological_gt10x,0.000635,true
+Tahoe-100M,Osimertinib (mesylate),Osimertinib,Liston_Davis_2017,0.5,0.126000,0.010000,0.001260,0.091743,396.825397,36.406000,Tier_4_Extreme_Supraphysiological_gt10x,0.000006,true
+Tahoe-100M,Osimertinib (mesylate),Osimertinib,Liston_Davis_2017,5,0.126000,0.010000,0.001260,0.091743,3968.253968,364.059997,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+sci-Plex 3,Altretamine,Altretamine,Liston_Davis_2017,0.01,3.760000,0.060000,0.225600,0.389610,0.044326,0.017270,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Altretamine,Altretamine,Liston_Davis_2017,0.1,3.760000,0.060000,0.225600,0.389610,0.443262,0.172700,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Altretamine,Altretamine,Liston_Davis_2017,1,3.760000,0.060000,0.225600,0.389610,4.432624,1.726996,Tier_3_Moderate_Supraphysiological_1_to_10x,0.050895,true
+sci-Plex 3,Altretamine,Altretamine,Liston_Davis_2017,10,3.760000,0.060000,0.225600,0.389610,44.326241,17.269964,Tier_4_Extreme_Supraphysiological_gt10x,0.000509,true
+sci-Plex 3,Aminoglutethimide,Aminoglutethimide,Liston_Davis_2017,0.01,25.400000,0.770000,19.558000,0.970996,0.000511,0.000496,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Aminoglutethimide,Aminoglutethimide,Liston_Davis_2017,0.1,25.400000,0.770000,19.558000,0.970996,0.005113,0.004965,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Aminoglutethimide,Aminoglutethimide,Liston_Davis_2017,1,25.400000,0.770000,19.558000,0.970996,0.051130,0.049647,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Aminoglutethimide,Aminoglutethimide,Liston_Davis_2017,10,25.400000,0.770000,19.558000,0.970996,0.511300,0.496470,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Belinostat (PXD101),Belinostat,Liston_Davis_2017,0.01,134.000000,0.060000,8.040000,0.389610,0.001244,0.000485,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Belinostat (PXD101),Belinostat,Liston_Davis_2017,0.1,134.000000,0.060000,8.040000,0.389610,0.012438,0.004846,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Belinostat (PXD101),Belinostat,Liston_Davis_2017,1,134.000000,0.060000,8.040000,0.389610,0.124378,0.048459,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Belinostat (PXD101),Belinostat,Liston_Davis_2017,10,134.000000,0.060000,8.040000,0.389610,1.243781,0.484590,Tier_2_Serum_Adjusted_Reachable,0.646416,true
+sci-Plex 3,Bosutinib (SKI-606),Bosutinib,Liston_Davis_2017,0.01,0.377000,0.040000,0.015080,0.294118,0.663130,0.195038,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Bosutinib (SKI-606),Bosutinib,Liston_Davis_2017,0.1,0.377000,0.040000,0.015080,0.294118,6.631300,1.950382,Tier_3_Moderate_Supraphysiological_1_to_10x,0.022741,true
+sci-Plex 3,Bosutinib (SKI-606),Bosutinib,Liston_Davis_2017,1,0.377000,0.040000,0.015080,0.294118,66.312997,19.503823,Tier_4_Extreme_Supraphysiological_gt10x,0.000227,true
+sci-Plex 3,Bosutinib (SKI-606),Bosutinib,Liston_Davis_2017,10,0.377000,0.040000,0.015080,0.294118,663.129973,195.038227,Tier_4_Extreme_Supraphysiological_gt10x,0.000002,true
+sci-Plex 3,Busulfan,Busulfan,Liston_Davis_2017,0.01,4.960000,0.680000,3.372800,0.955056,0.002965,0.002832,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Busulfan,Busulfan,Liston_Davis_2017,0.1,4.960000,0.680000,3.372800,0.955056,0.029649,0.028316,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Busulfan,Busulfan,Liston_Davis_2017,1,4.960000,0.680000,3.372800,0.955056,0.296490,0.283164,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Busulfan,Busulfan,Liston_Davis_2017,10,4.960000,0.680000,3.372800,0.955056,2.964896,2.831642,Tier_3_Moderate_Supraphysiological_1_to_10x,0.113758,true
+sci-Plex 3,Capecitabine,Capecitabine,Liston_Davis_2017,0.01,21.100000,0.650000,13.715000,0.948905,0.000729,0.000692,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Capecitabine,Capecitabine,Liston_Davis_2017,0.1,21.100000,0.650000,13.715000,0.948905,0.007291,0.006919,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Capecitabine,Capecitabine,Liston_Davis_2017,1,21.100000,0.650000,13.715000,0.948905,0.072913,0.069187,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Capecitabine,Capecitabine,Liston_Davis_2017,10,21.100000,0.650000,13.715000,0.948905,0.729129,0.691874,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Celecoxib,Celecoxib,Liston_Davis_2017,0.01,4.600000,0.030000,0.138000,0.236220,0.072464,0.017117,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Celecoxib,Celecoxib,Liston_Davis_2017,0.1,4.600000,0.030000,0.138000,0.236220,0.724638,0.171174,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Celecoxib,Celecoxib,Liston_Davis_2017,1,4.600000,0.030000,0.138000,0.236220,7.246377,1.711743,Tier_3_Moderate_Supraphysiological_1_to_10x,0.019044,true
+sci-Plex 3,Celecoxib,Celecoxib,Liston_Davis_2017,10,4.600000,0.030000,0.138000,0.236220,72.463768,17.117426,Tier_4_Extreme_Supraphysiological_gt10x,0.000190,true
+sci-Plex 3,Dasatinib,Dasatinib,Liston_Davis_2017,0.01,0.264000,0.040000,0.010560,0.294118,0.946970,0.278520,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Dasatinib,Dasatinib,Liston_Davis_2017,0.1,0.264000,0.040000,0.010560,0.294118,9.469697,2.785205,Tier_3_Moderate_Supraphysiological_1_to_10x,0.011151,true
+sci-Plex 3,Dasatinib,Dasatinib,Liston_Davis_2017,1,0.264000,0.040000,0.010560,0.294118,94.696970,27.852050,Tier_4_Extreme_Supraphysiological_gt10x,0.000112,true
+sci-Plex 3,Dasatinib,Dasatinib,Liston_Davis_2017,10,0.264000,0.040000,0.010560,0.294118,946.969697,278.520499,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+sci-Plex 3,Decitabine,Decitabine,Liston_Davis_2017,0.01,0.323000,0.990000,0.319770,0.998991,0.031272,0.031241,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Decitabine,Decitabine,Liston_Davis_2017,0.1,0.323000,0.990000,0.319770,0.998991,0.312725,0.312409,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Decitabine,Decitabine,Liston_Davis_2017,1,0.323000,0.990000,0.319770,0.998991,3.127248,3.124092,Tier_3_Moderate_Supraphysiological_1_to_10x,0.102253,true
+sci-Plex 3,Decitabine,Decitabine,Liston_Davis_2017,10,0.323000,0.990000,0.319770,0.998991,31.272477,31.240921,Tier_4_Extreme_Supraphysiological_gt10x,0.001023,true
+sci-Plex 3,"Fluorouracil (5-Fluoracil, 5-FU)",Fluorouracil (5-FU),Liston_Davis_2017,0.01,426.000000,0.900000,383.400000,0.989011,0.000026,0.000026,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,"Fluorouracil (5-Fluoracil, 5-FU)",Fluorouracil (5-FU),Liston_Davis_2017,0.1,426.000000,0.900000,383.400000,0.989011,0.000261,0.000258,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,"Fluorouracil (5-Fluoracil, 5-FU)",Fluorouracil (5-FU),Liston_Davis_2017,1,426.000000,0.900000,383.400000,0.989011,0.002608,0.002580,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,"Fluorouracil (5-Fluoracil, 5-FU)",Fluorouracil (5-FU),Liston_Davis_2017,10,426.000000,0.900000,383.400000,0.989011,0.026082,0.025796,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Fulvestrant,Fulvestrant,Liston_Davis_2017,0.01,0.041000,0.010000,0.000410,0.091743,24.390244,2.237637,Tier_4_Extreme_Supraphysiological_gt10x,0.001681,true
+sci-Plex 3,Fulvestrant,Fulvestrant,Liston_Davis_2017,0.1,0.041000,0.010000,0.000410,0.091743,243.902439,22.376371,Tier_4_Extreme_Supraphysiological_gt10x,0.000017,true
+sci-Plex 3,Fulvestrant,Fulvestrant,Liston_Davis_2017,1,0.041000,0.010000,0.000410,0.091743,2439.024390,223.763706,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+sci-Plex 3,Fulvestrant,Fulvestrant,Liston_Davis_2017,10,0.041000,0.010000,0.000410,0.091743,24390.243902,2237.637055,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+sci-Plex 3,Lapatinib (GW-572016) Ditosylate,Lapatinib,Liston_Davis_2017,0.01,4.180000,0.010000,0.041800,0.091743,0.239234,0.021948,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Lapatinib (GW-572016) Ditosylate,Lapatinib,Liston_Davis_2017,0.1,4.180000,0.010000,0.041800,0.091743,2.392344,0.219481,Tier_2_Serum_Adjusted_Reachable,0.174724,true
+sci-Plex 3,Lapatinib (GW-572016) Ditosylate,Lapatinib,Liston_Davis_2017,1,4.180000,0.010000,0.041800,0.091743,23.923445,2.194811,Tier_4_Extreme_Supraphysiological_gt10x,0.001747,true
+sci-Plex 3,Lapatinib (GW-572016) Ditosylate,Lapatinib,Liston_Davis_2017,10,4.180000,0.010000,0.041800,0.091743,239.234450,21.948115,Tier_4_Extreme_Supraphysiological_gt10x,0.000017,true
+sci-Plex 3,Lenalidomide (CC-5013),Lenalidomide,Liston_Davis_2017,0.01,1.740000,0.700000,1.218000,0.958904,0.008210,0.007873,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Lenalidomide (CC-5013),Lenalidomide,Liston_Davis_2017,0.1,1.740000,0.700000,1.218000,0.958904,0.082102,0.078728,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Lenalidomide (CC-5013),Lenalidomide,Liston_Davis_2017,1,1.740000,0.700000,1.218000,0.958904,0.821018,0.787278,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Lenalidomide (CC-5013),Lenalidomide,Liston_Davis_2017,10,1.740000,0.700000,1.218000,0.958904,8.210181,7.872776,Tier_3_Moderate_Supraphysiological_1_to_10x,0.014835,true
+sci-Plex 3,Mercaptopurine (6-MP),Mercaptopurine,Liston_Davis_2017,0.01,0.590000,0.810000,0.477900,0.977081,0.020925,0.020445,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Mercaptopurine (6-MP),Mercaptopurine,Liston_Davis_2017,0.1,0.590000,0.810000,0.477900,0.977081,0.209249,0.204453,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Mercaptopurine (6-MP),Mercaptopurine,Liston_Davis_2017,1,0.590000,0.810000,0.477900,0.977081,2.092488,2.044530,Tier_3_Moderate_Supraphysiological_1_to_10x,0.228388,true
+sci-Plex 3,Mercaptopurine (6-MP),Mercaptopurine,Liston_Davis_2017,10,0.590000,0.810000,0.477900,0.977081,20.924880,20.445299,Tier_4_Extreme_Supraphysiological_gt10x,0.002284,true
+sci-Plex 3,Nilotinib (AMN-107),Nilotinib,Liston_Davis_2017,0.01,0.840000,0.020000,0.016800,0.169492,0.595238,0.100888,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Nilotinib (AMN-107),Nilotinib,Liston_Davis_2017,0.1,0.840000,0.020000,0.016800,0.169492,5.952381,1.008878,Tier_3_Moderate_Supraphysiological_1_to_10x,0.028224,true
+sci-Plex 3,Nilotinib (AMN-107),Nilotinib,Liston_Davis_2017,1,0.840000,0.020000,0.016800,0.169492,59.523810,10.088781,Tier_4_Extreme_Supraphysiological_gt10x,0.000282,true
+sci-Plex 3,Nilotinib (AMN-107),Nilotinib,Liston_Davis_2017,10,0.840000,0.020000,0.016800,0.169492,595.238095,100.887813,Tier_4_Extreme_Supraphysiological_gt10x,0.000003,true
+sci-Plex 3,Panobinostat (LBH589),Panobinostat,Liston_Davis_2017,0.01,0.082000,0.100000,0.008200,0.526316,1.219512,0.641849,Tier_2_Serum_Adjusted_Reachable,0.672400,true
+sci-Plex 3,Panobinostat (LBH589),Panobinostat,Liston_Davis_2017,0.1,0.082000,0.100000,0.008200,0.526316,12.195122,6.418485,Tier_4_Extreme_Supraphysiological_gt10x,0.006724,true
+sci-Plex 3,Panobinostat (LBH589),Panobinostat,Liston_Davis_2017,1,0.082000,0.100000,0.008200,0.526316,121.951220,64.184852,Tier_4_Extreme_Supraphysiological_gt10x,0.000067,true
+sci-Plex 3,Panobinostat (LBH589),Panobinostat,Liston_Davis_2017,10,0.082000,0.100000,0.008200,0.526316,1219.512195,641.848524,Tier_4_Extreme_Supraphysiological_gt10x,0.000001,true
+sci-Plex 3,Regorafenib (BAY 73-4506),Regorafenib,Liston_Davis_2017,0.01,8.080000,0.005000,0.040400,0.047847,0.247525,0.011843,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Regorafenib (BAY 73-4506),Regorafenib,Liston_Davis_2017,0.1,8.080000,0.005000,0.040400,0.047847,2.475248,0.118433,Tier_2_Serum_Adjusted_Reachable,0.163216,true
+sci-Plex 3,Regorafenib (BAY 73-4506),Regorafenib,Liston_Davis_2017,1,8.080000,0.005000,0.040400,0.047847,24.752475,1.184329,Tier_4_Extreme_Supraphysiological_gt10x,0.001632,true
+sci-Plex 3,Regorafenib (BAY 73-4506),Regorafenib,Liston_Davis_2017,10,8.080000,0.005000,0.040400,0.047847,247.524752,11.843290,Tier_4_Extreme_Supraphysiological_gt10x,0.000016,true
+sci-Plex 3,"Rucaparib (AG-014699,PF-01367338) phosphate",Rucaparib,Liston_Davis_2017,0.01,6.000000,0.300000,1.800000,0.810811,0.005556,0.004505,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,"Rucaparib (AG-014699,PF-01367338) phosphate",Rucaparib,Liston_Davis_2017,0.1,6.000000,0.300000,1.800000,0.810811,0.055556,0.045045,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,"Rucaparib (AG-014699,PF-01367338) phosphate",Rucaparib,Liston_Davis_2017,1,6.000000,0.300000,1.800000,0.810811,0.555556,0.450450,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,"Rucaparib (AG-014699,PF-01367338) phosphate",Rucaparib,Liston_Davis_2017,10,6.000000,0.300000,1.800000,0.810811,5.555556,4.504505,Tier_3_Moderate_Supraphysiological_1_to_10x,0.032400,true
+sci-Plex 3,Ruxolitinib (INCB018424),Ruxolitinib,Liston_Davis_2017,0.01,1.090000,0.030000,0.032700,0.236220,0.305810,0.072239,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Ruxolitinib (INCB018424),Ruxolitinib,Liston_Davis_2017,0.1,1.090000,0.030000,0.032700,0.236220,3.058104,0.722387,Tier_2_Serum_Adjusted_Reachable,0.106929,true
+sci-Plex 3,Ruxolitinib (INCB018424),Ruxolitinib,Liston_Davis_2017,1,1.090000,0.030000,0.032700,0.236220,30.581040,7.223868,Tier_4_Extreme_Supraphysiological_gt10x,0.001069,true
+sci-Plex 3,Ruxolitinib (INCB018424),Ruxolitinib,Liston_Davis_2017,10,1.090000,0.030000,0.032700,0.236220,305.810398,72.238677,Tier_4_Extreme_Supraphysiological_gt10x,0.000011,true
+sci-Plex 3,Sorafenib Tosylate,Sorafenib,Liston_Davis_2017,0.01,20.100000,0.005000,0.100500,0.047847,0.099502,0.004761,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Sorafenib Tosylate,Sorafenib,Liston_Davis_2017,0.1,20.100000,0.005000,0.100500,0.047847,0.995025,0.047609,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Sorafenib Tosylate,Sorafenib,Liston_Davis_2017,1,20.100000,0.005000,0.100500,0.047847,9.950249,0.476088,Tier_2_Serum_Adjusted_Reachable,0.010100,true
+sci-Plex 3,Sorafenib Tosylate,Sorafenib,Liston_Davis_2017,10,20.100000,0.005000,0.100500,0.047847,99.502488,4.760885,Tier_4_Extreme_Supraphysiological_gt10x,0.000101,true
+sci-Plex 3,"Temsirolimus (CCI-779, NSC 683864)",Temsirolimus,Liston_Davis_2017,0.01,0.568000,0.130000,0.073840,0.599078,0.135428,0.081132,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,"Temsirolimus (CCI-779, NSC 683864)",Temsirolimus,Liston_Davis_2017,0.1,0.568000,0.130000,0.073840,0.599078,1.354280,0.811320,Tier_2_Serum_Adjusted_Reachable,0.545235,true
+sci-Plex 3,"Temsirolimus (CCI-779, NSC 683864)",Temsirolimus,Liston_Davis_2017,1,0.568000,0.130000,0.073840,0.599078,13.542795,8.113195,Tier_4_Extreme_Supraphysiological_gt10x,0.005452,true
+sci-Plex 3,"Temsirolimus (CCI-779, NSC 683864)",Temsirolimus,Liston_Davis_2017,10,0.568000,0.130000,0.073840,0.599078,135.427952,81.131953,Tier_4_Extreme_Supraphysiological_gt10x,0.000055,true
+sci-Plex 3,Thalidomide,Thalidomide,Liston_Davis_2017,0.01,8.910000,0.395000,3.519450,0.867179,0.002841,0.002464,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Thalidomide,Thalidomide,Liston_Davis_2017,0.1,8.910000,0.395000,3.519450,0.867179,0.028414,0.024640,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Thalidomide,Thalidomide,Liston_Davis_2017,1,8.910000,0.395000,3.519450,0.867179,0.284135,0.246396,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Thalidomide,Thalidomide,Liston_Davis_2017,10,8.910000,0.395000,3.519450,0.867179,2.841353,2.463961,Tier_3_Moderate_Supraphysiological_1_to_10x,0.123865,true
+sci-Plex 3,Thiotepa,Thiotepa,Liston_Davis_2017,0.01,9.660000,0.900000,8.694000,0.989011,0.001150,0.001138,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Thiotepa,Thiotepa,Liston_Davis_2017,0.1,9.660000,0.900000,8.694000,0.989011,0.011502,0.011376,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Thiotepa,Thiotepa,Liston_Davis_2017,1,9.660000,0.900000,8.694000,0.989011,0.115022,0.113758,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Thiotepa,Thiotepa,Liston_Davis_2017,10,9.660000,0.900000,8.694000,0.989011,1.150219,1.137579,Tier_3_Moderate_Supraphysiological_1_to_10x,0.755856,true
+sci-Plex 3,Toremifene Citrate,Toremifene,Liston_Davis_2017,0.01,4.560000,0.005000,0.022800,0.047847,0.438596,0.020985,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Toremifene Citrate,Toremifene,Liston_Davis_2017,0.1,4.560000,0.005000,0.022800,0.047847,4.385965,0.209855,Tier_2_Serum_Adjusted_Reachable,0.051984,true
+sci-Plex 3,Toremifene Citrate,Toremifene,Liston_Davis_2017,1,4.560000,0.005000,0.022800,0.047847,43.859649,2.098548,Tier_4_Extreme_Supraphysiological_gt10x,0.000520,true
+sci-Plex 3,Toremifene Citrate,Toremifene,Liston_Davis_2017,10,4.560000,0.005000,0.022800,0.047847,438.596491,20.985478,Tier_4_Extreme_Supraphysiological_gt10x,0.000005,true
+sci-Plex 3,Trametinib (GSK1120212),Trametinib,Liston_Davis_2017,0.01,0.021000,0.030000,0.000630,0.236220,15.873016,3.749531,Tier_4_Extreme_Supraphysiological_gt10x,0.003969,true
+sci-Plex 3,Trametinib (GSK1120212),Trametinib,Liston_Davis_2017,0.1,0.021000,0.030000,0.000630,0.236220,158.730159,37.495313,Tier_4_Extreme_Supraphysiological_gt10x,0.000040,true
+sci-Plex 3,Trametinib (GSK1120212),Trametinib,Liston_Davis_2017,1,0.021000,0.030000,0.000630,0.236220,1587.301587,374.953131,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+sci-Plex 3,Trametinib (GSK1120212),Trametinib,Liston_Davis_2017,10,0.021000,0.030000,0.000630,0.236220,15873.015873,3749.531309,Tier_4_Extreme_Supraphysiological_gt10x,0.000000,true
+sci-Plex 3,Vandetanib (ZD6474),Vandetanib,Liston_Davis_2017,0.01,2.160000,0.100000,0.216000,0.526316,0.046296,0.024366,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Vandetanib (ZD6474),Vandetanib,Liston_Davis_2017,0.1,2.160000,0.100000,0.216000,0.526316,0.462963,0.243665,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Vandetanib (ZD6474),Vandetanib,Liston_Davis_2017,1,2.160000,0.100000,0.216000,0.526316,4.629630,2.436647,Tier_3_Moderate_Supraphysiological_1_to_10x,0.046656,true
+sci-Plex 3,Vandetanib (ZD6474),Vandetanib,Liston_Davis_2017,10,2.160000,0.100000,0.216000,0.526316,46.296296,24.366472,Tier_4_Extreme_Supraphysiological_gt10x,0.000467,true
+sci-Plex 3,Crizotinib (PF-02341066),Crizotinib,Liston_Davis_2017,0.01,0.913000,0.090000,0.082170,0.497238,0.121699,0.060513,Tier_1_Clinical_Unbound_Reachable,1.000000,true
+sci-Plex 3,Crizotinib (PF-02341066),Crizotinib,Liston_Davis_2017,0.1,0.913000,0.090000,0.082170,0.497238,1.216989,0.605133,Tier_2_Serum_Adjusted_Reachable,0.675191,true
+sci-Plex 3,Crizotinib (PF-02341066),Crizotinib,Liston_Davis_2017,1,0.913000,0.090000,0.082170,0.497238,12.169892,6.051327,Tier_4_Extreme_Supraphysiological_gt10x,0.006752,true
+sci-Plex 3,Crizotinib (PF-02341066),Crizotinib,Liston_Davis_2017,10,0.913000,0.090000,0.082170,0.497238,121.698917,60.513274,Tier_4_Extreme_Supraphysiological_gt10x,0.000068,true

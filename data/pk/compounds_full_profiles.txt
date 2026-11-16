@@ -1,0 +1,24 @@
+Afatinib
+Anastrozole
+Bortezomib
+Cabozantinib (S-malate)
+Cobimetinib
+Dabrafenib
+Docetaxel
+Doxorubicin (hydrochloride)
+Erlotinib
+Everolimus
+Fulvestrant
+Gefitinib
+Gemcitabine
+Lenalidomide (hemihydrate)
+Methotrexate
+Osimertinib (mesylate)
+Paclitaxel
+Sunitinib
+Temsirolimus
+Trametinib
+Trametinib (DMSO_TF solvate)
+Vemurafenib
+olaparib
+palbociclib

@@ -1,0 +1,95 @@
+"atlas","compound","generic_name","cmax_total_uM","cmax_unbound_uM"
+"Tahoe-100M","Bortezomib","Bortezomib",0.312,0.05304000000000001
+"Tahoe-100M","Ixazomib","Ixazomib",0.118,0.001180000000000001
+"Tahoe-100M","Ixazomib citrate","Ixazomib",0.118,0.001180000000000001
+"Tahoe-100M","Hydroxyurea","Hydroxyurea",795.0,""
+"Tahoe-100M","Mitoxantrone (dihydrochloride)","Mitoxantrone",0.715,0.15729999999999997
+"Tahoe-100M","Pemetrexed","Pemetrexed",306.0,58.139999999999986
+"Tahoe-100M","Belinostat","Belinostat",134.0,8.040000000000006
+"Tahoe-100M","Gemcitabine","Gemcitabine",89.3,89.3
+"Tahoe-100M","Cytarabine","Cytarabine",54.4,47.327999999999996
+"Tahoe-100M","Cytarabine (hydrochloride)","Cytarabine",54.4,47.327999999999996
+"Tahoe-100M","Clofarabine","Clofarabine",0.744,0.39432
+"Tahoe-100M","Allopurinol","Allopurinol",14.3,14.3
+"Tahoe-100M","Decitabine","Decitabine",0.323,0.31977
+"Tahoe-100M","Lenalidomide (hemihydrate)","Lenalidomide",1.74,1.218
+"Tahoe-100M","olaparib","Olaparib",13.1,2.3580000000000005
+"Tahoe-100M","Oxaliplatin","Oxaliplatin",4.96,0.4959999999999999
+"Tahoe-100M","Cobimetinib","Cobimetinib",0.514,0.025700000000000025
+"Tahoe-100M","Abiraterone acetate","Abiraterone",0.647,0.006470000000000006
+"Tahoe-100M","Dabrafenib","Dabrafenib",4.86,0.024300000000000002
+"Tahoe-100M","Anastrozole","Anastrozole",0.035,0.021
+"Tahoe-100M","Flutamide","Flutamide",0.409,0.020450000000000017
+"Tahoe-100M","Goserelin (acetate)","Goserelin acetate",0.007,0.00511
+"Tahoe-100M","Imiquimod (maleate)","Imiquimod",0.0056,0.00041999999999999975
+"Tahoe-100M","Imiquimod (hydrochloride)","Imiquimod",0.0056,0.00041999999999999975
+"Tahoe-100M","Bicalutamide","Bicalutamide",1.78,0.07120000000000007
+"Tahoe-100M","venetoclax","Venetoclax",4.48,0.04480000000000004
+"Tahoe-100M","palbociclib","Palbociclib",0.101,0.015150000000000004
+"Tahoe-100M","Ponatinib","Ponatinib",0.137,0.0013700000000000014
+"Tahoe-100M","Panobinostat","Panobinostat",0.082,0.008199999999999999
+"Tahoe-100M","Trametinib","Trametinib",0.021,0.0006300000000000006
+"Tahoe-100M","Paclitaxel","Paclitaxel",4.27,0.27754999999999974
+"Tahoe-100M","Docetaxel","Docetaxel",5.47,0.16410000000000013
+"Tahoe-100M","Docetaxel (Trihydrate)","Docetaxel",5.47,0.16410000000000013
+"Tahoe-100M","Celecoxib","Celecoxib",4.6,0.13800000000000012
+"Tahoe-100M","Bexarotene","Bexarotene",3.39,0.033900000000000034
+"Tahoe-100M","Megestrol","Megestrol acetate",1.96,""
+"Tahoe-100M","Finasteride","Finasteride",0.124,0.012399999999999998
+"Tahoe-100M","Fulvestrant","Fulvestrant",0.041,0.00041000000000000037
+"Tahoe-100M","Doxorubicin (hydrochloride)","Doxorubicin",6.73,1.6825
+"Tahoe-100M","Epirubicin (hydrochloride)","Epirubicin",16.6,3.818
+"Tahoe-100M","Idarubicin (hydrochloride)","Idarubicin",0.123,0.003690000000000003
+"Tahoe-100M","Medroxyprogesterone acetate","Medroxyprogesterone acetate",0.0026,0.0002599999999999999
+"Tahoe-100M","Temsirolimus","Temsirolimus",0.568,0.07384
+"Tahoe-100M","Everolimus","Everolimus",0.064,0.016640000000000002
+"Tahoe-100M","Sonidegib","Sonidegib",2.12,0.06360000000000006
+"Tahoe-100M","Topotecan (hydrochloride)","Topotecan",0.015,0.00975
+"Tahoe-100M","Vinblastine (sulfate)","Vinblastine",0.035,0.0005250000000000005
+"Tahoe-100M","vincristine","Vincristine",0.007,0.00175
+"Tahoe-100M","Irinotecan","Irinotecan",5.78,2.9478
+"Tahoe-100M","Irinotecan (hydrochloride)","Irinotecan",5.78,2.9478
+"Tahoe-100M","Sildenafil","Sildenafil",0.794,0.03176000000000003
+"Tahoe-100M","Vemurafenib","Vemurafenib",127.0,1.2700000000000011
+"Tahoe-100M","Sunitinib","Sunitinib Malate",0.181,0.009050000000000008
+"Tahoe-100M","Altretamine","Altretamine",3.76,0.2256000000000002
+"Tahoe-100M","Afatinib","Afatinib",0.052,0.002600000000000002
+"Tahoe-100M","Methotrexate","Methotrexate",1.31,0.655
+"Tahoe-100M","Bendamustine","Bendamustine",16.3,0.8150000000000007
+"Tahoe-100M","Vandetanib","Vandetanib",2.16,0.21599999999999997
+"Tahoe-100M","Regorafenib","Regorafenib",8.08,0.04040000000000003
+"Tahoe-100M","Rucaparib (phosphate)","Rucaparib",6.0,1.8000000000000003
+"Tahoe-100M","Gefitinib","Gefitinib",0.356,0.03559999999999999
+"Tahoe-100M","Cabozantinib (S-malate)","Cabozantinib",4.61,0.02305
+"Tahoe-100M","Erlotinib","Erlotinib",3.15,0.22049999999999984
+"Tahoe-100M","Vismodegib","Vismodegib",33.9,0.3390000000000003
+"Tahoe-100M","Busulfan","Busulfan",4.96,3.3728
+"Tahoe-100M","Trametinib (DMSO_TF solvate)","Trametinib",0.021,0.0006300000000000006
+"Tahoe-100M","Osimertinib (mesylate)","Osimertinib",0.126,0.0012600000000000011
+"sci-Plex 3","Altretamine","Altretamine",3.76,0.2256000000000002
+"sci-Plex 3","Aminoglutethimide ","Aminoglutethimide",25.4,19.558
+"sci-Plex 3","Belinostat (PXD101)","Belinostat",134.0,8.040000000000006
+"sci-Plex 3","Bosutinib (SKI-606)","Bosutinib",0.377,0.015080000000000014
+"sci-Plex 3","Busulfan ","Busulfan",4.96,3.3728
+"sci-Plex 3","Capecitabine ","Capecitabine",21.1,13.715000000000002
+"sci-Plex 3","Celecoxib","Celecoxib",4.6,0.13800000000000012
+"sci-Plex 3","Dasatinib","Dasatinib",0.264,0.01056000000000001
+"sci-Plex 3","Decitabine","Decitabine",0.323,0.31977
+"sci-Plex 3","Fluorouracil (5-Fluoracil, 5-FU)","Fluorouracil (5-FU)",426.0,383.40000000000003
+"sci-Plex 3","Fulvestrant","Fulvestrant",0.041,0.00041000000000000037
+"sci-Plex 3","Lapatinib (GW-572016) Ditosylate","Lapatinib",4.18,0.04180000000000003
+"sci-Plex 3","Lenalidomide (CC-5013)","Lenalidomide",1.74,1.218
+"sci-Plex 3","Mercaptopurine (6-MP)","Mercaptopurine",0.59,0.4779
+"sci-Plex 3","Nilotinib (AMN-107)","Nilotinib",0.84,0.016800000000000013
+"sci-Plex 3","Panobinostat (LBH589)","Panobinostat",0.082,0.008199999999999999
+"sci-Plex 3","Regorafenib (BAY 73-4506)","Regorafenib",8.08,0.04040000000000003
+"sci-Plex 3","Rucaparib (AG-014699,PF-01367338) phosphate","Rucaparib",6.0,1.8000000000000003
+"sci-Plex 3","Ruxolitinib (INCB018424)","Ruxolitinib",1.09,0.032700000000000035
+"sci-Plex 3","Sorafenib Tosylate","Sorafenib",20.1,0.1005000000000001
+"sci-Plex 3","Temsirolimus (CCI-779, NSC 683864)","Temsirolimus",0.568,0.07384
+"sci-Plex 3","Thalidomide","Thalidomide",8.91,3.5194500000000004
+"sci-Plex 3","Thiotepa","Thiotepa",9.66,8.694
+"sci-Plex 3","Toremifene Citrate","Toremifene",4.56,0.022800000000000018
+"sci-Plex 3","Trametinib (GSK1120212)","Trametinib",0.021,0.0006300000000000006
+"sci-Plex 3","Vandetanib (ZD6474)","Vandetanib",2.16,0.21599999999999997
+"sci-Plex 3","Crizotinib (PF-02341066)","Crizotinib",0.913,0.08216999999999998

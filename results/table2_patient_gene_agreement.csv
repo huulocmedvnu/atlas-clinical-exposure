@@ -1,0 +1,9 @@
+compound,cohort,set,pairs,lowest_dose_over_unbound_cmax,signature_0.05uM,signature_5uM_only
+Everolimus,GSE119262,primary,21,3.0,213/409 (52.1%),60/177 (33.9%)
+Afatinib,GSE192464,primary,19,19,41/96 (42.7%),192/347 (55.3%)
+Palbociclib,GSE93204,primary,23,3.3,310/584 (53.1%),456/847 (53.8%)
+Anastrozole,GSE153470,primary,81,2.4,167/323 (51.7%),32/87 (36.8%)
+Sunitinib,GSE58837,primary,4,5.5,566/1289 (43.9%),549/1193 (46.0%)
+Pooled,,primary,,,1297/2701 (48.0%),1289/2651 (48.6%)
+Anastrozole,GSE93204,secondary,22,2.4,233/372 (62.6%),38/92 (41.3%)
+Olaparib,GSE341672,secondary,54,0.02,279/448 (62.3%),90/181 (49.7%)

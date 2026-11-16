@@ -1,0 +1,148 @@
+# Analysis plan
+
+Definitions, thresholds and decision rules of the study. Each section was written before the
+corresponding results were produced. The dated original text is kept in the history of this
+repository. Section 9 lists the outcome of every rule.
+
+## 1. Question and data
+- Question: how much of the transcriptional response in single-cell chemical perturbation atlases
+  comes from concentrations that patients do not reach.
+- Tahoe-100M pseudobulk differential expression (DESeq2, compound x dose x cell line against
+  vehicle), doses 0.05, 0.5 and 5 uM.
+- sci-Plex 3 (scPerturb), A549, K562 and MCF7, 24 h, doses 0.01, 0.1, 1 and 10 uM.
+- Clinical Cmax at the highest approved dose and plasma protein binding: Liston and Davis 2017
+  (PMC5511563), matched to atlas compounds by generic name.
+
+## 2. Definitions
+- Unbound Cmax = Cmax x (1 - bound fraction). A range of binding is replaced by its mean,
+  a lower bound such as "> 99%" by the bound, and the unbound fraction is not allowed below 0.005.
+- DE gene: adjusted P < 0.05 and |log2FC| >= 1.
+- Reachable dose: dose <= unbound Cmax (primary). Sensitivity: dose <= total Cmax.
+- Serum-adjusted reference: unbound fraction in medium with 10% serum
+  fu_med = 1 / (1 + 0.1 (1 - fu) / fu). Reachable if dose x fu_med <= unbound Cmax.
+- Inert reference compounds (Tahoe-100M): talc, allantoin, folic acid, fumaric acid, arbutin,
+  gallic acid, sodium salicylate, calcium lactate. Background of a plate and cell line: 95th
+  percentile of the number of DE genes of these compounds.
+- Background in sci-Plex 3: two vehicle wells against the remaining vehicle wells of the cell
+  line, 95th percentile per cell line.
+- Exposure groups: doses on both sides of the reference (at least one dose reachable and the
+  top dose not), all doses above the reference, all doses reachable.
+
+## 3. Share of the response above clinical exposure (Tahoe-100M)
+Quantities
+- Share of annotated compounds whose lowest dose exceeds unbound Cmax, and whose top dose
+  exceeds 10 x unbound Cmax.
+- Share of all DE calls of annotated compounds that come from doses above the reference.
+- For compounds with doses on both sides of the reference: ratio of DE calls at the highest
+  reachable dose to those at 5 uM (median over cell lines), and overlap of the gene sets.
+Rule
+- Supported: top-dose share >= 50%, share of DE calls >= 50%, median ratio <= 0.5 and the
+  5 uM count above the background.
+- Not supported: share of DE calls < 25% or median ratio > 0.8. Otherwise inconclusive.
+Sensitivity
+- |log2FC| thresholds 0.25, 0.5, 0.75, 1.0 and 1.5. Stable if the share of DE calls on the
+  unbound reference is >= 50% at every threshold.
+- Serum-adjusted and total Cmax references, reported.
+
+## 4. Replication in sci-Plex 3
+- Per-well pseudobulk, negative binomial model per cell line, same DE definition.
+- Replicates if the share of DE calls from doses above unbound Cmax is >= 50% (strong: > 65%)
+  and the median ratio of DE calls at the highest reachable dose to 10 uM is <= 0.5.
+  Fails if the share is < 25% or the ratio > 0.8. Otherwise inconclusive.
+- Cell number: where the 10 uM well has more cells than the 10 nM well of the same compound,
+  cell line and replicate, the 10 uM well is reduced to that number of cells and the model is
+  refitted. Passes if the reduced 10 uM contrasts keep >= 80% of their DE genes (median) and
+  the share of DE calls stays > 65%.
+- Threshold-free magnitude per contrast: (i) median |log2FC| over the 500 genes with the highest
+  variance of log2FC across contrasts, (ii) L2 norm of beta^3 / (beta^2 + SE^2). A step at the
+  clinical concentration is supported if, in compounds with doses on both sides of the reference,
+  the median ratio of the lowest unreachable to the highest reachable dose is >= 2 for both
+  measures and the vehicle-against-vehicle magnitude is below that of the highest reachable dose.
+
+## 5. Selection of annotated compounds
+- 5 uM DE counts and dose slope of annotated against other compounds (Mann-Whitney and
+  Kolmogorov-Smirnov), also restricted to compounds of the mechanism classes present among
+  the annotated ones.
+- Extension set: Cmax and protein binding from product labels with source links, five rows
+  checked against the label. Consistent if the share of DE calls in the added set is > 70%.
+
+## 6. Specificity of the response at high doses (Tahoe-100M)
+- For compounds with doses on both sides of the reference, DE genes at 5 uM are divided into
+  those also DE at a reachable dose and those DE only at 5 uM. For compounds with all doses
+  above the reference, 0.05 and 0.5 uM take the place of the reachable doses (descriptive).
+- Convergence on a common response is supported if the Jaccard index between compounds of
+  different mechanism classes (same cell line, all sets >= 10 genes) is higher for 5 uM-only
+  genes than at reachable doses, with Wilcoxon P < 0.001 and a ratio of medians >= 1.5.
+- Enrichment of Hallmark apoptosis, p53, unfolded protein response and reactive oxygen species
+  genes among 5 uM-only genes against genes shared with reachable doses, Fisher test, reported.
+- Mechanism similarity: classes with >= 2 compounds, profiles of the 1,000 genes with the
+  highest variance, Spearman correlation between compounds per cell line and dose, AUROC of
+  pairs of the same class against pairs of different classes. Loss of mechanism information at
+  5 uM is supported if the AUROC at 5 uM is below that at 0.05 uM (Wilcoxon over cell lines,
+  P < 0.05) and the similarity between classes is higher at 5 uM (P < 0.05). It is contradicted
+  if the AUROC at 5 uM is at or above that at 0.05 uM with P < 0.05.
+
+## 7. Agreement with patient tumours
+- Cohorts with paired samples before and during single-agent treatment: GSE119262 everolimus,
+  GSE192464 afatinib, GSE93204 palbociclib (day 15 against day 1 of cycle 1) and anastrozole,
+  GSE153470 anastrozole, GSE58837 sunitinib, GSE341672 olaparib. Patient change = mean
+  within-patient difference. The olaparib cohort (sequencing batch coincides with time point)
+  and the second anastrozole comparison are reported separately.
+- For all primary compounds the lowest atlas dose exceeds unbound Cmax, so that the comparison
+  is between doses. Low-dose signature: DE at 0.05 uM. High-dose signature: DE at 5 uM and at
+  neither lower dose. A gene enters a signature if DE with the same sign in >= 3 cell lines.
+  In vitro change = median log2FC across cell lines.
+- Measures: sign agreement with the patient change (binomial against 0.5), Fisher test between
+  signatures, Spearman correlation of full profiles.
+- Better agreement of the low-dose signature is supported if its agreement is higher in most
+  cohorts and in the pooled comparison (P < 0.05), or if stress genes of the high-dose signature
+  are not changed in patients (their share among patient-changed genes below half of that in
+  the signature).
+- Aggregated comparisons: (i) the four agents with a direct target in cancer cells, (ii) the
+  50 and 100 signature genes with the largest in vitro change, (iii) scores of the 50 Hallmark
+  gene sets. In vitro score = mean over set genes of the median log2FC (genes measured in >= 10
+  cell lines) minus the mean over all genes, at 0.05 and 5 uM. Patient score = mean paired t
+  statistic of the set minus the mean over all genes. Sets with >= 10 genes on both sides.
+  Target sets: mTORC1 signalling (everolimus), E2F targets and G2M checkpoint (palbociclib),
+  early and late oestrogen response (anastrozole), angiogenesis and hypoxia (sunitinib).
+- Agreement of gene set scores at a dose: pooled sign agreement over primary cohorts and sets
+  above 50% (binomial one-sided P < 0.05) and Spearman > 0 in most primary cohorts.
+- Better agreement at 5 uM than at 0.05 uM: higher Spearman in most primary cohorts and higher
+  pooled sign agreement with Fisher P < 0.05. Otherwise no difference is claimed.
+
+## 8. Power at clinical exposure (sci-Plex 3) and exposure tiers
+- Responsive genes of a compound and cell line: DE genes at 10 uM, at least 10 genes.
+- Projected change at a lower dose: b = log2FC x sign(log2FC at 10 uM). Negative control: the
+  same projection on contrasts of other compounds at reachable doses in the same cell line.
+  Change = mean(b) - mean(control).
+- Spread of true changes: tau^2 = var(b) - mean(SE^2), not below 0. 90th percentile = change +
+  1.2816 tau. Groups by dose / unbound Cmax: <= 1, 1 to 10, 10 to 100. Confidence intervals by
+  resampling compounds.
+- Variance of the log count of a gene with per-cell rate m in a well of N cells:
+  v(N) = (1 + a1) / (N m) + a0, with a0 and a1 from the fitted dispersion trend.
+  SE^2 of the log fold change = v(N) / r + v(N0) / r0 for r treated and r0 vehicle wells.
+- Significance level: alpha* = 0.05 x 0.8 x |R| / (genes tested).
+- Reported: cells per well at r = 2 and wells at N = 150 that give a median power of 80% over
+  responsive genes, for the 90th percentile and for the mean change at reachable doses, and the
+  same for matching the mean test statistic at 10 uM.
+- A ceiling is declared if the median power at r = 2 stays below 80% for unlimited cells.
+- Exposure tiers: tier 1 dose <= unbound Cmax. Tier 2 not tier 1 and dose x fu_med <= unbound
+  Cmax. Tier 3 neither and dose / unbound Cmax <= 10. Tier 4 neither and ratio > 10.
+  Optional weight w = min(1, (unbound Cmax / dose)^2), not evaluated in model training.
+
+## 9. Outcome of the rules
+| Rule | Outcome |
+|---|---|
+| Share of the response above unbound Cmax, Tahoe-100M (section 3) | Supported: top-dose share 74%, share of DE calls 78%, median ratio 0.00 |
+| Same with total Cmax | Inconclusive: share of DE calls 55%, top-dose share 40% |
+| Stability across thresholds | Stable: 76.1% to 77.7% |
+| Replication in sci-Plex 3 (section 4) | Replicates: share of DE calls 91.1%, median ratio 0.006 |
+| Cell number | Passes: 96% of DE genes kept, share 91.0% |
+| Step of magnitude at the clinical concentration | Not supported: ratio 1.05 and 1.09 |
+| Label extension set (section 5) | Consistent: 71.3% |
+| Convergence on a common response at 5 uM (section 6) | Not supported: Jaccard 0.010 for 5 uM-only genes against 0.024 |
+| Loss of mechanism information at 5 uM | Neither supported nor contradicted: AUROC 0.48 at both doses |
+| Better agreement of the low-dose signature with patients (section 7) | Not supported: 48.0% against 48.6% |
+| Agreement of gene set scores | Met at 0.05 uM (56.0%), not met at 5 uM (46.8%) |
+| Better agreement of gene set scores at 5 uM | Not met |
+| Ceiling for the mean change at reachable doses (section 8) | Declared: power 24% with two wells and unlimited cells |

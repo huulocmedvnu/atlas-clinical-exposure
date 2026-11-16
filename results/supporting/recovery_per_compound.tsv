@@ -1,0 +1,683 @@
+cut	basis	drug	pk_source	top_reachable_uM	n_lines	ratio_excess	gene_recovery
+0.25	unbound	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.10794093268060151
+0.25	unbound	Pexidartinib (hydrochloride)	label	0.05	2	0.1676344086021505	NaN
+0.25	unbound	Clofarabine	liston	0.05	1	0	0
+0.25	unbound	Decitabine	liston	0.05	1	0	0
+0.25	unbound	Lenalidomide (hemihydrate)	liston	0.5	3	0	0.1968503937007874
+0.25	unbound	Larotrectinib	label	0.5	3	0	NaN
+0.25	unbound	Larotrectinib sulfate	label	0.5	39	0.3378607809847199	NaN
+0.25	unbound	Filgotinib	label	0.5	45	0	NaN
+0.25	unbound	Asciminib	label	0.05	22	2.253651393521843	NaN
+0.25	unbound	Atazanavir (sulfate)	label	0.5	35	0	NaN
+0.25	unbound	crizotinib	label	0.05	7	0	NaN
+0.25	unbound	Crizotinib (hydrochloride)	label	0.05	46	0.5412822895390583	NaN
+0.25	unbound	Aprepitant	label	0.05	17	3.0762273901808785	NaN
+0.25	unbound	Darolutamide	label	0.5	47	0	NaN
+0.25	unbound	Bicalutamide	liston	0.05	2	0	0.1069435833849969
+0.25	unbound	Ranolazine	label	0.5	12	0	NaN
+0.25	unbound	Lopinavir	label	0.05	30	0	NaN
+0.25	unbound	Elagolix sodium	label	0.05	3	0	NaN
+0.25	unbound	Docetaxel	liston	0.05	23	10.851449275362304	0.32114026236125126
+0.25	unbound	Docetaxel (Trihydrate)	liston	0.05	2	0	0.03178082191780822
+0.25	unbound	Tolcapone	label	0.05	35	0	NaN
+0.25	unbound	Fedratinib (hydrochloride hydrate)	label	0.05	48	0.19816800397845055	NaN
+0.25	unbound	Doxorubicin (hydrochloride)	liston	0.5	47	0.019850706147515558	0.15973201692524683
+0.25	unbound	Epirubicin (hydrochloride)	liston	0.5	46	0	0.13900845688020652
+0.25	unbound	Dexamethasone	label	0.05	32	0.3592545543187142	NaN
+0.25	unbound	Temsirolimus	liston	0.05	31	2.4249339418688436	0.2305045871559633
+0.25	unbound	Tofacitinib	label	0.05	23	0	NaN
+0.25	unbound	Tofacitinib (citrate)	label	0.05	17	0	NaN
+0.25	unbound	Posaconazole	label	0.05	12	0	NaN
+0.25	unbound	Irinotecan (hydrochloride)	liston	0.5	48	0.6698038618565321	0.4092717304340653
+0.25	unbound	Azithromycin (hydrate)	label	0.5	3	0	NaN
+0.25	unbound	Altretamine	liston	0.05	1	0	0
+0.25	unbound	Methotrexate	liston	0.5	16	0	0.2936674054009686
+0.25	unbound	Vandetanib	liston	0.05	42	0.32595066598658673	0.3686402401764127
+0.25	unbound	Glasdegib	label	0.05	2	3.8159624413145554	NaN
+0.25	unbound	Fluvoxamine (maleate)	label	0.05	28	0	NaN
+0.25	unbound	Erlotinib	liston	0.05	1	0.13694008144269929	0.11255411255411256
+0.25	unbound	Vismodegib	liston	0.05	2	0	0.41666666666666663
+0.25	unbound	Busulfan	liston	0.5	2	0	0.13208850413280224
+0.25	total	Ixazomib citrate	liston	0.05	48	0	0.13168849150014955
+0.25	total	Mitoxantrone (dihydrochloride)	liston	0.5	48	0.22073412361124703	0.19857638563814387
+0.25	total	Clofarabine	liston	0.5	1	7.666666666666651	1
+0.25	total	Decitabine	liston	0.05	1	0	0
+0.25	total	Lenalidomide (hemihydrate)	liston	0.5	3	0	0.1968503937007874
+0.25	total	Larotrectinib	label	0.5	3	0	NaN
+0.25	total	Larotrectinib sulfate	label	0.5	39	0.3378607809847199	NaN
+0.25	total	Cobimetinib	liston	0.5	34	0.9908013659233266	0.4046299578432986
+0.25	total	Abiraterone acetate	liston	0.5	22	0	0.22915049249211683
+0.25	total	Flutamide	liston	0.05	39	0	0.22211253701875616
+0.25	total	crizotinib	label	0.5	7	0	NaN
+0.25	total	Crizotinib (hydrochloride)	label	0.5	46	0	NaN
+0.25	total	Aprepitant	label	0.5	17	0	NaN
+0.25	total	Silodosin	label	0.05	1	0	NaN
+0.25	total	Bicalutamide	liston	0.5	2	0	0.40121926017772264
+0.25	total	Elagolix sodium	label	0.5	3	0	NaN
+0.25	total	Ponatinib	liston	0.05	47	0.012249720184056711	0.21259663483401547
+0.25	total	Panobinostat	liston	0.05	48	0.570690557581035	0.5269509137464135
+0.25	total	Vortioxetine	label	0.05	29	0.11407231369886238	NaN
+0.25	total	Bexarotene	liston	0.5	39	0	0.19230769230769232
+0.25	total	Fedratinib (hydrochloride hydrate)	label	0.5	48	0	NaN
+0.25	total	Drospirenone	label	0.05	45	1.228351666528823	NaN
+0.25	total	Finasteride	liston	0.05	3	0	0.09064830751577739
+0.25	total	Idarubicin (hydrochloride)	liston	0.05	48	0	0.06274554409263572
+0.25	total	Dexamethasone	label	0.5	32	0.3405051230155708	NaN
+0.25	total	Temsirolimus	liston	0.5	31	0.05822102425876044	0.3
+0.25	total	Tofacitinib	label	0.05	23	0	NaN
+0.25	total	Tofacitinib (citrate)	label	0.05	17	0	NaN
+0.25	total	Posaconazole	label	0.5	12	0	NaN
+0.25	total	Pravastatin (sodium)	label	0.05	46	0	NaN
+0.25	total	Azithromycin (hydrate)	label	0.5	3	0	NaN
+0.25	total	Sildenafil	liston	0.5	4	0	0.15990654379480565
+0.25	total	Sunitinib	liston	0.05	48	0.34816655183769496	0.3118247381142767
+0.25	total	Altretamine	liston	0.5	1	1	0.75
+0.25	total	Afatinib	liston	0.05	6	0.23024414010623037	0.10733429050011965
+0.25	total	Methotrexate	liston	0.5	16	0	0.2936674054009686
+0.25	total	Rosiglitazone	label	0.5	1	1.970588235294118	NaN
+0.25	total	Vandetanib	liston	0.5	42	0	0.15304569802057238
+0.25	total	Glasdegib	label	0.5	2	3.3777777777777787	NaN
+0.25	total	Entrectinib	label	0.5	47	0	NaN
+0.25	total	Gefitinib	liston	0.05	27	0	0.21728421503533948
+0.25	total	Cabozantinib (S-malate)	liston	0.5	40	0	0.15840503547601398
+0.25	total	Fluvoxamine (maleate)	label	0.5	28	0	NaN
+0.25	total	Erlotinib	liston	0.5	1	2.0745782431646305	0.4831168831168831
+0.25	total	Busulfan	liston	0.5	2	0	0.13208850413280224
+0.25	total	Osimertinib (mesylate)	liston	0.05	47	0	0.2094059405940594
+0.25	fbs	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.10794093268060151
+0.25	fbs	Pexidartinib (hydrochloride)	label	0.5	2	0	NaN
+0.25	fbs	Clofarabine	liston	0.05	1	0	0
+0.25	fbs	Decitabine	liston	0.05	1	0	0
+0.25	fbs	Lenalidomide (hemihydrate)	liston	0.5	3	0	0.1968503937007874
+0.25	fbs	Larotrectinib	label	0.5	3	0	NaN
+0.25	fbs	Larotrectinib sulfate	label	0.5	39	0.3378607809847199	NaN
+0.25	fbs	Filgotinib	label	0.5	45	0	NaN
+0.25	fbs	Cobimetinib	liston	0.05	34	0	0.08644158704223351
+0.25	fbs	Asciminib	label	0.5	22	0	NaN
+0.25	fbs	Abiraterone acetate	liston	0.05	22	0	0.26571068543762366
+0.25	fbs	Atazanavir (sulfate)	label	0.5	35	0	NaN
+0.25	fbs	Flutamide	liston	0.05	39	0	0.22211253701875616
+0.25	fbs	Belumosudil	label	0.5	39	0	NaN
+0.25	fbs	crizotinib	label	0.05	7	0	NaN
+0.25	fbs	Crizotinib (hydrochloride)	label	0.05	46	0.5412822895390583	NaN
+0.25	fbs	Aprepitant	label	0.05	17	3.0762273901808785	NaN
+0.25	fbs	Darolutamide	label	0.5	47	0	NaN
+0.25	fbs	Bicalutamide	liston	0.05	2	0	0.1069435833849969
+0.25	fbs	Ranolazine	label	0.5	12	0	NaN
+0.25	fbs	Lopinavir	label	0.5	30	0	NaN
+0.25	fbs	Elagolix sodium	label	0.05	3	0	NaN
+0.25	fbs	Docetaxel	liston	0.5	23	0.8383830266013015	0.35145631067961164
+0.25	fbs	Docetaxel (Trihydrate)	liston	0.5	2	8.95412844036697	0.1911000415110004
+0.25	fbs	Tolcapone	label	0.5	35	0	NaN
+0.25	fbs	Bexarotene	liston	0.05	39	0.20653991453520779	0.3550636749545179
+0.25	fbs	Fedratinib (hydrochloride hydrate)	label	0.5	48	0	NaN
+0.25	fbs	Meloxicam	label	0.5	3	0	NaN
+0.25	fbs	Doxorubicin (hydrochloride)	liston	0.5	47	0.019850706147515558	0.15973201692524683
+0.25	fbs	Dexamethasone	label	0.05	32	0.3592545543187142	NaN
+0.25	fbs	Temsirolimus	liston	0.05	31	2.4249339418688436	0.2305045871559633
+0.25	fbs	Tofacitinib	label	0.05	23	0	NaN
+0.25	fbs	Tofacitinib (citrate)	label	0.05	17	0	NaN
+0.25	fbs	Posaconazole	label	0.05	12	0	NaN
+0.25	fbs	Irinotecan (hydrochloride)	liston	0.5	48	0.6698038618565321	0.4092717304340653
+0.25	fbs	Azithromycin (hydrate)	label	0.5	3	0	NaN
+0.25	fbs	Sildenafil	liston	0.05	4	0	0.044859745517640257
+0.25	fbs	Altretamine	liston	0.5	1	1	0.75
+0.25	fbs	Methotrexate	liston	0.5	16	0	0.2936674054009686
+0.25	fbs	Rosiglitazone	label	0.05	1	0	NaN
+0.25	fbs	Vandetanib	liston	0.05	42	0.32595066598658673	0.3686402401764127
+0.25	fbs	Glasdegib	label	0.5	2	3.3777777777777787	NaN
+0.25	fbs	Entrectinib	label	0.05	47	0	NaN
+0.25	fbs	Gefitinib	liston	0.05	27	0	0.21728421503533948
+0.25	fbs	Cabozantinib (S-malate)	liston	0.05	40	0	0.20776518154431584
+0.25	fbs	Fluvoxamine (maleate)	label	0.05	28	0	NaN
+0.25	fbs	Erlotinib	liston	0.5	1	2.0745782431646305	0.4831168831168831
+0.25	fbs	Vismodegib	liston	0.5	2	0	0.41666666666666663
+0.25	fbs	Busulfan	liston	0.5	2	0	0.13208850413280224
+0.5	unbound	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.07249903435566976
+0.5	unbound	Pexidartinib (hydrochloride)	label	0.05	2	0	NaN
+0.5	unbound	Clofarabine	liston	0.05	1	0	0
+0.5	unbound	Decitabine	liston	0.05	1	0	0
+0.5	unbound	Lenalidomide (hemihydrate)	liston	0.5	4	0.3488773747841111	0.2080167932826869
+0.5	unbound	Larotrectinib	label	0.5	4	0	NaN
+0.5	unbound	Larotrectinib sulfate	label	0.5	35	0.20516836335160535	NaN
+0.5	unbound	Filgotinib	label	0.5	43	0	NaN
+0.5	unbound	Asciminib	label	0.05	25	2.220114423366457	NaN
+0.5	unbound	Atazanavir (sulfate)	label	0.5	34	0	NaN
+0.5	unbound	crizotinib	label	0.05	6	0	NaN
+0.5	unbound	Crizotinib (hydrochloride)	label	0.05	46	0.7731647231408545	NaN
+0.5	unbound	Aprepitant	label	0.05	14	3.667296515617654	NaN
+0.5	unbound	Darolutamide	label	0.5	47	0	NaN
+0.5	unbound	Bicalutamide	liston	0.05	3	0	0.17751479289940827
+0.5	unbound	Ranolazine	label	0.5	8	0	NaN
+0.5	unbound	Lopinavir	label	0.05	30	0.04109250087645994	NaN
+0.5	unbound	Elagolix sodium	label	0.05	3	0	NaN
+0.5	unbound	Nevirapine	label	0.5	1	13.333333333333302	NaN
+0.5	unbound	Docetaxel	liston	0.05	28	22.83813103829913	0.2545194265354598
+0.5	unbound	Docetaxel (Trihydrate)	liston	0.05	4	0	0.033428871372774616
+0.5	unbound	Tolcapone	label	0.05	30	0	NaN
+0.5	unbound	Fedratinib (hydrochloride hydrate)	label	0.05	48	0.170971864051853	NaN
+0.5	unbound	Doxorubicin (hydrochloride)	liston	0.5	47	0.04787087702136762	0.0968320382546324
+0.5	unbound	Epirubicin (hydrochloride)	liston	0.5	46	0	0.07454144816344922
+0.5	unbound	Dexamethasone	label	0.05	32	0.44704558504901903	NaN
+0.5	unbound	Temsirolimus	liston	0.05	36	1.6072981172215526	0.1724782614721735
+0.5	unbound	Tofacitinib	label	0.05	26	0	NaN
+0.5	unbound	Tofacitinib (citrate)	label	0.05	22	0	NaN
+0.5	unbound	Posaconazole	label	0.05	8	0	NaN
+0.5	unbound	Irinotecan (hydrochloride)	liston	0.5	48	0.5561951941733254	0.29586692518738456
+0.5	unbound	Azithromycin (hydrate)	label	0.5	2	0	NaN
+0.5	unbound	Altretamine	liston	0.05	1	0	0
+0.5	unbound	Methotrexate	liston	0.5	14	0	0.24684909308679281
+0.5	unbound	Vandetanib	liston	0.05	42	0.46854056285431134	0.26917208852393976
+0.5	unbound	Glasdegib	label	0.05	1	0	NaN
+0.5	unbound	Fluvoxamine (maleate)	label	0.05	24	0	NaN
+0.5	unbound	Erlotinib	liston	0.05	1	0.09979185938945423	0.10186915887850467
+0.5	unbound	Vismodegib	liston	0.05	1	0	0
+0.5	unbound	Busulfan	liston	0.5	3	0	0.1343612334801762
+0.5	total	Ixazomib citrate	liston	0.05	48	0	0.07510750460280488
+0.5	total	Mitoxantrone (dihydrochloride)	liston	0.5	48	0.15974281457777428	0.15003489830777103
+0.5	total	Clofarabine	liston	0.5	1	1	0.6666666666666666
+0.5	total	Decitabine	liston	0.05	1	0	0
+0.5	total	Lenalidomide (hemihydrate)	liston	0.5	4	0.3488773747841111	0.2080167932826869
+0.5	total	Larotrectinib	label	0.5	4	0	NaN
+0.5	total	Larotrectinib sulfate	label	0.5	35	0.20516836335160535	NaN
+0.5	total	Cobimetinib	liston	0.5	38	0.9727421175705322	0.3041681082918196
+0.5	total	Abiraterone acetate	liston	0.5	18	0	0.16259315318892004
+0.5	total	Flutamide	liston	0.05	42	0	0.1376779468131899
+0.5	total	crizotinib	label	0.5	6	0	NaN
+0.5	total	Crizotinib (hydrochloride)	label	0.5	46	0	NaN
+0.5	total	Aprepitant	label	0.5	14	0	NaN
+0.5	total	Silodosin	label	0.05	1	0	NaN
+0.5	total	Bicalutamide	liston	0.5	3	0	0.5
+0.5	total	Elagolix sodium	label	0.5	3	0	NaN
+0.5	total	Ponatinib	liston	0.05	47	0	0.13370944992947814
+0.5	total	Panobinostat	liston	0.05	48	0.5279287875636451	0.4524491032737462
+0.5	total	Vortioxetine	label	0.05	39	0.20064279155188272	NaN
+0.5	total	Bexarotene	liston	0.5	38	0	0.143766329076765
+0.5	total	Fedratinib (hydrochloride hydrate)	label	0.5	48	0	NaN
+0.5	total	Drospirenone	label	0.05	43	1.8325093929207035	NaN
+0.5	total	Finasteride	liston	0.05	4	0	0.03989748382885289
+0.5	total	Idarubicin (hydrochloride)	liston	0.05	48	0	0.03696129976090566
+0.5	total	Dexamethasone	label	0.5	32	0.38631519932179814	NaN
+0.5	total	Temsirolimus	liston	0.5	36	1.243978651704152	0.26385919876758834
+0.5	total	Tofacitinib	label	0.05	26	0	NaN
+0.5	total	Tofacitinib (citrate)	label	0.05	22	0	NaN
+0.5	total	Posaconazole	label	0.5	8	0	NaN
+0.5	total	Pravastatin (sodium)	label	0.05	47	0	NaN
+0.5	total	Azithromycin (hydrate)	label	0.5	2	0	NaN
+0.5	total	Sildenafil	liston	0.5	3	0	0.10526315789473684
+0.5	total	Sunitinib	liston	0.05	48	0.35387108926293104	0.21171133790780056
+0.5	total	Altretamine	liston	0.5	1	1	0.75
+0.5	total	Afatinib	liston	0.05	6	0.06152968036529686	0.08954403284136447
+0.5	total	Methotrexate	liston	0.5	14	0	0.24684909308679281
+0.5	total	Rosiglitazone	label	0.5	1	2.8571428571428568	NaN
+0.5	total	Vandetanib	liston	0.5	42	0	0.11306018878937368
+0.5	total	Glasdegib	label	0.5	1	0.3333333333333333	NaN
+0.5	total	Entrectinib	label	0.5	48	0	NaN
+0.5	total	Gefitinib	liston	0.05	22	0	0.1392440415143717
+0.5	total	Cabozantinib (S-malate)	liston	0.5	37	0	0.1035031847133758
+0.5	total	Fluvoxamine (maleate)	label	0.5	24	0	NaN
+0.5	total	Erlotinib	liston	0.5	1	1.8225023126734505	0.40186915887850466
+0.5	total	Busulfan	liston	0.5	3	0	0.1343612334801762
+0.5	total	Osimertinib (mesylate)	liston	0.05	47	0	0.13457249070631971
+0.5	fbs	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.07249903435566976
+0.5	fbs	Pexidartinib (hydrochloride)	label	0.5	2	0	NaN
+0.5	fbs	Clofarabine	liston	0.05	1	0	0
+0.5	fbs	Decitabine	liston	0.05	1	0	0
+0.5	fbs	Lenalidomide (hemihydrate)	liston	0.5	4	0.3488773747841111	0.2080167932826869
+0.5	fbs	Larotrectinib	label	0.5	4	0	NaN
+0.5	fbs	Larotrectinib sulfate	label	0.5	35	0.20516836335160535	NaN
+0.5	fbs	Filgotinib	label	0.5	43	0	NaN
+0.5	fbs	Cobimetinib	liston	0.05	38	0	0.06608357111251612
+0.5	fbs	Asciminib	label	0.5	25	0	NaN
+0.5	fbs	Abiraterone acetate	liston	0.05	18	0	0.19753694268325223
+0.5	fbs	Atazanavir (sulfate)	label	0.5	34	0	NaN
+0.5	fbs	Flutamide	liston	0.05	42	0	0.1376779468131899
+0.5	fbs	Belumosudil	label	0.5	42	0	NaN
+0.5	fbs	crizotinib	label	0.05	6	0	NaN
+0.5	fbs	Crizotinib (hydrochloride)	label	0.05	46	0.7731647231408545	NaN
+0.5	fbs	Aprepitant	label	0.05	14	3.667296515617654	NaN
+0.5	fbs	Darolutamide	label	0.5	47	0	NaN
+0.5	fbs	Bicalutamide	liston	0.05	3	0	0.17751479289940827
+0.5	fbs	Ranolazine	label	0.5	8	0	NaN
+0.5	fbs	Lopinavir	label	0.5	30	0	NaN
+0.5	fbs	Elagolix sodium	label	0.05	3	0	NaN
+0.5	fbs	Nevirapine	label	0.5	1	13.333333333333302	NaN
+0.5	fbs	Docetaxel	liston	0.5	28	0	0.24952934309981847
+0.5	fbs	Docetaxel (Trihydrate)	liston	0.5	4	0.13215958893758512	0.11441821734110078
+0.5	fbs	Tolcapone	label	0.5	30	0	NaN
+0.5	fbs	Bexarotene	liston	0.05	38	0.18428999796877885	0.26664975193255436
+0.5	fbs	Fedratinib (hydrochloride hydrate)	label	0.5	48	0	NaN
+0.5	fbs	Meloxicam	label	0.5	4	0	NaN
+0.5	fbs	Doxorubicin (hydrochloride)	liston	0.5	47	0.04787087702136762	0.0968320382546324
+0.5	fbs	Dexamethasone	label	0.05	32	0.44704558504901903	NaN
+0.5	fbs	Temsirolimus	liston	0.05	36	1.6072981172215526	0.1724782614721735
+0.5	fbs	Tofacitinib	label	0.05	26	0	NaN
+0.5	fbs	Tofacitinib (citrate)	label	0.05	22	0	NaN
+0.5	fbs	Posaconazole	label	0.05	8	0	NaN
+0.5	fbs	Irinotecan (hydrochloride)	liston	0.5	48	0.5561951941733254	0.29586692518738456
+0.5	fbs	Azithromycin (hydrate)	label	0.5	2	0	NaN
+0.5	fbs	Sildenafil	liston	0.05	3	0	0.05263157894736842
+0.5	fbs	Altretamine	liston	0.5	1	1	0.75
+0.5	fbs	Methotrexate	liston	0.5	14	0	0.24684909308679281
+0.5	fbs	Rosiglitazone	label	0.05	1	0	NaN
+0.5	fbs	Vandetanib	liston	0.05	42	0.46854056285431134	0.26917208852393976
+0.5	fbs	Glasdegib	label	0.5	1	0.3333333333333333	NaN
+0.5	fbs	Entrectinib	label	0.05	48	0	NaN
+0.5	fbs	Gefitinib	liston	0.05	22	0	0.1392440415143717
+0.5	fbs	Cabozantinib (S-malate)	liston	0.05	37	0	0.13695801789401238
+0.5	fbs	Fluvoxamine (maleate)	label	0.05	24	0	NaN
+0.5	fbs	Erlotinib	liston	0.5	1	1.8225023126734505	0.40186915887850466
+0.5	fbs	Vismodegib	liston	0.5	1	0	0
+0.5	fbs	Busulfan	liston	0.5	3	0	0.1343612334801762
+0.75	unbound	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.04681114483242213
+0.75	unbound	Pexidartinib (hydrochloride)	label	0.05	2	0	NaN
+0.75	unbound	Decitabine	liston	0.05	1	0	0
+0.75	unbound	Lenalidomide (hemihydrate)	liston	0.5	3	0.5000000000000012	0.12844036697247707
+0.75	unbound	Larotrectinib	label	0.5	13	1.794717887154863	NaN
+0.75	unbound	Larotrectinib sulfate	label	0.5	30	0	NaN
+0.75	unbound	Filgotinib	label	0.5	42	0	NaN
+0.75	unbound	Asciminib	label	0.05	21	2.7259130434782612	NaN
+0.75	unbound	Atazanavir (sulfate)	label	0.5	29	0	NaN
+0.75	unbound	crizotinib	label	0.05	6	0	NaN
+0.75	unbound	Crizotinib (hydrochloride)	label	0.05	42	0.8570839001302484	NaN
+0.75	unbound	Aprepitant	label	0.05	11	5.056541019955655	NaN
+0.75	unbound	Naproxen	label	0.5	1	0	NaN
+0.75	unbound	Darolutamide	label	0.5	43	0	NaN
+0.75	unbound	Bicalutamide	liston	0.05	1	0	0
+0.75	unbound	Ranolazine	label	0.5	5	0	NaN
+0.75	unbound	Lopinavir	label	0.05	27	0	NaN
+0.75	unbound	Elagolix sodium	label	0.05	3	0	NaN
+0.75	unbound	Nevirapine	label	0.5	1	0	NaN
+0.75	unbound	Docetaxel	liston	0.05	31	29.60565439922007	0.19315188762071994
+0.75	unbound	Docetaxel (Trihydrate)	liston	0.05	5	0	0.02411873840445269
+0.75	unbound	Tolcapone	label	0.05	18	0	NaN
+0.75	unbound	Fedratinib (hydrochloride hydrate)	label	0.05	47	0.12434492615531202	NaN
+0.75	unbound	Doxorubicin (hydrochloride)	liston	0.5	48	0.03145448035134316	0.051915307662710505
+0.75	unbound	Epirubicin (hydrochloride)	liston	0.5	46	0	0.038143184221527016
+0.75	unbound	Dexamethasone	label	0.05	31	0.5568798552729594	NaN
+0.75	unbound	Temsirolimus	liston	0.05	38	0.914358189506187	0.12917701102835621
+0.75	unbound	Tofacitinib	label	0.05	28	0	NaN
+0.75	unbound	Tofacitinib (citrate)	label	0.05	21	0	NaN
+0.75	unbound	Posaconazole	label	0.05	7	0	NaN
+0.75	unbound	Irinotecan (hydrochloride)	liston	0.5	48	0.4882570833017811	0.2272363994771914
+0.75	unbound	Azithromycin (hydrate)	label	0.5	3	0	NaN
+0.75	unbound	Methotrexate	liston	0.5	9	0	0.20689655172413793
+0.75	unbound	Vandetanib	liston	0.05	39	0.5245807653719363	0.19912790697674418
+0.75	unbound	Glasdegib	label	0.05	1	0	NaN
+0.75	unbound	Rucaparib (phosphate)	liston	0.5	1	0	0.5
+0.75	unbound	Fluvoxamine (maleate)	label	0.05	15	0	NaN
+0.75	unbound	Erlotinib	liston	0.05	1	0.08207446175805876	0.0657439446366782
+0.75	unbound	Busulfan	liston	0.5	5	0	0.11420612813370473
+0.75	total	Ixazomib citrate	liston	0.05	48	0	0.04666935918360823
+0.75	total	Mitoxantrone (dihydrochloride)	liston	0.5	48	0.13625263936181892	0.1019390656371697
+0.75	total	Decitabine	liston	0.05	1	0	0
+0.75	total	Lenalidomide (hemihydrate)	liston	0.5	3	0.5000000000000012	0.12844036697247707
+0.75	total	Larotrectinib	label	0.5	13	1.794717887154863	NaN
+0.75	total	Larotrectinib sulfate	label	0.5	30	0	NaN
+0.75	total	Cobimetinib	liston	0.5	42	0.8297011255032002	0.23740396344763104
+0.75	total	Abiraterone acetate	liston	0.5	15	0	0.1553398058252427
+0.75	total	Flutamide	liston	0.05	30	0	0.09252796420581655
+0.75	total	crizotinib	label	0.5	6	0	NaN
+0.75	total	Crizotinib (hydrochloride)	label	0.5	42	0	NaN
+0.75	total	Aprepitant	label	0.5	11	0	NaN
+0.75	total	Bicalutamide	liston	0.5	1	0	0.5
+0.75	total	Elagolix sodium	label	0.5	3	0.7823788546255512	NaN
+0.75	total	Ponatinib	liston	0.05	47	0	0.09122203098106713
+0.75	total	Panobinostat	liston	0.05	48	0.47216361604597823	0.379467565351848
+0.75	total	Vortioxetine	label	0.05	35	0.12025769506084476	NaN
+0.75	total	Bexarotene	liston	0.5	32	0	0.10135033649043754
+0.75	total	Fedratinib (hydrochloride hydrate)	label	0.5	47	0	NaN
+0.75	total	Drospirenone	label	0.05	39	2.315575161180862	NaN
+0.75	total	Finasteride	liston	0.05	5	0	0.02666666666666667
+0.75	total	Idarubicin (hydrochloride)	liston	0.05	48	0	0.02104458058877504
+0.75	total	Dexamethasone	label	0.5	31	0.4286971830985916	NaN
+0.75	total	Temsirolimus	liston	0.5	38	2.387687526601744	0.20202525231324622
+0.75	total	Tofacitinib	label	0.05	28	0	NaN
+0.75	total	Tofacitinib (citrate)	label	0.05	21	0	NaN
+0.75	total	Posaconazole	label	0.5	7	0	NaN
+0.75	total	Pravastatin (sodium)	label	0.05	47	0	NaN
+0.75	total	Azithromycin (hydrate)	label	0.5	3	0	NaN
+0.75	total	Sildenafil	liston	0.5	2	0	0.12464985994397759
+0.75	total	Sunitinib	liston	0.05	48	0.31479427390093073	0.1430786165878061
+0.75	total	Afatinib	liston	0.05	4	0.12377796188898095	0.07023204630057332
+0.75	total	Methotrexate	liston	0.5	9	0	0.20689655172413793
+0.75	total	Rosiglitazone	label	0.5	1	6.956521739130433	NaN
+0.75	total	Vandetanib	liston	0.5	39	0	0.08695652173913043
+0.75	total	Glasdegib	label	0.5	1	0	NaN
+0.75	total	Entrectinib	label	0.5	48	0	NaN
+0.75	total	Gefitinib	liston	0.05	20	0	0.09682120504402604
+0.75	total	Cabozantinib (S-malate)	liston	0.5	34	0	0.0779996014804577
+0.75	total	Fluvoxamine (maleate)	label	0.5	15	0	NaN
+0.75	total	Erlotinib	liston	0.5	1	1.47674556916855	0.3206459054209919
+0.75	total	Busulfan	liston	0.5	5	0	0.11420612813370473
+0.75	total	Osimertinib (mesylate)	liston	0.05	47	0	0.09619238476953908
+0.75	fbs	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.04681114483242213
+0.75	fbs	Pexidartinib (hydrochloride)	label	0.5	2	0	NaN
+0.75	fbs	Decitabine	liston	0.05	1	0	0
+0.75	fbs	Lenalidomide (hemihydrate)	liston	0.5	3	0.5000000000000012	0.12844036697247707
+0.75	fbs	Larotrectinib	label	0.5	13	1.794717887154863	NaN
+0.75	fbs	Larotrectinib sulfate	label	0.5	30	0	NaN
+0.75	fbs	Filgotinib	label	0.5	42	0	NaN
+0.75	fbs	Cobimetinib	liston	0.05	42	0	0.04988034019736294
+0.75	fbs	Asciminib	label	0.5	21	0	NaN
+0.75	fbs	Abiraterone acetate	liston	0.05	15	0	0.18181818181818182
+0.75	fbs	Atazanavir (sulfate)	label	0.5	29	0	NaN
+0.75	fbs	Flutamide	liston	0.05	30	0	0.09252796420581655
+0.75	fbs	Belumosudil	label	0.5	42	0	NaN
+0.75	fbs	crizotinib	label	0.05	6	0	NaN
+0.75	fbs	Crizotinib (hydrochloride)	label	0.05	42	0.8570839001302484	NaN
+0.75	fbs	Aprepitant	label	0.05	11	5.056541019955655	NaN
+0.75	fbs	Darolutamide	label	0.5	43	0	NaN
+0.75	fbs	Bicalutamide	liston	0.05	1	0	0
+0.75	fbs	Ranolazine	label	0.5	5	0	NaN
+0.75	fbs	Lopinavir	label	0.5	27	0	NaN
+0.75	fbs	Elagolix sodium	label	0.05	3	0	NaN
+0.75	fbs	Nevirapine	label	0.5	1	0	NaN
+0.75	fbs	Docetaxel	liston	0.5	31	0	0.18511957484499558
+0.75	fbs	Docetaxel (Trihydrate)	liston	0.5	5	5.999999999999992	0.059713375796178345
+0.75	fbs	Tolcapone	label	0.5	18	0	NaN
+0.75	fbs	Bexarotene	liston	0.05	32	0.47310013884780744	0.2145870760520442
+0.75	fbs	Fedratinib (hydrochloride hydrate)	label	0.5	47	0	NaN
+0.75	fbs	Meloxicam	label	0.5	4	0	NaN
+0.75	fbs	Doxorubicin (hydrochloride)	liston	0.5	48	0.03145448035134316	0.051915307662710505
+0.75	fbs	Dexamethasone	label	0.05	31	0.5568798552729594	NaN
+0.75	fbs	Temsirolimus	liston	0.05	38	0.914358189506187	0.12917701102835621
+0.75	fbs	Tofacitinib	label	0.05	28	0	NaN
+0.75	fbs	Tofacitinib (citrate)	label	0.05	21	0	NaN
+0.75	fbs	Posaconazole	label	0.05	7	0	NaN
+0.75	fbs	Irinotecan (hydrochloride)	liston	0.5	48	0.4882570833017811	0.2272363994771914
+0.75	fbs	Azithromycin (hydrate)	label	0.5	3	0	NaN
+0.75	fbs	Sildenafil	liston	0.05	2	0.1351351351351351	0.07142857142857142
+0.75	fbs	Methotrexate	liston	0.5	9	0	0.20689655172413793
+0.75	fbs	Rosiglitazone	label	0.05	1	0	NaN
+0.75	fbs	Vandetanib	liston	0.05	39	0.5245807653719363	0.19912790697674418
+0.75	fbs	Glasdegib	label	0.5	1	0	NaN
+0.75	fbs	Entrectinib	label	0.05	48	0	NaN
+0.75	fbs	Rucaparib (phosphate)	liston	0.5	1	0	0.5
+0.75	fbs	Gefitinib	liston	0.05	20	0	0.09682120504402604
+0.75	fbs	Cabozantinib (S-malate)	liston	0.05	34	0	0.10429866125043147
+0.75	fbs	Fluvoxamine (maleate)	label	0.05	15	0	NaN
+0.75	fbs	Erlotinib	liston	0.5	1	1.47674556916855	0.3206459054209919
+0.75	fbs	Busulfan	liston	0.5	5	0	0.11420612813370473
+1.0	unbound	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.03064369928415772
+1.0	unbound	Pexidartinib (hydrochloride)	label	0.05	2	0	NaN
+1.0	unbound	Decitabine	liston	0.05	1	0	0
+1.0	unbound	Lenalidomide (hemihydrate)	liston	0.5	2	0.06371191135734178	0.06527285613040397
+1.0	unbound	Larotrectinib	label	0.5	23	2.364915572232646	NaN
+1.0	unbound	Larotrectinib sulfate	label	0.5	23	0	NaN
+1.0	unbound	Filgotinib	label	0.5	39	0	NaN
+1.0	unbound	Asciminib	label	0.05	17	1.079939668174962	NaN
+1.0	unbound	Atazanavir (sulfate)	label	0.5	23	0	NaN
+1.0	unbound	crizotinib	label	0.05	8	0	NaN
+1.0	unbound	Crizotinib (hydrochloride)	label	0.05	34	0.7089832209157021	NaN
+1.0	unbound	Aprepitant	label	0.05	11	5.425000000000001	NaN
+1.0	unbound	Naproxen	label	0.5	1	0	NaN
+1.0	unbound	Darolutamide	label	0.5	33	0	NaN
+1.0	unbound	Bicalutamide	liston	0.05	2	0	0.5
+1.0	unbound	Ranolazine	label	0.5	4	0	NaN
+1.0	unbound	Lopinavir	label	0.05	21	0	NaN
+1.0	unbound	Elagolix sodium	label	0.05	3	0	NaN
+1.0	unbound	Nevirapine	label	0.5	1	0	NaN
+1.0	unbound	Docetaxel	liston	0.05	31	28.06200527704485	0.14912280701754385
+1.0	unbound	Docetaxel (Trihydrate)	liston	0.05	6	0	0.011048797409805735
+1.0	unbound	Tolcapone	label	0.05	10	0	NaN
+1.0	unbound	Fedratinib (hydrochloride hydrate)	label	0.05	47	0.0744892874937718	NaN
+1.0	unbound	Doxorubicin (hydrochloride)	liston	0.5	48	0.026981940193908475	0.032691381230305086
+1.0	unbound	Epirubicin (hydrochloride)	liston	0.5	48	0	0.02166451759708738
+1.0	unbound	Dexamethasone	label	0.05	30	0.6360376795315004	NaN
+1.0	unbound	Temsirolimus	liston	0.05	37	0.42566037735849127	0.10084033613445378
+1.0	unbound	Tofacitinib	label	0.05	34	0	NaN
+1.0	unbound	Tofacitinib (citrate)	label	0.05	24	0	NaN
+1.0	unbound	Posaconazole	label	0.05	7	0	NaN
+1.0	unbound	Irinotecan (hydrochloride)	liston	0.5	47	0.4130182099961255	0.1935096153846154
+1.0	unbound	Azithromycin (hydrate)	label	0.5	4	0	NaN
+1.0	unbound	Altretamine	liston	0.05	1	0	0
+1.0	unbound	Methotrexate	liston	0.5	9	0	0.15454545454545454
+1.0	unbound	Vandetanib	liston	0.05	34	0.4176243963415597	0.1425583872392383
+1.0	unbound	Glasdegib	label	0.05	1	0	NaN
+1.0	unbound	Rucaparib (phosphate)	liston	0.5	1	0.09523809523809532	0.5
+1.0	unbound	Fluvoxamine (maleate)	label	0.05	12	0	NaN
+1.0	unbound	Erlotinib	liston	0.05	1	0.06726393629124004	0.0380794701986755
+1.0	unbound	Vismodegib	liston	0.05	1	0	0
+1.0	unbound	Busulfan	liston	0.5	6	0	0.08023042469375641
+1.0	total	Ixazomib citrate	liston	0.05	48	0	0.03133418218074735
+1.0	total	Mitoxantrone (dihydrochloride)	liston	0.5	48	0.08636343540195321	0.07273411164645877
+1.0	total	Decitabine	liston	0.05	1	0	0
+1.0	total	Lenalidomide (hemihydrate)	liston	0.5	2	0.06371191135734178	0.06527285613040397
+1.0	total	Larotrectinib	label	0.5	23	2.364915572232646	NaN
+1.0	total	Larotrectinib sulfate	label	0.5	23	0	NaN
+1.0	total	Cobimetinib	liston	0.5	44	0.7194713689233523	0.19059153493115757
+1.0	total	Abiraterone acetate	liston	0.5	8	0	0.11014590413688036
+1.0	total	Flutamide	liston	0.05	19	0	0.07222222222222222
+1.0	total	Verapamil	label	0.05	1	0	NaN
+1.0	total	crizotinib	label	0.5	8	0	NaN
+1.0	total	Crizotinib (hydrochloride)	label	0.5	34	0	NaN
+1.0	total	Aprepitant	label	0.5	11	0	NaN
+1.0	total	Silodosin	label	0.05	1	0	NaN
+1.0	total	Bicalutamide	liston	0.5	2	0	0.25
+1.0	total	Elagolix sodium	label	0.5	3	0	NaN
+1.0	total	Ponatinib	liston	0.05	47	0	0.061938061938061936
+1.0	total	Panobinostat	liston	0.05	48	0.4188079578695878	0.3180277088384806
+1.0	total	Vortioxetine	label	0.05	29	0.1656626506024096	NaN
+1.0	total	Bexarotene	liston	0.5	29	0	0.0782312925170068
+1.0	total	Fedratinib (hydrochloride hydrate)	label	0.5	47	0	NaN
+1.0	total	Drospirenone	label	0.05	27	2.900259067357513	NaN
+1.0	total	Finasteride	liston	0.05	5	0	0.015126050420168067
+1.0	total	Idarubicin (hydrochloride)	liston	0.05	48	0	0.013419869043657058
+1.0	total	Dexamethasone	label	0.5	30	0.4598640222887687	NaN
+1.0	total	Temsirolimus	liston	0.5	37	2.8142361111111125	0.15175718849840256
+1.0	total	Tofacitinib	label	0.05	34	0	NaN
+1.0	total	Tofacitinib (citrate)	label	0.05	24	0	NaN
+1.0	total	Posaconazole	label	0.5	7	0	NaN
+1.0	total	Pravastatin (sodium)	label	0.05	44	0	NaN
+1.0	total	Azithromycin (hydrate)	label	0.5	4	0	NaN
+1.0	total	Sildenafil	liston	0.5	1	0	0.06666666666666667
+1.0	total	Sunitinib	liston	0.05	48	0.3035548223903445	0.10371714727431605
+1.0	total	Altretamine	liston	0.5	1	21.999999999999982	0
+1.0	total	Afatinib	liston	0.05	4	0.3387187911830015	0.0583817266744096
+1.0	total	Methotrexate	liston	0.5	9	0	0.15454545454545454
+1.0	total	Rosiglitazone	label	0.5	1	6.708333333333333	NaN
+1.0	total	Vandetanib	liston	0.5	34	0	0.06506180871828236
+1.0	total	Glasdegib	label	0.5	1	0.1666666666666668	NaN
+1.0	total	Entrectinib	label	0.5	48	0	NaN
+1.0	total	Gefitinib	liston	0.05	19	0	0.07441860465116279
+1.0	total	Cabozantinib (S-malate)	liston	0.5	33	0	0.06278026905829596
+1.0	total	Fluvoxamine (maleate)	label	0.5	12	0	NaN
+1.0	total	Erlotinib	liston	0.5	1	1.3350398179749714	0.28807947019867547
+1.0	total	Busulfan	liston	0.5	6	0	0.08023042469375641
+1.0	total	Osimertinib (mesylate)	liston	0.05	41	0	0.07380073800738007
+1.0	fbs	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.03064369928415772
+1.0	fbs	Pexidartinib (hydrochloride)	label	0.5	2	0	NaN
+1.0	fbs	Decitabine	liston	0.05	1	0	0
+1.0	fbs	Lenalidomide (hemihydrate)	liston	0.5	2	0.06371191135734178	0.06527285613040397
+1.0	fbs	Larotrectinib	label	0.5	23	2.364915572232646	NaN
+1.0	fbs	Larotrectinib sulfate	label	0.5	23	0	NaN
+1.0	fbs	Filgotinib	label	0.5	39	0	NaN
+1.0	fbs	Cobimetinib	liston	0.05	44	0	0.03685413277558293
+1.0	fbs	Asciminib	label	0.5	17	0	NaN
+1.0	fbs	Abiraterone acetate	liston	0.05	8	0	0.16622416762342135
+1.0	fbs	Atazanavir (sulfate)	label	0.5	23	0	NaN
+1.0	fbs	Flutamide	liston	0.05	19	0	0.07222222222222222
+1.0	fbs	Verapamil	label	0.05	1	0	NaN
+1.0	fbs	Belumosudil	label	0.5	41	0	NaN
+1.0	fbs	crizotinib	label	0.05	8	0	NaN
+1.0	fbs	Crizotinib (hydrochloride)	label	0.05	34	0.7089832209157021	NaN
+1.0	fbs	Aprepitant	label	0.05	11	5.425000000000001	NaN
+1.0	fbs	Darolutamide	label	0.5	33	0	NaN
+1.0	fbs	Bicalutamide	liston	0.05	2	0	0.5
+1.0	fbs	Ranolazine	label	0.5	4	0	NaN
+1.0	fbs	Lopinavir	label	0.5	21	0	NaN
+1.0	fbs	Elagolix sodium	label	0.05	3	0	NaN
+1.0	fbs	Nevirapine	label	0.5	1	0	NaN
+1.0	fbs	Docetaxel	liston	0.5	31	0	0.1416184971098266
+1.0	fbs	Docetaxel (Trihydrate)	liston	0.5	6	4.706292215883001	0.043938887961262316
+1.0	fbs	Tolcapone	label	0.5	10	0	NaN
+1.0	fbs	Bexarotene	liston	0.05	29	0.573441247002398	0.16516516516516516
+1.0	fbs	Fedratinib (hydrochloride hydrate)	label	0.5	47	0	NaN
+1.0	fbs	Meloxicam	label	0.5	6	0	NaN
+1.0	fbs	Doxorubicin (hydrochloride)	liston	0.5	48	0.026981940193908475	0.032691381230305086
+1.0	fbs	Dexamethasone	label	0.05	30	0.6360376795315004	NaN
+1.0	fbs	Temsirolimus	liston	0.05	37	0.42566037735849127	0.10084033613445378
+1.0	fbs	Tofacitinib	label	0.05	34	0	NaN
+1.0	fbs	Tofacitinib (citrate)	label	0.05	24	0	NaN
+1.0	fbs	Posaconazole	label	0.05	7	0	NaN
+1.0	fbs	Irinotecan (hydrochloride)	liston	0.5	47	0.4130182099961255	0.1935096153846154
+1.0	fbs	Azithromycin (hydrate)	label	0.5	4	0	NaN
+1.0	fbs	Sildenafil	liston	0.05	1	0.2916666666666666	0
+1.0	fbs	Altretamine	liston	0.5	1	21.999999999999982	0
+1.0	fbs	Methotrexate	liston	0.5	9	0	0.15454545454545454
+1.0	fbs	Rosiglitazone	label	0.05	1	0	NaN
+1.0	fbs	Vandetanib	liston	0.05	34	0.4176243963415597	0.1425583872392383
+1.0	fbs	Glasdegib	label	0.5	1	0.1666666666666668	NaN
+1.0	fbs	Entrectinib	label	0.05	48	0	NaN
+1.0	fbs	Rucaparib (phosphate)	liston	0.5	1	0.09523809523809532	0.5
+1.0	fbs	Gefitinib	liston	0.05	19	0	0.07441860465116279
+1.0	fbs	Cabozantinib (S-malate)	liston	0.05	33	0	0.084
+1.0	fbs	Fluvoxamine (maleate)	label	0.05	12	0	NaN
+1.0	fbs	Erlotinib	liston	0.5	1	1.3350398179749714	0.28807947019867547
+1.0	fbs	Vismodegib	liston	0.5	1	0	0
+1.0	fbs	Busulfan	liston	0.5	6	0	0.08023042469375641
+1.5	unbound	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.015731625005818553
+1.5	unbound	Pexidartinib (hydrochloride)	label	0.05	3	0	NaN
+1.5	unbound	Clofarabine	liston	0.05	1	0.4642857142857143	0.1111111111111111
+1.5	unbound	Decitabine	liston	0.05	3	8.11290322580645	0.2727272727272727
+1.5	unbound	Lenalidomide (hemihydrate)	liston	0.5	1	187.99999999999966	0.03333333333333333
+1.5	unbound	Larotrectinib	label	0.5	38	1.8356242381351495	NaN
+1.5	unbound	Larotrectinib sulfate	label	0.5	9	0	NaN
+1.5	unbound	Filgotinib	label	0.5	33	0	NaN
+1.5	unbound	Asciminib	label	0.05	11	0.39235412474849096	NaN
+1.5	unbound	Atazanavir (sulfate)	label	0.5	14	0	NaN
+1.5	unbound	crizotinib	label	0.05	13	0	NaN
+1.5	unbound	Crizotinib (hydrochloride)	label	0.05	27	0.8276553106212424	NaN
+1.5	unbound	Aprepitant	label	0.05	7	4.734177215189872	NaN
+1.5	unbound	Naproxen	label	0.5	3	0	NaN
+1.5	unbound	Darolutamide	label	0.5	26	0	NaN
+1.5	unbound	Bicalutamide	liston	0.05	2	0	0.5
+1.5	unbound	Ranolazine	label	0.5	2	0	NaN
+1.5	unbound	Lopinavir	label	0.05	11	0	NaN
+1.5	unbound	Elagolix sodium	label	0.05	11	0	NaN
+1.5	unbound	Nevirapine	label	0.5	2	0.2980769230769232	NaN
+1.5	unbound	Docetaxel	liston	0.05	36	23.595764136022126	0.10695199399696187
+1.5	unbound	Docetaxel (Trihydrate)	liston	0.05	7	0	0
+1.5	unbound	Tolcapone	label	0.05	5	0	NaN
+1.5	unbound	Fedratinib (hydrochloride hydrate)	label	0.05	45	0.05547315336695339	NaN
+1.5	unbound	Doxorubicin (hydrochloride)	liston	0.5	48	0.01715672874514787	0.017224095495298603
+1.5	unbound	Epirubicin (hydrochloride)	liston	0.5	48	0	0.009360172122415656
+1.5	unbound	Dexamethasone	label	0.05	27	0.7721367974549311	NaN
+1.5	unbound	Temsirolimus	liston	0.05	29	0	0.058823529411764705
+1.5	unbound	Tofacitinib	label	0.05	33	0	NaN
+1.5	unbound	Tofacitinib (citrate)	label	0.05	28	0	NaN
+1.5	unbound	Posaconazole	label	0.05	7	0	NaN
+1.5	unbound	Irinotecan (hydrochloride)	liston	0.5	47	0.2593845113290497	0.12275449101796407
+1.5	unbound	Azithromycin (hydrate)	label	0.5	6	0	NaN
+1.5	unbound	Methotrexate	liston	0.5	6	0	0.1745598057073467
+1.5	unbound	Vandetanib	liston	0.05	30	0.3064414180104348	0.1065728884122879
+1.5	unbound	Glasdegib	label	0.05	2	0.5	NaN
+1.5	unbound	Apalutamide	label	0.5	1	1	NaN
+1.5	unbound	Rucaparib (phosphate)	liston	0.5	2	0.5	0.75
+1.5	unbound	Fluvoxamine	label	0.05	3	0	NaN
+1.5	unbound	Fluvoxamine (maleate)	label	0.05	7	0	NaN
+1.5	unbound	Erlotinib	liston	0.05	2	0.02753755120619026	0.004545454545454545
+1.5	unbound	Vismodegib	liston	0.05	1	0	0
+1.5	unbound	Busulfan	liston	0.5	13	0	0.06666666666666667
+1.5	total	Ixazomib citrate	liston	0.05	48	0	0.017142776412082165
+1.5	total	Mitoxantrone (dihydrochloride)	liston	0.5	48	0.037139660520535675	0.04087224646843297
+1.5	total	Clofarabine	liston	0.5	1	0.47142857142857153	0.1111111111111111
+1.5	total	Decitabine	liston	0.05	3	8.11290322580645	0.2727272727272727
+1.5	total	Lenalidomide (hemihydrate)	liston	0.5	1	187.99999999999966	0.03333333333333333
+1.5	total	Larotrectinib	label	0.5	38	1.8356242381351495	NaN
+1.5	total	Larotrectinib sulfate	label	0.5	9	0	NaN
+1.5	total	Cobimetinib	liston	0.5	46	0.6234072708582414	0.13997624625797217
+1.5	total	Abiraterone acetate	liston	0.5	7	0	0.136
+1.5	total	Flutamide	liston	0.05	10	0	0.07365591397849462
+1.5	total	Verapamil	label	0.05	1	0	NaN
+1.5	total	crizotinib	label	0.5	13	0	NaN
+1.5	total	Crizotinib (hydrochloride)	label	0.5	27	0	NaN
+1.5	total	Aprepitant	label	0.5	7	0	NaN
+1.5	total	Silodosin	label	0.05	3	0	NaN
+1.5	total	Bicalutamide	liston	0.5	2	0	0.25
+1.5	total	Elagolix sodium	label	0.5	11	0	NaN
+1.5	total	Ponatinib	liston	0.05	47	0	0.037467700258397935
+1.5	total	Panobinostat	liston	0.05	48	0.35013052697651	0.23679948656325103
+1.5	total	Vortioxetine	label	0.05	18	0	NaN
+1.5	total	Bexarotene	liston	0.5	25	0	0.05172413793103448
+1.5	total	Fedratinib (hydrochloride hydrate)	label	0.5	45	0	NaN
+1.5	total	Drospirenone	label	0.05	18	1.8871763577148735	NaN
+1.5	total	Finasteride	liston	0.05	3	0	0
+1.5	total	Idarubicin (hydrochloride)	liston	0.05	48	0	0.0059363251176123115
+1.5	total	Dexamethasone	label	0.5	27	0.44655466277087896	NaN
+1.5	total	Temsirolimus	liston	0.5	29	5.827319587628862	0.08949416342412451
+1.5	total	Tofacitinib	label	0.05	33	0	NaN
+1.5	total	Tofacitinib (citrate)	label	0.05	28	0	NaN
+1.5	total	Posaconazole	label	0.5	7	0.6636363636363634	NaN
+1.5	total	Pravastatin (sodium)	label	0.05	45	0	NaN
+1.5	total	Azithromycin (hydrate)	label	0.5	6	0	NaN
+1.5	total	Sildenafil	liston	0.5	2	0	0.11805555555555555
+1.5	total	Sunitinib	liston	0.05	48	0.20795926285928087	0.06539558089807555
+1.5	total	Afatinib	liston	0.05	8	0.33125453456105436	0.03030937914658845
+1.5	total	Relugolix	label	0.05	1	0	NaN
+1.5	total	Methotrexate	liston	0.5	6	0	0.1745598057073467
+1.5	total	Rosiglitazone	label	0.5	1	2	NaN
+1.5	total	Vandetanib	liston	0.5	30	0	0.047947454844006566
+1.5	total	Glasdegib	label	0.5	2	0.5	NaN
+1.5	total	Entrectinib	label	0.5	47	0	NaN
+1.5	total	Gefitinib	liston	0.05	14	0	0.06148816936488169
+1.5	total	Cabozantinib (S-malate)	liston	0.5	27	0	0.04878048780487805
+1.5	total	Fluvoxamine	label	0.5	3	0	NaN
+1.5	total	Fluvoxamine (maleate)	label	0.5	7	0	NaN
+1.5	total	Erlotinib	liston	0.5	2	1.0256030951297224	0.10151515151515152
+1.5	total	Busulfan	liston	0.5	13	0	0.06666666666666667
+1.5	total	Osimertinib (mesylate)	liston	0.05	37	0	0.05365853658536585
+1.5	fbs	Mitoxantrone (dihydrochloride)	liston	0.05	48	0	0.015731625005818553
+1.5	fbs	Pexidartinib (hydrochloride)	label	0.5	3	0	NaN
+1.5	fbs	Clofarabine	liston	0.05	1	0.4642857142857143	0.1111111111111111
+1.5	fbs	Decitabine	liston	0.05	3	8.11290322580645	0.2727272727272727
+1.5	fbs	Lenalidomide (hemihydrate)	liston	0.5	1	187.99999999999966	0.03333333333333333
+1.5	fbs	Larotrectinib	label	0.5	38	1.8356242381351495	NaN
+1.5	fbs	Larotrectinib sulfate	label	0.5	9	0	NaN
+1.5	fbs	Filgotinib	label	0.5	33	0	NaN
+1.5	fbs	Cobimetinib	liston	0.05	46	0	0.022521152650501447
+1.5	fbs	Asciminib	label	0.5	11	0	NaN
+1.5	fbs	Abiraterone acetate	liston	0.05	7	0	0.16666666666666666
+1.5	fbs	Atazanavir (sulfate)	label	0.5	14	0	NaN
+1.5	fbs	Flutamide	liston	0.05	10	0	0.07365591397849462
+1.5	fbs	Verapamil	label	0.05	1	0	NaN
+1.5	fbs	Belumosudil	label	0.5	38	0	NaN
+1.5	fbs	crizotinib	label	0.05	13	0	NaN
+1.5	fbs	Crizotinib (hydrochloride)	label	0.05	27	0.8276553106212424	NaN
+1.5	fbs	Aprepitant	label	0.05	7	4.734177215189872	NaN
+1.5	fbs	Darolutamide	label	0.5	26	0	NaN
+1.5	fbs	Bicalutamide	liston	0.05	2	0	0.5
+1.5	fbs	Ranolazine	label	0.5	2	0	NaN
+1.5	fbs	Lopinavir	label	0.5	11	0	NaN
+1.5	fbs	Elagolix sodium	label	0.05	11	0	NaN
+1.5	fbs	Nevirapine	label	0.5	2	0.2980769230769232	NaN
+1.5	fbs	Docetaxel	liston	0.5	36	0	0.09344920141380318
+1.5	fbs	Docetaxel (Trihydrate)	liston	0.5	7	7.498299319727889	0.041025641025641026
+1.5	fbs	Tolcapone	label	0.5	5	0	NaN
+1.5	fbs	Bexarotene	liston	0.05	25	0.6761702127659573	0.12618296529968454
+1.5	fbs	Fedratinib (hydrochloride hydrate)	label	0.5	45	0	NaN
+1.5	fbs	Meloxicam	label	0.5	5	0	NaN
+1.5	fbs	Doxorubicin (hydrochloride)	liston	0.5	48	0.01715672874514787	0.017224095495298603
+1.5	fbs	Dexamethasone	label	0.05	27	0.7721367974549311	NaN
+1.5	fbs	Temsirolimus	liston	0.05	29	0	0.058823529411764705
+1.5	fbs	Tofacitinib	label	0.05	33	0	NaN
+1.5	fbs	Tofacitinib (citrate)	label	0.05	28	0	NaN
+1.5	fbs	Posaconazole	label	0.05	7	0	NaN
+1.5	fbs	Irinotecan (hydrochloride)	liston	0.5	47	0.2593845113290497	0.12275449101796407
+1.5	fbs	Azithromycin (hydrate)	label	0.5	6	0	NaN
+1.5	fbs	Sildenafil	liston	0.05	2	0.1515151515151515	0.03125
+1.5	fbs	Methotrexate	liston	0.5	6	0	0.1745598057073467
+1.5	fbs	Rosiglitazone	label	0.05	1	0	NaN
+1.5	fbs	Vandetanib	liston	0.05	30	0.3064414180104348	0.1065728884122879
+1.5	fbs	Glasdegib	label	0.5	2	0.5	NaN
+1.5	fbs	Entrectinib	label	0.05	47	0	NaN
+1.5	fbs	Apalutamide	label	0.5	1	1	NaN
+1.5	fbs	Rucaparib (phosphate)	liston	0.5	2	0.5	0.75
+1.5	fbs	Gefitinib	liston	0.05	14	0	0.06148816936488169
+1.5	fbs	Cabozantinib (S-malate)	liston	0.05	27	0	0.07142857142857142
+1.5	fbs	Fluvoxamine	label	0.05	3	0	NaN
+1.5	fbs	Fluvoxamine (maleate)	label	0.05	7	0	NaN
+1.5	fbs	Erlotinib	liston	0.5	2	1.0256030951297224	0.10151515151515152
+1.5	fbs	Vismodegib	liston	0.5	1	0	0
+1.5	fbs	Busulfan	liston	0.5	13	0	0.06666666666666667
