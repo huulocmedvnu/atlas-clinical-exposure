@@ -26,7 +26,16 @@ path = "src/bin/05_export_tiers.rs"
 name = "export_tables"
 path = "src/bin/06_export_tables.rs"
 
+[[bin]]
+name = "tahoe_profiles"
+path = "src/bin/07_tahoe_profiles.rs"
+
+[[bin]]
+name = "response_model"
+path = "src/bin/08_response_model.rs"
+
 [dependencies]
+matrixmultiply = "0.3"
 arrow = { version = "53", default-features = false }
 parquet = { version = "53", default-features = false, features = ["arrow", "zstd", "snap"] }
 bytes = "1"

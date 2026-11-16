@@ -130,3 +130,10 @@ pub fn load_sciplex_pk(data: &str) -> anyhow::Result<Vec<(String, String, f64, f
     let (h, r) = read_csv(&format!("{data}/pk/liston_davis_2017_pk.csv"))?; let p = |n: &str| h.iter().position(|c| c == n).unwrap();
     Ok(r.iter().filter(|x| x[p("atlas")] == "sci-Plex 3").map(|x| (x[p("compound")].clone(), x[p("generic_name")].clone(), x[p("cmax_total_uM")].parse().unwrap(), x[p("cmax_unbound_uM")].parse().unwrap())).collect())
 }
+
+/// Exposure tier (1 to 4) and weight of a nominal dose, from total and unbound Cmax (all in uM).
+pub fn exposure_tier(dose: f64, cmax: f64, cmax_u: f64) -> (u8, f64) {
+    let tol = 1.0 + 1e-9; let fu = (cmax_u / cmax).min(1.0); let fum = 1.0 / (1.0 + 0.1 * (1.0 - fu) / fu); let r = dose / cmax_u;
+    let t = if r <= tol { 1 } else if dose * fum / cmax_u <= tol { 2 } else if r <= 10.0 * tol { 3 } else { 4 };
+    (t, (1.0 / r).powi(2).min(1.0))
+}

@@ -248,6 +248,7 @@ dependencies = [
  "bytes",
  "flate2",
  "hdf5-metno",
+ "matrixmultiply",
  "parquet",
  "rayon",
  "reqwest",
