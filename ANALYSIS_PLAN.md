@@ -132,31 +132,23 @@ Sensitivity
 
 ## 10. What a response model learns from the atlas (Tahoe-100M)
 Fixed on 17 November 2026, before the profiles were assembled and before any model was trained.
+The section was shortened on the same day, also before any result, to the three rules below.
 - Question: when a model is trained to predict the Tahoe-100M response, does its prediction skill
   and its training signal come from conditions above clinical exposure.
 - Data: log2 fold changes of the released DE table for the genes of the 50 hallmark gene sets.
   Values with baseMean < 5 are missing. Values are clipped to [-5, 5]. Genes missing in more than
-  20% of contrasts are dropped. Contrasts on several plates are averaged.
-- Main experiment: the annotated compounds with DE results only, so that every condition has a
-  tier. Sensitivity: training on all compounds of the atlas, evaluation on annotated compounds.
+  20% of contrasts are dropped. Contrasts on several plates are averaged. Annotated compounds with
+  DE results only, so that every condition has a tier.
 - Split: 5 folds over (compound, cell line) pairs. The three doses of a pair are held out together.
 - Model: compound, cell line and dose embeddings (512 units, summed), two hidden layers of 512
   units with ReLU, linear output for all genes, mean squared error over non-missing genes, Adam,
   learning rate 0.001, batch 256, 60 epochs. No tuning on test folds.
-- Baselines: no change. Context mean, the mean training profile of the same cell line and dose.
-  Additive, compound and dose mean plus cell line and dose mean minus dose mean.
-- Metrics per held-out contrast:
-  - r: Pearson correlation of predicted and observed log2 fold change across genes.
-  - R2: 1 - SSE / sum of squared observed values (reference: no change).
-  - r_spec: Pearson correlation of (prediction - context mean) and (observed - context mean).
-    This is the compound-specific part of the prediction.
-  - Discrimination: Manhattan distance of the prediction to the observed profiles of all compounds
-    in the same cell line and dose. Score 1 - 2 x (share of other compounds closer than the true
-    one). 0 is chance, 1 is perfect.
-  - DE recovery: genes DE in the atlas (adjusted P < 0.05, |log2FC| >= 1) recovered among the same
-    number of genes with the largest predicted |log2FC|. Contrasts with at least 10 DE genes.
+- Reference: context mean, the mean training profile of the same cell line and dose.
+- Metric per held-out contrast: r_spec, the Pearson correlation across genes of
+  (prediction - context mean) and (observed - context mean). This is the compound-specific part of
+  the prediction. The plain correlation r and R2 against no change are reported as well.
 - Summaries: mean per compound and tier, then mean over compounds. 95% intervals from 2,000
-  resamples of compounds. Tier differences use compounds resampled jointly.
+  resamples of compounds.
 - Rules:
   - R1 training signal. Share of the sum of squared log2 fold changes (the loss of a model that
     predicts no change) held by tier 3 and 4 conditions against their share of conditions.
@@ -170,12 +162,6 @@ Fixed on 17 November 2026, before the profiles were assembled and before any mod
     conditions lowers r_spec on held-out tier 1 and 2 conditions (interval of the difference above
     0). Dependence on supraphysiological conditions is supported if removal of tier 3 and 4
     conditions lowers r_spec on held-out tier 3 and 4 conditions.
-  - R4 weighting. Loss weighted by w = min(1, (unbound Cmax / dose)^2). The weight improves
-    prediction at clinical exposure if r_spec on held-out tier 1 and 2 conditions is higher than
-    without weights (interval of the difference above 0).
-  - R5 reference. For contrasts measured on two plates, the correlation between the two plates
-    after subtraction of the context mean, by tier. This is the reproducible compound-specific
-    signal available to any model. Descriptive.
 - Either outcome of each rule is reported.
 
 ## 9. Outcome of the rules
