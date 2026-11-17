@@ -38,7 +38,15 @@ fn chars(hdr: &HashMap<String, Vec<Vec<String>>>, key: &str) -> Result<Vec<Strin
 }
 fn nanmean(v: &[f64]) -> f64 { let f: Vec<f64> = v.iter().cloned().filter(|x| x.is_finite()).collect(); if f.is_empty() { f64::NAN } else { f.iter().sum::<f64>() / f.len() as f64 } }
 
-struct Gene { lfc: f64, t: f64, p: f64 }
+struct Gene { lfc: f64, t: f64, p: f64, d: Vec<f64> }
+/// Mean, t statistic and two-sided P of the within-patient differences of a subset of patients.
+fn stat(d: &[f64], idx: &[usize], need: usize) -> Option<(f64, f64, f64)> {
+    let v: Vec<f64> = idx.iter().map(|&i| d[i]).filter(|x| x.is_finite()).collect(); if v.len() < need { return None }
+    let n = v.len() as f64; let mean = v.iter().sum::<f64>() / n; let sd = (v.iter().map(|x| (x - mean).powi(2)).sum::<f64>() / (n - 1.0)).sqrt();
+    let t = mean / (sd / n.sqrt()); Some((mean, t, t_two_sided(t, n - 1.0)))
+}
+/// The k genes with the smallest P, as (gene, mean change).
+fn top_genes(mut v: Vec<(String, f64, f64)>, k: usize) -> Vec<(String, f64)> { v.retain(|x| x.2.is_finite()); v.sort_by(|a, b| a.2.partial_cmp(&b.2).unwrap().then(a.0.cmp(&b.0))); v.truncate(k); v.into_iter().map(|x| (x.0, x.1)).collect() }
 /// Mean within-patient difference (post minus pre) per gene with a one-sample t test.
 fn paired(m: &Mat, pid: &[String], tp: &[String], pre: &str, post: &str, map: Option<&HashMap<String, String>>, log: bool) -> (BTreeMap<String, Gene>, usize) {
     let tr = |v: f64| if log { (v.max(0.0) + 1.0).log2() } else { v };
@@ -50,9 +58,10 @@ fn paired(m: &Mat, pid: &[String], tp: &[String], pre: &str, post: &str, map: Op
     let mut out = BTreeMap::new();
     for (g, rs) in rows {
         let gm = |cols: &Vec<usize>| nanmean(&cols.iter().map(|&c| nanmean(&rs.iter().map(|&r| tr(m.x[r][c])).collect::<Vec<_>>())).collect::<Vec<_>>());
-        let d: Vec<f64> = pc.iter().map(|(a, b)| gm(b) - gm(a)).filter(|v| v.is_finite()).collect(); if d.len() < need { continue }
+        let all: Vec<f64> = pc.iter().map(|(a, b)| gm(b) - gm(a)).collect();
+        let d: Vec<f64> = all.iter().cloned().filter(|v| v.is_finite()).collect(); if d.len() < need { continue }
         let n = d.len() as f64; let mean = d.iter().sum::<f64>() / n; let sd = (d.iter().map(|v| (v - mean).powi(2)).sum::<f64>() / (n - 1.0)).sqrt();
-        let t = mean / (sd / n.sqrt()); out.insert(g, Gene { lfc: mean, t, p: t_two_sided(t, n - 1.0) });
+        let t = mean / (sd / n.sqrt()); out.insert(g, Gene { lfc: mean, t, p: t_two_sided(t, n - 1.0), d: all });
     }
     (out, pts.len())
 }
@@ -107,7 +116,7 @@ fn main() -> Result<()> {
     let mut pw = BufWriter::new(std::fs::File::create(format!("{an}/pathway_scores.tsv"))?); writeln!(pw, "cohort\tset\tn_genes\tin_vitro_0.05uM\tin_vitro_5uM\tpatient")?;
     let mut topc: BTreeMap<(usize, &str, usize), [u64; 2]> = BTreeMap::new(); // (N, pool, signature) -> agree, total
     let mut direct = [[0u64; 2]; 2]; let mut pathc: BTreeMap<(&str, usize), [u64; 2]> = BTreeMap::new(); let mut rho_pos = [0usize; 2]; let mut hi_better = 0usize; let mut tgt = [[0u64; 2]; 2];
-    let mut cj = Map::new(); let mut pool = [[0u64; 2]; 2]; let (mut ev, mut wins, mut cond_b) = (vec![], vec![], vec![]);
+    let mut cj = Map::new(); let mut pool = [[0u64; 2]; 2]; let mut chg = [[0u64; 2]; 2]; let (mut ev, mut wins, mut cond_b) = (vec![], vec![], vec![]);
     for (name, drug, desc, g, npair) in &coh {
         for (gene, v) in g { writeln!(w, "{}\t{}\t{:.5}\t{:.4e}", name, gene, v.lfc, v.p)?; }
         let (s05, s5, s_5) = (de(drug, 0), de(drug, 2), de(drug, 1)); let supra: HashSet<String> = s5.iter().filter(|x| !s05.contains(*x) && !s_5.contains(*x)).cloned().collect();
@@ -119,6 +128,9 @@ fn main() -> Result<()> {
             let m = &sig[&(drug.to_string(), *k)]; let gs: Vec<&String> = set.iter().filter(|x| g.contains_key(*x)).collect();
             let agree = gs.iter().filter(|x| (m[**x].2 > 0.0) == (g[**x].lfc > 0.0) && m[**x].2 != 0.0 && g[**x].lfc != 0.0).count() as u64; let n = gs.len() as u64; let ci = wilson(agree as f64, n as f64);
             cnt[si] = [agree, n - agree];
+            let gc: Vec<&&String> = gs.iter().filter(|x| g[**x].p < 0.05).collect(); let ac = gc.iter().filter(|x| (m[***x].2 > 0.0) == (g[***x].lfc > 0.0) && m[***x].2 != 0.0 && g[***x].lfc != 0.0).count() as u64;
+            r.insert(format!("{nm}_patient_changed"), json!({"n": gc.len(), "agree": ac, "rate": jnum(ac as f64 / gc.len() as f64)}));
+            if !matches!(*name, "olaparib" | "anastrozole_b") { chg[si][0] += ac; chg[si][1] += gc.len() as u64 }
             r.insert(nm.to_string(), json!({"n_signature": set.len(), "n_measured": n, "agree": agree, "rate": jnum(agree as f64 / n as f64), "ci": [jnum(ci.0), jnum(ci.1)], "binomial_p_above_half": jnum(binom_greater(agree, n)),
                 "stress_share": jnum(set.iter().filter(|x| stress.contains(*x)).count() as f64 / set.len().max(1) as f64)}));
         }
@@ -188,6 +200,31 @@ fn main() -> Result<()> {
     let outperf = hi_better * 2 > np && pp["fisher_p"].as_f64().unwrap_or(1.0) < 0.05 && pp["high_rate"].as_f64() > pp["low_rate"].as_f64();
     agg.insert("pathway_rule".into(), json!({"cohorts_rho_positive_0.05uM": rho_pos[0], "cohorts_rho_positive_5uM": rho_pos[1], "cohorts_5uM_rho_higher": hi_better, "n_primary": np,
         "rescue_0.05uM": res_low, "rescue_5uM": res_high, "5uM_outperforms": outperf, "target_sets_same_direction_0.05uM": tgt[0], "target_sets_same_direction_5uM": tgt[1]}));
-    std::fs::write(rj, serde_json::to_string_pretty(&json!({"cohorts": cj, "pooled": pooled, "aggregated": agg}))?)?;
+    // Sensitivity of the patient reference
+    let mut sens = Map::new(); let nsig = 500usize;
+    { let (ga, gb) = (&coh.iter().find(|c| c.0 == "anastrozole").unwrap().3, &coh.iter().find(|c| c.0 == "anastrozole_b").unwrap().3);
+      let mut e = Map::new(); let mut ok = true;
+      for (nm, x, y) in [("GSE153470_in_GSE93204", ga, gb), ("GSE93204_in_GSE153470", gb, ga)] {
+          let top = top_genes(x.iter().filter(|(k, _)| y.contains_key(*k)).map(|(k, v)| (k.clone(), v.lfc, v.p)).collect(), nsig);
+          let agree = top.iter().filter(|(k, l)| (*l > 0.0) == (y[k].lfc > 0.0)).count() as f64; let n = top.len() as f64; let ci = wilson(agree, n); ok &= ci.0 > 0.5;
+          e.insert(nm.into(), json!({"n": n, "agree": agree, "rate": agree / n, "ci": [ci.0, ci.1]})); }
+      let common: Vec<&String> = ga.keys().filter(|k| gb.contains_key(*k)).collect();
+      e.insert("spearman_all_genes".into(), jnum(spearman(&common.iter().map(|k| ga[*k].lfc).collect::<Vec<_>>(), &common.iter().map(|k| gb[*k].lfc).collect::<Vec<_>>()).0));
+      e.insert("n_common_genes".into(), json!(common.len())); e.insert("both_above_half".into(), json!(ok)); sens.insert("between_cohorts".into(), Value::Object(e)); }
+    { let mut e = Map::new(); let (mut above, mut tested) = (0, 0); let mut rng = Rng(11);
+      for (name, _, _, g, npair) in &coh { if *npair < 16 { continue }
+          let (h, mut rates) = (npair / 2, vec![]);
+          for _ in 0..200 { let a = rng.sample(*npair, h); let ina: HashSet<usize> = a.iter().cloned().collect(); let b: Vec<usize> = (0..*npair).filter(|i| !ina.contains(i)).collect();
+              let top = top_genes(g.iter().filter_map(|(k, v)| stat(&v.d, &a, 3.max(h / 2)).map(|s| (k.clone(), s.0, s.2))).collect(), nsig);
+              let (mut ag, mut n) = (0.0, 0.0);
+              for (k, l) in &top { if let Some(s) = stat(&g[k].d, &b, 3) { n += 1.0; if (*l > 0.0) == (s.0 > 0.0) { ag += 1.0 } } }
+              rates.push(ag / n); }
+          let mean = rates.iter().sum::<f64>() / rates.len() as f64; tested += 1; if mean > 0.6 { above += 1 }
+          e.insert(name.to_string(), json!({"n_pairs": npair, "mean_rate": mean, "q025": quantile(&rates, 0.025), "q975": quantile(&rates, 0.975)})); }
+      e.insert("cohorts_tested".into(), json!(tested)); e.insert("cohorts_above_0.6".into(), json!(above)); sens.insert("within_cohort".into(), Value::Object(e)); }
+    { let fz = fisher(chg[0][0], chg[0][1] - chg[0][0], chg[1][0], chg[1][1] - chg[1][0]); let (cl, ch) = (wilson(chg[0][0] as f64, chg[0][1] as f64), wilson(chg[1][0] as f64, chg[1][1] as f64));
+      sens.insert("signature_genes_changed_in_patients".into(), json!({"low": chg[0], "low_rate": chg[0][0] as f64 / chg[0][1] as f64, "low_ci": [cl.0, cl.1],
+          "high_only": chg[1], "high_only_rate": chg[1][0] as f64 / chg[1][1] as f64, "high_only_ci": [ch.0, ch.1], "fisher_p": jnum(fz.1), "noise_explanation_supported": cl.0 > 0.5 || ch.0 > 0.5})); }
+    std::fs::write(rj, serde_json::to_string_pretty(&json!({"cohorts": cj, "pooled": pooled, "aggregated": agg, "reference_sensitivity": sens}))?)?;
     Ok(())
 }

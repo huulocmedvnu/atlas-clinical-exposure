@@ -34,7 +34,7 @@ atlas release and are flagged in the column `in_de_results`. Different salt form
   - `01_tahoe_summary.rs` reads the Tahoe-100M differential expression table from Hugging Face and keeps per-contrast summaries.
   - `02_exposure_analysis.rs` exposure calibration, serum adjustment, background of inert compounds, overlap between mechanisms, mechanism similarity.
   - `03_sciplex_de_power.rs` sci-Plex 3 per-well sums, negative binomial differential expression, cell-number control, power at clinical exposure.
-  - `04_patient_biopsies.rs` paired patient cohorts: agreement of genes, of the most changed genes and of Hallmark gene set scores.
+  - `04_patient_biopsies.rs` paired patient cohorts: agreement of genes, of the most changed genes and of Hallmark gene set scores, and sensitivity of the patient profiles.
   - `05_export_tiers.rs` exposure tier table. `06_export_tables.rs` values of Tables 1 to 3 and `final_metrics.json`.
   - `07_tahoe_profiles.rs` log2 fold changes of the Hallmark genes for every Tahoe-100M contrast, read from Hugging Face.
 - `scripts/response_model.py` response model by exposure tier and after removal of tiers from training (PyTorch).

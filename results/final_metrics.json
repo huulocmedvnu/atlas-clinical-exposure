@@ -197,6 +197,11 @@
           "rate": 0.553314121037464,
           "stress_share": 0.02276176024279211
         },
+        "high_only_patient_changed": {
+          "agree": 43,
+          "n": 63,
+          "rate": 0.6825396825396826
+        },
         "low": {
           "agree": 41,
           "binomial_p_above_half": 0.9373271514057724,
@@ -208,6 +213,11 @@
           "n_signature": 206,
           "rate": 0.4270833333333333,
           "stress_share": 0.0
+        },
+        "low_patient_changed": {
+          "agree": 8,
+          "n": 13,
+          "rate": 0.6153846153846154
         },
         "low_vs_high_only": {
           "fisher_p": 0.03731081053884675,
@@ -317,6 +327,11 @@
           "rate": 0.367816091954023,
           "stress_share": 0.08849557522123894
         },
+        "high_only_patient_changed": {
+          "agree": 6,
+          "n": 35,
+          "rate": 0.17142857142857143
+        },
         "low": {
           "agree": 167,
           "binomial_p_above_half": 0.28899772489456244,
@@ -328,6 +343,11 @@
           "n_signature": 612,
           "rate": 0.5170278637770898,
           "stress_share": 0.026143790849673203
+        },
+        "low_patient_changed": {
+          "agree": 57,
+          "n": 98,
+          "rate": 0.5816326530612245
         },
         "low_vs_high_only": {
           "fisher_p": 0.015562390927634914,
@@ -356,12 +376,12 @@
           "rho_0.05uM_vs_5uM_in_vitro": 0.2548379351740696,
           "target_sets": {
             "ESTROGEN_RESPONSE_EARLY": {
-              "in_vitro_0.05uM": -0.020704465452795223,
-              "in_vitro_5uM": -0.06325490783150199,
-              "patient": -1.9405333182243216
+              "in_vitro_0.05uM": -0.02070446545279515,
+              "in_vitro_5uM": -0.063254907831502,
+              "patient": -1.9405333182243203
             },
             "ESTROGEN_RESPONSE_LATE": {
-              "in_vitro_0.05uM": -0.07362048291051473,
+              "in_vitro_0.05uM": -0.07362048291051469,
               "in_vitro_5uM": -0.05016554612937434,
               "patient": -2.073754468592124
             }
@@ -448,6 +468,11 @@
           "rate": 0.4130434782608696,
           "stress_share": 0.08849557522123894
         },
+        "high_only_patient_changed": {
+          "agree": 5,
+          "n": 21,
+          "rate": 0.23809523809523808
+        },
         "low": {
           "agree": 233,
           "binomial_p_above_half": 6.285478650087894e-7,
@@ -459,6 +484,11 @@
           "n_signature": 612,
           "rate": 0.6263440860215054,
           "stress_share": 0.026143790849673203
+        },
+        "low_patient_changed": {
+          "agree": 64,
+          "n": 83,
+          "rate": 0.7710843373493976
         },
         "low_vs_high_only": {
           "fisher_p": 0.00024240855703628908,
@@ -487,14 +517,14 @@
           "rho_0.05uM_vs_5uM_in_vitro": 0.2887394957983193,
           "target_sets": {
             "ESTROGEN_RESPONSE_EARLY": {
-              "in_vitro_0.05uM": -0.02215605563952396,
+              "in_vitro_0.05uM": -0.022156055639523945,
               "in_vitro_5uM": -0.07068954940487439,
-              "patient": -1.0545339351090002
+              "patient": -1.0545339351089988
             },
             "ESTROGEN_RESPONSE_LATE": {
               "in_vitro_0.05uM": -0.07681771068128745,
-              "in_vitro_5uM": -0.07054848766372217,
-              "patient": -1.375052458613624
+              "in_vitro_5uM": -0.07054848766372228,
+              "patient": -1.3750524586136237
             }
           }
         },
@@ -579,6 +609,11 @@
           "rate": 0.3389830508474576,
           "stress_share": 0.05803571428571429
         },
+        "high_only_patient_changed": {
+          "agree": 9,
+          "n": 35,
+          "rate": 0.2571428571428571
+        },
         "low": {
           "agree": 213,
           "binomial_p_above_half": 0.21444625715366863,
@@ -590,6 +625,11 @@
           "n_signature": 736,
           "rate": 0.5207823960880196,
           "stress_share": 0.016304347826086956
+        },
+        "low_patient_changed": {
+          "agree": 45,
+          "n": 72,
+          "rate": 0.625
         },
         "low_vs_high_only": {
           "fisher_p": 0.000049271618501484386,
@@ -618,9 +658,9 @@
           "rho_0.05uM_vs_5uM_in_vitro": 0.142953181272509,
           "target_sets": {
             "MTORC1_SIGNALING": {
-              "in_vitro_0.05uM": -0.02836386116266479,
-              "in_vitro_5uM": -0.017143197124717055,
-              "patient": -0.7882618218993098
+              "in_vitro_0.05uM": -0.02836386116266482,
+              "in_vitro_5uM": -0.017143197124717013,
+              "patient": -0.7882618218993103
             }
           }
         },
@@ -705,6 +745,11 @@
           "rate": 0.4972375690607735,
           "stress_share": 0.05394190871369295
         },
+        "high_only_patient_changed": {
+          "agree": 72,
+          "n": 133,
+          "rate": 0.5413533834586466
+        },
         "low": {
           "agree": 279,
           "binomial_p_above_half": 1.1410748023809209e-7,
@@ -716,6 +761,11 @@
           "n_signature": 607,
           "rate": 0.6227678571428571,
           "stress_share": 0.07413509060955518
+        },
+        "low_patient_changed": {
+          "agree": 204,
+          "n": 327,
+          "rate": 0.6238532110091743
         },
         "low_vs_high_only": {
           "fisher_p": 0.004228624802271007,
@@ -825,6 +875,11 @@
           "rate": 0.538370720188902,
           "stress_share": 0.04950495049504951
         },
+        "high_only_patient_changed": {
+          "agree": 30,
+          "n": 44,
+          "rate": 0.6818181818181818
+        },
         "low": {
           "agree": 310,
           "binomial_p_above_half": 0.07373346003795062,
@@ -836,6 +891,11 @@
           "n_signature": 908,
           "rate": 0.5308219178082192,
           "stress_share": 0.03524229074889868
+        },
+        "low_patient_changed": {
+          "agree": 27,
+          "n": 46,
+          "rate": 0.5869565217391305
         },
         "low_vs_high_only": {
           "fisher_p": 0.787656026191174,
@@ -864,13 +924,13 @@
           "rho_0.05uM_vs_5uM_in_vitro": 0.607202881152461,
           "target_sets": {
             "E2F_TARGETS": {
-              "in_vitro_0.05uM": -0.08220007008890712,
-              "in_vitro_5uM": -0.3908765327922532,
+              "in_vitro_0.05uM": -0.0822000700889071,
+              "in_vitro_5uM": -0.390876532792253,
               "patient": -1.1718412178173685
             },
             "G2M_CHECKPOINT": {
-              "in_vitro_0.05uM": -0.07407745782946311,
-              "in_vitro_5uM": -0.341012948805558,
+              "in_vitro_0.05uM": -0.07407745782946303,
+              "in_vitro_5uM": -0.34101294880555794,
               "patient": -1.13157739124571
             }
           }
@@ -956,6 +1016,11 @@
           "rate": 0.4601844090528081,
           "stress_share": 0.03262955854126679
         },
+        "high_only_patient_changed": {
+          "agree": 18,
+          "n": 41,
+          "rate": 0.4390243902439024
+        },
         "low": {
           "agree": 566,
           "binomial_p_above_half": 0.9999947362197772,
@@ -967,6 +1032,11 @@
           "n_signature": 2038,
           "rate": 0.439100077579519,
           "stress_share": 0.029931305201177625
+        },
+        "low_patient_changed": {
+          "agree": 16,
+          "n": 44,
+          "rate": 0.3636363636363637
         },
         "low_vs_high_only": {
           "fisher_p": 0.2940279346700682,
@@ -995,14 +1065,14 @@
           "rho_0.05uM_vs_5uM_in_vitro": 0.5766626650660264,
           "target_sets": {
             "ANGIOGENESIS": {
-              "in_vitro_0.05uM": -0.016142477188968895,
-              "in_vitro_5uM": -0.0198466822212206,
-              "patient": -0.1585540793921694
+              "in_vitro_0.05uM": -0.016142477188968902,
+              "in_vitro_5uM": -0.019846682221220623,
+              "patient": -0.15855407939216937
             },
             "HYPOXIA": {
-              "in_vitro_0.05uM": 0.1027143309339158,
-              "in_vitro_5uM": 0.025970657013353743,
-              "patient": 0.3151691496413952
+              "in_vitro_0.05uM": 0.10271433093391576,
+              "in_vitro_5uM": 0.025970657013353677,
+              "patient": 0.31516914964139514
             }
           }
         },
@@ -1109,6 +1179,93 @@
       ],
       "low_rate": 0.4801925212884117,
       "prespecified_condition_met": false
+    },
+    "reference_sensitivity": {
+      "between_cohorts": {
+        "GSE153470_in_GSE93204": {
+          "agree": 473.0,
+          "ci": [
+            0.9225734382748384,
+            0.9626256499269856
+          ],
+          "n": 500.0,
+          "rate": 0.946
+        },
+        "GSE93204_in_GSE153470": {
+          "agree": 465.0,
+          "ci": [
+            0.9042028099167504,
+            0.9492402571836628
+          ],
+          "n": 500.0,
+          "rate": 0.93
+        },
+        "both_above_half": true,
+        "n_common_genes": 12127,
+        "spearman_all_genes": 0.3999475857740304
+      },
+      "signature_genes_changed_in_patients": {
+        "fisher_p": 0.12190160855780909,
+        "high_only": [
+          106,
+          218
+        ],
+        "high_only_ci": [
+          0.42070573896980784,
+          0.5522479188800061
+        ],
+        "high_only_rate": 0.48623853211009177,
+        "low": [
+          153,
+          273
+        ],
+        "low_ci": [
+          0.501128502715598,
+          0.61807329651401
+        ],
+        "low_rate": 0.5604395604395604,
+        "noise_explanation_supported": true
+      },
+      "within_cohort": {
+        "afatinib": {
+          "mean_rate": 0.8137200000000003,
+          "n_pairs": 19,
+          "q025": 0.69175,
+          "q975": 0.896
+        },
+        "anastrozole": {
+          "mean_rate": 0.9790899999999992,
+          "n_pairs": 81,
+          "q025": 0.944,
+          "q975": 0.994
+        },
+        "anastrozole_b": {
+          "mean_rate": 0.8696900000000002,
+          "n_pairs": 22,
+          "q025": 0.728,
+          "q975": 0.94405
+        },
+        "cohorts_above_0.6": 5,
+        "cohorts_tested": 6,
+        "everolimus": {
+          "mean_rate": 0.7478399999999995,
+          "n_pairs": 21,
+          "q025": 0.5899,
+          "q975": 0.85815
+        },
+        "olaparib": {
+          "mean_rate": 0.99796,
+          "n_pairs": 54,
+          "q025": 0.992,
+          "q975": 1.0
+        },
+        "palbociclib": {
+          "mean_rate": 0.5922335871743485,
+          "n_pairs": 23,
+          "q025": 0.38375,
+          "q975": 0.7601
+        }
+      }
     }
   },
   "sciplex": {

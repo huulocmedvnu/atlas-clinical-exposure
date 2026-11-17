@@ -208,6 +208,8 @@ Fixed on 17 November 2026, after the results of section 7 and before any result 
 | Prediction confined to supraphysiological exposure (R2) | Not supported: r_spec 0.52 in tier 1 and 0.55 in tier 4, difference 0.024 (-0.001 to 0.048) |
 | Learning from clinical exposure (R3) | Supported: removal of tier 1 and 2 lowers r_spec on tier 1 and 2 by 0.31 (0.28 to 0.33) |
 | Dependence on supraphysiological conditions (R3) | Supported for tier 3 and 4 only: lowered by 0.37 (0.35 to 0.40), effect on tier 1 and 2 0.02 |
+| Sensitivity of the patient reference (section 11) | Sensitive: agreement between the anastrozole cohorts 94.6% and 93.0%, within-cohort agreement above 60% in 5 of 6 cohorts (palbociclib 59.2%) |
+| Noise as explanation of the gene-level result | Supported for the 0.05 uM signature only: among genes changed in patients 56.0% (50.1 to 61.8), 5 uM-only signature 48.6% (42.1 to 55.2), Fisher P 0.12 |
 
 Exploratory analyses added after the results of section 10: subtraction of the mean profile of the
 other compounds on the same plate, cell line and dose (r_spec 0.38 in tier 1, 0.44 in tier 4), and
