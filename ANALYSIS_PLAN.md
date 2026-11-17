@@ -180,3 +180,11 @@ The section was shortened on the same day, also before any result, to the three 
 | Agreement of gene set scores | Met at 0.05 uM (56.0%), not met at 5 uM (46.8%) |
 | Better agreement of gene set scores at 5 uM | Not met |
 | Ceiling for the mean change at reachable doses (section 8) | Declared: power 24% with two wells and unlimited cells |
+| Training signal held by tier 3 and 4 conditions (section 10, R1) | Not supported: 61.9% of squared change (54.5 to 69.1) against 56.7% of conditions |
+| Prediction confined to supraphysiological exposure (R2) | Not supported: r_spec 0.52 in tier 1 and 0.55 in tier 4, difference 0.024 (-0.001 to 0.048) |
+| Learning from clinical exposure (R3) | Supported: removal of tier 1 and 2 lowers r_spec on tier 1 and 2 by 0.31 (0.28 to 0.33) |
+| Dependence on supraphysiological conditions (R3) | Supported for tier 3 and 4 only: lowered by 0.37 (0.35 to 0.40), effect on tier 1 and 2 0.02 |
+
+Exploratory analyses added after the results of section 10: subtraction of the mean profile of the
+other compounds on the same plate, cell line and dose (r_spec 0.38 in tier 1, 0.44 in tier 4), and
+addition of the eight inert compounds (r 0.62, plate-adjusted 0.43 against 0.44 in tier 4).

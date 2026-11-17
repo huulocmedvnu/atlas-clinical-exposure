@@ -1,4 +1,4 @@
-"""Figures 1 to 6 from the result tables in results/, with the source data of every panel.
+"""Figures 1 to 7 from the result tables in results/, with the source data of every panel.
 
 Usage: python3 scripts/plot_figures.py
 Writes figures/fig*.pdf and .png and results/figure_source_data/*.csv. Figure 1 additionally needs rsvg-convert.
@@ -13,7 +13,7 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 R, F, SD = os.path.join(ROOT, "results/"), os.path.join(ROOT, "figures/"), os.path.join(ROOT, "results/figure_source_data/")
 os.makedirs(F, exist_ok=True); os.makedirs(SD, exist_ok=True)
 J = json.load(open(R + "final_metrics.json")); T, S, B = J["tahoe"], J["sciplex"], J["biopsy"]
-NAMES = {"Figure2": "fig2_exposure_ratios", "Figure3": "fig3_response_by_exposure", "Figure4": "fig4_specificity_moa", "Figure5": "fig5_patient_gene_agreement", "Figure6": "fig6_power_and_hallmarks"}
+NAMES = {"Figure2": "fig2_exposure_ratios", "Figure3": "fig3_response_by_exposure", "Figure4": "fig4_specificity_moa", "Figure5": "fig5_patient_gene_agreement", "Figure6": "fig6_power_and_hallmarks", "Figure7": "fig7_response_model"}
 def source(panel, df): pd.DataFrame(df).to_csv(SD + panel + ".csv", index=False)
 C = ["#636EFA", "#EF553B", "#00CC96", "#AB63FA", "#FFA15A", "#19D3F3", "#FF6692"]; K = "#111111"
 def style(fig, w, h):
@@ -141,6 +141,28 @@ style(fig, 1300, 520).update_layout(legend=dict(x=0.385, y=0.99, bgcolor="rgba(2
 save(fig, "Figure6")
 source("fig6ab_power_curves", pc)
 source("fig6c_gene_set_correlation", pd.DataFrame([{"cohort": k, "rho_0.05uM": B["cohorts"][k]["pathway"]["0.05uM"]["rho"], "rho_5uM": B["cohorts"][k]["pathway"]["5uM"]["rho"]} for k in order]))
+
+
+# ------------------------------------------------ Figure 7: response model by exposure tier and after removal of tiers from training
+M, MI = json.load(open(R + "metrics/response_model.json")), json.load(open(R + "metrics/response_model_inert.json"))
+fig = make_subplots(rows=1, cols=2, subplot_titles=["a  Prediction by exposure tier", "b  Removal of tiers from training"], horizontal_spacing=0.12)
+gl = [("inert", "Inert"), ("tier_1", "Tier 1"), ("tier_2", "Tier 2"), ("tier_3", "Tier 3"), ("tier_4", "Tier 4")]; rows7 = []
+for key, lab, col, off in [("r_model", "Full profile", C[2], -0.22), ("r_spec_all", "Minus context mean", C[0], 0.0), ("r_spec_plate_all", "Minus plate mean", C[1], 0.22)]:
+    v = [MI["by_tier"][g][key] for g, _ in gl]
+    fig.add_trace(go.Scatter(x=[i + off for i in range(len(gl))], y=[x["mean"] for x in v], mode="markers", marker=dict(color=col, symbol="diamond", size=10), name=lab, legend="legend",
+        error_y=dict(type="data", symmetric=False, array=[x["hi"] - x["mean"] for x in v], arrayminus=[x["mean"] - x["lo"] for x in v], color=K, thickness=1.2, width=4)), 1, 1)
+    rows7 += [{"panel": "a", "group": g, "measure": lab, "mean": x["mean"], "ci_low": x["lo"], "ci_high": x["hi"], "compounds": x["compounds"]} for (g, _), x in zip(gl, v)]
+fig.update_xaxes(tickvals=list(range(len(gl))), ticktext=[l for _, l in gl], row=1, col=1); fig.update_yaxes(title_text="Correlation of predicted and observed profile", range=[0, 0.75], row=1, col=1)
+hl = [("tier_1_2", "Held-out tier 1 and 2"), ("tier_3_4", "Held-out tier 3 and 4")]
+for key, lab, col, off in [("r_spec_all", "All conditions", C[0], -0.22), ("r_spec_without_tier_1_2", "Without tier 1 and 2", C[4], 0.0), ("r_spec_without_tier_3_4", "Without tier 3 and 4", C[3], 0.22)]:
+    v = [M["by_tier"][g][key] for g, _ in hl]
+    fig.add_trace(go.Scatter(x=[i + off for i in range(len(hl))], y=[x["mean"] for x in v], mode="markers", marker=dict(color=col, symbol="diamond", size=10), name=lab, legend="legend2",
+        error_y=dict(type="data", symmetric=False, array=[x["hi"] - x["mean"] for x in v], arrayminus=[x["mean"] - x["lo"] for x in v], color=K, thickness=1.2, width=4)), 1, 2)
+    rows7 += [{"panel": "b", "group": g, "measure": "trained on: " + lab, "mean": x["mean"], "ci_low": x["lo"], "ci_high": x["hi"], "compounds": x["compounds"]} for (g, _), x in zip(hl, v)]
+fig.update_xaxes(tickvals=[0, 1], ticktext=[l for _, l in hl], range=[-0.6, 1.6], row=1, col=2); fig.update_yaxes(title_text="Correlation minus context mean", range=[0, 0.75], row=1, col=2)
+style(fig, 1100, 500).update_layout(legend=dict(x=0.01, y=0.02, yanchor="bottom", bgcolor="rgba(255,255,255,0.7)"), legend2=dict(x=0.57, y=0.02, yanchor="bottom", font=dict(color=K, size=12), bgcolor="rgba(255,255,255,0.7)"))
+save(fig, "Figure7")
+source("fig7_response_model", pd.DataFrame(rows7))
 
 
 # ------------------------------------------------ Figure 1: study overview (hand-written SVG, readout bars from the results)

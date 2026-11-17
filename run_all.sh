@@ -1,7 +1,8 @@
 #!/bin/sh
 # Runs every analysis and writes results/.
-# Usage: ./run_all.sh [stream]
+# Usage: ./run_all.sh [stream|model]
 #   stream   also re-reads the Tahoe-100M differential expression table from Hugging Face (step 1)
+#   model    reads the gene panel profiles from Hugging Face (step 7) and trains the response model (needs PyTorch)
 # Inputs outside the repository (see data/README_DATA.md): work/tahoe_summary (step 1 output),
 # raw/sciplex3.h5ad (optional, the per-well sums are in data/processed) and raw/geo (scripts/download_data.sh).
 # Author: Thai Huu Loc Tran
@@ -25,3 +26,8 @@ if [ -d raw/geo ]; then
 else echo "raw/geo not found: patient cohort analysis skipped, committed results kept"; fi
 $B/export_tiers data $R/supporting/contrasts.tsv $R/atlas_clinical_exposure_tiers
 $B/export_tables $R
+if [ "$1" = "model" ]; then
+  [ -f $W/tahoe_profiles/lfc.f32 ] || $B/tahoe_profiles $W/tahoe_profiles 0 1026 data/gene_sets/hallmark.tsv
+  python3 scripts/response_model.py $W/tahoe_profiles $R/atlas_clinical_exposure_tiers.csv $R/metrics/response_model.json $R/supporting/response_model_by_contrast.tsv
+  python3 scripts/response_model.py $W/tahoe_profiles $R/atlas_clinical_exposure_tiers.csv $R/metrics/response_model_inert.json $R/supporting/response_model_inert_by_contrast.tsv data/pk/compound_moa_annotations.csv
+fi
