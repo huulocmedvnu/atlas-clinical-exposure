@@ -2,7 +2,7 @@
 
 Definitions, thresholds and decision rules of the study. Each section was written before the
 corresponding results were produced. Sections 1 to 8 were fixed on 16 November 2026 and
-sections 10 and 11 on 17 November 2026. Section 9 lists the outcome of every rule.
+sections 10 to 12 on 17 November 2026. Section 9 lists the outcome of every rule.
 
 ## 1. Question and data
 - Question: how much of the transcriptional response in single-cell chemical perturbation atlases
@@ -186,6 +186,40 @@ Fixed on 17 November 2026, after the results of section 7 and before any result 
     reference is sensitive and both intervals in (c) include 50% or lie below it.
   - If the reference is not sensitive, the gene-level comparison of section 7 is declared
     inconclusive and only the gene set result is retained.
+- Either outcome is reported.
+
+## 12. Agreement with malignant cells of patient tumours (single-cell cohorts)
+Fixed on 17 November 2026, after inspection of sample annotation and cell numbers only and before
+any expression value of these cohorts was read.
+- Question: whether the gene-level result of section 7 is explained by the non-malignant cells of
+  bulk tissue. The comparison is repeated in malignant cells only.
+- Cohorts. GSE158724 (FELINE trial, breast cancer, single-nucleus RNA sequencing, 10x samples):
+  biopsies at day 0 and day 14 of letrozole (arm A) or letrozole with ribociclib (arms B and C),
+  cancer cells as annotated by the authors. GSE292469 (lung adenocarcinoma, single-nucleus RNA
+  sequencing): tumour cells as flagged by the authors, treatment-naive samples and samples of
+  residual disease under osimertinib. Samples at progression are not used. The decitabine series
+  GSE279925 holds promoter methylation only and is not used.
+- Profiles: counts summed over the malignant cells of a sample, samples with >= 30 malignant cells,
+  counts per million, log2(x + 1). Genes with a mean of >= 5 counts per million.
+- Patient change. Ribociclib (primary): mean within-patient change from day 0 to day 14 in arms
+  B and C minus that in arm A, Welch t-test between arms. Secondary: within-patient change in
+  arms B and C, paired t-test. Osimertinib (secondary, between patients): mean of residual disease
+  samples minus mean of treatment-naive samples, Welch t-test.
+- Atlas signatures and measures as in section 7 (0.05 uM signature, 5 uM-only signature, sign
+  agreement with Wilson interval, Fisher test between signatures, Spearman correlation of full
+  profiles), and as in section 11 (c) for signature genes with patient P < 0.05. The 0.5 uM
+  signature is added for ribociclib, for which 0.05 and 0.5 uM are reachable doses.
+- Sensitivity of the reference: change of the E2F targets and G2M checkpoint gene set scores under
+  ribociclib (expected negative), and agreement between random halves of patients as in
+  section 11 (b) for the secondary ribociclib comparison.
+- Rules:
+  - Agreement in malignant cells is present for a signature if the lower interval bound of its
+    sign agreement in the primary ribociclib comparison lies above 50%.
+  - Non-malignant cells as explanation of the section 7 result is supported if agreement is
+    present for at least one signature in the primary ribociclib comparison. It is not supported
+    if the intervals of all signatures include 50% or lie below it.
+  - A difference between doses is claimed only with Fisher P < 0.05.
+  - The osimertinib comparison is reported separately and does not enter the rules.
 - Either outcome is reported.
 
 ## 9. Outcome of the rules
