@@ -29,6 +29,9 @@ path = "src/bin/06_export_tables.rs"
 [[bin]]
 name = "tahoe_profiles"
 path = "src/bin/07_tahoe_profiles.rs"
+[[bin]]
+name = "sc_cohorts"
+path = "src/bin/08_single_cell_cohorts.rs"
 
 [dependencies]
 arrow = { version = "53", default-features = false }
