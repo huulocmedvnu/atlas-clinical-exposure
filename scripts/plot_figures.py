@@ -9,6 +9,8 @@ Author: Thai Huu Loc Tran
 """
 import json, os, subprocess, numpy as np, pandas as pd
 import plotly.graph_objects as go
+import plotly.io as pio
+pio.kaleido.scope.mathjax = None  # no MathJax in the figures; its loading notice otherwise appears in exported PDF files
 from plotly.subplots import make_subplots
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 R, F, SD = os.path.join(ROOT, "results/"), os.path.join(ROOT, "figures/"), os.path.join(ROOT, "results/figure_source_data/")
