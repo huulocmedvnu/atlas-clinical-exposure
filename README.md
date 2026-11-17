@@ -49,7 +49,7 @@ atlas release and are flagged in the column `in_de_results`. Different salt form
 ## Running
 
 Requirements: a recent stable Rust toolchain (tested with 1.99) and `cmake` (HDF5 is compiled from source). Figures need Python with `plotly`, `kaleido`,
-`pandas`, and `rsvg-convert`. The code runs on macOS (Apple silicon) and Linux.
+`pandas`, and `rsvg-convert`. The code runs on macOS (Apple silicon) and Linux. The response model needs PyTorch.
 
 ```
 ./run_all.sh
