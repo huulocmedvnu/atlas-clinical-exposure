@@ -120,9 +120,9 @@ fn load_sums(path: &str) -> Result<Pb> {
     Ok(Pb { samples: keep.iter().map(|&i| all[i].clone()).collect(), genes: g2, x })
 }
 #[derive(Clone)] struct Chg { lfc: f64, t: f64, p: f64 }
-fn one_sample(d: &[f64]) -> Option<Chg> { if d.len() < 3 { return None } let n = d.len() as f64; let (m, v) = (mean(d), var(d)); let t = m / (v / n).sqrt(); Some(Chg { lfc: m, t, p: t_two_sided(t, n - 1.0) }) }
+fn one_sample(d: &[f64]) -> Option<Chg> { if d.len() < 3 { return None } let n = d.len() as f64; let (m, v) = (mean(d), var(d)); let t = m / (v / n).sqrt(); if !t.is_finite() { return None } Some(Chg { lfc: m, t, p: t_two_sided(t, n - 1.0) }) }
 fn welch(a: &[f64], b: &[f64]) -> Option<Chg> { if a.len() < 3 || b.len() < 3 { return None } let (na, nb) = (a.len() as f64, b.len() as f64); let (va, vb) = (var(a) / na, var(b) / nb);
-    let t = (mean(a) - mean(b)) / (va + vb).sqrt(); let df = (va + vb).powi(2) / (va * va / (na - 1.0) + vb * vb / (nb - 1.0)); Some(Chg { lfc: mean(a) - mean(b), t, p: t_two_sided(t, df) }) }
+    let t = (mean(a) - mean(b)) / (va + vb).sqrt(); if !t.is_finite() { return None } let df = (va + vb).powi(2) / (va * va / (na - 1.0) + vb * vb / (nb - 1.0)); Some(Chg { lfc: mean(a) - mean(b), t, p: t_two_sided(t, df) }) }
 
 type Sig = HashMap<u8, HashMap<String, (u32, u32, f64, u32)>>; // dose index -> gene -> up, down, median log2FC, cell lines
 fn load_sig(path: &str, drug: &str, sig: &mut Sig) -> Result<()> {
