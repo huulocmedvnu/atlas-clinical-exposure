@@ -6,7 +6,7 @@ Tahoe-100M and sci-Plex 3 with the plasma concentrations reached in patients.
 Author: Thai Huu Loc Tran, Department of Obstetrics and Gynecology, Hong Hung Hospital, Tay Ninh City 80116,
 Viet Nam (tranthaihuuloc2@gmail.com, ORCID 0009-0009-1810-010X).
 
-Version 1.0.0 is archived at Zenodo: https://doi.org/10.5281/zenodo.24294932
+Version 1.1.1 is archived at Zenodo: https://doi.org/10.5281/zenodo.24295413
 
 ## Exposure tier table
 
