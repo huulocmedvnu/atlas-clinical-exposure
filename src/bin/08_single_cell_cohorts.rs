@@ -76,13 +76,14 @@ fn feline(path: &str, out: &str) -> Result<()> {
         genes.push(g); sums.push(s); }
     write_sums(out, &samples, &ncell, &genes, &sums)
 }
-/// GSE292469: 10x HDF5 matrix (cells in columns) and the per-nucleus table of the authors. Tumour cells of treatment-naive (TN) and residual disease (MRD) samples.
+/// GSE292469: 10x HDF5 matrix (cells in columns) and the per-nucleus table of the authors. Tumour cells of treatment-naive (TN) and residual disease (MRD) samples,
+/// with sample names written as `<time point>:<sample>`.
 fn tenx(h5: &str, meta: &str, out: &str) -> Result<()> {
     let mut txt = String::new(); MultiGzDecoder::new(std::fs::File::open(meta)?).read_to_string(&mut txt)?;
     let mut it = txt.lines(); let h: Vec<&str> = it.next().ok_or(anyhow!("empty table"))?.split('\t').collect();
     let c = |n: &str| h.iter().position(|x| *x == n).ok_or(anyhow!("column {n} missing")); let (ci, cs, ct, cf) = (c("cell_id")?, c("sample_id")?, c("time_point")?, c("is_tumor_cell")?);
     let mut cell: HashMap<String, String> = HashMap::new();
-    for l in it { let f: Vec<&str> = l.split('\t').collect(); if f[cf].eq_ignore_ascii_case("true") && (f[ct] == "TN" || f[ct] == "MRD") { cell.insert(f[ci].to_string(), f[cs].to_string()); } }
+    for l in it { let f: Vec<&str> = l.split('\t').collect(); if f[cf].eq_ignore_ascii_case("true") && (f[ct] == "TN" || f[ct] == "MRD") { cell.insert(f[ci].to_string(), format!("{}:{}", f[ct], f[cs])); } }
     let f = hdf5::File::open(h5)?; let grp = if f.link_exists("matrix") { f.group("matrix")? } else { f.group("/")? };
     let strs = |n: &str| -> Result<Vec<String>> { let d = grp.dataset(n)?;
         if let Ok(v) = d.read_raw::<hdf5::types::VarLenUnicode>() { return Ok(v.iter().map(|s| s.to_string()).collect()) }
@@ -185,7 +186,7 @@ fn compare(inp: &str, ribo: &str, fel: &str, osi: &str, rj: &str) -> Result<()> 
         e.insert("agreement_in_malignant_cells_present".into(), json!(any)); res.insert("ribociclib".into(), Value::Object(e));
     }
     if osi != "-" { // osimertinib, between patients
-        let pb = load_sums(osi)?; let (mrd, tn): (Vec<usize>, Vec<usize>) = (0..pb.samples.len()).partition(|&i| pb.samples[i].starts_with("MRD"));
+        let pb = load_sums(osi)?; let (mrd, tn): (Vec<usize>, Vec<usize>) = (0..pb.samples.len()).partition(|&i| pb.samples[i].starts_with("MRD:"));
         let mut g = BTreeMap::new();
         for (gn, row) in pb.genes.iter().zip(&pb.x) { if let Some(c) = welch(&mrd.iter().map(|&i| row[i]).collect::<Vec<_>>(), &tn.iter().map(|&i| row[i]).collect::<Vec<_>>()) { g.insert(gn.clone(), c); } }
         let mut sig: Sig = HashMap::new(); load_sig(&format!("{inp}/processed/tahoe_signatures.tsv.gz"), "Osimertinib (mesylate)", &mut sig)?;
