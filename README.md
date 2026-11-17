@@ -36,21 +36,21 @@ atlas release and are flagged in the column `in_de_results`. Different salt form
   - `03_sciplex_de_power.rs` sci-Plex 3 per-well sums, negative binomial differential expression, cell-number control, power at clinical exposure.
   - `04_patient_biopsies.rs` paired patient cohorts: agreement of genes, of the most changed genes and of Hallmark gene set scores, and sensitivity of the patient profiles.
   - `05_export_tiers.rs` exposure tier table. `06_export_tables.rs` values of Tables 1 to 3 and `final_metrics.json`.
-  - `07_tahoe_profiles.rs` log2 fold changes of the Hallmark genes for every Tahoe-100M contrast, read from Hugging Face.
-  - `08_single_cell_cohorts.rs` single-cell patient cohorts: counts summed over malignant cells per sample and agreement with the atlas signatures.
-- `scripts/response_model.py` response model by exposure tier and after removal of tiers from training (PyTorch).
-- `scripts/plot_figures.py` Figures 1 to 7 and their source data. `scripts/download_data.sh` public input files.
+  - `07_tahoe_profiles.rs` (additional analysis, not reported in the article) log2 fold changes of the Hallmark genes for every Tahoe-100M contrast, read from Hugging Face.
+  - `08_single_cell_cohorts.rs` (additional analysis, not reported in the article) single-cell patient cohorts: counts summed over malignant cells per sample and agreement with the atlas signatures.
+- `scripts/response_model.py` (additional analysis, not reported in the article) response model by exposure tier and after removal of tiers from training (PyTorch).
+- `scripts/plot_figures.py` Figures 1 to 6 and their source data. `scripts/download_data.sh` public input files.
   `scripts/match_liston_davis.py` and `scripts/curate_pk_tables.py` document how the tables in `data/pk` were derived.
 - `data/pk/` curated Cmax and protein binding, mechanism classes and inert reference compounds. `data/gene_sets/` Hallmark gene sets.
   `data/processed/` compact inputs. `data/README_DATA.md` sources and checksums.
 - `results/` tier table, `table1` to `table3` CSV files, `figure_source_data/`, `metrics/` (all statistics per analysis),
   `final_metrics.json` (the three together) and `supporting/` (per-compound and per-contrast tables).
-- `figures/` Figures 1 to 7 as PDF.
+- `figures/` Figures 1 to 6 as PDF.
 
 ## Running
 
 Requirements: a recent stable Rust toolchain (tested with 1.99) and `cmake` (HDF5 is compiled from source). Figures need Python with `plotly`, `kaleido`,
-`pandas`, and `rsvg-convert`. The code runs on macOS (Apple silicon) and Linux. The response model needs PyTorch.
+`pandas`, and `rsvg-convert`. The code runs on macOS (Apple silicon) and Linux. Only the additional response model needs PyTorch.
 
 ```
 ./run_all.sh
@@ -65,8 +65,8 @@ python3 scripts/plot_figures.py
 | exposure tiers, Tables 1 to 3 | `data/pk`, `results/` | yes |
 | patient cohorts | `raw/geo` (about 120 MB) and `data/processed/tahoe_signatures.tsv.gz` | after `scripts/download_data.sh` |
 | Tahoe-100M exposure analysis | `work/tahoe_summary` (about 1.1 GB) | after `./run_all.sh stream` |
-| malignant cells of single-cell patient cohorts | sums per sample, `data/processed/single_cell` | yes (rebuilt from raw files by `./run_all.sh cells`) |
-| response model | `work/tahoe_profiles` (about 1.4 GB) and PyTorch | after `./run_all.sh model` |
+| additional analysis: malignant cells of single-cell patient cohorts | sums per sample, `data/processed/single_cell` | yes (rebuilt from raw files by `./run_all.sh cells`) |
+| additional analysis: response model | `work/tahoe_profiles` (about 1.4 GB) and PyTorch | after `./run_all.sh model` |
 | sci-Plex 3 per-well sums from single cells | `raw/sciplex3.h5ad` (2.5 GB) | after `scripts/download_data.sh h5ad` |
 
 `./run_all.sh stream` reads the 1,026 parts of the Tahoe-100M table over HTTP and stores only the summaries.

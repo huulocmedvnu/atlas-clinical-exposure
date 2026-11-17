@@ -3,6 +3,8 @@
 Definitions, thresholds and decision rules of the study. Each section was written before the
 corresponding results were produced. Sections 1 to 8 were fixed on 16 November 2026 and
 sections 10 to 12 on 17 November 2026. Section 9 lists the outcome of every rule.
+Sections 10 and 12 are additional analyses that are not reported in the article. Their code, results
+and outcomes are kept in this repository.
 
 ## 1. Question and data
 - Question: how much of the transcriptional response in single-cell chemical perturbation atlases
