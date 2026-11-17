@@ -244,7 +244,14 @@ any expression value of these cohorts was read.
 | Dependence on supraphysiological conditions (R3) | Supported for tier 3 and 4 only: lowered by 0.37 (0.35 to 0.40), effect on tier 1 and 2 0.02 |
 | Sensitivity of the patient reference (section 11) | Sensitive: agreement between the anastrozole cohorts 94.6% and 93.0%, within-cohort agreement above 60% in 5 of 6 cohorts (palbociclib 59.2%) |
 | Noise as explanation of the gene-level result | Supported for the 0.05 uM signature only: among genes changed in patients 56.0% (50.1 to 61.8), 5 uM-only signature 48.6% (42.1 to 55.2), Fisher P 0.12 |
+| Agreement in malignant cells, ribociclib (section 12) | Not present: 36.4% (23.8 to 51.1) at 0.05 uM, 56.8% (45.4 to 67.4) at 0.5 uM, 58.8% (36.0 to 78.4) for 5 uM-only, 44, 74 and 17 genes |
+| Non-malignant cells as explanation of the section 7 result | Not supported. The reference check for the primary comparison was not met (E2F score difference between arms 0.09, within arms -1.71 and -1.30) |
+| Osimertinib, residual disease against untreated (reported separately) | 38.7% (34.0 to 43.6) at 0.05 uM and 39.2% (35.8 to 42.7) for 5 uM-only, Fisher P 0.90 |
 
 Exploratory analyses added after the results of section 10: subtraction of the mean profile of the
 other compounds on the same plate, cell line and dose (r_spec 0.38 in tier 1, 0.44 in tier 4), and
 addition of the eight inert compounds (r 0.62, plate-adjusted 0.43 against 0.44 in tier 4).
+
+Corrections in section 12 after the first run, rules unchanged: genes without variance of the
+within-patient change are dropped (two genes), and the time point of each osimertinib sample is
+taken from the cell table (six residual disease samples had been grouped with untreated samples).

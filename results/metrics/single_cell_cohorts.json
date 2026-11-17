@@ -1,0 +1,334 @@
+{
+  "osimertinib": {
+    "residual_disease_minus_treatment_naive": {
+      "gene_sets": {
+        "E2F_TARGETS": {
+          "in_vitro_0.05uM": 0.07644328545183246,
+          "in_vitro_0.5uM": 0.042621243281567515,
+          "in_vitro_5uM": -0.028991778530821147,
+          "n_genes": 152,
+          "patient": -0.20186930405662173
+        },
+        "G2M_CHECKPOINT": {
+          "in_vitro_0.05uM": 0.08183728750241348,
+          "in_vitro_0.5uM": 0.055638416897425345,
+          "in_vitro_5uM": -0.04249895556431395,
+          "n_genes": 154,
+          "patient": 0.012265427638320059
+        }
+      },
+      "genes_changed_p_below_0.05": 2494,
+      "high_only": {
+        "agree": 296,
+        "ci": [
+          0.3578592979563253,
+          0.42733957581066817
+        ],
+        "n_measured": 755,
+        "n_signature": 1287,
+        "patient_changed": {
+          "agree": 40.0,
+          "ci": [
+            0.18223828457147628,
+            0.31140713883420507
+          ],
+          "n": 166,
+          "rate": 0.24096385542168675
+        },
+        "present": false,
+        "rate": 0.3920529801324503
+      },
+      "low": {
+        "agree": 150,
+        "ci": [
+          0.3394804159465957,
+          0.43593895838087027
+        ],
+        "n_measured": 388,
+        "n_signature": 842,
+        "patient_changed": {
+          "agree": 24.0,
+          "ci": [
+            0.19065479843862293,
+            0.3738120503328069
+          ],
+          "n": 88,
+          "rate": 0.2727272727272727
+        },
+        "present": false,
+        "rate": 0.3865979381443299
+      },
+      "low_vs_high_only_fisher_p": 0.8981325899397479,
+      "n_genes": 12549,
+      "spearman_0.05uM": -0.11448361625826527,
+      "spearman_0.5uM": -0.04472217174475376,
+      "spearman_5uM": -0.2099026435589049
+    },
+    "samples_residual_disease": 10,
+    "samples_treatment_naive": 26,
+    "series": "GSE292469"
+  },
+  "ribociclib": {
+    "agreement_in_malignant_cells_present": false,
+    "between_halves": {
+      "mean_rate": 0.74273,
+      "q025": 0.6077,
+      "q975": 0.844
+    },
+    "letrozole_arm": {
+      "gene_sets": {
+        "E2F_TARGETS": {
+          "in_vitro_0.05uM": -0.030343637690925403,
+          "in_vitro_0.5uM": -0.006447292114741711,
+          "in_vitro_5uM": -0.03484762049902585,
+          "n_genes": 168,
+          "patient": -1.3040638777351479
+        },
+        "G2M_CHECKPOINT": {
+          "in_vitro_0.05uM": -0.04641171715162536,
+          "in_vitro_0.5uM": -0.0008731096706797448,
+          "in_vitro_5uM": -0.017057337940219214,
+          "n_genes": 166,
+          "patient": -1.0496204561060731
+        }
+      },
+      "genes_changed_p_below_0.05": 903,
+      "high_only": {
+        "agree": 7,
+        "ci": [
+          0.21611056673991857,
+          0.6399455751507853
+        ],
+        "n_measured": 17,
+        "n_signature": 32,
+        "patient_changed": {
+          "agree": 0.0,
+          "ci": [
+            null,
+            null
+          ],
+          "n": 0,
+          "rate": null
+        },
+        "present": false,
+        "rate": 0.4117647058823529
+      },
+      "low": {
+        "agree": 25,
+        "ci": [
+          0.4222414688363042,
+          0.703172766855947
+        ],
+        "n_measured": 44,
+        "n_signature": 86,
+        "patient_changed": {
+          "agree": 2.0,
+          "ci": [
+            0.11762077314099711,
+            0.7692757205908813
+          ],
+          "n": 5,
+          "rate": 0.4
+        },
+        "present": false,
+        "rate": 0.5681818181818182
+      },
+      "low_vs_high_only_fisher_p": 0.39194954724308406,
+      "mid": {
+        "agree": 33,
+        "ci": [
+          0.3381582224959405,
+          0.559068780762059
+        ],
+        "n_measured": 74,
+        "n_signature": 126,
+        "patient_changed": {
+          "agree": 1.0,
+          "ci": [
+            0.06149194402093078,
+            0.7923404011921757
+          ],
+          "n": 3,
+          "rate": 0.3333333333333333
+        },
+        "present": false,
+        "rate": 0.44594594594594594
+      },
+      "n_genes": 12255,
+      "spearman_0.05uM": 0.053290393296649204,
+      "spearman_0.5uM": 0.042491464433282056,
+      "spearman_5uM": 0.0772581973442739
+    },
+    "pairs_letrozole_arm": 10,
+    "pairs_ribociclib_arms": 14,
+    "primary_ribociclib_minus_letrozole": {
+      "gene_sets": {
+        "E2F_TARGETS": {
+          "in_vitro_0.05uM": -0.030343637690925403,
+          "in_vitro_0.5uM": -0.006447292114741711,
+          "in_vitro_5uM": -0.03484762049902585,
+          "n_genes": 168,
+          "patient": 0.08920154868584851
+        },
+        "G2M_CHECKPOINT": {
+          "in_vitro_0.05uM": -0.04641171715162536,
+          "in_vitro_0.5uM": -0.0008731096706797448,
+          "in_vitro_5uM": -0.017057337940219214,
+          "n_genes": 166,
+          "patient": 0.037789465730100336
+        }
+      },
+      "genes_changed_p_below_0.05": 667,
+      "high_only": {
+        "agree": 10,
+        "ci": [
+          0.3600544248492146,
+          0.7838894332600814
+        ],
+        "n_measured": 17,
+        "n_signature": 32,
+        "patient_changed": {
+          "agree": 0.0,
+          "ci": [
+            null,
+            null
+          ],
+          "n": 0,
+          "rate": null
+        },
+        "present": false,
+        "rate": 0.5882352941176471
+      },
+      "low": {
+        "agree": 16,
+        "ci": [
+          0.23783529624864916,
+          0.5113362323668484
+        ],
+        "n_measured": 44,
+        "n_signature": 86,
+        "patient_changed": {
+          "agree": 1.0,
+          "ci": [
+            0.2065493117918027,
+            1.0
+          ],
+          "n": 1,
+          "rate": 1.0
+        },
+        "present": false,
+        "rate": 0.36363636363636365
+      },
+      "low_vs_high_only_fisher_p": 0.1514003414072286,
+      "mid": {
+        "agree": 42,
+        "ci": [
+          0.4541274317217848,
+          0.6743388142057157
+        ],
+        "n_measured": 74,
+        "n_signature": 126,
+        "patient_changed": {
+          "agree": 1.0,
+          "ci": [
+            0.2065493117918027,
+            1.0
+          ],
+          "n": 1,
+          "rate": 1.0
+        },
+        "present": false,
+        "rate": 0.5675675675675675
+      },
+      "n_genes": 12255,
+      "spearman_0.05uM": -0.05829525850871941,
+      "spearman_0.5uM": -0.05203870712184222,
+      "spearman_5uM": -0.06697602502236719
+    },
+    "secondary_within_ribociclib_arms": {
+      "gene_sets": {
+        "E2F_TARGETS": {
+          "in_vitro_0.05uM": -0.030335445097480138,
+          "in_vitro_0.5uM": -0.006447292114741711,
+          "in_vitro_5uM": -0.03486213829823828,
+          "n_genes": 168,
+          "patient": -1.710880139355563
+        },
+        "G2M_CHECKPOINT": {
+          "in_vitro_0.05uM": -0.046403524558180094,
+          "in_vitro_0.5uM": -0.0008731096706797448,
+          "in_vitro_5uM": -0.017071855739431645,
+          "n_genes": 166,
+          "patient": -1.5290685888154
+        }
+      },
+      "genes_changed_p_below_0.05": 1214,
+      "high_only": {
+        "agree": 10,
+        "ci": [
+          0.3600544248492146,
+          0.7838894332600814
+        ],
+        "n_measured": 17,
+        "n_signature": 32,
+        "patient_changed": {
+          "agree": 1.0,
+          "ci": [
+            0.09453120463920084,
+            0.9054687953607992
+          ],
+          "n": 2,
+          "rate": 0.5
+        },
+        "present": false,
+        "rate": 0.5882352941176471
+      },
+      "low": {
+        "agree": 23,
+        "ci": [
+          0.3793546545527087,
+          0.6624500906780417
+        ],
+        "n_measured": 44,
+        "n_signature": 86,
+        "patient_changed": {
+          "agree": 1.0,
+          "ci": [
+            0.04558726029536886,
+            0.6993581599030918
+          ],
+          "n": 4,
+          "rate": 0.25
+        },
+        "present": false,
+        "rate": 0.5227272727272727
+      },
+      "low_vs_high_only_fisher_p": 0.7767066218957696,
+      "mid": {
+        "agree": 39,
+        "ci": [
+          0.41477356676761995,
+          0.6366129316033802
+        ],
+        "n_measured": 74,
+        "n_signature": 126,
+        "patient_changed": {
+          "agree": 3.0,
+          "ci": [
+            0.18761630498040816,
+            0.8123836950195918
+          ],
+          "n": 6,
+          "rate": 0.5
+        },
+        "present": false,
+        "rate": 0.527027027027027
+      },
+      "n_genes": 12253,
+      "spearman_0.05uM": -0.022513079624928982,
+      "spearman_0.5uM": -0.0172424860399418,
+      "spearman_5uM": -0.008197213527669958
+    },
+    "series": "GSE158724"
+  }
+}
