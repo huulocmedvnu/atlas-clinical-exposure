@@ -2,7 +2,7 @@
 
 Definitions, thresholds and decision rules of the study. Each section was written before the
 corresponding results were produced. Sections 1 to 8 were fixed on 16 November 2026 and
-section 10 on 17 November 2026. Section 9 lists the outcome of every rule.
+sections 10 and 11 on 17 November 2026. Section 9 lists the outcome of every rule.
 
 ## 1. Question and data
 - Question: how much of the transcriptional response in single-cell chemical perturbation atlases
@@ -163,6 +163,30 @@ The section was shortened on the same day, also before any result, to the three 
     0). Dependence on supraphysiological conditions is supported if removal of tier 3 and 4
     conditions lowers r_spec on held-out tier 3 and 4 conditions.
 - Either outcome of each rule is reported.
+
+## 11. Sensitivity of the patient reference (cohorts of section 7)
+Fixed on 17 November 2026, after the results of section 7 and before any result of this section.
+- Question: whether gene-level agreement close to 50% in section 7 is explained by measurement
+  noise of bulk tumour profiles (five microarray cohorts, one RNA sequencing cohort).
+- (a) Agreement between cohorts. The two anastrozole comparisons (GSE153470, Illumina, and
+  GSE93204, Agilent). Signature of a cohort = the 500 genes with the smallest paired t-test P
+  among genes measured in both cohorts. Agreement = proportion with the same sign of the mean
+  change in the other cohort, in both directions, with Wilson intervals.
+- (b) Agreement within a cohort. Cohorts with >= 16 pairs. Patients are divided at random into
+  two halves, 200 times. Signature = the 500 genes with the smallest P in one half. Agreement =
+  proportion with the same sign of the mean change in the other half, averaged over divisions.
+- (c) Atlas signatures restricted to genes that changed in patients. The agreement of section 7
+  is recomputed for signature genes with a paired t-test P < 0.05 in the cohort, pooled over the
+  primary cohorts, for the 0.05 uM and the 5 uM-only signature.
+- Rules:
+  - The patient reference is sensitive if the agreement in (a) exceeds 50% in both directions
+    (lower interval bound above 50%) and the agreement in (b) exceeds 60% in most cohorts.
+  - Noise as explanation of the section 7 result is supported if the pooled agreement in (c) lies
+    above 50% for either signature (lower interval bound above 50%). It is not supported if the
+    reference is sensitive and both intervals in (c) include 50% or lie below it.
+  - If the reference is not sensitive, the gene-level comparison of section 7 is declared
+    inconclusive and only the gene set result is retained.
+- Either outcome is reported.
 
 ## 9. Outcome of the rules
 | Rule | Outcome |
