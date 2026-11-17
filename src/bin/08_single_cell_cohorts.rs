@@ -162,7 +162,7 @@ fn compare(inp: &str, ribo: &str, fel: &str, osi: &str, rj: &str) -> Result<()> 
     let mut res = Map::new();
     { // FELINE
         let pb = load_sums(fel)?; let mut arm: HashMap<String, String> = HashMap::new();
-        for l in std::fs::read_to_string(format!("{inp}/processed/feline_samples.tsv"))?.lines().skip(1) { let f: Vec<&str> = l.split('\t').collect(); arm.insert(f[1].to_string(), f[2].to_string()); }
+        for l in std::fs::read_to_string(format!("{inp}/processed/single_cell/feline_samples.tsv"))?.lines().skip(1) { let f: Vec<&str> = l.split('\t').collect(); arm.insert(f[1].to_string(), f[2].to_string()); }
         let pos: HashMap<&str, usize> = pb.samples.iter().enumerate().map(|(i, s)| (s.as_str(), i)).collect();
         let mut pts: Vec<(String, usize, usize)> = arm.keys().filter_map(|p| Some((p.clone(), *pos.get(format!("{p}_S").as_str())?, *pos.get(format!("{p}_M").as_str())?))).collect(); pts.sort();
         let (bc, a): (Vec<&(String, usize, usize)>, Vec<&(String, usize, usize)>) = pts.iter().partition(|p| arm[&p.0] != "A");

@@ -11,6 +11,7 @@
 | `gene_sets/hallmark.tsv`, `gene_sets/stress.tsv` | Hallmark gene sets, and the four stress sets among them | MSigDB 2024.1.Hs, `h.all.v2024.1.Hs.symbols.gmt` (CC BY 4.0) |
 | `processed/sciplex3_pseudobulk/` | counts summed per well (`counts.bin.gz`, 32-bit floats, wells x genes in the order of `meta.tsv` and `genes.txt`) and the same after reduction of 10 uM wells to the cell number of the 10 nM wells (`counts_ds.bin.gz`) | step 3 on the sci-Plex 3 file below |
 | `processed/tahoe_signatures.tsv.gz` | per compound, dose and gene: cell lines measured, cell lines with up- and down-regulation, median log2FC, for the 24 compounds with full profiles | step 2 on Tahoe-100M |
+| `processed/single_cell/` | `feline_samples.tsv` (patient, arm, platform and day of each GSE158724 sample), `feline_sums.tsv.gz` and `osimertinib_sums.tsv.gz` (counts summed over the malignant cells of each sample, first row = number of cells), `ribociclib_signature.tsv.gz` (as `tahoe_signatures.tsv.gz`, for ribociclib) | GEO GSE158724 and GSE292469, step 8 on Tahoe-100M |
 
 Unbound Cmax = Cmax x (1 - bound fraction). The label value of voriconazole could not be confirmed in a second
 reading of the label. For crizotinib the label reports Cmax for paediatric dosing only, and the adult steady-state
