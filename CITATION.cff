@@ -1,4 +1,4 @@
-cff-version: 1.2.0
+cff-version: 1.2.1
 message: "If you use this code or the exposure tier table, please cite it as below."
 title: "The detectable transcriptional response in single-cell chemical perturbation atlases arises above clinical drug exposure: code, analysis plan and exposure tier table"
 type: software
@@ -11,7 +11,7 @@ authors:
 repository-code: "https://github.com/huulocmedvnu/atlas-clinical-exposure"
 license: MIT
 doi: 10.5281/zenodo.24299962
-version: 1.2.0
+version: 1.2.1
 date-released: 2026-11-17
 keywords:
   - single-cell RNA sequencing

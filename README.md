@@ -27,6 +27,12 @@ atlas release and are flagged in the column `in_de_results`. Different salt form
 | `w_pk` | optional weight min(1, (unbound Cmax / dose)^2). It has not been evaluated in model training |
 | `in_de_results` | whether the compound has differential expression results in the atlas release |
 
+## Licence
+
+The code is released under the MIT licence (`LICENSE`). The data tables created in this study (`data/pk`, the exposure tier table,
+the result tables and the figure source data in `results/`) are released under CC0 1.0 (`LICENSE-DATA`). Files derived from
+third-party resources keep the terms of their sources, which are listed in `data/README_DATA.md`.
+
 ## Layout
 
 - `ANALYSIS_PLAN.md` definitions, thresholds and decision rules, with the outcome of every rule.
